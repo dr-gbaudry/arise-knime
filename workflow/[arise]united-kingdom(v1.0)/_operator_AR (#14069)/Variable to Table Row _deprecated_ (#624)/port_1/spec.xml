@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
+<entry key="spec_name" type="xstring" value="default"/>
+<entry key="number_columns" type="xint" value="1"/>
+<config key="column_spec_0">
+<entry key="column_name" type="xstring" value="new_column_list"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="dat_livestock-ration-split_animal-fats[kcal],dat_livestock-ration-split_barley-and-products[kcal],dat_livestock-ration-split_bovine-meat[kcal],dat_livestock-ration-split_cake-others[kcal],dat_livestock-ration-split_cereal-others[kcal],dat_livestock-ration-split_cocoa-beans-and-products[kcal],dat_livestock-ration-split_eggs[kcal],dat_livestock-ration-split_fish-seafood[kcal],dat_livestock-ration-split_fruits-excluding-wine[kcal],dat_livestock-ration-split_maize-and-products[kcal],dat_livestock-ration-split_meat-other[kcal],dat_livestock-ration-split_molasses[kcal],dat_livestock-ration-split_mutton-&amp;-goat-meat[kcal],dat_livestock-ration-split_offals[kcal],dat_livestock-ration-split_oilcrop-others[kcal],dat_livestock-ration-split_olive-oil[kcal],dat_livestock-ration-split_olives-including-preserved[kcal],dat_livestock-ration-split_palm-cake[kcal],dat_livestock-ration-split_palm-oil[kcal],dat_livestock-ration-split_palm[kcal],dat_livestock-ration-split_poultry-meat[kcal],dat_livestock-ration-split_pulses[kcal],dat_livestock-ration-split_rape-and-mustard-cake[kcal],dat_livestock-ration-split_rape-and-mustard-oil[kcal],dat_livestock-ration-split_rape-and-mustardseed[kcal],dat_livestock-ration-split_rye-and-products[kcal],dat_livestock-ration-split_soyabean-cake[kcal],dat_livestock-ration-split_soyabean-oil[kcal],dat_livestock-ration-split_soyabeans[kcal],dat_livestock-ration-split_starchy-roots[kcal],dat_livestock-ration-split_sugar-&amp;-sweeteners[kcal],dat_livestock-ration-split_sugar-crops[kcal],dat_livestock-ration-split_sunflower-seed[kcal],dat_livestock-ration-split_sunflowerseed-cake[kcal],dat_livestock-ration-split_sunflowerseed-oil[kcal],dat_livestock-ration-split_tea-including-mate[kcal],dat_livestock-ration-split_vegetable-oil-others[kcal],dat_livestock-ration-split_vegetables[kcal],dat_livestock-ration-split_wheat-and-products[kcal],"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+</config>

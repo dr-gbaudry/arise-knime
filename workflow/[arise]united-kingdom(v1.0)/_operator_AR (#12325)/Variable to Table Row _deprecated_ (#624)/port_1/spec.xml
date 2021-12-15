@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
+<entry key="spec_name" type="xstring" value="default"/>
+<entry key="number_columns" type="xint" value="1"/>
+<config key="column_spec_0">
+<entry key="column_name" type="xstring" value="new_column_list"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="dat_land-transition-matrix-organic-soils_artificial-land-to-cropland[ha],dat_land-transition-matrix-organic-soils_cropland-remaining-cropland[ha],dat_land-transition-matrix-organic-soils_forest-land-to-cropland[ha],dat_land-transition-matrix-organic-soils_meadows-and-pastures-to-cropland[ha],dat_land-transition-matrix-organic-soils_other-land-to-cropland[ha],dat_land-transition-matrix-organic-soils_wetland-to-cropland[ha],dat_land-transition-matrix-organic-soils_artificial-land-to-meadows-and-pastures[ha],dat_land-transition-matrix-organic-soils_cropland-to-meadows-and-pastures[ha],dat_land-transition-matrix-organic-soils_forest-land-to-meadows-and-pastures[ha],dat_land-transition-matrix-organic-soils_meadows-and-pastures-remaining-meadows-and-pastures[ha],dat_land-transition-matrix-organic-soils_other-land-to-meadows-and-pastures[ha],dat_land-transition-matrix-organic-soils_wetland-to-meadows-and-pastures[ha],dat_land-transition-matrix-organic-soils_artificial-land-to-forest-land[ha],dat_land-transition-matrix-organic-soils_cropland-to-forest-land[ha],dat_land-transition-matrix-organic-soils_forest-land-remaining-forest-land[ha],dat_land-transition-matrix-organic-soils_meadows-and-pastures-to-forest-land[ha],dat_land-transition-matrix-organic-soils_other-land-to-forest-land[ha],dat_land-transition-matrix-organic-soils_artificial-land-remaining-artificial-land[ha],dat_land-transition-matrix-organic-soils_cropland-to-artificial-land[ha],dat_land-transition-matrix-organic-soils_forest-land-to-artificial-land[ha],dat_land-transition-matrix-organic-soils_meadows-and-pastures-to-artificial-land[ha],dat_land-transition-matrix-organic-soils_other-land-to-artificial-land[ha],dat_land-transition-matrix-organic-soils_artificial-land-to-other-land[ha],dat_land-transition-matrix-organic-soils_cropland-to-other-land[ha],dat_land-transition-matrix-organic-soils_forest-land-to-other-land[ha],dat_land-transition-matrix-organic-soils_meadows-and-pastures-to-other-land[ha],dat_land-transition-matrix-organic-soils_other-land-remaining-other-land[ha],dat_land-transition-matrix-organic-soils_wetland-to-forest-land[ha],dat_land-transition-matrix-organic-soils_wetland-remaining-wetland[ha],dat_land-transition-matrix-organic-soils_wetland-to-artificial-land[ha],dat_land-transition-matrix-organic-soils_wetland-to-other-land[ha],dat_land-transition-matrix-organic-soils_artificial-land-to-wetland[ha],dat_land-transition-matrix-organic-soils_cropland-to-wetland[ha],dat_land-transition-matrix-organic-soils_forest-land-to-wetland[ha],dat_land-transition-matrix-organic-soils_meadows-and-pastures-to-wetland[ha],dat_land-transition-matrix-organic-soils_other-land-to-wetland[ha],"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+</config>

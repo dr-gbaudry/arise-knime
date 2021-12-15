@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
+<entry key="spec_name" type="xstring" value="default"/>
+<entry key="number_columns" type="xint" value="1"/>
+<config key="column_spec_0">
+<entry key="column_name" type="xstring" value="new_column_list"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="dat_liquid-biofuels-feedstock-requierment_fame-non-crop-others[t],dat_liquid-biofuels-feedstock-requierment_fame-bio-wastes[t],dat_liquid-biofuels-feedstock-requierment_fame-animal-fats[t],dat_liquid-biofuels-feedstock-requierment_fame-vegetable-oil-others[t],dat_liquid-biofuels-feedstock-requierment_fame-palm-oil[t],dat_liquid-biofuels-feedstock-requierment_fame-rape-and-mustard-oil[t],dat_liquid-biofuels-feedstock-requierment_fame-soyabean-oil[t],dat_liquid-biofuels-feedstock-requierment_fame-sunflowerseed-oil[t],dat_liquid-biofuels-feedstock-requierment_fame-uco[t],dat_liquid-biofuels-feedstock-requierment_hvo-non-crop-others[t],dat_liquid-biofuels-feedstock-requierment_hvo-bio-wastes[t],dat_liquid-biofuels-feedstock-requierment_hvo-animal-fats[t],dat_liquid-biofuels-feedstock-requierment_hvo-vegetable-oil-others[t],dat_liquid-biofuels-feedstock-requierment_hvo-palm-oil[t],dat_liquid-biofuels-feedstock-requierment_hvo-rape-and-mustard-oil[t],dat_liquid-biofuels-feedstock-requierment_hvo-soyabean-oil[t],dat_liquid-biofuels-feedstock-requierment_hvo-sunflowerseed-oil[t],dat_liquid-biofuels-feedstock-requierment_hvo-uco[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-non-crop-others[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-bio-wastes[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-wheat-and-products[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-barley-and-products[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-maize-and-products[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-cereals-other[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-rye-and-products[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-sugar-crops[t],dat_liquid-biofuels-feedstock-requierment_cellulosic-ethanol-energy-crops[t],dat_liquid-biofuels-feedstock-requierment_cellulosic-ethanol-non-crop-others[t],dat_liquid-biofuels-feedstock-requierment_cellulosic-ethanol-agricultural-residues[t],dat_liquid-biofuels-feedstock-requierment_cellulosic-ethanol-fuelwood-wood-residues-and-byproducts[t],dat_liquid-biofuels-feedstock-requierment_btl-energy-crops[t],dat_liquid-biofuels-feedstock-requierment_btl-non-crop-others[t],dat_liquid-biofuels-feedstock-requierment_btl-agricultural-residues[t],dat_liquid-biofuels-feedstock-requierment_btl-fuelwood-wood-residues-and-byproducts[t],dat_liquid-biofuels-feedstock-requierment_others-energy-crops[t],dat_liquid-biofuels-feedstock-requierment_others-animal-fats[t],dat_liquid-biofuels-feedstock-requierment_others-bio-wastes[t],dat_liquid-biofuels-feedstock-requierment_others-palm-oil[t],dat_liquid-biofuels-feedstock-requierment_others-rape-and-mustard-oil[t],dat_liquid-biofuels-feedstock-requierment_others-soyabean-oil[t],dat_liquid-biofuels-feedstock-requierment_others-sugar-crops[t],dat_liquid-biofuels-feedstock-requierment_others-sunflowerseed-oil[t],dat_liquid-biofuels-feedstock-requierment_others-uco[t],dat_liquid-biofuels-feedstock-requierment_others-non-crop-others[t],"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+</config>

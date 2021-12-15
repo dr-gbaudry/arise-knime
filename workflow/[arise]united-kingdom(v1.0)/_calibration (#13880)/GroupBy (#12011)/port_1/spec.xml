@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
+<entry key="spec_name" type="xstring" value="default"/>
+<entry key="number_columns" type="xint" value="1"/>
+<config key="column_spec_0">
+<entry key="column_name" type="xstring" value="cal-selection"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Country|Years|dat_food-domestic-supply_cereal-others\[t\]|dat_food-domestic-supply_oilcrop-others\[t\]|dat_food-domestic-supply_palm-oil\[t\]|dat_food-domestic-supply_vegetable-oil-others\[t\]|dat_food-domestic-supply_barley-and-products\[t\]|dat_food-domestic-supply_beer\[t\]|dat_food-domestic-supply_beverages-alcoholic\[t\]|dat_food-domestic-supply_beverages-fermented\[t\]|dat_food-domestic-supply_cocoa-beans-and-products\[t\]|dat_food-domestic-supply_coffee-and-products\[t\]|dat_food-domestic-supply_fruits-excluding-wine\[t\]|dat_food-domestic-supply_maize-and-products\[t\]|dat_food-domestic-supply_nuts-and-products\[t\]|dat_food-domestic-supply_olive-oil\[t\]|dat_food-domestic-supply_olives-including-preserved\[t\]|dat_food-domestic-supply_palm\[t\]|dat_food-domestic-supply_pulses\[t\]|dat_food-domestic-supply_rape-and-mustard-oil\[t\]|dat_food-domestic-supply_rape-and-mustardseed\[t\]|dat_food-domestic-supply_rice-milled-equivalent\[t\]|dat_food-domestic-supply_rye-and-products\[t\]|dat_food-domestic-supply_soyabean-oil\[t\]|dat_food-domestic-supply_soyabeans\[t\]|dat_food-domestic-supply_starchy-roots\[t\]|dat_food-domestic-supply_sugar-&amp;-sweeteners\[t\]|dat_food-domestic-supply_sugar-crops\[t\]|dat_food-domestic-supply_sunflower-seed\[t\]|dat_food-domestic-supply_sunflowerseed-oil\[t\]|dat_food-domestic-supply_tea-including-mate\[t\]|dat_food-domestic-supply_vegetables\[t\]|dat_food-domestic-supply_wheat-and-products\[t\]|dat_food-domestic-supply_wine\[t\]|dat_food-domestic-supply_milk-excluding-butter\[t\]|dat_food-domestic-supply_bovine-meat\[t\]|dat_food-domestic-supply_eggs\[t\]|dat_food-domestic-supply_fats-animals-raw\[t\]|dat_food-domestic-supply_fish-seafood\[t\]|dat_food-domestic-supply_meat-other\[t\]|dat_food-domestic-supply_mutton-&amp;-goat-meat\[t\]|dat_food-domestic-supply_offals\[t\]|dat_food-domestic-supply_pigmeat\[t\]|dat_food-domestic-supply_poultry-meat\[t\]"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+</config>

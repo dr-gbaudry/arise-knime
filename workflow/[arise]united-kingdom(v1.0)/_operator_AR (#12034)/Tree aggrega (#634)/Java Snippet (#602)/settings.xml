@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="column_pairs"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="new_column_list"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="columns_used"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="column_pairs"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_sugar-industry-by-products-theoretical-yields_dehydrated-pulps[t/t],dat_processed-domestic-production_sugar-&amp;-sweeteners[t];dat_sugar-industry-by-products-theoretical-yields_ecumes[t/t],dat_processed-domestic-production_sugar-&amp;-sweeteners[t];dat_sugar-industry-by-products-theoretical-yields_other-pulps[t/t],dat_processed-domestic-production_sugar-&amp;-sweeteners[t];dat_sugar-industry-by-products-theoretical-yields_pressed-pulps[t/t],dat_processed-domestic-production_sugar-&amp;-sweeteners[t];dat_sugar-industry-by-products-theoretical-yields_wet-pulps[t/t],dat_processed-domestic-production_sugar-&amp;-sweeteners[t];"/>
+</config>
+<config key="Variable_4">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="new_column_list"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_sugar-industry-byproduct-volumes_dehydrated-pulps[t],dat_sugar-industry-byproduct-volumes_ecumes[t],dat_sugar-industry-byproduct-volumes_other-pulps[t],dat_sugar-industry-byproduct-volumes_pressed-pulps[t],dat_sugar-industry-byproduct-volumes_wet-pulps[t],"/>
+</config>
+<config key="Variable_5">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="columns_used"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_sugar-industry-by-products-theoretical-yields_dehydrated-pulps[t/t],dat_processed-domestic-production_sugar-&amp;-sweeteners[t],dat_sugar-industry-by-products-theoretical-yields_ecumes[t/t],dat_processed-domestic-production_sugar-&amp;-sweeteners[t],dat_sugar-industry-by-products-theoretical-yields_other-pulps[t/t],dat_processed-domestic-production_sugar-&amp;-sweeteners[t],dat_sugar-industry-by-products-theoretical-yields_pressed-pulps[t/t],dat_processed-domestic-production_sugar-&amp;-sweeteners[t],dat_sugar-industry-by-products-theoretical-yields_wet-pulps[t/t],dat_processed-domestic-production_sugar-&amp;-sweeteners[t],"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="scriptImports" type="xstring" value="// Your custom imports:%%00010import java.util.regex.Matcher;%%00010import java.util.regex.Pattern;%%00010import java.util.ArrayList;%%00010"/>
+<entry key="scriptFields" type="xstring" value="// Your custom variables:%%00010"/>
+<entry key="scriptBody" type="xstring" value="// Enter your code here:%%00010%%00010out_new_column_list = &quot;&quot;;%%00010out_columns_used = &quot;&quot;;%%00010out_column_pairs = &quot;&quot;;%%00010Integer c = getColumnCount();%%00010%%00010// Regex patterns%%00010Pattern pattern_i = Pattern.compile(v_index_pattern);%%00010Pattern pattern_a = Pattern.compile(v_aggregation_pattern);%%00010Pattern pattern_u = Pattern.compile(&quot;.*\\[(.*)].*&quot;);%%00010Integer numIterations=0;%%00010%%00010// First search loop%%00010Boolean isMatching1 = false;%%00010Integer numberGroups1 = 0;%%00010for (int i=0;i&lt;c;i++) {%%00010%%00009numIterations++;%%00010%%00009String colName1 = getColumnName(i);%%00010%%00009Matcher matcher1 = pattern_i.matcher(colName1);%%00010%%00009Matcher matcher_unit = pattern_u.matcher(colName1);%%00010%%00009numberGroups1 = matcher1.groupCount();%%00010%%00009if (numberGroups1 == 0 ) {%%00010%%00009%%00009Abort e=new Abort(&quot;No capture group found in the index pattern  '&quot;+v_index_pattern+&quot;'&quot;);%%00010%%00009%%00009throw e;%%00010%%00009}%%00010%%00010%%00009// Handles new column units. If &quot;unit&quot;, uses the input column's unit (if there is a match)%%00010%%00009String colUnit = v_unit_var;%%00010%%00009if (matcher_unit.matches() &amp;&amp; colUnit.equals(&quot;unit&quot;)) {%%00010%%00009%%00009colUnit = matcher_unit.group(1);%%00010%%00009}%%00010%%00010%%00009if (matcher1.matches()) {%%00010%%00009%%00010%%00009%%00009isMatching1 = true; // Record that we found a match%%00010%%00009%%00009String iterator1 = matcher1.group(1);%%00010%%00009%%00009logInfo(&quot;Loop 1 (iteration &quot; + i +&quot;): &quot;+colName1 + &quot; matches &quot; + v_index_pattern + &quot;, iterator: &quot;+iterator1);%%00010%%00010%%00009%%00009// Second search loop%%00010%%00009%%00009Boolean isMatching2 = false;%%00010%%00009%%00009Boolean matchingIterator = false;%%00010%%00009%%00009Integer numberGroups2 = 0;%%00010%%00009%%00009for (int j=0;j&lt;c;j++) {%%00010%%00009%%00009%%00009String colName2 = getColumnName(j);%%00010%%00009%%00009%%00009Matcher matcher2 = pattern_a.matcher(colName2);%%00010%%00009%%00009%%00009numberGroups2 = matcher2.groupCount();%%00010%%00010%%00009%%00009%%00009if(matcher2.matches()) {%%00010%%00009%%00010%%00009%%00009%%00009%%00009isMatching2 = true; // Record that we found a match%%00010%%00010%%00009%%00009%%00009%%00009if(numberGroups2 == 0 ) { // Tree split%%00010%%00009%%00009%%00009%%00009%%00009logInfo(&quot;Loop 1 (iteration &quot; + i +&quot;): Loop 2 (iteration &quot; + j +&quot;) : &quot;+colName2 + &quot; matches &quot; + v_aggregation_pattern);%%00010%%00009%%00009%%00009%%00009%%00009out_new_column_list = out_new_column_list + v_new_name_start + &quot;_&quot; + iterator1 + &quot;[&quot; + colUnit + &quot;],&quot;; %%00010%%00009%%00009%%00009%%00009%%00009out_columns_used = out_columns_used + colName1 + &quot;,&quot; + colName2 + &quot;,&quot;;%%00010%%00009%%00009%%00009%%00009%%00009out_column_pairs = out_column_pairs + colName1 + &quot;,&quot; + colName2 + &quot;;&quot;;%%00010%%00009%%00009%%00009%%00009%%00009%%00010%%00009%%00009%%00009%%00009} else if (numberGroups2 == 1 || numberGroups2 ==2 ) { // Parallel op%%00010%%00009%%00009%%00009%%00009// Tests if the capturing group is the same%%00010%%00009%%00009%%00009%%00009%%00009String iterator2 = matcher2.group(1);%%00010%%00009%%00009%%00009%%00009%%00009if (iterator1.equals(iterator2)) {%%00010%%00009%%00009%%00009%%00009%%00009%%00009logInfo(&quot;Loop 1 (iteration &quot; + i +&quot;): Loop 2 (iteration &quot; + j +&quot;) : &quot;+colName2 + &quot; matches &quot; + v_aggregation_pattern + &quot;, iterator1: &quot;+iterator1+ &quot; matches iterator2: &quot; + iterator2);%%00010%%00009%%00009%%00009%%00009%%00009%%00010%%00009%%00009%%00009%%00009%%00009%%00009matchingIterator = true; // Record we found a match%%00010%%00009%%00009%%00009%%00009%%00009%%00009out_new_column_list = out_new_column_list + v_new_name_start + &quot;_&quot; + iterator1;%%00010%%00009%%00009%%00009%%00009%%00009%%00009if (numberGroups1 == 2) {%%00010%%00009%%00009%%00009%%00009%%00009%%00009%%00009out_new_column_list = out_new_column_list + &quot;_&quot; + matcher1.group(2);%%00010%%00009%%00009%%00009%%00009%%00009%%00009} %%00010%%00009%%00009%%00009%%00009%%00009%%00009if (numberGroups2 == 2) {%%00010%%00009%%00009%%00009%%00009%%00009%%00009%%00009out_new_column_list = out_new_column_list + &quot;_&quot; + matcher2.group(2);%%00010%%00009%%00009%%00009%%00009%%00009%%00009}%%00010%%00009%%00009%%00009%%00009%%00009%%00009out_new_column_list = out_new_column_list  + &quot;[&quot; + colUnit + &quot;],&quot;;%%00010%%00009%%00009%%00009%%00009%%00009%%00009out_columns_used = out_columns_used + colName1 + &quot;,&quot; + colName2 + &quot;,&quot;;%%00010%%00009%%00009%%00009%%00009%%00009%%00009out_column_pairs = out_column_pairs + colName1 + &quot;,&quot; + colName2 + &quot;;&quot;;%%00010%%00009%%00009%%00009%%00009%%00009%%00009//break;%%00010%%00009%%00009%%00009%%00009%%00009}%%00010%%00009%%00009%%00009%%00009}%%00010%%00009%%00009%%00009}%%00010%%00009%%00009}%%00010%%00009%%00009if (!isMatching2) {%%00010%%00009%%00009%%00009Abort e=new Abort(&quot;No match found in input columns for pattern '&quot;+v_aggregation_pattern+&quot;'&quot;);%%00010%%00009%%00009%%00009throw e;%%00010%%00009%%00009}%%00010%%00009%%00009if (!matchingIterator &amp;&amp; numberGroups2 == 1) {%%00010%%00009%%00009%%00009Abort e=new Abort(&quot;Iterator not found in second column group: '&quot;+iterator1+&quot;'&quot;);%%00010%%00009%%00009%%00009throw e;%%00010%%00009%%00009}%%00010%%00009}%%00010}%%00010if (!isMatching1) {%%00010%%00009Abort e=new Abort(&quot;No match found in input columns for pattern \&quot;&quot;+v_index_pattern+&quot;\&quot;&quot;);%%00010%%00009throw e;%%00010}%%00010logInfo(&quot;Num iterations &quot;+numIterations);%%00010logInfo(ROWINDEX);%%00010 %%00010"/>
+<config key="jarFiles">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="outCols">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="outVars">
+<entry key="array-size" type="xint" value="3"/>
+<config key="0">
+<entry key="Name" type="xstring" value="column_pairs"/>
+<entry key="JavaName" type="xstring" value="out_column_pairs"/>
+<entry key="JavaType" type="xstring" value="java.lang.String"/>
+<entry key="Type" type="xstring" value="STRING"/>
+<entry key="replaceExisting" type="xboolean" value="false"/>
+</config>
+<config key="1">
+<entry key="Name" type="xstring" value="new_column_list"/>
+<entry key="JavaName" type="xstring" value="out_new_column_list"/>
+<entry key="JavaType" type="xstring" value="java.lang.String"/>
+<entry key="Type" type="xstring" value="STRING"/>
+<entry key="replaceExisting" type="xboolean" value="false"/>
+</config>
+<config key="2">
+<entry key="Name" type="xstring" value="columns_used"/>
+<entry key="JavaName" type="xstring" value="out_columns_used"/>
+<entry key="JavaType" type="xstring" value="java.lang.String"/>
+<entry key="Type" type="xstring" value="STRING"/>
+<entry key="replaceExisting" type="xboolean" value="false"/>
+</config>
+</config>
+<config key="inCols">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="inVars">
+<entry key="array-size" type="xint" value="5"/>
+<config key="0">
+<entry key="Name" type="xstring" value="new_name_start"/>
+<entry key="JavaName" type="xstring" value="v_new_name_start"/>
+<entry key="JavaType" type="xstring" value="java.lang.String"/>
+<entry key="Type" type="xstring" value="STRING"/>
+</config>
+<config key="1">
+<entry key="Name" type="xstring" value="unit_var"/>
+<entry key="JavaName" type="xstring" value="v_unit_var"/>
+<entry key="JavaType" type="xstring" value="java.lang.String"/>
+<entry key="Type" type="xstring" value="STRING"/>
+</config>
+<config key="2">
+<entry key="Name" type="xstring" value="aggregation_method"/>
+<entry key="JavaName" type="xstring" value="v_aggregation_method"/>
+<entry key="JavaType" type="xstring" value="java.lang.String"/>
+<entry key="Type" type="xstring" value="STRING"/>
+</config>
+<config key="3">
+<entry key="Name" type="xstring" value="index_pattern"/>
+<entry key="JavaName" type="xstring" value="v_index_pattern"/>
+<entry key="JavaType" type="xstring" value="java.lang.String"/>
+<entry key="Type" type="xstring" value="STRING"/>
+</config>
+<config key="4">
+<entry key="Name" type="xstring" value="aggregation_pattern"/>
+<entry key="JavaName" type="xstring" value="v_aggregation_pattern"/>
+<entry key="JavaType" type="xstring" value="java.lang.String"/>
+<entry key="Type" type="xstring" value="STRING"/>
+</config>
+</config>
+<entry key="version" type="xstring" value="version 1.x"/>
+<entry key="templateUUID" type="xstring" value="611e6fc8-655b-4ae9-9c98-7b9096af7b7d"/>
+<entry key="runOnExecute" type="xboolean" value="false"/>
+<config key="bundles">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Calculates new column"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="311"/>
+<entry key="y-coordinate" type="xint" value="324"/>
+<entry key="width" type="xint" value="129"/>
+<entry key="height" type="xint" value="15"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.jsnippet.JavaSnippetNodeFactory"/>
+<entry key="node-name" type="xstring" value="Java Snippet"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.jsnippets"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.3.0.v202011191508"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Javasnippet"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.javasnippet.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.3.0.v202011191508"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Java Snippet"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 6"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="34fa6079-d93b-42c4-9e1b-1eeb2ce5e6f0"/>
+</config>
+</config>

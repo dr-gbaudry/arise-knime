@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
+<entry key="spec_name" type="xstring" value="default"/>
+<entry key="number_columns" type="xint" value="1"/>
+<config key="column_spec_0">
+<entry key="column_name" type="xstring" value="Concatenate(Column Header)"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Country|Years|cal_crop-domestic-production_fibre-crops[t]|cal_crop-domestic-production_rubber[t]|cal_crop-domestic-production_tobacco[t]|cal_crop-domestic-production_barley-and-products[t]|cal_crop-domestic-production_cereal-others[t]|cal_crop-domestic-production_cocoa-beans-and-products[t]|cal_crop-domestic-production_coffee-and-products[t]|cal_crop-domestic-production_fruits-excluding-wine[t]|cal_crop-domestic-production_maize-and-products[t]|cal_crop-domestic-production_nuts-and-products[t]|cal_crop-domestic-production_oilcrop-others[t]|cal_crop-domestic-production_olives-including-preserved[t]|cal_crop-domestic-production_palm[t]|cal_crop-domestic-production_pulses[t]|cal_crop-domestic-production_rape-and-mustardseed[t]|cal_crop-domestic-production_rice-milled-equivalent[t]|cal_crop-domestic-production_rye-and-products[t]|cal_crop-domestic-production_soyabeans[t]|cal_crop-domestic-production_starchy-roots[t]|cal_crop-domestic-production_sugar-crops[t]|cal_crop-domestic-production_sunflower-seed[t]|cal_crop-domestic-production_tea-including-mate[t]|cal_crop-domestic-production_vegetables[t]|cal_crop-domestic-production_wheat-and-products[t]"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+</config>

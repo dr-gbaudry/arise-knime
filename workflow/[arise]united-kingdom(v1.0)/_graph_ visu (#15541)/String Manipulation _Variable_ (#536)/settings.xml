@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="selection"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Country|Years|dat_protein-supply_animal-fats\[t\]|dat_protein-supply_cereal-others\[t\]|dat_protein-supply_fish-seafood\[t\]|dat_protein-supply_fruits-excluding-wine\[t\]|dat_protein-supply_oilcrop-others\[t\]|dat_protein-supply_palm\[t\]|dat_protein-supply_sugar-&amp;-sweeteners\[t\]|dat_protein-supply_barley-and-products\[t\]|dat_protein-supply_beer\[t\]|dat_protein-supply_beverages-alcoholic\[t\]|dat_protein-supply_beverages-fermented\[t\]|dat_protein-supply_bovine-meat\[t\]|dat_protein-supply_cocoa-beans-and-products\[t\]|dat_protein-supply_coffee-and-products\[t\]|dat_protein-supply_eggs\[t\]|dat_protein-supply_maize-and-products\[t\]|dat_protein-supply_meat-other\[t\]|dat_protein-supply_milk-excluding-butter\[t\]|dat_protein-supply_mutton-&amp;-goat-meat\[t\]|dat_protein-supply_nuts-and-products\[t\]|dat_protein-supply_offals\[t\]|dat_protein-supply_olive-oil\[t\]|dat_protein-supply_olives-including-preserved\[t\]|dat_protein-supply_palm-oil\[t\]|dat_protein-supply_pigmeat\[t\]|dat_protein-supply_poultry-meat\[t\]|dat_protein-supply_pulses\[t\]|dat_protein-supply_rape-and-mustard-oil\[t\]|dat_protein-supply_rape-and-mustardseed\[t\]|dat_protein-supply_rice-milled-equivalent\[t\]|dat_protein-supply_rye-and-products\[t\]|dat_protein-supply_soyabean-oil\[t\]|dat_protein-supply_soyabeans\[t\]|dat_protein-supply_starchy-roots\[t\]|dat_protein-supply_sunflower-seed\[t\]|dat_protein-supply_sunflowerseed-oil\[t\]|dat_protein-supply_tea-including-mate\[t\]|dat_protein-supply_vegetables\[t\]|dat_protein-supply_wheat-and-products\[t\]|dat_protein-supply_wine\[t\]"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="expression" type="xstring" value="replace(replace(replace($${Sselection}$$,&quot;,&quot; ,&quot;|&quot;),&quot;[&quot; ,&quot;\\[&quot; ),&quot;]&quot; ,&quot;\\]&quot;)"/>
+<entry key="replaced_column" type="xstring" value="selection"/>
+<entry key="append_column" type="xboolean" value="true"/>
+<entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
+<entry key="insert_missing_as_null" type="xboolean" value="false"/>
+<entry key="return_type" type="xstring" value="java.lang.String"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.stringmanipulation.variable.StringManipulationVariableNodeFactory"/>
+<entry key="node-name" type="xstring" value="String Manipulation (Variable)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.jsnippets"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.3.0.v202011191508"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Javasnippet"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.javasnippet.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.3.0.v202011191508"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="String Manipulation (Variable)"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

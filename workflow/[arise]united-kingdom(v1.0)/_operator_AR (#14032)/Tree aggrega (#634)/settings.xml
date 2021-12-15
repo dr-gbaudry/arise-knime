@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="splitter_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_liquid-biofuels-domestic-production-per-feedstock_(.*)\[toe\]|dat_liquid-biofuels-feedstock-requierment_(.*)\[t/toe\]"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="new_name_start"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_liquid-biofuels-feedstock-requierment"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="index_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_liquid-biofuels-domestic-production-per-feedstock_(.*)\[toe\]"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-regex-filter"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=".*"/>
+</config>
+<config key="Variable_4">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-remove"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_5">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_method"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Product"/>
+</config>
+<config key="Variable_6">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_method (index)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_7">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="unit_var"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="t"/>
+</config>
+<config key="Variable_8">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_liquid-biofuels-feedstock-requierment_(.*)\[t/toe\]"/>
+</config>
+<config key="Variable_9">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="columns_used"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_liquid-biofuels-domestic-production-per-feedstock_fame-non-crop-others[toe],dat_liquid-biofuels-feedstock-requierment_fame-non-crop-others[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_fame-bio-wastes[toe],dat_liquid-biofuels-feedstock-requierment_fame-bio-wastes[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_fame-animal-fats[toe],dat_liquid-biofuels-feedstock-requierment_fame-animal-fats[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_fame-vegetable-oil-others[toe],dat_liquid-biofuels-feedstock-requierment_fame-vegetable-oil-others[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_fame-palm-oil[toe],dat_liquid-biofuels-feedstock-requierment_fame-palm-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_fame-rape-and-mustard-oil[toe],dat_liquid-biofuels-feedstock-requierment_fame-rape-and-mustard-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_fame-soyabean-oil[toe],dat_liquid-biofuels-feedstock-requierment_fame-soyabean-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_fame-sunflowerseed-oil[toe],dat_liquid-biofuels-feedstock-requierment_fame-sunflowerseed-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_fame-uco[toe],dat_liquid-biofuels-feedstock-requierment_fame-uco[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_hvo-non-crop-others[toe],dat_liquid-biofuels-feedstock-requierment_hvo-non-crop-others[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_hvo-bio-wastes[toe],dat_liquid-biofuels-feedstock-requierment_hvo-bio-wastes[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_hvo-animal-fats[toe],dat_liquid-biofuels-feedstock-requierment_hvo-animal-fats[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_hvo-vegetable-oil-others[toe],dat_liquid-biofuels-feedstock-requierment_hvo-vegetable-oil-others[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_hvo-palm-oil[toe],dat_liquid-biofuels-feedstock-requierment_hvo-palm-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_hvo-rape-and-mustard-oil[toe],dat_liquid-biofuels-feedstock-requierment_hvo-rape-and-mustard-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_hvo-soyabean-oil[toe],dat_liquid-biofuels-feedstock-requierment_hvo-soyabean-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_hvo-sunflowerseed-oil[toe],dat_liquid-biofuels-feedstock-requierment_hvo-sunflowerseed-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_hvo-uco[toe],dat_liquid-biofuels-feedstock-requierment_hvo-uco[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_bioethanol-non-crop-others[toe],dat_liquid-biofuels-feedstock-requierment_bioethanol-non-crop-others[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_bioethanol-bio-wastes[toe],dat_liquid-biofuels-feedstock-requierment_bioethanol-bio-wastes[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_bioethanol-wheat-and-products[toe],dat_liquid-biofuels-feedstock-requierment_bioethanol-wheat-and-products[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_bioethanol-barley-and-products[toe],dat_liquid-biofuels-feedstock-requierment_bioethanol-barley-and-products[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_bioethanol-maize-and-products[toe],dat_liquid-biofuels-feedstock-requierment_bioethanol-maize-and-products[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_bioethanol-cereals-other[toe],dat_liquid-biofuels-feedstock-requierment_bioethanol-cereals-other[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_bioethanol-rye-and-products[toe],dat_liquid-biofuels-feedstock-requierment_bioethanol-rye-and-products[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_bioethanol-sugar-crops[toe],dat_liquid-biofuels-feedstock-requierment_bioethanol-sugar-crops[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_cellulosic-ethanol-energy-crops[toe],dat_liquid-biofuels-feedstock-requierment_cellulosic-ethanol-energy-crops[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_cellulosic-ethanol-non-crop-others[toe],dat_liquid-biofuels-feedstock-requierment_cellulosic-ethanol-non-crop-others[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_cellulosic-ethanol-agricultural-residues[toe],dat_liquid-biofuels-feedstock-requierment_cellulosic-ethanol-agricultural-residues[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_cellulosic-ethanol-fuelwood-wood-residues-and-byproducts[toe],dat_liquid-biofuels-feedstock-requierment_cellulosic-ethanol-fuelwood-wood-residues-and-byproducts[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_btl-energy-crops[toe],dat_liquid-biofuels-feedstock-requierment_btl-energy-crops[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_btl-non-crop-others[toe],dat_liquid-biofuels-feedstock-requierment_btl-non-crop-others[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_btl-agricultural-residues[toe],dat_liquid-biofuels-feedstock-requierment_btl-agricultural-residues[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_btl-fuelwood-wood-residues-and-byproducts[toe],dat_liquid-biofuels-feedstock-requierment_btl-fuelwood-wood-residues-and-byproducts[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_others-energy-crops[toe],dat_liquid-biofuels-feedstock-requierment_others-energy-crops[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_others-animal-fats[toe],dat_liquid-biofuels-feedstock-requierment_others-animal-fats[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_others-bio-wastes[toe],dat_liquid-biofuels-feedstock-requierment_others-bio-wastes[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_others-palm-oil[toe],dat_liquid-biofuels-feedstock-requierment_others-palm-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_others-rape-and-mustard-oil[toe],dat_liquid-biofuels-feedstock-requierment_others-rape-and-mustard-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_others-soyabean-oil[toe],dat_liquid-biofuels-feedstock-requierment_others-soyabean-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_others-sugar-crops[toe],dat_liquid-biofuels-feedstock-requierment_others-sugar-crops[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_others-sunflowerseed-oil[toe],dat_liquid-biofuels-feedstock-requierment_others-sunflowerseed-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_others-uco[toe],dat_liquid-biofuels-feedstock-requierment_others-uco[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_others-non-crop-others[toe],dat_liquid-biofuels-feedstock-requierment_others-non-crop-others[t/toe],"/>
+</config>
+<config key="Variable_10">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="new_column_list"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_liquid-biofuels-feedstock-requierment_fame-non-crop-others[t],dat_liquid-biofuels-feedstock-requierment_fame-bio-wastes[t],dat_liquid-biofuels-feedstock-requierment_fame-animal-fats[t],dat_liquid-biofuels-feedstock-requierment_fame-vegetable-oil-others[t],dat_liquid-biofuels-feedstock-requierment_fame-palm-oil[t],dat_liquid-biofuels-feedstock-requierment_fame-rape-and-mustard-oil[t],dat_liquid-biofuels-feedstock-requierment_fame-soyabean-oil[t],dat_liquid-biofuels-feedstock-requierment_fame-sunflowerseed-oil[t],dat_liquid-biofuels-feedstock-requierment_fame-uco[t],dat_liquid-biofuels-feedstock-requierment_hvo-non-crop-others[t],dat_liquid-biofuels-feedstock-requierment_hvo-bio-wastes[t],dat_liquid-biofuels-feedstock-requierment_hvo-animal-fats[t],dat_liquid-biofuels-feedstock-requierment_hvo-vegetable-oil-others[t],dat_liquid-biofuels-feedstock-requierment_hvo-palm-oil[t],dat_liquid-biofuels-feedstock-requierment_hvo-rape-and-mustard-oil[t],dat_liquid-biofuels-feedstock-requierment_hvo-soyabean-oil[t],dat_liquid-biofuels-feedstock-requierment_hvo-sunflowerseed-oil[t],dat_liquid-biofuels-feedstock-requierment_hvo-uco[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-non-crop-others[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-bio-wastes[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-wheat-and-products[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-barley-and-products[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-maize-and-products[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-cereals-other[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-rye-and-products[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-sugar-crops[t],dat_liquid-biofuels-feedstock-requierment_cellulosic-ethanol-energy-crops[t],dat_liquid-biofuels-feedstock-requierment_cellulosic-ethanol-non-crop-others[t],dat_liquid-biofuels-feedstock-requierment_cellulosic-ethanol-agricultural-residues[t],dat_liquid-biofuels-feedstock-requierment_cellulosic-ethanol-fuelwood-wood-residues-and-byproducts[t],dat_liquid-biofuels-feedstock-requierment_btl-energy-crops[t],dat_liquid-biofuels-feedstock-requierment_btl-non-crop-others[t],dat_liquid-biofuels-feedstock-requierment_btl-agricultural-residues[t],dat_liquid-biofuels-feedstock-requierment_btl-fuelwood-wood-residues-and-byproducts[t],dat_liquid-biofuels-feedstock-requierment_others-energy-crops[t],dat_liquid-biofuels-feedstock-requierment_others-animal-fats[t],dat_liquid-biofuels-feedstock-requierment_others-bio-wastes[t],dat_liquid-biofuels-feedstock-requierment_others-palm-oil[t],dat_liquid-biofuels-feedstock-requierment_others-rape-and-mustard-oil[t],dat_liquid-biofuels-feedstock-requierment_others-soyabean-oil[t],dat_liquid-biofuels-feedstock-requierment_others-sugar-crops[t],dat_liquid-biofuels-feedstock-requierment_others-sunflowerseed-oil[t],dat_liquid-biofuels-feedstock-requierment_others-uco[t],dat_liquid-biofuels-feedstock-requierment_others-non-crop-others[t],"/>
+</config>
+<config key="Variable_11">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="splitter_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_liquid-biofuels-domestic-production-per-feedstock_(.*)\[toe\]|dat_liquid-biofuels-feedstock-requierment_(.*)\[t/toe\]"/>
+</config>
+<config key="Variable_12">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="new_name_start"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_liquid-biofuels-feedstock-requierment"/>
+</config>
+<config key="Variable_13">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="index_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_liquid-biofuels-domestic-production-per-feedstock_(.*)\[toe\]"/>
+</config>
+<config key="Variable_14">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-regex-filter"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=".*"/>
+</config>
+<config key="Variable_15">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-remove"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_16">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_method"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Product"/>
+</config>
+<config key="Variable_17">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_method (index)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_18">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="unit_var"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="t"/>
+</config>
+<config key="Variable_19">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_liquid-biofuels-feedstock-requierment_(.*)\[t/toe\]"/>
+</config>
+<config key="Variable_20">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="columns_used"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_liquid-biofuels-domestic-production-per-feedstock_fame-non-crop-others[toe],dat_liquid-biofuels-feedstock-requierment_fame-non-crop-others[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_fame-bio-wastes[toe],dat_liquid-biofuels-feedstock-requierment_fame-bio-wastes[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_fame-animal-fats[toe],dat_liquid-biofuels-feedstock-requierment_fame-animal-fats[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_fame-vegetable-oil-others[toe],dat_liquid-biofuels-feedstock-requierment_fame-vegetable-oil-others[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_fame-palm-oil[toe],dat_liquid-biofuels-feedstock-requierment_fame-palm-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_fame-rape-and-mustard-oil[toe],dat_liquid-biofuels-feedstock-requierment_fame-rape-and-mustard-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_fame-soyabean-oil[toe],dat_liquid-biofuels-feedstock-requierment_fame-soyabean-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_fame-sunflowerseed-oil[toe],dat_liquid-biofuels-feedstock-requierment_fame-sunflowerseed-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_fame-uco[toe],dat_liquid-biofuels-feedstock-requierment_fame-uco[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_hvo-non-crop-others[toe],dat_liquid-biofuels-feedstock-requierment_hvo-non-crop-others[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_hvo-bio-wastes[toe],dat_liquid-biofuels-feedstock-requierment_hvo-bio-wastes[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_hvo-animal-fats[toe],dat_liquid-biofuels-feedstock-requierment_hvo-animal-fats[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_hvo-vegetable-oil-others[toe],dat_liquid-biofuels-feedstock-requierment_hvo-vegetable-oil-others[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_hvo-palm-oil[toe],dat_liquid-biofuels-feedstock-requierment_hvo-palm-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_hvo-rape-and-mustard-oil[toe],dat_liquid-biofuels-feedstock-requierment_hvo-rape-and-mustard-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_hvo-soyabean-oil[toe],dat_liquid-biofuels-feedstock-requierment_hvo-soyabean-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_hvo-sunflowerseed-oil[toe],dat_liquid-biofuels-feedstock-requierment_hvo-sunflowerseed-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_hvo-uco[toe],dat_liquid-biofuels-feedstock-requierment_hvo-uco[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_bioethanol-non-crop-others[toe],dat_liquid-biofuels-feedstock-requierment_bioethanol-non-crop-others[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_bioethanol-bio-wastes[toe],dat_liquid-biofuels-feedstock-requierment_bioethanol-bio-wastes[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_bioethanol-wheat-and-products[toe],dat_liquid-biofuels-feedstock-requierment_bioethanol-wheat-and-products[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_bioethanol-barley-and-products[toe],dat_liquid-biofuels-feedstock-requierment_bioethanol-barley-and-products[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_bioethanol-maize-and-products[toe],dat_liquid-biofuels-feedstock-requierment_bioethanol-maize-and-products[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_bioethanol-cereals-other[toe],dat_liquid-biofuels-feedstock-requierment_bioethanol-cereals-other[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_bioethanol-rye-and-products[toe],dat_liquid-biofuels-feedstock-requierment_bioethanol-rye-and-products[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_bioethanol-sugar-crops[toe],dat_liquid-biofuels-feedstock-requierment_bioethanol-sugar-crops[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_cellulosic-ethanol-energy-crops[toe],dat_liquid-biofuels-feedstock-requierment_cellulosic-ethanol-energy-crops[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_cellulosic-ethanol-non-crop-others[toe],dat_liquid-biofuels-feedstock-requierment_cellulosic-ethanol-non-crop-others[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_cellulosic-ethanol-agricultural-residues[toe],dat_liquid-biofuels-feedstock-requierment_cellulosic-ethanol-agricultural-residues[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_cellulosic-ethanol-fuelwood-wood-residues-and-byproducts[toe],dat_liquid-biofuels-feedstock-requierment_cellulosic-ethanol-fuelwood-wood-residues-and-byproducts[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_btl-energy-crops[toe],dat_liquid-biofuels-feedstock-requierment_btl-energy-crops[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_btl-non-crop-others[toe],dat_liquid-biofuels-feedstock-requierment_btl-non-crop-others[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_btl-agricultural-residues[toe],dat_liquid-biofuels-feedstock-requierment_btl-agricultural-residues[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_btl-fuelwood-wood-residues-and-byproducts[toe],dat_liquid-biofuels-feedstock-requierment_btl-fuelwood-wood-residues-and-byproducts[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_others-energy-crops[toe],dat_liquid-biofuels-feedstock-requierment_others-energy-crops[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_others-animal-fats[toe],dat_liquid-biofuels-feedstock-requierment_others-animal-fats[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_others-bio-wastes[toe],dat_liquid-biofuels-feedstock-requierment_others-bio-wastes[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_others-palm-oil[toe],dat_liquid-biofuels-feedstock-requierment_others-palm-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_others-rape-and-mustard-oil[toe],dat_liquid-biofuels-feedstock-requierment_others-rape-and-mustard-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_others-soyabean-oil[toe],dat_liquid-biofuels-feedstock-requierment_others-soyabean-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_others-sugar-crops[toe],dat_liquid-biofuels-feedstock-requierment_others-sugar-crops[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_others-sunflowerseed-oil[toe],dat_liquid-biofuels-feedstock-requierment_others-sunflowerseed-oil[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_others-uco[toe],dat_liquid-biofuels-feedstock-requierment_others-uco[t/toe],dat_liquid-biofuels-domestic-production-per-feedstock_others-non-crop-others[toe],dat_liquid-biofuels-feedstock-requierment_others-non-crop-others[t/toe],"/>
+</config>
+<config key="Variable_21">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="new_column_list"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_liquid-biofuels-feedstock-requierment_fame-non-crop-others[t],dat_liquid-biofuels-feedstock-requierment_fame-bio-wastes[t],dat_liquid-biofuels-feedstock-requierment_fame-animal-fats[t],dat_liquid-biofuels-feedstock-requierment_fame-vegetable-oil-others[t],dat_liquid-biofuels-feedstock-requierment_fame-palm-oil[t],dat_liquid-biofuels-feedstock-requierment_fame-rape-and-mustard-oil[t],dat_liquid-biofuels-feedstock-requierment_fame-soyabean-oil[t],dat_liquid-biofuels-feedstock-requierment_fame-sunflowerseed-oil[t],dat_liquid-biofuels-feedstock-requierment_fame-uco[t],dat_liquid-biofuels-feedstock-requierment_hvo-non-crop-others[t],dat_liquid-biofuels-feedstock-requierment_hvo-bio-wastes[t],dat_liquid-biofuels-feedstock-requierment_hvo-animal-fats[t],dat_liquid-biofuels-feedstock-requierment_hvo-vegetable-oil-others[t],dat_liquid-biofuels-feedstock-requierment_hvo-palm-oil[t],dat_liquid-biofuels-feedstock-requierment_hvo-rape-and-mustard-oil[t],dat_liquid-biofuels-feedstock-requierment_hvo-soyabean-oil[t],dat_liquid-biofuels-feedstock-requierment_hvo-sunflowerseed-oil[t],dat_liquid-biofuels-feedstock-requierment_hvo-uco[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-non-crop-others[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-bio-wastes[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-wheat-and-products[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-barley-and-products[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-maize-and-products[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-cereals-other[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-rye-and-products[t],dat_liquid-biofuels-feedstock-requierment_bioethanol-sugar-crops[t],dat_liquid-biofuels-feedstock-requierment_cellulosic-ethanol-energy-crops[t],dat_liquid-biofuels-feedstock-requierment_cellulosic-ethanol-non-crop-others[t],dat_liquid-biofuels-feedstock-requierment_cellulosic-ethanol-agricultural-residues[t],dat_liquid-biofuels-feedstock-requierment_cellulosic-ethanol-fuelwood-wood-residues-and-byproducts[t],dat_liquid-biofuels-feedstock-requierment_btl-energy-crops[t],dat_liquid-biofuels-feedstock-requierment_btl-non-crop-others[t],dat_liquid-biofuels-feedstock-requierment_btl-agricultural-residues[t],dat_liquid-biofuels-feedstock-requierment_btl-fuelwood-wood-residues-and-byproducts[t],dat_liquid-biofuels-feedstock-requierment_others-energy-crops[t],dat_liquid-biofuels-feedstock-requierment_others-animal-fats[t],dat_liquid-biofuels-feedstock-requierment_others-bio-wastes[t],dat_liquid-biofuels-feedstock-requierment_others-palm-oil[t],dat_liquid-biofuels-feedstock-requierment_others-rape-and-mustard-oil[t],dat_liquid-biofuels-feedstock-requierment_others-soyabean-oil[t],dat_liquid-biofuels-feedstock-requierment_others-sugar-crops[t],dat_liquid-biofuels-feedstock-requierment_others-sunflowerseed-oil[t],dat_liquid-biofuels-feedstock-requierment_others-uco[t],dat_liquid-biofuels-feedstock-requierment_others-non-crop-others[t],"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model"/>
+<config key="variables"/>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value=""/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="1222"/>
+<entry key="y-coordinate" type="xint" value="819"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="15"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="0"/>
+<entry key="defFontSize" type="xint" value="-1"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="workflow-file" type="xstring" value="workflow.knime"/>
+<entry key="virtual-in-ID" type="xint" value="598"/>
+<config key="inports">
+<config key="inport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<entry key="virtual-out-ID" type="xint" value="599"/>
+<config key="outports">
+<config key="outport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<config key="metadata">
+<entry key="description" type="xstring" value=""/>
+<config key="inports">
+<config key="inport_0">
+<entry key="name" type="xstring" value="Port 1"/>
+<entry key="description" type="xstring" value=""/>
+<entry key="index" type="xint" value="0"/>
+</config>
+</config>
+<config key="outports">
+<config key="outport_0">
+<entry key="name" type="xstring" value="Port 1"/>
+<entry key="description" type="xstring" value=""/>
+<entry key="index" type="xint" value="0"/>
+</config>
+</config>
+</config>
+<config key="workflow_template_information">
+<entry key="role" type="xstring" value="Link"/>
+<entry key="timestamp" type="xstring" value="2018-10-18 14:10:28"/>
+<entry key="sourceURI" type="xstring" value="knime://LOCAL/_common/lib/metanodes/Tree%20aggregator%20(Java)"/>
+</config>
+<entry key="layoutJSON" type="xstring" value=""/>
+<entry key="configurationLayoutJSON" type="xstring" value="{}"/>
+<entry key="hideInWizard" type="xboolean" value="false"/>
+<entry key="customCSS" type="xstring" value=""/>
+</config>
