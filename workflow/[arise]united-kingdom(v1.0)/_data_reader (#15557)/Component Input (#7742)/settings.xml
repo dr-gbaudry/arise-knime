@@ -14,6 +14,18 @@
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value="arise-knime"/>
 </config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="geo-scale"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="united-kingdom"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="user-path"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="arise-knime"/>
+</config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
@@ -48,7 +60,7 @@
 <entry key="sub-node-description" type="xstring" value=""/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="isDeletable" type="xboolean" value="false"/>
 <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory"/>
 <entry key="node-name" type="xstring" value="Component Input"/>
@@ -62,11 +74,11 @@
 <entry key="node-feature-version" type="xstring" value="4.3.3.v202105242123"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Component Input"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports"/>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="defc22c5-2b12-41c5-97af-d9d8a23dffb6"/>
 </config>
 </config>

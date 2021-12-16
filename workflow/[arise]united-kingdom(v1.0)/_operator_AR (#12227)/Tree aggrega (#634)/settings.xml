@@ -1,7 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
 <entry key="node_file" type="xstring" value="settings.xml"/>
-<config key="flow_stack"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="splitter_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_crop-yield-accounting-for-climate_(.*)\[t/ha\]|dat_climate-impacts-irrigation-share_(.*)\[%\]"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="new_name_start"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_crop-yield-accounting-for-irrigation"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="index_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_crop-yield-accounting-for-climate_(.*)\[t/ha\]"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-regex-filter"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=".*"/>
+</config>
+<config key="Variable_4">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-remove"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_5">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_method"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Product"/>
+</config>
+<config key="Variable_6">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_method (index)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_7">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="unit_var"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="t/ha"/>
+</config>
+<config key="Variable_8">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_climate-impacts-irrigation-share_(.*)\[%\]"/>
+</config>
+<config key="Variable_9">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="columns_used"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_crop-yield-accounting-for-climate_irrigated-wheat-and-products[t/ha],dat_climate-impacts-irrigation-share_irrigated-wheat-and-products[%],dat_crop-yield-accounting-for-climate_rainfed-wheat-and-products[t/ha],dat_climate-impacts-irrigation-share_rainfed-wheat-and-products[%],dat_crop-yield-accounting-for-climate_irrigated-barley-and-products[t/ha],dat_climate-impacts-irrigation-share_irrigated-barley-and-products[%],dat_crop-yield-accounting-for-climate_rainfed-barley-and-products[t/ha],dat_climate-impacts-irrigation-share_rainfed-barley-and-products[%],dat_crop-yield-accounting-for-climate_irrigated-maize-and-products[t/ha],dat_climate-impacts-irrigation-share_irrigated-maize-and-products[%],dat_crop-yield-accounting-for-climate_rainfed-maize-and-products[t/ha],dat_climate-impacts-irrigation-share_rainfed-maize-and-products[%],dat_crop-yield-accounting-for-climate_irrigated-rye-and-products[t/ha],dat_climate-impacts-irrigation-share_irrigated-rye-and-products[%],dat_crop-yield-accounting-for-climate_rainfed-rye-and-products[t/ha],dat_climate-impacts-irrigation-share_rainfed-rye-and-products[%],dat_crop-yield-accounting-for-climate_irrigated-cereal-others[t/ha],dat_climate-impacts-irrigation-share_irrigated-cereal-others[%],dat_crop-yield-accounting-for-climate_rainfed-cereal-others[t/ha],dat_climate-impacts-irrigation-share_rainfed-cereal-others[%],dat_crop-yield-accounting-for-climate_irrigated-paddy-rice[t/ha],dat_climate-impacts-irrigation-share_irrigated-paddy-rice[%],dat_crop-yield-accounting-for-climate_rainfed-paddy-rice[t/ha],dat_climate-impacts-irrigation-share_rainfed-paddy-rice[%],dat_crop-yield-accounting-for-climate_irrigated-rape-and-mustardseed[t/ha],dat_climate-impacts-irrigation-share_irrigated-rape-and-mustardseed[%],dat_crop-yield-accounting-for-climate_rainfed-rape-and-mustardseed[t/ha],dat_climate-impacts-irrigation-share_rainfed-rape-and-mustardseed[%],dat_crop-yield-accounting-for-climate_irrigated-sunflower-seed[t/ha],dat_climate-impacts-irrigation-share_irrigated-sunflower-seed[%],dat_crop-yield-accounting-for-climate_rainfed-sunflower-seed[t/ha],dat_climate-impacts-irrigation-share_rainfed-sunflower-seed[%],dat_crop-yield-accounting-for-climate_irrigated-soyabeans[t/ha],dat_climate-impacts-irrigation-share_irrigated-soyabeans[%],dat_crop-yield-accounting-for-climate_rainfed-soyabeans[t/ha],dat_climate-impacts-irrigation-share_rainfed-soyabeans[%],dat_crop-yield-accounting-for-climate_irrigated-palm[t/ha],dat_climate-impacts-irrigation-share_irrigated-palm[%],dat_crop-yield-accounting-for-climate_rainfed-palm[t/ha],dat_climate-impacts-irrigation-share_rainfed-palm[%],dat_crop-yield-accounting-for-climate_irrigated-oilcrop-others[t/ha],dat_climate-impacts-irrigation-share_irrigated-oilcrop-others[%],dat_crop-yield-accounting-for-climate_rainfed-oilcrop-others[t/ha],dat_climate-impacts-irrigation-share_rainfed-oilcrop-others[%],dat_crop-yield-accounting-for-climate_irrigated-olives-including-preserved[t/ha],dat_climate-impacts-irrigation-share_irrigated-olives-including-preserved[%],dat_crop-yield-accounting-for-climate_rainfed-olives-including-preserved[t/ha],dat_climate-impacts-irrigation-share_rainfed-olives-including-preserved[%],dat_crop-yield-accounting-for-climate_irrigated-fruits-excluding-wine[t/ha],dat_climate-impacts-irrigation-share_irrigated-fruits-excluding-wine[%],dat_crop-yield-accounting-for-climate_rainfed-fruits-excluding-wine[t/ha],dat_climate-impacts-irrigation-share_rainfed-fruits-excluding-wine[%],dat_crop-yield-accounting-for-climate_irrigated-grapes[t/ha],dat_climate-impacts-irrigation-share_irrigated-grapes[%],dat_crop-yield-accounting-for-climate_rainfed-grapes[t/ha],dat_climate-impacts-irrigation-share_rainfed-grapes[%],dat_crop-yield-accounting-for-climate_irrigated-vegetables[t/ha],dat_climate-impacts-irrigation-share_irrigated-vegetables[%],dat_crop-yield-accounting-for-climate_rainfed-vegetables[t/ha],dat_climate-impacts-irrigation-share_rainfed-vegetables[%],dat_crop-yield-accounting-for-climate_irrigated-starchy-roots[t/ha],dat_climate-impacts-irrigation-share_irrigated-starchy-roots[%],dat_crop-yield-accounting-for-climate_rainfed-starchy-roots[t/ha],dat_climate-impacts-irrigation-share_rainfed-starchy-roots[%],dat_crop-yield-accounting-for-climate_irrigated-pulses[t/ha],dat_climate-impacts-irrigation-share_irrigated-pulses[%],dat_crop-yield-accounting-for-climate_rainfed-pulses[t/ha],dat_climate-impacts-irrigation-share_rainfed-pulses[%],dat_crop-yield-accounting-for-climate_irrigated-sugar-crops[t/ha],dat_climate-impacts-irrigation-share_irrigated-sugar-crops[%],dat_crop-yield-accounting-for-climate_rainfed-sugar-crops[t/ha],dat_climate-impacts-irrigation-share_rainfed-sugar-crops[%],dat_crop-yield-accounting-for-climate_irrigated-coffee-and-products[t/ha],dat_climate-impacts-irrigation-share_irrigated-coffee-and-products[%],dat_crop-yield-accounting-for-climate_rainfed-coffee-and-products[t/ha],dat_climate-impacts-irrigation-share_rainfed-coffee-and-products[%],dat_crop-yield-accounting-for-climate_irrigated-cocoa-beans-and-products[t/ha],dat_climate-impacts-irrigation-share_irrigated-cocoa-beans-and-products[%],dat_crop-yield-accounting-for-climate_rainfed-cocoa-beans-and-products[t/ha],dat_climate-impacts-irrigation-share_rainfed-cocoa-beans-and-products[%],dat_crop-yield-accounting-for-climate_irrigated-tea-including-mate[t/ha],dat_climate-impacts-irrigation-share_irrigated-tea-including-mate[%],dat_crop-yield-accounting-for-climate_rainfed-tea-including-mate[t/ha],dat_climate-impacts-irrigation-share_rainfed-tea-including-mate[%],dat_crop-yield-accounting-for-climate_irrigated-tobacco[t/ha],dat_climate-impacts-irrigation-share_irrigated-tobacco[%],dat_crop-yield-accounting-for-climate_rainfed-tobacco[t/ha],dat_climate-impacts-irrigation-share_rainfed-tobacco[%],dat_crop-yield-accounting-for-climate_irrigated-fibre-crops[t/ha],dat_climate-impacts-irrigation-share_irrigated-fibre-crops[%],dat_crop-yield-accounting-for-climate_rainfed-fibre-crops[t/ha],dat_climate-impacts-irrigation-share_rainfed-fibre-crops[%],dat_crop-yield-accounting-for-climate_irrigated-rubber[t/ha],dat_climate-impacts-irrigation-share_irrigated-rubber[%],dat_crop-yield-accounting-for-climate_rainfed-rubber[t/ha],dat_climate-impacts-irrigation-share_rainfed-rubber[%],"/>
+</config>
+<config key="Variable_10">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="new_column_list"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_crop-yield-accounting-for-irrigation_irrigated-wheat-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-wheat-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-barley-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-barley-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-maize-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-maize-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-rye-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-rye-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-cereal-others[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-cereal-others[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-paddy-rice[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-paddy-rice[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-rape-and-mustardseed[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-rape-and-mustardseed[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-sunflower-seed[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-sunflower-seed[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-soyabeans[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-soyabeans[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-palm[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-palm[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-oilcrop-others[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-oilcrop-others[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-olives-including-preserved[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-olives-including-preserved[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-fruits-excluding-wine[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-fruits-excluding-wine[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-grapes[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-grapes[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-vegetables[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-vegetables[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-starchy-roots[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-starchy-roots[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-pulses[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-pulses[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-sugar-crops[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-sugar-crops[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-coffee-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-coffee-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-cocoa-beans-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-cocoa-beans-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-tea-including-mate[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-tea-including-mate[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-tobacco[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-tobacco[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-fibre-crops[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-fibre-crops[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-rubber[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-rubber[t/ha],"/>
+</config>
+<config key="Variable_11">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="splitter_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_crop-yield-accounting-for-climate_(.*)\[t/ha\]|dat_climate-impacts-irrigation-share_(.*)\[%\]"/>
+</config>
+<config key="Variable_12">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="new_name_start"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_crop-yield-accounting-for-irrigation"/>
+</config>
+<config key="Variable_13">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="index_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_crop-yield-accounting-for-climate_(.*)\[t/ha\]"/>
+</config>
+<config key="Variable_14">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-regex-filter"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=".*"/>
+</config>
+<config key="Variable_15">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation-remove"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_16">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_method"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Product"/>
+</config>
+<config key="Variable_17">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_method (index)"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="0"/>
+</config>
+<config key="Variable_18">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="unit_var"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="t/ha"/>
+</config>
+<config key="Variable_19">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="aggregation_pattern"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_climate-impacts-irrigation-share_(.*)\[%\]"/>
+</config>
+<config key="Variable_20">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="columns_used"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_crop-yield-accounting-for-climate_irrigated-wheat-and-products[t/ha],dat_climate-impacts-irrigation-share_irrigated-wheat-and-products[%],dat_crop-yield-accounting-for-climate_rainfed-wheat-and-products[t/ha],dat_climate-impacts-irrigation-share_rainfed-wheat-and-products[%],dat_crop-yield-accounting-for-climate_irrigated-barley-and-products[t/ha],dat_climate-impacts-irrigation-share_irrigated-barley-and-products[%],dat_crop-yield-accounting-for-climate_rainfed-barley-and-products[t/ha],dat_climate-impacts-irrigation-share_rainfed-barley-and-products[%],dat_crop-yield-accounting-for-climate_irrigated-maize-and-products[t/ha],dat_climate-impacts-irrigation-share_irrigated-maize-and-products[%],dat_crop-yield-accounting-for-climate_rainfed-maize-and-products[t/ha],dat_climate-impacts-irrigation-share_rainfed-maize-and-products[%],dat_crop-yield-accounting-for-climate_irrigated-rye-and-products[t/ha],dat_climate-impacts-irrigation-share_irrigated-rye-and-products[%],dat_crop-yield-accounting-for-climate_rainfed-rye-and-products[t/ha],dat_climate-impacts-irrigation-share_rainfed-rye-and-products[%],dat_crop-yield-accounting-for-climate_irrigated-cereal-others[t/ha],dat_climate-impacts-irrigation-share_irrigated-cereal-others[%],dat_crop-yield-accounting-for-climate_rainfed-cereal-others[t/ha],dat_climate-impacts-irrigation-share_rainfed-cereal-others[%],dat_crop-yield-accounting-for-climate_irrigated-paddy-rice[t/ha],dat_climate-impacts-irrigation-share_irrigated-paddy-rice[%],dat_crop-yield-accounting-for-climate_rainfed-paddy-rice[t/ha],dat_climate-impacts-irrigation-share_rainfed-paddy-rice[%],dat_crop-yield-accounting-for-climate_irrigated-rape-and-mustardseed[t/ha],dat_climate-impacts-irrigation-share_irrigated-rape-and-mustardseed[%],dat_crop-yield-accounting-for-climate_rainfed-rape-and-mustardseed[t/ha],dat_climate-impacts-irrigation-share_rainfed-rape-and-mustardseed[%],dat_crop-yield-accounting-for-climate_irrigated-sunflower-seed[t/ha],dat_climate-impacts-irrigation-share_irrigated-sunflower-seed[%],dat_crop-yield-accounting-for-climate_rainfed-sunflower-seed[t/ha],dat_climate-impacts-irrigation-share_rainfed-sunflower-seed[%],dat_crop-yield-accounting-for-climate_irrigated-soyabeans[t/ha],dat_climate-impacts-irrigation-share_irrigated-soyabeans[%],dat_crop-yield-accounting-for-climate_rainfed-soyabeans[t/ha],dat_climate-impacts-irrigation-share_rainfed-soyabeans[%],dat_crop-yield-accounting-for-climate_irrigated-palm[t/ha],dat_climate-impacts-irrigation-share_irrigated-palm[%],dat_crop-yield-accounting-for-climate_rainfed-palm[t/ha],dat_climate-impacts-irrigation-share_rainfed-palm[%],dat_crop-yield-accounting-for-climate_irrigated-oilcrop-others[t/ha],dat_climate-impacts-irrigation-share_irrigated-oilcrop-others[%],dat_crop-yield-accounting-for-climate_rainfed-oilcrop-others[t/ha],dat_climate-impacts-irrigation-share_rainfed-oilcrop-others[%],dat_crop-yield-accounting-for-climate_irrigated-olives-including-preserved[t/ha],dat_climate-impacts-irrigation-share_irrigated-olives-including-preserved[%],dat_crop-yield-accounting-for-climate_rainfed-olives-including-preserved[t/ha],dat_climate-impacts-irrigation-share_rainfed-olives-including-preserved[%],dat_crop-yield-accounting-for-climate_irrigated-fruits-excluding-wine[t/ha],dat_climate-impacts-irrigation-share_irrigated-fruits-excluding-wine[%],dat_crop-yield-accounting-for-climate_rainfed-fruits-excluding-wine[t/ha],dat_climate-impacts-irrigation-share_rainfed-fruits-excluding-wine[%],dat_crop-yield-accounting-for-climate_irrigated-grapes[t/ha],dat_climate-impacts-irrigation-share_irrigated-grapes[%],dat_crop-yield-accounting-for-climate_rainfed-grapes[t/ha],dat_climate-impacts-irrigation-share_rainfed-grapes[%],dat_crop-yield-accounting-for-climate_irrigated-vegetables[t/ha],dat_climate-impacts-irrigation-share_irrigated-vegetables[%],dat_crop-yield-accounting-for-climate_rainfed-vegetables[t/ha],dat_climate-impacts-irrigation-share_rainfed-vegetables[%],dat_crop-yield-accounting-for-climate_irrigated-starchy-roots[t/ha],dat_climate-impacts-irrigation-share_irrigated-starchy-roots[%],dat_crop-yield-accounting-for-climate_rainfed-starchy-roots[t/ha],dat_climate-impacts-irrigation-share_rainfed-starchy-roots[%],dat_crop-yield-accounting-for-climate_irrigated-pulses[t/ha],dat_climate-impacts-irrigation-share_irrigated-pulses[%],dat_crop-yield-accounting-for-climate_rainfed-pulses[t/ha],dat_climate-impacts-irrigation-share_rainfed-pulses[%],dat_crop-yield-accounting-for-climate_irrigated-sugar-crops[t/ha],dat_climate-impacts-irrigation-share_irrigated-sugar-crops[%],dat_crop-yield-accounting-for-climate_rainfed-sugar-crops[t/ha],dat_climate-impacts-irrigation-share_rainfed-sugar-crops[%],dat_crop-yield-accounting-for-climate_irrigated-coffee-and-products[t/ha],dat_climate-impacts-irrigation-share_irrigated-coffee-and-products[%],dat_crop-yield-accounting-for-climate_rainfed-coffee-and-products[t/ha],dat_climate-impacts-irrigation-share_rainfed-coffee-and-products[%],dat_crop-yield-accounting-for-climate_irrigated-cocoa-beans-and-products[t/ha],dat_climate-impacts-irrigation-share_irrigated-cocoa-beans-and-products[%],dat_crop-yield-accounting-for-climate_rainfed-cocoa-beans-and-products[t/ha],dat_climate-impacts-irrigation-share_rainfed-cocoa-beans-and-products[%],dat_crop-yield-accounting-for-climate_irrigated-tea-including-mate[t/ha],dat_climate-impacts-irrigation-share_irrigated-tea-including-mate[%],dat_crop-yield-accounting-for-climate_rainfed-tea-including-mate[t/ha],dat_climate-impacts-irrigation-share_rainfed-tea-including-mate[%],dat_crop-yield-accounting-for-climate_irrigated-tobacco[t/ha],dat_climate-impacts-irrigation-share_irrigated-tobacco[%],dat_crop-yield-accounting-for-climate_rainfed-tobacco[t/ha],dat_climate-impacts-irrigation-share_rainfed-tobacco[%],dat_crop-yield-accounting-for-climate_irrigated-fibre-crops[t/ha],dat_climate-impacts-irrigation-share_irrigated-fibre-crops[%],dat_crop-yield-accounting-for-climate_rainfed-fibre-crops[t/ha],dat_climate-impacts-irrigation-share_rainfed-fibre-crops[%],dat_crop-yield-accounting-for-climate_irrigated-rubber[t/ha],dat_climate-impacts-irrigation-share_irrigated-rubber[%],dat_crop-yield-accounting-for-climate_rainfed-rubber[t/ha],dat_climate-impacts-irrigation-share_rainfed-rubber[%],"/>
+</config>
+<config key="Variable_21">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="new_column_list"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_crop-yield-accounting-for-irrigation_irrigated-wheat-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-wheat-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-barley-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-barley-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-maize-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-maize-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-rye-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-rye-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-cereal-others[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-cereal-others[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-paddy-rice[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-paddy-rice[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-rape-and-mustardseed[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-rape-and-mustardseed[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-sunflower-seed[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-sunflower-seed[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-soyabeans[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-soyabeans[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-palm[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-palm[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-oilcrop-others[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-oilcrop-others[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-olives-including-preserved[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-olives-including-preserved[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-fruits-excluding-wine[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-fruits-excluding-wine[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-grapes[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-grapes[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-vegetables[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-vegetables[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-starchy-roots[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-starchy-roots[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-pulses[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-pulses[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-sugar-crops[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-sugar-crops[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-coffee-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-coffee-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-cocoa-beans-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-cocoa-beans-and-products[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-tea-including-mate[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-tea-including-mate[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-tobacco[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-tobacco[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-fibre-crops[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-fibre-crops[t/ha],dat_crop-yield-accounting-for-irrigation_irrigated-rubber[t/ha],dat_crop-yield-accounting-for-irrigation_rainfed-rubber[t/ha],"/>
+</config>
+</config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
@@ -22,7 +155,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="workflow-file" type="xstring" value="workflow.knime"/>
 <entry key="virtual-in-ID" type="xint" value="598"/>
 <config key="inports">

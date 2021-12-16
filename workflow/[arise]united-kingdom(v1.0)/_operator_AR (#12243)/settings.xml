@@ -60,7 +60,7 @@
 <config key="nodeAnnotation">
 <entry key="text" type="xstring" value="Crop Resdiues Volumes [t] =%%00013%%00010Crop Production [t] * %%00013%%00010Resdiues Yields [t/t] "/>
 <entry key="bgcolor" type="xint" value="16777215"/>
-<entry key="x-coordinate" type="xint" value="80713"/>
+<entry key="x-coordinate" type="xint" value="80293"/>
 <entry key="y-coordinate" type="xint" value="499"/>
 <entry key="width" type="xint" value="216"/>
 <entry key="height" type="xint" value="55"/>
@@ -89,7 +89,7 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" value="Execute an operation on two groups of columns, matching them one-to-one using a capture group defined in the regex expressions."/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="workflow-file" type="xstring" value="workflow.knime"/>
 <entry key="virtual-in-ID" type="xint" value="650"/>
 <config key="inports">
