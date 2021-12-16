@@ -34,11 +34,17 @@
 </config>
 <config key="Variable_5">
 <entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="user-path"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="arise-knime"/>
+</config>
+<config key="Variable_6">
+<entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="file-name"/>
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value="knime://LOCAL/arise-knime/data/united-kingdom/calibration/historical/ARISE_supply_food.xlsx"/>
 </config>
-<config key="Variable_6">
+<config key="Variable_7">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="file-name_location"/>
 <entry key="class" type="xstring" value="FSLocation"/>
@@ -47,55 +53,61 @@
 <entry key="file_system_specifier" type="xstring" value="1000"/>
 <entry key="path" type="xstring" value="knime://LOCAL/arise-knime/data/united-kingdom/calibration/historical/ARISE_supply_food.xlsx"/>
 </config>
-<config key="Variable_7">
+<config key="Variable_8">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="RowID"/>
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value="Row0"/>
 </config>
-<config key="Variable_8">
+<config key="Variable_9">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="cal-selection"/>
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value="Country|Years|dat_food-domestic-supply_cereal-others\[t\]|dat_food-domestic-supply_oilcrop-others\[t\]|dat_food-domestic-supply_palm-oil\[t\]|dat_food-domestic-supply_vegetable-oil-others\[t\]|dat_food-domestic-supply_barley-and-products\[t\]|dat_food-domestic-supply_beer\[t\]|dat_food-domestic-supply_beverages-alcoholic\[t\]|dat_food-domestic-supply_beverages-fermented\[t\]|dat_food-domestic-supply_cocoa-beans-and-products\[t\]|dat_food-domestic-supply_coffee-and-products\[t\]|dat_food-domestic-supply_fruits-excluding-wine\[t\]|dat_food-domestic-supply_maize-and-products\[t\]|dat_food-domestic-supply_nuts-and-products\[t\]|dat_food-domestic-supply_olive-oil\[t\]|dat_food-domestic-supply_olives-including-preserved\[t\]|dat_food-domestic-supply_palm\[t\]|dat_food-domestic-supply_pulses\[t\]|dat_food-domestic-supply_rape-and-mustard-oil\[t\]|dat_food-domestic-supply_rape-and-mustardseed\[t\]|dat_food-domestic-supply_rice-milled-equivalent\[t\]|dat_food-domestic-supply_rye-and-products\[t\]|dat_food-domestic-supply_soyabean-oil\[t\]|dat_food-domestic-supply_soyabeans\[t\]|dat_food-domestic-supply_starchy-roots\[t\]|dat_food-domestic-supply_sugar-&amp;-sweeteners\[t\]|dat_food-domestic-supply_sugar-crops\[t\]|dat_food-domestic-supply_sunflower-seed\[t\]|dat_food-domestic-supply_sunflowerseed-oil\[t\]|dat_food-domestic-supply_tea-including-mate\[t\]|dat_food-domestic-supply_vegetables\[t\]|dat_food-domestic-supply_wheat-and-products\[t\]|dat_food-domestic-supply_wine\[t\]|dat_food-domestic-supply_milk-excluding-butter\[t\]|dat_food-domestic-supply_bovine-meat\[t\]|dat_food-domestic-supply_eggs\[t\]|dat_food-domestic-supply_fats-animals-raw\[t\]|dat_food-domestic-supply_fish-seafood\[t\]|dat_food-domestic-supply_meat-other\[t\]|dat_food-domestic-supply_mutton-&amp;-goat-meat\[t\]|dat_food-domestic-supply_offals\[t\]|dat_food-domestic-supply_pigmeat\[t\]|dat_food-domestic-supply_poultry-meat\[t\]"/>
 </config>
-<config key="Variable_9">
+<config key="Variable_10">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="dir-name"/>
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value="supply"/>
 </config>
-<config key="Variable_10">
+<config key="Variable_11">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="tab-name"/>
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value="tag-description"/>
 </config>
-<config key="Variable_11">
+<config key="Variable_12">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="ref-year"/>
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value="199[0-9]|200[0-9]|201[0-3]"/>
 </config>
-<config key="Variable_12">
+<config key="Variable_13">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="geo-scale"/>
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value="united-kingdom"/>
 </config>
-<config key="Variable_13">
+<config key="Variable_14">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="calibration"/>
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value="enabled"/>
 </config>
-<config key="Variable_14">
+<config key="Variable_15">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="user-path"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="arise-knime"/>
+</config>
+<config key="Variable_16">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="file-name"/>
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value="knime://LOCAL/arise-knime/data/united-kingdom/calibration/historical/ARISE_supply_food.xlsx"/>
 </config>
-<config key="Variable_15">
+<config key="Variable_17">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="file-name_location"/>
 <entry key="class" type="xstring" value="FSLocation"/>
@@ -104,13 +116,13 @@
 <entry key="file_system_specifier" type="xstring" value="1000"/>
 <entry key="path" type="xstring" value="knime://LOCAL/arise-knime/data/united-kingdom/calibration/historical/ARISE_supply_food.xlsx"/>
 </config>
-<config key="Variable_16">
+<config key="Variable_18">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="RowID"/>
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value="Row0"/>
 </config>
-<config key="Variable_17">
+<config key="Variable_19">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="cal-selection"/>
 <entry key="class" type="xstring" value="STRING"/>

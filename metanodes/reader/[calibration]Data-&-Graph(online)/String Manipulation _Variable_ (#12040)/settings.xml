@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="expression" type="xstring" value="string(&quot;knime://LOCAL/arise-knime/data/&quot;+$${Sgeo-scale}$$+&quot;/calibration/factors/ARISE_calibration-factors.xlsx&quot;)"/>
+<entry key="expression" type="xstring" value="string(&quot;knime://LOCAL/&quot;+$${Suser-path}$$+&quot;/data/&quot;+$${Sgeo-scale}$$+&quot;/calibration/factors/ARISE_calibration-factors.xlsx&quot;)"/>
 <entry key="replaced_column" type="xstring" value="calib-path"/>
 <entry key="append_column" type="xboolean" value="false"/>
 <entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>

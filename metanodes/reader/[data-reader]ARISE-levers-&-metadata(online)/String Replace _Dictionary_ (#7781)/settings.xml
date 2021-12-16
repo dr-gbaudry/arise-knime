@@ -7,8 +7,8 @@
 </config>
 <config key="model">
 <entry key="target_column" type="xstring" value="lever-id"/>
+<entry key="dictionary_location" type="xstring" value="knime://LOCAL/arise-knime/data/united-kingdom/power-bi/description/lever-dictionary.txt"/>
 <entry key="appended_column" type="xstring" value="Lever"/>
-<entry key="dictionary_location" type="xstring" value="knime://LOCAL/arise/knime-framework/data/united-kingdom/power-bi/description/lever-dictionary.txt"/>
 <entry key="delimiter_in_dict" type="xchar" value=":"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>

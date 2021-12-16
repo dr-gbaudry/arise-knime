@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="dir-name"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="emission"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tab-name"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="tag-description"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ref-year"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="199[0-9]|200[0-9]|201[0-7]"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="geo-scale"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="united-kingdom"/>
+</config>
+<config key="Variable_4">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="calibration"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="enabled"/>
+</config>
+<config key="Variable_5">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="user-path"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="arise-knime"/>
+</config>
+<config key="Variable_6">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="file-name"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="knime://LOCAL/arise-knime/data/united-kingdom/calibration/historical/ARISE_emission_livestock.xlsx"/>
+</config>
+<config key="Variable_7">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="file-name_location"/>
+<entry key="class" type="xstring" value="FSLocation"/>
+<entry key="location_present" type="xboolean" value="true"/>
+<entry key="file_system_type" type="xstring" value="CUSTOM_URL"/>
+<entry key="file_system_specifier" type="xstring" value="1000"/>
+<entry key="path" type="xstring" value="knime://LOCAL/arise-knime/data/united-kingdom/calibration/historical/ARISE_emission_livestock.xlsx"/>
+</config>
+<config key="Variable_8">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="RowID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Row0"/>
+</config>
+<config key="Variable_9">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="cal-selection"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Country|Years|dat_livestock-enteric-fermentation-ch4-emissions_other-animals\[t\]|dat_livestock-enteric-fermentation-ch4-emissions_pigs\[t\]|dat_livestock-enteric-fermentation-ch4-emissions_dairy-cattle\[t\]|dat_livestock-enteric-fermentation-ch4-emissions_non-dairy-cattle\[t\]|dat_livestock-manure-treated-n2o-emissions_other-animals\[t\]|dat_livestock-manure-treated-n2o-emissions_broilers-poultry\[t\]|dat_livestock-manure-treated-n2o-emissions_dairy-cattle\[t\]|dat_livestock-manure-treated-n2o-emissions_non-dairy-cattle\[t\]|dat_livestock-manure-treated-n2o-emissions_laying-poultry\[t\]|dat_livestock-manure-treated-n2o-emissions_pigs\[t\]|dat_livestock-manure-applied-to-soils-n2o-emissions_other-animals\[t\]|dat_livestock-manure-applied-to-soils-n2o-emissions_broilers-poultry\[t\]|dat_livestock-manure-applied-to-soils-n2o-emissions_dairy-cattle\[t\]|dat_livestock-manure-applied-to-soils-n2o-emissions_non-dairy-cattle\[t\]|dat_livestock-manure-applied-to-soils-n2o-emissions_laying-poultry\[t\]|dat_livestock-manure-applied-to-soils-n2o-emissions_pigs\[t\]|dat_livestock-manure-left-on-pasture-n2o-emissions_other-animals\[t\]|dat_livestock-manure-left-on-pasture-n2o-emissions_broilers-poultry\[t\]|dat_livestock-manure-left-on-pasture-n2o-emissions_dairy-cattle\[t\]|dat_livestock-manure-left-on-pasture-n2o-emissions_non-dairy-cattle\[t\]|dat_livestock-manure-left-on-pasture-n2o-emissions_laying-poultry\[t\]|dat_livestock-manure-left-on-pasture-n2o-emissions_pigs\[t\]|dat_livestock-manure-treated-ch4-emissions_other-animals\[t\]|dat_livestock-manure-treated-ch4-emissions_broilers-poultry\[t\]|dat_livestock-manure-treated-ch4-emissions_dairy-cattle\[t\]|dat_livestock-manure-treated-ch4-emissions_non-dairy-cattle\[t\]|dat_livestock-manure-treated-ch4-emissions_laying-poultry\[t\]|dat_livestock-manure-treated-ch4-emissions_pigs\[t\]|dat_livestock-enteric-fermentation-ch4-emissions_mutton-&amp;-goats\[t\]|dat_livestock-manure-treated-n2o-emissions_mutton-&amp;-goats\[t\]|dat_livestock-manure-applied-to-soils-n2o-emissions_mutton-&amp;-goats\[t\]|dat_livestock-manure-left-on-pasture-n2o-emissions_mutton-&amp;-goats\[t\]|dat_livestock-manure-treated-ch4-emissions_mutton-&amp;-goats\[t\]|dat_livestock-enteric-fermentation-ch4-emissions_dairy-mutton-&amp;-goats\[t\]|dat_livestock-manure-treated-n2o-emissions_dairy-mutton-&amp;-goats\[t\]|dat_livestock-manure-applied-to-soils-n2o-emissions_dairy-mutton-&amp;-goats\[t\]|dat_livestock-manure-left-on-pasture-n2o-emissions_dairy-mutton-&amp;-goats\[t\]|dat_livestock-manure-treated-ch4-emissions_dairy-mutton-&amp;-goats\[t\]"/>
+</config>
+<config key="Variable_10">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="dir-name"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="emission"/>
+</config>
+<config key="Variable_11">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="tab-name"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="tag-description"/>
+</config>
+<config key="Variable_12">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ref-year"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="199[0-9]|200[0-9]|201[0-7]"/>
+</config>
+<config key="Variable_13">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="geo-scale"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="united-kingdom"/>
+</config>
+<config key="Variable_14">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="calibration"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="enabled"/>
+</config>
+<config key="Variable_15">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="user-path"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="arise-knime"/>
+</config>
+<config key="Variable_16">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="file-name"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="knime://LOCAL/arise-knime/data/united-kingdom/calibration/historical/ARISE_emission_livestock.xlsx"/>
+</config>
+<config key="Variable_17">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="file-name_location"/>
+<entry key="class" type="xstring" value="FSLocation"/>
+<entry key="location_present" type="xboolean" value="true"/>
+<entry key="file_system_type" type="xstring" value="CUSTOM_URL"/>
+<entry key="file_system_specifier" type="xstring" value="1000"/>
+<entry key="path" type="xstring" value="knime://LOCAL/arise-knime/data/united-kingdom/calibration/historical/ARISE_emission_livestock.xlsx"/>
+</config>
+<config key="Variable_18">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="RowID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Row0"/>
+</config>
+<config key="Variable_19">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="cal-selection"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Country|Years|dat_livestock-enteric-fermentation-ch4-emissions_other-animals\[t\]|dat_livestock-enteric-fermentation-ch4-emissions_pigs\[t\]|dat_livestock-enteric-fermentation-ch4-emissions_dairy-cattle\[t\]|dat_livestock-enteric-fermentation-ch4-emissions_non-dairy-cattle\[t\]|dat_livestock-manure-treated-n2o-emissions_other-animals\[t\]|dat_livestock-manure-treated-n2o-emissions_broilers-poultry\[t\]|dat_livestock-manure-treated-n2o-emissions_dairy-cattle\[t\]|dat_livestock-manure-treated-n2o-emissions_non-dairy-cattle\[t\]|dat_livestock-manure-treated-n2o-emissions_laying-poultry\[t\]|dat_livestock-manure-treated-n2o-emissions_pigs\[t\]|dat_livestock-manure-applied-to-soils-n2o-emissions_other-animals\[t\]|dat_livestock-manure-applied-to-soils-n2o-emissions_broilers-poultry\[t\]|dat_livestock-manure-applied-to-soils-n2o-emissions_dairy-cattle\[t\]|dat_livestock-manure-applied-to-soils-n2o-emissions_non-dairy-cattle\[t\]|dat_livestock-manure-applied-to-soils-n2o-emissions_laying-poultry\[t\]|dat_livestock-manure-applied-to-soils-n2o-emissions_pigs\[t\]|dat_livestock-manure-left-on-pasture-n2o-emissions_other-animals\[t\]|dat_livestock-manure-left-on-pasture-n2o-emissions_broilers-poultry\[t\]|dat_livestock-manure-left-on-pasture-n2o-emissions_dairy-cattle\[t\]|dat_livestock-manure-left-on-pasture-n2o-emissions_non-dairy-cattle\[t\]|dat_livestock-manure-left-on-pasture-n2o-emissions_laying-poultry\[t\]|dat_livestock-manure-left-on-pasture-n2o-emissions_pigs\[t\]|dat_livestock-manure-treated-ch4-emissions_other-animals\[t\]|dat_livestock-manure-treated-ch4-emissions_broilers-poultry\[t\]|dat_livestock-manure-treated-ch4-emissions_dairy-cattle\[t\]|dat_livestock-manure-treated-ch4-emissions_non-dairy-cattle\[t\]|dat_livestock-manure-treated-ch4-emissions_laying-poultry\[t\]|dat_livestock-manure-treated-ch4-emissions_pigs\[t\]|dat_livestock-enteric-fermentation-ch4-emissions_mutton-&amp;-goats\[t\]|dat_livestock-manure-treated-n2o-emissions_mutton-&amp;-goats\[t\]|dat_livestock-manure-applied-to-soils-n2o-emissions_mutton-&amp;-goats\[t\]|dat_livestock-manure-left-on-pasture-n2o-emissions_mutton-&amp;-goats\[t\]|dat_livestock-manure-treated-ch4-emissions_mutton-&amp;-goats\[t\]|dat_livestock-enteric-fermentation-ch4-emissions_dairy-mutton-&amp;-goats\[t\]|dat_livestock-manure-treated-n2o-emissions_dairy-mutton-&amp;-goats\[t\]|dat_livestock-manure-applied-to-soils-n2o-emissions_dairy-mutton-&amp;-goats\[t\]|dat_livestock-manure-left-on-pasture-n2o-emissions_dairy-mutton-&amp;-goats\[t\]|dat_livestock-manure-treated-ch4-emissions_dairy-mutton-&amp;-goats\[t\]"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="variable-filter">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="449"/>
+<entry key="0" type="xstring" value="data-type"/>
+<entry key="1" type="xstring" value="table_name"/>
+<entry key="2" type="xstring" value="workspace_path"/>
+<entry key="3" type="xstring" value="datafolder"/>
+<entry key="4" type="xstring" value="mod_agr"/>
+<entry key="5" type="xstring" value="datafile-crop-yields"/>
+<entry key="6" type="xstring" value="datafile-land-multiuse"/>
+<entry key="7" type="xstring" value="datafile-land-deg"/>
+<entry key="8" type="xstring" value="datafile-livestock-intensive"/>
+<entry key="9" type="xstring" value="datafile-livestock-pasture"/>
+<entry key="10" type="xstring" value="datafile-bioenergy-yields"/>
+<entry key="11" type="xstring" value="datafile-bioenergy-bal-sol-liq"/>
+<entry key="12" type="xstring" value="datafile-lus-bal"/>
+<entry key="13" type="xstring" value="datafile-waste"/>
+<entry key="14" type="xstring" value="datafile-food-ss"/>
+<entry key="15" type="xstring" value="datafile-meat-ss"/>
+<entry key="16" type="xstring" value="datafile-cp"/>
+<entry key="17" type="xstring" value="datafile-meat-dd"/>
+<entry key="18" type="xstring" value="datafile-pop"/>
+<entry key="19" type="xstring" value="datafile-meat-split"/>
+<entry key="20" type="xstring" value="datafile-crop-dd"/>
+<entry key="21" type="xstring" value="datafile-crop-split"/>
+<entry key="22" type="xstring" value="datafile-l-multi-deg"/>
+<entry key="23" type="xstring" value="datafile-multi-crop-y"/>
+<entry key="24" type="xstring" value="ef_ghg_pasture[teqCO2/ha]"/>
+<entry key="25" type="xstring" value="ef_ghg_nat-grassland[teqCO2/ha]"/>
+<entry key="26" type="xstring" value="ef_ghg_non-food-crops[teqCO2/ha]"/>
+<entry key="27" type="xstring" value="ef_ghg_food-crops[teqCO2/ha]"/>
+<entry key="28" type="xstring" value="ef_ghg_energy-crops[teqCO2/ha]"/>
+<entry key="29" type="xstring" value="ef_ghg_deforestation[teqCO2/ha]"/>
+<entry key="30" type="xstring" value="ef_ghg_mature_forest[teqCO2/ha]"/>
+<entry key="31" type="xstring" value="ef_ghg_growing_forest[teqCO2/ha]"/>
+<entry key="32" type="xstring" value="ef_ghg_young_forest[teqCO2/ha]"/>
+<entry key="33" type="xstring" value="ef_ghg_unit[teqCO2/ha]"/>
+<entry key="34" type="xstring" value="ef_ghg_enteric_dairy-cows[teqCO2/animal]"/>
+<entry key="35" type="xstring" value="ef_ghg_enteric_sheep[teqCO2/animal]"/>
+<entry key="36" type="xstring" value="ef_ghg_enteric_bov[teqCO2/animal]"/>
+<entry key="37" type="xstring" value="ef_ghg_enteric_unit[teqCO2/animal]"/>
+<entry key="38" type="xstring" value="land-emission_unit[tC/ha]"/>
+<entry key="39" type="xstring" value="manure-split_pasture[%]"/>
+<entry key="40" type="xstring" value="manure-split_soil[%]"/>
+<entry key="41" type="xstring" value="manure-split_management[%]"/>
+<entry key="42" type="xstring" value="manure-split_unit[%]"/>
+<entry key="43" type="xstring" value="manure-emission_oth-animals-pasture[teqCO2]"/>
+<entry key="44" type="xstring" value="manure-emission_oth-animals-soil[teqCO2]"/>
+<entry key="45" type="xstring" value="manure-emission_oth-animals-management[teqCO2]"/>
+<entry key="46" type="xstring" value="manure-emission_pigs-pasture[teqCO2]"/>
+<entry key="47" type="xstring" value="manure-emission_pigs-soil[teqCO2]"/>
+<entry key="48" type="xstring" value="manure-emission_pigs-management[teqCO2]"/>
+<entry key="49" type="xstring" value="manure-emission_poultry-pasture[teqCO2]"/>
+<entry key="50" type="xstring" value="manure-emission_poultry-soil[teqCO2]"/>
+<entry key="51" type="xstring" value="manure-emission_poultry-management[teqCO2]"/>
+<entry key="52" type="xstring" value="manure-emission_sheep-pasture[teqCO2]"/>
+<entry key="53" type="xstring" value="manure-emission_sheep-soil[teqCO2]"/>
+<entry key="54" type="xstring" value="manure-emission_sheep-management[teqCO2]"/>
+<entry key="55" type="xstring" value="manure-emission_bov-pasture[teqCO2]"/>
+<entry key="56" type="xstring" value="manure-emission_bov-soil[teqCO2]"/>
+<entry key="57" type="xstring" value="manure-emission_bov-management[teqCO2]"/>
+<entry key="58" type="xstring" value="manure-emission_unit[teqCO2]"/>
+<entry key="59" type="xstring" value="manure_fertilizer-ratio[m3/an]"/>
+<entry key="60" type="xstring" value="manure_insect[m3/an]"/>
+<entry key="61" type="xstring" value="manure_oth-animals[m3/an]"/>
+<entry key="62" type="xstring" value="manure_poultry[m3/an]"/>
+<entry key="63" type="xstring" value="manure_egg[m3/an]"/>
+<entry key="64" type="xstring" value="manure_milk[m3/an]"/>
+<entry key="65" type="xstring" value="manure_bov[m3/an]"/>
+<entry key="66" type="xstring" value="manure_sheep[m3/an]"/>
+<entry key="67" type="xstring" value="manure_pigs[m3/an]"/>
+<entry key="68" type="xstring" value="manure_unit[m3/an]"/>
+<entry key="69" type="xstring" value="insect_fertilizer[#/#]"/>
+<entry key="70" type="xstring" value="insect_land-yield[#/#]"/>
+<entry key="71" type="xstring" value="insect_meal-yield[#/#]"/>
+<entry key="72" type="xstring" value="insect_kcal[#/#]"/>
+<entry key="73" type="xstring" value="insect_unit[#/#]"/>
+<entry key="74" type="xstring" value="fish_bp_oth-aq-animals_c3[kg/kcal]"/>
+<entry key="75" type="xstring" value="fish_bp_oth-aq-animals_c2[kg/kcal]"/>
+<entry key="76" type="xstring" value="fish_bp_oth-aq-animals_c1[kg/kcal]"/>
+<entry key="77" type="xstring" value="fish_bp_seafood_c3[kg/kcal]"/>
+<entry key="78" type="xstring" value="fish_bp_seafood_c2[kg/kcal]"/>
+<entry key="79" type="xstring" value="fish_bp_seafood_c1[kg/kcal]"/>
+<entry key="80" type="xstring" value="fish_bp_dfish_c3[kg/kcal]"/>
+<entry key="81" type="xstring" value="fish_bp_dfish_c2[kg/kcal]"/>
+<entry key="82" type="xstring" value="fish_bp_dfish_c1[kg/kcal]"/>
+<entry key="83" type="xstring" value="fish_bp_pfish_c3[kg/kcal]"/>
+<entry key="84" type="xstring" value="fish_bp_pfish_c2[kg/kcal]"/>
+<entry key="85" type="xstring" value="fish_bp_pfish_c1[kg/kcal]"/>
+<entry key="86" type="xstring" value="fish_bp_ffish_c3[kg/kcal]"/>
+<entry key="87" type="xstring" value="fish_bp_ffish_c2[kg/kcal]"/>
+<entry key="88" type="xstring" value="fish_bp_ffish_c1[kg/kcal]"/>
+<entry key="89" type="xstring" value="fish_bp_unit[kg/kcal]"/>
+<entry key="90" type="xstring" value="bio-1g_bp_cereals-sugar[t/t]"/>
+<entry key="91" type="xstring" value="bio-1g_bp_oilcrops-meal[t/t]"/>
+<entry key="92" type="xstring" value="bio-1g_bp_sugar-meal[t/t]"/>
+<entry key="93" type="xstring" value="bio-1g_bp_cereals-meal[t/t]"/>
+<entry key="94" type="xstring" value="bio-1g_bp_unit[t/t]"/>
+<entry key="95" type="xstring" value="eggs_eggs-org_shell[#/#]"/>
+<entry key="96" type="xstring" value="eggs_eggs-org_white[#/#]"/>
+<entry key="97" type="xstring" value="eggs_eggs-int_shell[#/#]"/>
+<entry key="98" type="xstring" value="eggs_eggs-int_white[#/#]"/>
+<entry key="99" type="xstring" value="eggs_hens-eggs[#/#]"/>
+<entry key="100" type="xstring" value="eggs_kcal[#/#]"/>
+<entry key="101" type="xstring" value="eggs_unit[#/#]"/>
+<entry key="102" type="xstring" value="carcass_bov-food[kcal/kcal]"/>
+<entry key="103" type="xstring" value="carcass_bov-bone[kcal/kcal]"/>
+<entry key="104" type="xstring" value="carcass_bov-blood[kcal/kcal]"/>
+<entry key="105" type="xstring" value="carcass_bov-afats[kcal/kcal]"/>
+<entry key="106" type="xstring" value="carcass_bov-pap[kcal/kcal]"/>
+<entry key="107" type="xstring" value="carcass_unit[kcal/kcal]"/>
+<entry key="108" type="xstring" value="meat_bp_milk-org_c3[kg/kcal]"/>
+<entry key="109" type="xstring" value="meat_bp_milk-org_c2[kg/kcal]"/>
+<entry key="110" type="xstring" value="meat_bp_milk-org_c1[kg/kcal]"/>
+<entry key="111" type="xstring" value="meat_bp_milk-int_c3[kg/kcal]"/>
+<entry key="112" type="xstring" value="meat_bp_milk-int_c2[kg/kcal]"/>
+<entry key="113" type="xstring" value="meat_bp_milk-int_c1[kg/kcal]"/>
+<entry key="114" type="xstring" value="meat_bp_poultry-org_c3[kg/kcal]"/>
+<entry key="115" type="xstring" value="meat_bp_poultry-org_c2[kg/kcal]"/>
+<entry key="116" type="xstring" value="meat_bp_poultry-org_c1[kg/kcal]"/>
+<entry key="117" type="xstring" value="meat_bp_poultry-int_c3[kg/kcal]"/>
+<entry key="118" type="xstring" value="meat_bp_poultry-int_c2[kg/kcal]"/>
+<entry key="119" type="xstring" value="meat_bp_poultry-int_c1[kg/kcal]"/>
+<entry key="120" type="xstring" value="meat_bp_oth-animals-org_c3[kg/kcal]"/>
+<entry key="121" type="xstring" value="meat_bp_oth-animals-org_c2[kg/kcal]"/>
+<entry key="122" type="xstring" value="meat_bp_oth-animals-org_c1[kg/kcal]"/>
+<entry key="123" type="xstring" value="meat_bp_oth-animals-int_c3[kg/kcal]"/>
+<entry key="124" type="xstring" value="meat_bp_oth-animals-int_c2[kg/kcal]"/>
+<entry key="125" type="xstring" value="meat_bp_oth-animals-int_c1[kg/kcal]"/>
+<entry key="126" type="xstring" value="meat_bp_bov-org_c3[kg/kcal]"/>
+<entry key="127" type="xstring" value="meat_bp_bov-org_c2[kg/kcal]"/>
+<entry key="128" type="xstring" value="meat_bp_bov-org_c1[kg/kcal]"/>
+<entry key="129" type="xstring" value="meat_bp_bov-int_c3[kg/kcal]"/>
+<entry key="130" type="xstring" value="meat_bp_bov-int_c2[kg/kcal]"/>
+<entry key="131" type="xstring" value="meat_bp_bov-int_c1[kg/kcal]"/>
+<entry key="132" type="xstring" value="meat_bp_sheep-org_c3[kg/kcal]"/>
+<entry key="133" type="xstring" value="meat_bp_sheep-org_c2[kg/kcal]"/>
+<entry key="134" type="xstring" value="meat_bp_sheep-org_c1[kg/kcal]"/>
+<entry key="135" type="xstring" value="meat_bp_sheep-int_c3[kg/kcal]"/>
+<entry key="136" type="xstring" value="meat_bp_sheep-int_c2[kg/kcal]"/>
+<entry key="137" type="xstring" value="meat_bp_sheep-int_c1[kg/kcal]"/>
+<entry key="138" type="xstring" value="meat_bp_pigs-org_c3[kg/kcal]"/>
+<entry key="139" type="xstring" value="meat_bp_pigs-org_c2[kg/kcal]"/>
+<entry key="140" type="xstring" value="meat_bp_pigs-org_c1[kg/kcal]"/>
+<entry key="141" type="xstring" value="meat_bp_pigs-int_c3[kg/kcal]"/>
+<entry key="142" type="xstring" value="meat_bp_pigs-int_c2[kg/kcal]"/>
+<entry key="143" type="xstring" value="meat_bp_pigs-int_c1[kg/kcal]"/>
+<entry key="144" type="xstring" value="meat_bp_unit[kg/kcal]"/>
+<entry key="145" type="xstring" value="cattle_oth-aq-animals[kcal/cap]"/>
+<entry key="146" type="xstring" value="cattle_seafood[kcal/cap]"/>
+<entry key="147" type="xstring" value="cattle_ffish[kcal/cap]"/>
+<entry key="148" type="xstring" value="cattle_dfish[kcal/cap]"/>
+<entry key="149" type="xstring" value="cattle_pfish[kcal/cap]"/>
+<entry key="150" type="xstring" value="cattle_oth-animals[kcal/cap]"/>
+<entry key="151" type="xstring" value="cattle_poultry[kcal/cap]"/>
+<entry key="152" type="xstring" value="cattle_eggs[kcal/cap]"/>
+<entry key="153" type="xstring" value="cattle_milk[kcal/cap]"/>
+<entry key="154" type="xstring" value="cattle_bov[kcal/cap]"/>
+<entry key="155" type="xstring" value="cattle_sheep[kcal/cap]"/>
+<entry key="156" type="xstring" value="cattle_pigs[kcal/cap]"/>
+<entry key="157" type="xstring" value="cattle_unit[kcal/cap]"/>
+<entry key="158" type="xstring" value="energy_fruits-org[kWh/kcal]"/>
+<entry key="159" type="xstring" value="energy_fruits-int[kWh/kcal]"/>
+<entry key="160" type="xstring" value="energy_veg-org[kWh/kcal]"/>
+<entry key="161" type="xstring" value="energy_veg-int[kWh/kcal]"/>
+<entry key="162" type="xstring" value="energy_sugar-org[kWh/kcal]"/>
+<entry key="163" type="xstring" value="energy_sugar-int[kWh/kcal]"/>
+<entry key="164" type="xstring" value="energy_starch-org[kWh/kcal]"/>
+<entry key="165" type="xstring" value="energy_starch-int[kWh/kcal]"/>
+<entry key="166" type="xstring" value="energy_pulses-org[kWh/kcal]"/>
+<entry key="167" type="xstring" value="energy_pulses-int[kWh/kcal]"/>
+<entry key="168" type="xstring" value="energy_oilcrops-org[kWh/kcal]"/>
+<entry key="169" type="xstring" value="energy_oilcrops-int[kWh/kcal]"/>
+<entry key="170" type="xstring" value="energy_cereals-org[kWh/kcal]"/>
+<entry key="171" type="xstring" value="energy_cereals-int[kWh/kcal]"/>
+<entry key="172" type="xstring" value="energy_eggs-org[kWh/kcal]"/>
+<entry key="173" type="xstring" value="energy_eggs-int[kWh/kcal]"/>
+<entry key="174" type="xstring" value="energy_poultry-org[kWh/kcal]"/>
+<entry key="175" type="xstring" value="energy_poultry-int[kWh/kcal]"/>
+<entry key="176" type="xstring" value="energy_oth-animals-org[kWh/kcal]"/>
+<entry key="177" type="xstring" value="energy_oth-animals-int[kWh/kcal]"/>
+<entry key="178" type="xstring" value="energy_pigs-org[kWh/kcal]"/>
+<entry key="179" type="xstring" value="energy_pigs-int[kWh/kcal]"/>
+<entry key="180" type="xstring" value="energy_sheep-org[kWh/kcal]"/>
+<entry key="181" type="xstring" value="energy_sheep-int[kWh/kcal]"/>
+<entry key="182" type="xstring" value="energy_milk-org[kWh/kcal]"/>
+<entry key="183" type="xstring" value="energy_milk-int[kWh/kcal]"/>
+<entry key="184" type="xstring" value="energy_bov-org[kWh/kcal]"/>
+<entry key="185" type="xstring" value="energy_bov-int[kWh/kcal]"/>
+<entry key="186" type="xstring" value="energy_unit[kWh/kcal]"/>
+<entry key="187" type="xstring" value="fertilizer_veg[kg/ha]"/>
+<entry key="188" type="xstring" value="fertilizer_fruits[kg/ha]"/>
+<entry key="189" type="xstring" value="fertilizer_sugar[kg/ha]"/>
+<entry key="190" type="xstring" value="fertilizer_starch[kg/ha]"/>
+<entry key="191" type="xstring" value="fertilizer_pulses[kg/ha]"/>
+<entry key="192" type="xstring" value="fertilizer_oilcrops[kg/ha]"/>
+<entry key="193" type="xstring" value="fertilizer_cereals[kg/ha]"/>
+<entry key="194" type="xstring" value="fertilizer_unit[kg/ha]"/>
+<entry key="195" type="xstring" value="lime_crop3_crop-muse[t/ha]"/>
+<entry key="196" type="xstring" value="lime_crop2_crop-muse[t/ha]"/>
+<entry key="197" type="xstring" value="lime_crop1_crop-muse[t/ha]"/>
+<entry key="198" type="xstring" value="lime_crop3_crop-org[t/ha]"/>
+<entry key="199" type="xstring" value="lime_crop2_crop-org[t/ha]"/>
+<entry key="200" type="xstring" value="lime_crop1_crop-org[t/ha]"/>
+<entry key="201" type="xstring" value="lime_crop3_crop-int[t/ha]"/>
+<entry key="202" type="xstring" value="lime_crop2_crop-int[t/ha]"/>
+<entry key="203" type="xstring" value="lime_crop1_crop-int[t/ha]"/>
+<entry key="204" type="xstring" value="lime_oth-animals[t/ha]"/>
+<entry key="205" type="xstring" value="lime_pigs[t/ha]"/>
+<entry key="206" type="xstring" value="lime_sheep[t/ha]"/>
+<entry key="207" type="xstring" value="lime_poultry[t/ha]"/>
+<entry key="208" type="xstring" value="lime_bov[t/ha]"/>
+<entry key="209" type="xstring" value="lime_unit[t/ha]"/>
+<entry key="210" type="xstring" value="ghg_oth-animals_liv-org[teqCO2/ha]"/>
+<entry key="211" type="xstring" value="ghg_oth-animals_liv-int[teqCO2/ha]"/>
+<entry key="212" type="xstring" value="ghg_pigs_liv-org[teqCO2/ha]"/>
+<entry key="213" type="xstring" value="ghg_pigs_liv-int[teqCO2/ha]"/>
+<entry key="214" type="xstring" value="ghg_poultry_liv-org[teqCO2/ha]"/>
+<entry key="215" type="xstring" value="ghg_poultry_liv-int[teqCO2/ha]"/>
+<entry key="216" type="xstring" value="ghg_sheep_liv-org[teqCO2/ha]"/>
+<entry key="217" type="xstring" value="ghg_sheep_liv-int[teqCO2/ha]"/>
+<entry key="218" type="xstring" value="ghg_bov_liv-org[teqCO2/ha]"/>
+<entry key="219" type="xstring" value="ghg_bov_liv-int[teqCO2/ha]"/>
+<entry key="220" type="xstring" value="ghg_unit[teqCO2/ha]"/>
+<entry key="221" type="xstring" value="direct-ghg_crop3[teqCO2/kcal]"/>
+<entry key="222" type="xstring" value="direct-ghg_crop2[teqCO2/kcal]"/>
+<entry key="223" type="xstring" value="direct-ghg_crop1[teqCO2/kcal]"/>
+<entry key="224" type="xstring" value="direct-ghg_oth-animals[teqCO2/kcal]"/>
+<entry key="225" type="xstring" value="direct-ghg_pigs[teqCO2/kcal]"/>
+<entry key="226" type="xstring" value="direct-ghg_sheep[teqCO2/kcal]"/>
+<entry key="227" type="xstring" value="direct-ghg_poultry[teqCO2/kcal]"/>
+<entry key="228" type="xstring" value="direct-ghg_bov[teqCO2/kcal]"/>
+<entry key="229" type="xstring" value="direct-ghg_unit[teqCO2/kcal]"/>
+<entry key="230" type="xstring" value="fcr_oth-animals_liv-org[kcal/kcal]"/>
+<entry key="231" type="xstring" value="fcr_oth-animals_liv-int[kcal/kcal]"/>
+<entry key="232" type="xstring" value="fcr_pigs_liv-org[kcal/kcal]"/>
+<entry key="233" type="xstring" value="fcr_pigs_liv-int[kcal/kcal]"/>
+<entry key="234" type="xstring" value="fcr_poultry_liv-org[kcal/kcal]"/>
+<entry key="235" type="xstring" value="fcr_poultry_liv-int[kcal/kcal]"/>
+<entry key="236" type="xstring" value="fcr_sheep_liv-org[kcal/kcal]"/>
+<entry key="237" type="xstring" value="fcr_sheep_liv-int[kcal/kcal]"/>
+<entry key="238" type="xstring" value="fcr_bov_liv-org[kcal/kcal]"/>
+<entry key="239" type="xstring" value="fcr_bov_liv-int[kcal/kcal]"/>
+<entry key="240" type="xstring" value="fcr_unit[kcal/kcal]"/>
+<entry key="241" type="xstring" value="bio-yields_nat_oilcrops-int[t/t]"/>
+<entry key="242" type="xstring" value="bio-yields_nat_sugar-int[t/t]"/>
+<entry key="243" type="xstring" value="bio-yields_nat_cereals-int[t/t]"/>
+<entry key="244" type="xstring" value="bio-yields_unit[t/t]"/>
+<entry key="245" type="xstring" value="crop-yields_feed_oth[%]"/>
+<entry key="246" type="xstring" value="crop-yields_feed_insect[%]"/>
+<entry key="247" type="xstring" value="crop-yields_feed_algae[%]"/>
+<entry key="248" type="xstring" value="crop-yields_feed_grains[%]"/>
+<entry key="249" type="xstring" value="crop-yields_feed_cereals[%]"/>
+<entry key="250" type="xstring" value="crop-yields_oth-alc[%]"/>
+<entry key="251" type="xstring" value="crop-yields_beer[%]"/>
+<entry key="252" type="xstring" value="crop-yields_wine[%]"/>
+<entry key="253" type="xstring" value="crop-yields_cocoa[%]"/>
+<entry key="254" type="xstring" value="crop-yields_coffee[%]"/>
+<entry key="255" type="xstring" value="crop-yields_tea[%]"/>
+<entry key="256" type="xstring" value="crop-yields_oth-aq-animals[%]"/>
+<entry key="257" type="xstring" value="crop-yields_seafood[%]"/>
+<entry key="258" type="xstring" value="crop-yields_ffish[%]"/>
+<entry key="259" type="xstring" value="crop-yields_dfish[%]"/>
+<entry key="260" type="xstring" value="crop-yields_pfish[%]"/>
+<entry key="261" type="xstring" value="crop-yields_offal[%]"/>
+<entry key="262" type="xstring" value="crop-yields_egg[%]"/>
+<entry key="263" type="xstring" value="crop-yields_milk[%]"/>
+<entry key="264" type="xstring" value="crop-yields_oth-animals[%]"/>
+<entry key="265" type="xstring" value="crop-yields_poultry[%]"/>
+<entry key="266" type="xstring" value="crop-yields_pigs[%]"/>
+<entry key="267" type="xstring" value="crop-yields_sheep[%]"/>
+<entry key="268" type="xstring" value="crop-yields_bov[%]"/>
+<entry key="269" type="xstring" value="crop-yields_fruits[%]"/>
+<entry key="270" type="xstring" value="crop-yields_veg[%]"/>
+<entry key="271" type="xstring" value="crop-yields_sugar[%]"/>
+<entry key="272" type="xstring" value="crop-yields_starch[%]"/>
+<entry key="273" type="xstring" value="crop-yields_pulses[%]"/>
+<entry key="274" type="xstring" value="crop-yields_oilcrops[%]"/>
+<entry key="275" type="xstring" value="crop-yields_cereals[%]"/>
+<entry key="276" type="xstring" value="crop-yields_unit[%]"/>
+<entry key="277" type="xstring" value="self-suff_feed_oth[%]"/>
+<entry key="278" type="xstring" value="self-suff_feed_insect[%]"/>
+<entry key="279" type="xstring" value="self-suff_feed_algae[%]"/>
+<entry key="280" type="xstring" value="self-suff_feed_grains[%]"/>
+<entry key="281" type="xstring" value="self-suff_feed_cereals[%]"/>
+<entry key="282" type="xstring" value="self-suff_bev-fer[%]"/>
+<entry key="283" type="xstring" value="self-suff_bev-alc[%]"/>
+<entry key="284" type="xstring" value="self-suff_beer[%]"/>
+<entry key="285" type="xstring" value="self-suff_wine[%]"/>
+<entry key="286" type="xstring" value="self-suff_stm[%]"/>
+<entry key="287" type="xstring" value="self-suff_coffee[%]"/>
+<entry key="288" type="xstring" value="self-suff_tea[%]"/>
+<entry key="289" type="xstring" value="self-suff_oth-aq-animals[%]"/>
+<entry key="290" type="xstring" value="self-suff_seafood[%]"/>
+<entry key="291" type="xstring" value="self-suff_ffish[%]"/>
+<entry key="292" type="xstring" value="self-suff_dfish[%]"/>
+<entry key="293" type="xstring" value="self-suff_pfish[%]"/>
+<entry key="294" type="xstring" value="self-suff_offal[%]"/>
+<entry key="295" type="xstring" value="self-suff_egg[%]"/>
+<entry key="296" type="xstring" value="self-suff_milk[%]"/>
+<entry key="297" type="xstring" value="self-suff_oth-animals[%]"/>
+<entry key="298" type="xstring" value="self-suff_poultry[%]"/>
+<entry key="299" type="xstring" value="self-suff_pigs[%]"/>
+<entry key="300" type="xstring" value="self-suff_sheep[%]"/>
+<entry key="301" type="xstring" value="self-suff_bov[%]"/>
+<entry key="302" type="xstring" value="self-suff_fruits[%]"/>
+<entry key="303" type="xstring" value="self-suff_veg[%]"/>
+<entry key="304" type="xstring" value="self-suff_voil[%]"/>
+<entry key="305" type="xstring" value="self-suff_sugar[%]"/>
+<entry key="306" type="xstring" value="self-suff_sweet[%]"/>
+<entry key="307" type="xstring" value="self-suff_starch[%]"/>
+<entry key="308" type="xstring" value="self-suff_pulses[%]"/>
+<entry key="309" type="xstring" value="self-suff_oilcrops[%]"/>
+<entry key="310" type="xstring" value="self-suff_grains[%]"/>
+<entry key="311" type="xstring" value="self-suff_cereals[%]"/>
+<entry key="312" type="xstring" value="self-suff_unit[%]"/>
+<entry key="313" type="xstring" value="bev-yield_alc.1[kcal/l]"/>
+<entry key="314" type="xstring" value="bev-yield_fer[kcal/l]"/>
+<entry key="315" type="xstring" value="bev-yield_alc[kcal/l]"/>
+<entry key="316" type="xstring" value="bev-yield_beer[kcal/l]"/>
+<entry key="317" type="xstring" value="bev-yield_wine[kcal/l]"/>
+<entry key="318" type="xstring" value="bev-yield_unit[kcal/l]"/>
+<entry key="319" type="xstring" value="bev_bp_fruits-alc[kg/l]"/>
+<entry key="320" type="xstring" value="bev_bp_m-cereal-meal[kg/l]"/>
+<entry key="321" type="xstring" value="bev_bp_malt-cereal[kg/l]"/>
+<entry key="322" type="xstring" value="bev_bp_malt-fer[kg/l]"/>
+<entry key="323" type="xstring" value="bev_bp_malt-beer[kg/l]"/>
+<entry key="324" type="xstring" value="bev_bp_yeast[kg/l]"/>
+<entry key="325" type="xstring" value="bev_bp_cereal-meal[kg/l]"/>
+<entry key="326" type="xstring" value="bev_bp_lees[kg/l]"/>
+<entry key="327" type="xstring" value="bev_bp_grape-marc[kg/l]"/>
+<entry key="328" type="xstring" value="bev_bp_unit[kg/l]"/>
+<entry key="329" type="xstring" value="bev_oth-alc[%]"/>
+<entry key="330" type="xstring" value="bev_beer[%]"/>
+<entry key="331" type="xstring" value="bev_wine[%]"/>
+<entry key="332" type="xstring" value="bev_soda[%]"/>
+<entry key="333" type="xstring" value="bev_fruit-drinks[%]"/>
+<entry key="334" type="xstring" value="bev_tea[%]"/>
+<entry key="335" type="xstring" value="bev_coffee[%]"/>
+<entry key="336" type="xstring" value="bev_unit[%]"/>
+<entry key="337" type="xstring" value="bsm_yield_timber-wood[tonnes/tonnes]"/>
+<entry key="338" type="xstring" value="bsm_yield_starch-cereals[tonnes/tonnes]"/>
+<entry key="339" type="xstring" value="bsm_yield_starch-starch[tonnes/tonnes]"/>
+<entry key="340" type="xstring" value="bsm_yield_fibres-miscanthus[tonnes/tonnes]"/>
+<entry key="341" type="xstring" value="bsm_yield_fibres-pulp[tonnes/tonnes]"/>
+<entry key="342" type="xstring" value="bsm_yield_fibres-hemp[tonnes/tonnes]"/>
+<entry key="343" type="xstring" value="bsm_yield_oil-microalgae[tonnes/tonnes]"/>
+<entry key="344" type="xstring" value="bsm_yield_oil-oilcrops[tonnes/tonnes]"/>
+<entry key="345" type="xstring" value="bsm_yield_alcohol-cereals[tonnes/tonnes]"/>
+<entry key="346" type="xstring" value="bsm_yield_alcohol-sugar[tonnes/tonnes]"/>
+<entry key="347" type="xstring" value="bsm_yield_unit[tonnes/tonnes]"/>
+<entry key="348" type="xstring" value="bsm_bp_woody-manuf-res[tonnes/tonnes]"/>
+<entry key="349" type="xstring" value="bsm_bp_woody-biomass[tonnes/tonnes]"/>
+<entry key="350" type="xstring" value="bsm_bp_microalgae-meal[tonnes/tonnes]"/>
+<entry key="351" type="xstring" value="bsm_bp_oilcrops-meal[tonnes/tonnes]"/>
+<entry key="352" type="xstring" value="bsm_bp_cereals-meal[tonnes/tonnes]"/>
+<entry key="353" type="xstring" value="bsm_bp_sugar-meal[tonnes/tonnes]"/>
+<entry key="354" type="xstring" value="bsm_bp_unit[tonnes/tonnes]"/>
+<entry key="355" type="xstring" value="liquid_biomaterial_oth[%]"/>
+<entry key="356" type="xstring" value="liquid_biomaterial_oil[%]"/>
+<entry key="357" type="xstring" value="liquid_biomaterial_alcohol[%]"/>
+<entry key="358" type="xstring" value="liquid_biomaterial_unit[%]"/>
+<entry key="359" type="xstring" value="solid_biomaterial_oth[%]"/>
+<entry key="360" type="xstring" value="solid_biomaterial_starch[%]"/>
+<entry key="361" type="xstring" value="solid_biomaterial_fibers[%]"/>
+<entry key="362" type="xstring" value="solid_biomaterial_pulp[%]"/>
+<entry key="363" type="xstring" value="solid_biomaterial_timber[%]"/>
+<entry key="364" type="xstring" value="solid_biomaterial_unit[%]"/>
+<entry key="365" type="xstring" value="solid_bioenergy_firewood[%]"/>
+<entry key="366" type="xstring" value="solid_bioenergy_agro-pellets[%]"/>
+<entry key="367" type="xstring" value="solid_bioenergy_woody-biomass[%]"/>
+<entry key="368" type="xstring" value="solid_bioenergy_unit[%]"/>
+<entry key="369" type="xstring" value="liquid_biofuel_biodiesel[%]"/>
+<entry key="370" type="xstring" value="liquid_biofuel_ethanol[%]"/>
+<entry key="371" type="xstring" value="liquid_biofuel_unit[%]"/>
+<entry key="372" type="xstring" value="ag-residues-yields_sugar[t/t]"/>
+<entry key="373" type="xstring" value="ag-residues-yields_starch[t/t]"/>
+<entry key="374" type="xstring" value="ag-residues-yields_pulses[t/t]"/>
+<entry key="375" type="xstring" value="ag-residues-yields_oilcrops[t/t]"/>
+<entry key="376" type="xstring" value="ag-residues-yields_cereals[t/t]"/>
+<entry key="377" type="xstring" value="ag-residues-yields_unit[t/t]"/>
+<entry key="378" type="xstring" value="energy-split_oth-animals-enr[%]"/>
+<entry key="379" type="xstring" value="energy-split_oth-animals-gas[%]"/>
+<entry key="380" type="xstring" value="energy-split_oth-animals-petrol[%]"/>
+<entry key="381" type="xstring" value="energy-split_oth-animals-diesel[%]"/>
+<entry key="382" type="xstring" value="energy-split_oth-animals-agr-diesel[%]"/>
+<entry key="383" type="xstring" value="energy-split_oth-animals-elec[%]"/>
+<entry key="384" type="xstring" value="energy-split_eggs-enr[%]"/>
+<entry key="385" type="xstring" value="energy-split_eggs-gas[%]"/>
+<entry key="386" type="xstring" value="energy-split_eggs-petrol[%]"/>
+<entry key="387" type="xstring" value="energy-split_eggs-diesel[%]"/>
+<entry key="388" type="xstring" value="energy-split_eggs-agr-diesel[%]"/>
+<entry key="389" type="xstring" value="energy-split_eggs-elec[%]"/>
+<entry key="390" type="xstring" value="energy-split_milk-enr[%]"/>
+<entry key="391" type="xstring" value="energy-split_milk-gas[%]"/>
+<entry key="392" type="xstring" value="energy-split_milk-petrol[%]"/>
+<entry key="393" type="xstring" value="energy-split_milk-diesel[%]"/>
+<entry key="394" type="xstring" value="energy-split_milk-agr-diesel[%]"/>
+<entry key="395" type="xstring" value="energy-split_milk-elec[%]"/>
+<entry key="396" type="xstring" value="energy-split_wine-enr[%]"/>
+<entry key="397" type="xstring" value="energy-split_wine-gas[%]"/>
+<entry key="398" type="xstring" value="energy-split_wine-petrol[%]"/>
+<entry key="399" type="xstring" value="energy-split_wine-diesel[%]"/>
+<entry key="400" type="xstring" value="energy-split_wine-agr-diesel[%]"/>
+<entry key="401" type="xstring" value="energy-split_wine-elec[%]"/>
+<entry key="402" type="xstring" value="energy-split_fruits-enr[%]"/>
+<entry key="403" type="xstring" value="energy-split_fruits-gas[%]"/>
+<entry key="404" type="xstring" value="energy-split_fruits-petrol[%]"/>
+<entry key="405" type="xstring" value="energy-split_fruits-diesel[%]"/>
+<entry key="406" type="xstring" value="energy-split_fruits-agr-diesel[%]"/>
+<entry key="407" type="xstring" value="energy-split_fruits-elec[%]"/>
+<entry key="408" type="xstring" value="energy-split_veg-enr[%]"/>
+<entry key="409" type="xstring" value="energy-split_veg-gas[%]"/>
+<entry key="410" type="xstring" value="energy-split_veg-petrol[%]"/>
+<entry key="411" type="xstring" value="energy-split_veg-diesel[%]"/>
+<entry key="412" type="xstring" value="energy-split_veg-agr-diesel[%]"/>
+<entry key="413" type="xstring" value="energy-split_veg-elec[%]"/>
+<entry key="414" type="xstring" value="energy-split_crops-enr[%]"/>
+<entry key="415" type="xstring" value="energy-split_crops-gas[%]"/>
+<entry key="416" type="xstring" value="energy-split_crops-petrol[%]"/>
+<entry key="417" type="xstring" value="energy-split_crops-diesel[%]"/>
+<entry key="418" type="xstring" value="energy-split_crops-agr-diesel[%]"/>
+<entry key="419" type="xstring" value="energy-split_crops-elec[%]"/>
+<entry key="420" type="xstring" value="energy-split_poultry-enr[%]"/>
+<entry key="421" type="xstring" value="energy-split_poultry-gas[%]"/>
+<entry key="422" type="xstring" value="energy-split_poultry-petrol[%]"/>
+<entry key="423" type="xstring" value="energy-split_poultry-diesel[%]"/>
+<entry key="424" type="xstring" value="energy-split_poultry-agr-diesel[%]"/>
+<entry key="425" type="xstring" value="energy-split_poultry-elec[%]"/>
+<entry key="426" type="xstring" value="energy-split_pigs-enr[%]"/>
+<entry key="427" type="xstring" value="energy-split_pigs-gas[%]"/>
+<entry key="428" type="xstring" value="energy-split_pigs-petrol[%]"/>
+<entry key="429" type="xstring" value="energy-split_pigs-diesel[%]"/>
+<entry key="430" type="xstring" value="energy-split_pigs-agr-diesel[%]"/>
+<entry key="431" type="xstring" value="energy-split_pigs-elec[%]"/>
+<entry key="432" type="xstring" value="energy-split_sheep-enr[%]"/>
+<entry key="433" type="xstring" value="energy-split_sheep-gas[%]"/>
+<entry key="434" type="xstring" value="energy-split_sheep-petrol[%]"/>
+<entry key="435" type="xstring" value="energy-split_sheep-diesel[%]"/>
+<entry key="436" type="xstring" value="energy-split_sheep-agr-diesel[%]"/>
+<entry key="437" type="xstring" value="energy-split_sheep-elec[%]"/>
+<entry key="438" type="xstring" value="energy-split_bov-enr[%]"/>
+<entry key="439" type="xstring" value="energy-split_bov-gas[%]"/>
+<entry key="440" type="xstring" value="energy-split_bov-petrol[%]"/>
+<entry key="441" type="xstring" value="energy-split_bov-diesel[%]"/>
+<entry key="442" type="xstring" value="energy-split_bov-agr-diesel[%]"/>
+<entry key="443" type="xstring" value="energy-split_bov-elec[%]"/>
+<entry key="444" type="xstring" value="energy-split_unit[%]"/>
+<entry key="445" type="xstring" value="mod_tri"/>
+<entry key="446" type="xstring" value="name"/>
+<entry key="447" type="xstring" value="baseyear"/>
+<entry key="448" type="xstring" value="country_filter"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=".*"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+</config>
+<entry key="variable-prefix" type="xstring" isnull="true" value=""/>
+<config key="port-names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Port 1"/>
+</config>
+<config key="port-descriptions">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value=""/>
+</config>
+<entry key="sub-node-description" type="xstring" value="Executes an operation in parallel on all branches of a tree. This is done by combining a first group of columns with a second group of columns, executing the operation on pairs of columns."/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory"/>
+<entry key="node-name" type="xstring" value="Component Input"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Core API"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.core"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.3.3.v202105242123"/>
+<entry key="node-feature-name" type="xstring" value="KNIME AP Core feature"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.core.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.3.3.v202105242123"/>
+<config key="factory_settings">
+<config key="port_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<entry key="name" type="xstring" value="Component Input"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

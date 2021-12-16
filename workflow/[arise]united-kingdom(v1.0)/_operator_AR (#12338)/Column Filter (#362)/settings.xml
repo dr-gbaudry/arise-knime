@@ -14,6 +14,12 @@
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value=""/>
 </config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="var-filter"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="dat_lulucf-carbon-stock_cropland[tC],dat_lulucf-carbon-stock_meadows-and-pastures[tC],dat_lulucf-carbon-stock_forest-land[tC],dat_lulucf-carbon-stock_wetland[tC],dat_lulucf-carbon-stock_artificial-land[tC],dat_lulucf-carbon-stock_other-land[tC]"/>
+</config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>

@@ -20,6 +20,24 @@
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value="enabled"/>
 </config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="geo-scale"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="united-kingdom"/>
+</config>
+<config key="Variable_4">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="calibration"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="enabled"/>
+</config>
+<config key="Variable_5">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="debug-mode"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="enabled"/>
+</config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
@@ -478,7 +496,7 @@
 <entry key="sub-node-description" type="xstring" value=""/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="isDeletable" type="xboolean" value="false"/>
 <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory"/>
 <entry key="node-name" type="xstring" value="Component Input"/>
