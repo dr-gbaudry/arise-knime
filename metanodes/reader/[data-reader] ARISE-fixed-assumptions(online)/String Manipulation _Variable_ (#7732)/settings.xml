@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="expression" type="xstring" value="string(&quot;knime://LOCAL/arise-knime/data/&quot;+$${Sgeo-scale}$$+&quot;/fixed-assumptions/all&quot;)"/>
+<entry key="expression" type="xstring" value="string(&quot;knime://LOCAL/&quot;+$${Suser-path}$$+&quot;/data/&quot;+$${Sgeo-scale}$$+&quot;/fixed-assumptions/all&quot;)"/>
 <entry key="replaced_column" type="xstring" value="path"/>
 <entry key="append_column" type="xboolean" value="false"/>
 <entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
@@ -17,7 +17,7 @@
 <entry key="state" type="xstring" value="IDLE"/>
 <config key="nodecontainer_message">
 <entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="No such variable &quot;geo-scale&quot; of type STRING"/>
+<entry key="message" type="xstring" value="No such variable &quot;user-path&quot; of type STRING"/>
 </config>
 <entry key="factory" type="xstring" value="org.knime.base.node.preproc.stringmanipulation.variable.StringManipulationVariableNodeFactory"/>
 <entry key="node-name" type="xstring" value="String Manipulation (Variable)"/>

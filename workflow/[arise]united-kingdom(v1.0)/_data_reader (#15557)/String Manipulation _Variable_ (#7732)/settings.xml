@@ -13,7 +13,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="expression" type="xstring" value="string(&quot;knime://LOCAL/arise-knime/data/&quot;+$${Sgeo-scale}$$+&quot;/fixed-assumptions/all&quot;)"/>
+<entry key="expression" type="xstring" value="string(&quot;knime://LOCAL/&quot;+$${Suser-path}$$+&quot;/data/&quot;+$${Sgeo-scale}$$+&quot;/fixed-assumptions/all&quot;)"/>
 <entry key="replaced_column" type="xstring" value="path"/>
 <entry key="append_column" type="xboolean" value="false"/>
 <entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
@@ -49,6 +49,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="56cfcd99-2090-4b51-a38f-7fcad2e77338"/>
+<entry key="file_store_id" type="xstring" value="a133e6ba-e457-44c5-b399-593a49ee979d"/>
 </config>
 </config>

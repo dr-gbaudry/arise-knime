@@ -54,7 +54,7 @@
 <entry key="sub-node-description" type="xstring" value="The node computes the gap between the model and the actual historical data. Calibration factors are then applied for the future time series. Calibration node can be enabled or disabled in the workflow variable portal (right click on the workflow)"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="isDeletable" type="xboolean" value="false"/>
 <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory"/>
 <entry key="node-name" type="xstring" value="Component Input"/>

@@ -12,14 +12,15 @@
 <entry key="array-size" type="xint" value="0"/>
 </config>
 <config key="excluded_names">
-<entry key="array-size" type="xint" value="3"/>
-<entry key="0" type="xstring" value="debug-mode"/>
-<entry key="1" type="xstring" value="calibration"/>
-<entry key="2" type="xstring" value="geo-scale"/>
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="user-path"/>
+<entry key="1" type="xstring" value="debug-mode"/>
+<entry key="2" type="xstring" value="calibration"/>
+<entry key="3" type="xstring" value="geo-scale"/>
 </config>
 <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
 <config key="name_pattern">
-<entry key="pattern" type="xstring" value="mda|geo-scale"/>
+<entry key="pattern" type="xstring" value="mda|geo-scale|user-path"/>
 <entry key="type" type="xstring" value="Regex"/>
 <entry key="caseSensitive" type="xboolean" value="true"/>
 </config>

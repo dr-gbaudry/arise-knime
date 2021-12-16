@@ -20,24 +20,6 @@
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value="enabled"/>
 </config>
-<config key="Variable_3">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="geo-scale"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="united-kingdom"/>
-</config>
-<config key="Variable_4">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="calibration"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="enabled"/>
-</config>
-<config key="Variable_5">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="debug-mode"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="enabled"/>
-</config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
@@ -496,7 +478,7 @@
 <entry key="sub-node-description" type="xstring" value=""/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <entry key="isDeletable" type="xboolean" value="false"/>
 <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory"/>
 <entry key="node-name" type="xstring" value="Component Input"/>
@@ -517,19 +499,16 @@
 </config>
 </config>
 <entry key="name" type="xstring" value="Component Input"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 122, Cols: 1649"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="b3a26884-86c9-41a4-83eb-e6cc5e821bdb"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

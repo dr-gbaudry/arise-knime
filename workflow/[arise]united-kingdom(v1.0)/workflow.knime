@@ -8,7 +8,7 @@
 <entry key="authored-by" type="xstring" value="Dr Gino Baudry"/>
 <entry key="authored-when" type="xstring" value="2021-08-23 15:15:51 +0200"/>
 <entry key="lastEdited-by" type="xstring" value="Dr Gino Baudry"/>
-<entry key="lastEdited-when" type="xstring" value="2021-12-16 10:23:11 +0100"/>
+<entry key="lastEdited-when" type="xstring" value="2021-12-16 13:01:32 +0100"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="IDLE"/>
@@ -27,6 +27,11 @@
 <entry key="name" type="xstring" value="debug-mode"/>
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value="enabled"/>
+</config>
+<config key="Var_3">
+<entry key="name" type="xstring" value="user-path"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="arise-knime"/>
 </config>
 </config>
 <config key="workflow_credentials"/>
