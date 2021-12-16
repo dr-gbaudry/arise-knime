@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="expression" type="xstring" value="string(&quot;knime://LOCAL/online/arise/data/&quot;+$${Sgeo-scale}$$+&quot;/fixed-assumptions/all&quot;)"/>
+<entry key="expression" type="xstring" value="string(&quot;knime://LOCAL/arise-knime/data/&quot;+$${Sgeo-scale}$$+&quot;/fixed-assumptions/all&quot;)"/>
 <entry key="replaced_column" type="xstring" value="path"/>
 <entry key="append_column" type="xboolean" value="false"/>
 <entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>

@@ -6,14 +6,14 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="path"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="knime://LOCAL/online/arise/data/united-kingdom/fixed-assumptions/all"/>
+<entry key="value" type="xstring" value="knime://LOCAL/arise-knime/data/united-kingdom/fixed-assumptions/all"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="expression" type="xstring" value="string(&quot;knime://LOCAL/online/arise/data/&quot;+$${Sgeo-scale}$$+&quot;/fixed-assumptions/all&quot;)"/>
+<entry key="expression" type="xstring" value="string(&quot;knime://LOCAL/arise-knime/data/&quot;+$${Sgeo-scale}$$+&quot;/fixed-assumptions/all&quot;)"/>
 <entry key="replaced_column" type="xstring" value="path"/>
 <entry key="append_column" type="xboolean" value="false"/>
 <entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
@@ -49,6 +49,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="8b33bc62-ff0f-4c3b-88f1-f7cb043ff82b"/>
+<entry key="file_store_id" type="xstring" value="56cfcd99-2090-4b51-a38f-7fcad2e77338"/>
 </config>
 </config>
