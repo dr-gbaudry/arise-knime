@@ -1,140 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
 <entry key="node_file" type="xstring" value="settings.xml"/>
-<config key="flow_stack">
-<config key="Variable_0">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="splitter_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_crop-residues-above-ground_(.*)\[dmt\]|dat_n-content-above-ground_(.*)\[tn/t\]"/>
-</config>
-<config key="Variable_1">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_name_start"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_gross-n-content-above-ground-residues"/>
-</config>
-<config key="Variable_2">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="index_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_crop-residues-above-ground_(.*)\[dmt\]"/>
-</config>
-<config key="Variable_3">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-regex-filter"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value=".*"/>
-</config>
-<config key="Variable_4">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-remove"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_5">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Product"/>
-</config>
-<config key="Variable_6">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_7">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="unit_var"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="tn"/>
-</config>
-<config key="Variable_8">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_n-content-above-ground_(.*)\[tn/t\]"/>
-</config>
-<config key="Variable_9">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="columns_used"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_crop-residues-above-ground_paddy-rice[dmt],dat_n-content-above-ground_paddy-rice[tn/t],dat_crop-residues-above-ground_coffee-and-products[dmt],dat_n-content-above-ground_coffee-and-products[tn/t],dat_crop-residues-above-ground_cocoa-beans-and-products[dmt],dat_n-content-above-ground_cocoa-beans-and-products[tn/t],dat_crop-residues-above-ground_tea-including-mate[dmt],dat_n-content-above-ground_tea-including-mate[tn/t],dat_crop-residues-above-ground_tobacco[dmt],dat_n-content-above-ground_tobacco[tn/t],dat_crop-residues-above-ground_rubber[dmt],dat_n-content-above-ground_rubber[tn/t],dat_crop-residues-above-ground_fibre-crops[dmt],dat_n-content-above-ground_fibre-crops[tn/t],dat_crop-residues-above-ground_wheat-and-products[dmt],dat_n-content-above-ground_wheat-and-products[tn/t],dat_crop-residues-above-ground_barley-and-products[dmt],dat_n-content-above-ground_barley-and-products[tn/t],dat_crop-residues-above-ground_maize-and-products[dmt],dat_n-content-above-ground_maize-and-products[tn/t],dat_crop-residues-above-ground_rye-and-products[dmt],dat_n-content-above-ground_rye-and-products[tn/t],dat_crop-residues-above-ground_cereal-others[dmt],dat_n-content-above-ground_cereal-others[tn/t],dat_crop-residues-above-ground_rape-and-mustardseed[dmt],dat_n-content-above-ground_rape-and-mustardseed[tn/t],dat_crop-residues-above-ground_sunflower-seed[dmt],dat_n-content-above-ground_sunflower-seed[tn/t],dat_crop-residues-above-ground_soyabeans[dmt],dat_n-content-above-ground_soyabeans[tn/t],dat_crop-residues-above-ground_palm[dmt],dat_n-content-above-ground_palm[tn/t],dat_crop-residues-above-ground_oilcrop-others[dmt],dat_n-content-above-ground_oilcrop-others[tn/t],dat_crop-residues-above-ground_olives-including-preserved[dmt],dat_n-content-above-ground_olives-including-preserved[tn/t],dat_crop-residues-above-ground_fruits-excluding-wine[dmt],dat_n-content-above-ground_fruits-excluding-wine[tn/t],dat_crop-residues-above-ground_vegetables[dmt],dat_n-content-above-ground_vegetables[tn/t],dat_crop-residues-above-ground_starchy-roots[dmt],dat_n-content-above-ground_starchy-roots[tn/t],dat_crop-residues-above-ground_pulses[dmt],dat_n-content-above-ground_pulses[tn/t],dat_crop-residues-above-ground_sugar-crops[dmt],dat_n-content-above-ground_sugar-crops[tn/t],"/>
-</config>
-<config key="Variable_10">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_column_list"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_gross-n-content-above-ground-residues_paddy-rice[tn],dat_gross-n-content-above-ground-residues_coffee-and-products[tn],dat_gross-n-content-above-ground-residues_cocoa-beans-and-products[tn],dat_gross-n-content-above-ground-residues_tea-including-mate[tn],dat_gross-n-content-above-ground-residues_tobacco[tn],dat_gross-n-content-above-ground-residues_rubber[tn],dat_gross-n-content-above-ground-residues_fibre-crops[tn],dat_gross-n-content-above-ground-residues_wheat-and-products[tn],dat_gross-n-content-above-ground-residues_barley-and-products[tn],dat_gross-n-content-above-ground-residues_maize-and-products[tn],dat_gross-n-content-above-ground-residues_rye-and-products[tn],dat_gross-n-content-above-ground-residues_cereal-others[tn],dat_gross-n-content-above-ground-residues_rape-and-mustardseed[tn],dat_gross-n-content-above-ground-residues_sunflower-seed[tn],dat_gross-n-content-above-ground-residues_soyabeans[tn],dat_gross-n-content-above-ground-residues_palm[tn],dat_gross-n-content-above-ground-residues_oilcrop-others[tn],dat_gross-n-content-above-ground-residues_olives-including-preserved[tn],dat_gross-n-content-above-ground-residues_fruits-excluding-wine[tn],dat_gross-n-content-above-ground-residues_vegetables[tn],dat_gross-n-content-above-ground-residues_starchy-roots[tn],dat_gross-n-content-above-ground-residues_pulses[tn],dat_gross-n-content-above-ground-residues_sugar-crops[tn],"/>
-</config>
-<config key="Variable_11">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="splitter_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_crop-residues-above-ground_(.*)\[dmt\]|dat_n-content-above-ground_(.*)\[tn/t\]"/>
-</config>
-<config key="Variable_12">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_name_start"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_gross-n-content-above-ground-residues"/>
-</config>
-<config key="Variable_13">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="index_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_crop-residues-above-ground_(.*)\[dmt\]"/>
-</config>
-<config key="Variable_14">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-regex-filter"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value=".*"/>
-</config>
-<config key="Variable_15">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-remove"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_16">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Product"/>
-</config>
-<config key="Variable_17">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_18">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="unit_var"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="tn"/>
-</config>
-<config key="Variable_19">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_n-content-above-ground_(.*)\[tn/t\]"/>
-</config>
-<config key="Variable_20">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="columns_used"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_crop-residues-above-ground_paddy-rice[dmt],dat_n-content-above-ground_paddy-rice[tn/t],dat_crop-residues-above-ground_coffee-and-products[dmt],dat_n-content-above-ground_coffee-and-products[tn/t],dat_crop-residues-above-ground_cocoa-beans-and-products[dmt],dat_n-content-above-ground_cocoa-beans-and-products[tn/t],dat_crop-residues-above-ground_tea-including-mate[dmt],dat_n-content-above-ground_tea-including-mate[tn/t],dat_crop-residues-above-ground_tobacco[dmt],dat_n-content-above-ground_tobacco[tn/t],dat_crop-residues-above-ground_rubber[dmt],dat_n-content-above-ground_rubber[tn/t],dat_crop-residues-above-ground_fibre-crops[dmt],dat_n-content-above-ground_fibre-crops[tn/t],dat_crop-residues-above-ground_wheat-and-products[dmt],dat_n-content-above-ground_wheat-and-products[tn/t],dat_crop-residues-above-ground_barley-and-products[dmt],dat_n-content-above-ground_barley-and-products[tn/t],dat_crop-residues-above-ground_maize-and-products[dmt],dat_n-content-above-ground_maize-and-products[tn/t],dat_crop-residues-above-ground_rye-and-products[dmt],dat_n-content-above-ground_rye-and-products[tn/t],dat_crop-residues-above-ground_cereal-others[dmt],dat_n-content-above-ground_cereal-others[tn/t],dat_crop-residues-above-ground_rape-and-mustardseed[dmt],dat_n-content-above-ground_rape-and-mustardseed[tn/t],dat_crop-residues-above-ground_sunflower-seed[dmt],dat_n-content-above-ground_sunflower-seed[tn/t],dat_crop-residues-above-ground_soyabeans[dmt],dat_n-content-above-ground_soyabeans[tn/t],dat_crop-residues-above-ground_palm[dmt],dat_n-content-above-ground_palm[tn/t],dat_crop-residues-above-ground_oilcrop-others[dmt],dat_n-content-above-ground_oilcrop-others[tn/t],dat_crop-residues-above-ground_olives-including-preserved[dmt],dat_n-content-above-ground_olives-including-preserved[tn/t],dat_crop-residues-above-ground_fruits-excluding-wine[dmt],dat_n-content-above-ground_fruits-excluding-wine[tn/t],dat_crop-residues-above-ground_vegetables[dmt],dat_n-content-above-ground_vegetables[tn/t],dat_crop-residues-above-ground_starchy-roots[dmt],dat_n-content-above-ground_starchy-roots[tn/t],dat_crop-residues-above-ground_pulses[dmt],dat_n-content-above-ground_pulses[tn/t],dat_crop-residues-above-ground_sugar-crops[dmt],dat_n-content-above-ground_sugar-crops[tn/t],"/>
-</config>
-<config key="Variable_21">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_column_list"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_gross-n-content-above-ground-residues_paddy-rice[tn],dat_gross-n-content-above-ground-residues_coffee-and-products[tn],dat_gross-n-content-above-ground-residues_cocoa-beans-and-products[tn],dat_gross-n-content-above-ground-residues_tea-including-mate[tn],dat_gross-n-content-above-ground-residues_tobacco[tn],dat_gross-n-content-above-ground-residues_rubber[tn],dat_gross-n-content-above-ground-residues_fibre-crops[tn],dat_gross-n-content-above-ground-residues_wheat-and-products[tn],dat_gross-n-content-above-ground-residues_barley-and-products[tn],dat_gross-n-content-above-ground-residues_maize-and-products[tn],dat_gross-n-content-above-ground-residues_rye-and-products[tn],dat_gross-n-content-above-ground-residues_cereal-others[tn],dat_gross-n-content-above-ground-residues_rape-and-mustardseed[tn],dat_gross-n-content-above-ground-residues_sunflower-seed[tn],dat_gross-n-content-above-ground-residues_soyabeans[tn],dat_gross-n-content-above-ground-residues_palm[tn],dat_gross-n-content-above-ground-residues_oilcrop-others[tn],dat_gross-n-content-above-ground-residues_olives-including-preserved[tn],dat_gross-n-content-above-ground-residues_fruits-excluding-wine[tn],dat_gross-n-content-above-ground-residues_vegetables[tn],dat_gross-n-content-above-ground-residues_starchy-roots[tn],dat_gross-n-content-above-ground-residues_pulses[tn],dat_gross-n-content-above-ground-residues_sugar-crops[tn],"/>
-</config>
-</config>
+<config key="flow_stack"/>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
@@ -155,7 +22,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="workflow-file" type="xstring" value="workflow.knime"/>
 <entry key="virtual-in-ID" type="xint" value="598"/>
 <config key="inports">

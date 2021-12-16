@@ -6,14 +6,14 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="dico-url"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="knime://LOCAL/arise/knime-framework/data/united-kingdom/power-bi/description/lever-dictionary.txt"/>
+<entry key="value" type="xstring" value="knime://LOCAL/arise-knime/data/united-kingdom/power-bi/description/lever-dictionary.txt"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="expression" type="xstring" value="string(&quot;knime://LOCAL/arise/knime-framework/data/united-kingdom/power-bi/description/lever-dictionary.txt&quot;)"/>
+<entry key="expression" type="xstring" value="string(&quot;knime://LOCAL/arise-knime/data/united-kingdom/power-bi/description/lever-dictionary.txt&quot;)"/>
 <entry key="replaced_column" type="xstring" value="dico-url"/>
 <entry key="append_column" type="xboolean" value="false"/>
 <entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
@@ -49,6 +49,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="c512b2ec-a488-49c2-bcba-13d832af6d50"/>
+<entry key="file_store_id" type="xstring" value="b72786b0-5043-41d9-84ee-44a274c435a8"/>
 </config>
 </config>

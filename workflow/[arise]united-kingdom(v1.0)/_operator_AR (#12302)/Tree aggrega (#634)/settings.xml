@@ -1,140 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
 <entry key="node_file" type="xstring" value="settings.xml"/>
-<config key="flow_stack">
-<config key="Variable_0">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="splitter_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_x-to-land-transition-matrix_(.*)-to-wetland\[%\]|dat_previous-year-unfccc-based-area_wetland\[ha\]"/>
-</config>
-<config key="Variable_1">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_name_start"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_transition-matrix-x-to-wetland"/>
-</config>
-<config key="Variable_2">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="index_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_x-to-land-transition-matrix_(.*)-to-wetland\[%\]"/>
-</config>
-<config key="Variable_3">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-regex-filter"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value=".*"/>
-</config>
-<config key="Variable_4">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-remove"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_5">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Product"/>
-</config>
-<config key="Variable_6">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_7">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="unit_var"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ha"/>
-</config>
-<config key="Variable_8">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_previous-year-unfccc-based-area_wetland\[ha\]"/>
-</config>
-<config key="Variable_9">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="columns_used"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_x-to-land-transition-matrix_cropland-to-wetland[%],dat_previous-year-unfccc-based-area_wetland[ha],dat_x-to-land-transition-matrix_forest-land-to-wetland[%],dat_previous-year-unfccc-based-area_wetland[ha],dat_x-to-land-transition-matrix_meadows-and-pastures-to-wetland[%],dat_previous-year-unfccc-based-area_wetland[ha],"/>
-</config>
-<config key="Variable_10">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_column_list"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_transition-matrix-x-to-wetland_cropland[ha],dat_transition-matrix-x-to-wetland_forest-land[ha],dat_transition-matrix-x-to-wetland_meadows-and-pastures[ha],"/>
-</config>
-<config key="Variable_11">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="splitter_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_x-to-land-transition-matrix_(.*)-to-wetland\[%\]|dat_previous-year-unfccc-based-area_wetland\[ha\]"/>
-</config>
-<config key="Variable_12">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_name_start"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_transition-matrix-x-to-wetland"/>
-</config>
-<config key="Variable_13">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="index_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_x-to-land-transition-matrix_(.*)-to-wetland\[%\]"/>
-</config>
-<config key="Variable_14">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-regex-filter"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value=".*"/>
-</config>
-<config key="Variable_15">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation-remove"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_16">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Product"/>
-</config>
-<config key="Variable_17">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_method (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_18">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="unit_var"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ha"/>
-</config>
-<config key="Variable_19">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="aggregation_pattern"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_previous-year-unfccc-based-area_wetland\[ha\]"/>
-</config>
-<config key="Variable_20">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="columns_used"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_x-to-land-transition-matrix_cropland-to-wetland[%],dat_previous-year-unfccc-based-area_wetland[ha],dat_x-to-land-transition-matrix_forest-land-to-wetland[%],dat_previous-year-unfccc-based-area_wetland[ha],dat_x-to-land-transition-matrix_meadows-and-pastures-to-wetland[%],dat_previous-year-unfccc-based-area_wetland[ha],"/>
-</config>
-<config key="Variable_21">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new_column_list"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_transition-matrix-x-to-wetland_cropland[ha],dat_transition-matrix-x-to-wetland_forest-land[ha],dat_transition-matrix-x-to-wetland_meadows-and-pastures[ha],"/>
-</config>
-</config>
+<config key="flow_stack"/>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
@@ -155,7 +22,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="workflow-file" type="xstring" value="workflow.knime"/>
 <entry key="virtual-in-ID" type="xint" value="598"/>
 <config key="inports">

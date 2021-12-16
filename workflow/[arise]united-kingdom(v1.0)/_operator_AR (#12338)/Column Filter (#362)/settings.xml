@@ -14,12 +14,6 @@
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value=""/>
 </config>
-<config key="Variable_2">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="var-filter"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_lulucf-carbon-stock_cropland[tC],dat_lulucf-carbon-stock_meadows-and-pastures[tC],dat_lulucf-carbon-stock_forest-land[tC],dat_lulucf-carbon-stock_wetland[tC],dat_lulucf-carbon-stock_artificial-land[tC],dat_lulucf-carbon-stock_other-land[tC]"/>
-</config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
@@ -115,7 +109,7 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="factory" type="xstring" value="org.knime.js.base.node.quickform.filter.column.ColumnFilterQuickFormNodeFactory"/>
 <entry key="node-name" type="xstring" value="Column Filter"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
@@ -128,29 +122,16 @@
 <entry key="node-feature-version" type="xstring" value="4.3.3.v202105242123"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Column Filter"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 122, Cols: 6"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
-</config>
-</config>
-<config key="internalObjects">
-<entry key="location" type="xstring" value="internalTables"/>
-<config key="content">
-<config key="object_0">
-<entry key="index" type="xint" value="0"/>
-<entry key="type" type="xstring" value="table"/>
-<entry key="table_dir_location" type="xstring" value="object_0"/>
-</config>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="2173aa3d-cf10-4776-baa5-c0d115d59fb0"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

@@ -3193,10 +3193,6 @@
 </config>
 <entry key="customDescription" type="xstring" value="Execute an operation on a group of columns, applying a mathematical operation between each of these columns and a fixed column."/>
 <entry key="state" type="xstring" value="IDLE"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="Tree aggregator (Java) 0:15410:0:634: Component Input 0:15410:0:634:0:598: Component does not have input data, execute upstream nodes first"/>
-</config>
 <entry key="workflow-file" type="xstring" value="workflow.knime"/>
 <entry key="virtual-in-ID" type="xint" value="442"/>
 <config key="inports">

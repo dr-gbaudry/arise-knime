@@ -6,14 +6,14 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="directory"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="knime://LOCAL/arise/knime-framework/data/united-kingdom/dictionary/feed-byproducts.txt"/>
+<entry key="value" type="xstring" value="knime://LOCAL/arise-knime/data/united-kingdom/dictionary/feed-byproducts.txt"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="expression" type="xstring" value="string(&quot;knime://LOCAL/arise/knime-framework/data/&quot;+$${Sgeo-scale}$$+&quot;/dictionary/&quot;+$${Sdico}$$+&quot;.txt&quot;)"/>
+<entry key="expression" type="xstring" value="string(&quot;knime://LOCAL/arise-knime/data/&quot;+$${Sgeo-scale}$$+&quot;/dictionary/&quot;+$${Sdico}$$+&quot;.txt&quot;)"/>
 <entry key="replaced_column" type="xstring" value="directory"/>
 <entry key="append_column" type="xboolean" value="false"/>
 <entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
@@ -63,6 +63,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="87924590-9155-4d35-a915-a82d067397b5"/>
+<entry key="file_store_id" type="xstring" value="b114f37d-6d6f-4ee7-8104-25cd891401fc"/>
 </config>
 </config>

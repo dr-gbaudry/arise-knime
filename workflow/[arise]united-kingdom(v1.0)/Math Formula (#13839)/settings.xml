@@ -43,7 +43,7 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="factory" type="xstring" value="org.knime.ext.jep.JEPNodeFactory"/>
 <entry key="node-name" type="xstring" value="Math Formula"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Math Expression Node"/>
@@ -56,19 +56,16 @@
 <entry key="node-feature-version" type="xstring" value="4.3.0.v202011191509"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Math Formula"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 122, Cols: 3201"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="bf596c73-8227-4a77-8abe-2bb3e95788dc"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

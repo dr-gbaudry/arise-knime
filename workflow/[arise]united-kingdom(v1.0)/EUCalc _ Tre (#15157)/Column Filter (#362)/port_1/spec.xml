@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
 <entry key="spec_name" type="xstring" value="default"/>
-<entry key="number_columns" type="xint" value="169"/>
+<entry key="number_columns" type="xint" value="164"/>
 <config key="column_spec_0">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-processed-plant-eq_palm[t]"/>
 <config key="element_names">
@@ -28,7 +28,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_1">
-<entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-processed-plant-eq_rape-and-mustardseed[t]"/>
+<entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-processed-plant-eq_rape-and-mustard[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -53,7 +53,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_2">
-<entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-processed-plant-eq_soyabeans[t]"/>
+<entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-processed-plant-eq_soyabean[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -78,7 +78,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_3">
-<entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-processed-plant-eq_sunflower-seed[t]"/>
+<entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-processed-plant-eq_sunflowerseed[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -103,7 +103,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_4">
-<entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-processed-plant-eq_cake-others[t]"/>
+<entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-processed-plant-eq_cake[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -128,7 +128,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_5">
-<entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-processed-plant-eq_vegetable-oil-others[t]"/>
+<entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-processed-plant-eq_vegetable-oil[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -164,7 +164,7 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="159591.4436970382"/>
+<entry key="DoubleCell" type="xdouble" value="158454.54848643247"/>
 </config>
 </config>
 <config key="upper_bound">
@@ -214,13 +214,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="734715.3668101269"/>
+<entry key="DoubleCell" type="xdouble" value="736920.7679948286"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="9116318.399999999"/>
+<entry key="DoubleCell" type="xdouble" value="9326076.276722165"/>
 </config>
 </config>
 </config>
@@ -245,7 +245,7 @@
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="320853.912816264"/>
+<entry key="DoubleCell" type="xdouble" value="308292.17138644704"/>
 </config>
 </config>
 </config>
@@ -270,7 +270,7 @@
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="3436829.3462192565"/>
+<entry key="DoubleCell" type="xdouble" value="2596568.0285271527"/>
 </config>
 </config>
 </config>
@@ -320,7 +320,7 @@
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="6277179.089845022"/>
+<entry key="DoubleCell" type="xdouble" value="6031421.4491070025"/>
 </config>
 </config>
 </config>
@@ -3053,131 +3053,6 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_122">
-<entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-processed-plant-eq_rape-and-mustard[t]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1068299.9056595422"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="4.179467033890749E7"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_123">
-<entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-processed-plant-eq_soyabean[t]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="396223.9197288641"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="2.5291932017643366E7"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_124">
-<entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-processed-plant-eq_sunflowerseed[t]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.0"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="8580289.919608045"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_125">
-<entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-processed-plant-eq_cake[t]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.0"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="2290438.333333334"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_126">
-<entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-processed-plant-eq_vegetable-oil[t]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.0"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="7.185028074123359E7"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_127">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_barley-and-products[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3189,7 +3064,7 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="4056.9563162872832"/>
+<entry key="DoubleCell" type="xdouble" value="4062.508992702327"/>
 </config>
 </config>
 <config key="upper_bound">
@@ -3202,7 +3077,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_128">
+<config key="column_spec_123">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_beer[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3227,7 +3102,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_129">
+<config key="column_spec_124">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_beverages-alcoholic[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3252,7 +3127,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_130">
+<config key="column_spec_125">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_beverages-fermented[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3277,7 +3152,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_131">
+<config key="column_spec_126">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_cake-others[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3302,7 +3177,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_132">
+<config key="column_spec_127">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_cereal-others[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3320,14 +3195,14 @@
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1026740.0427396158"/>
+<entry key="DoubleCell" type="xdouble" value="1025942.5561476763"/>
 </config>
 </config>
 </config>
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_133">
+<config key="column_spec_128">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_cocoa-beans-and-products[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3352,7 +3227,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_134">
+<config key="column_spec_129">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_coffee-and-products[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3377,7 +3252,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_135">
+<config key="column_spec_130">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_fibre-crops[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3402,7 +3277,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_136">
+<config key="column_spec_131">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_fruits-excluding-wine[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3427,7 +3302,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_137">
+<config key="column_spec_132">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_maize-and-products[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3452,7 +3327,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_138">
+<config key="column_spec_133">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_molasses[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3477,7 +3352,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_139">
+<config key="column_spec_134">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_nuts-and-products[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3502,7 +3377,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_140">
+<config key="column_spec_135">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_oilcrop-others[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3527,7 +3402,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_141">
+<config key="column_spec_136">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_olive-oil[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3552,7 +3427,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_142">
+<config key="column_spec_137">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_olives-including-preserved[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3577,7 +3452,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_143">
+<config key="column_spec_138">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_paddy-rice[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3602,7 +3477,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_144">
+<config key="column_spec_139">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_palm-cake[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3627,7 +3502,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_145">
+<config key="column_spec_140">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_palm-oil[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3652,7 +3527,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_146">
+<config key="column_spec_141">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_palm[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3677,7 +3552,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_147">
+<config key="column_spec_142">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_pulses[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3702,7 +3577,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_148">
+<config key="column_spec_143">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_rape-and-mustard-cake[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3727,7 +3602,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_149">
+<config key="column_spec_144">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_rape-and-mustard-oil[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3752,7 +3627,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_150">
+<config key="column_spec_145">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_rape-and-mustardseed[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3770,14 +3645,14 @@
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1936791.2018107339"/>
+<entry key="DoubleCell" type="xdouble" value="67763.26102246535"/>
 </config>
 </config>
 </config>
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_151">
+<config key="column_spec_146">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_rice-milled-equivalent[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3802,7 +3677,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_152">
+<config key="column_spec_147">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_rubber[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3827,7 +3702,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_153">
+<config key="column_spec_148">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_rye-and-products[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3852,7 +3727,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_154">
+<config key="column_spec_149">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_soyabean-cake[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3877,7 +3752,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_155">
+<config key="column_spec_150">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_soyabean-oil[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3902,7 +3777,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_156">
+<config key="column_spec_151">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_soyabeans[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3920,14 +3795,14 @@
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="312079.3268156203"/>
+<entry key="DoubleCell" type="xdouble" value="75178.96812045517"/>
 </config>
 </config>
 </config>
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_157">
+<config key="column_spec_152">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_starchy-roots[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3952,7 +3827,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_158">
+<config key="column_spec_153">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_sugar-&amp;-sweeteners[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3977,7 +3852,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_159">
+<config key="column_spec_154">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_sugar-crops[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -3995,14 +3870,14 @@
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="5767612.581637165"/>
+<entry key="DoubleCell" type="xdouble" value="5363574.594623587"/>
 </config>
 </config>
 </config>
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_160">
+<config key="column_spec_155">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_sunflower-seed[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -4020,14 +3895,14 @@
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="307826.9491317429"/>
+<entry key="DoubleCell" type="xdouble" value="31880.148940833955"/>
 </config>
 </config>
 </config>
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_161">
+<config key="column_spec_156">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_sunflowerseed-cake[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -4052,7 +3927,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_162">
+<config key="column_spec_157">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_sunflowerseed-oil[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -4077,7 +3952,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_163">
+<config key="column_spec_158">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_tea-including-mate[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -4102,7 +3977,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_164">
+<config key="column_spec_159">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_tobacco[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -4127,7 +4002,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_165">
+<config key="column_spec_160">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_vegetable-oil-others[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -4152,7 +4027,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_166">
+<config key="column_spec_161">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_vegetables[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -4177,7 +4052,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_167">
+<config key="column_spec_162">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_wheat-and-products[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -4202,7 +4077,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_168">
+<config key="column_spec_163">
 <entry key="column_name" type="xstring" value="dat_domestic-crop-supply-per-use-distribution-losses_wine[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
