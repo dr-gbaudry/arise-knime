@@ -6,7 +6,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="var-filter"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_agricultural-practices_intercropping-cover-crop-legumes[%],dat_agricultural-practices_intercropping-cover-crop-nitrogen-content[tn/t],dat_agricultural-practices_intercropping-cover-crop-yields[t/ha]"/>
+<entry key="value" type="xstring" value="dat_agricultural-practices_intercropping-cover-crop-legumes[%],dat_agricultural-practices_intercropping-cover-crop-nitrogen-content[tn/t],dat_agricultural-practices_intercropping-cover-crop-yields[t/ha],dat_nitrogen-imports-intercroping_spring-crops-area[ha]"/>
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
@@ -18,7 +18,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="var-filter"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_agricultural-practices_intercropping-cover-crop-legumes[%],dat_agricultural-practices_intercropping-cover-crop-nitrogen-content[tn/t],dat_agricultural-practices_intercropping-cover-crop-yields[t/ha]"/>
+<entry key="value" type="xstring" value="dat_agricultural-practices_intercropping-cover-crop-legumes[%],dat_agricultural-practices_intercropping-cover-crop-nitrogen-content[tn/t],dat_agricultural-practices_intercropping-cover-crop-yields[t/ha],dat_nitrogen-imports-intercroping_spring-crops-area[ha]"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -135,7 +135,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 122, Cols: 3"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 122, Cols: 4"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
@@ -151,6 +151,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="474697e3-584b-4fde-9c24-d52a5106fd5f"/>
+<entry key="file_store_id" type="xstring" value="abdba7ef-c1e6-4d3e-b5f1-e434bb593d3c"/>
 </config>
 </config>

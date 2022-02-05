@@ -179,28 +179,6 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_8">
-<entry key="column_name" type="xstring" value="dat_animals-being-slaughtered_dairy-cattle[lsu]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_animals-being-slaughtered_dairy-cattle[lsu]"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_9">
 <entry key="column_name" type="xstring" value="dat_animals-being-slaughtered_bovine-meat[lsu]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -222,8 +200,8 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_10">
-<entry key="column_name" type="xstring" value="dat_animals-being-slaughtered_mutton-&amp;-goat-meat[lsu]"/>
+<config key="column_spec_9">
+<entry key="column_name" type="xstring" value="dat_animals-being-slaughtered_dairy-cattle[lsu]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -236,7 +214,29 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_animals-being-slaughtered_mutton-&amp;-goat-meat[lsu]"/>
+<entry key="StringCell" type="xstring" value="dat_animals-being-slaughtered_dairy-cattle[lsu]"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_10">
+<entry key="column_name" type="xstring" value="dat_animals-being-slaughtered_poultry-meat[lsu]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="dat_animals-being-slaughtered_poultry-meat[lsu]"/>
 </config>
 </config>
 </config>
@@ -267,7 +267,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_12">
-<entry key="column_name" type="xstring" value="dat_animals-being-slaughtered_poultry-meat[lsu]"/>
+<entry key="column_name" type="xstring" value="dat_animals-being-slaughtered_mutton-&amp;-goat-meat[lsu]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -280,7 +280,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_animals-being-slaughtered_poultry-meat[lsu]"/>
+<entry key="StringCell" type="xstring" value="dat_animals-being-slaughtered_mutton-&amp;-goat-meat[lsu]"/>
 </config>
 </config>
 </config>
@@ -289,7 +289,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_13">
-<entry key="column_name" type="xstring" value="dat_animals-being-slaughtered_meat-other[lsu]"/>
+<entry key="column_name" type="xstring" value="dat_animals-being-slaughtered_eggs[lsu]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -302,7 +302,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_animals-being-slaughtered_meat-other[lsu]"/>
+<entry key="StringCell" type="xstring" value="dat_animals-being-slaughtered_eggs[lsu]"/>
 </config>
 </config>
 </config>
@@ -333,7 +333,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_15">
-<entry key="column_name" type="xstring" value="dat_animals-being-slaughtered_eggs[lsu]"/>
+<entry key="column_name" type="xstring" value="dat_animals-being-slaughtered_meat-other[lsu]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -346,7 +346,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_animals-being-slaughtered_eggs[lsu]"/>
+<entry key="StringCell" type="xstring" value="dat_animals-being-slaughtered_meat-other[lsu]"/>
 </config>
 </config>
 </config>

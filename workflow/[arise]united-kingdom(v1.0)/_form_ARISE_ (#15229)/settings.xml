@@ -6,36 +6,33 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_international-trends_climate_climate-shifter[-]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Hybrid RCP 6.0-8.5 "/>
+<entry key="value" type="xstring" value="1. Hybrid RCP 2.6-4.5 "/>
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_international-trends_climate_climate-shifter[-] (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
+<entry key="value" type="xint" value="0"/>
 </config>
 <config key="Variable_2">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_international-trends_climate_climate-shifter[-]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Hybrid RCP 6.0-8.5 "/>
+<entry key="value" type="xstring" value="1. Hybrid RCP 2.6-4.5 "/>
 </config>
 <config key="Variable_3">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_international-trends_climate_climate-shifter[-] (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
+<entry key="value" type="xint" value="0"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="lifestyles-tobacco-7484">
-<entry key="variable_value" type="xstring" value="2. FAO-2050:Business as usual"/>
-</config>
-<config key="lifestyles-diet-split-7758">
-<entry key="variable_value" type="xstring" value="2. Towards Healthy Diet"/>
+<config key="climate-crops-shifter-7484">
+<entry key="variable_value" type="xstring" value="1. Hybrid RCP 2.6-4.5 "/>
 </config>
 </config>
 <config key="nodeAnnotation">

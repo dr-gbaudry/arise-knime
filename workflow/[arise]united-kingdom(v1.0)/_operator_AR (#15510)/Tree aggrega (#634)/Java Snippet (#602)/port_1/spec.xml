@@ -641,28 +641,6 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_29">
-<entry key="column_name" type="xstring" value="dat_harvested-lands_palm[ha]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_harvested-lands_palm[ha]"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_30">
 <entry key="column_name" type="xstring" value="dat_harvested-lands_fruits-excluding-wine[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -677,6 +655,28 @@
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="dat_harvested-lands_fruits-excluding-wine[ha]"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_30">
+<entry key="column_name" type="xstring" value="dat_harvested-lands_palm[ha]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="dat_harvested-lands_palm[ha]"/>
 </config>
 </config>
 </config>
@@ -751,28 +751,6 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_34">
-<entry key="column_name" type="xstring" value="dat_harvested-lands_wheat-and-products[ha]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_harvested-lands_wheat-and-products[ha]"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_35">
 <entry key="column_name" type="xstring" value="dat_harvested-lands_barley-and-products[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -794,8 +772,8 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_36">
-<entry key="column_name" type="xstring" value="dat_harvested-lands_maize-and-products[ha]"/>
+<config key="column_spec_35">
+<entry key="column_name" type="xstring" value="dat_harvested-lands_cereal-others[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -808,7 +786,29 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_harvested-lands_maize-and-products[ha]"/>
+<entry key="StringCell" type="xstring" value="dat_harvested-lands_cereal-others[ha]"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_36">
+<entry key="column_name" type="xstring" value="dat_harvested-lands_wheat-and-products[ha]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="dat_harvested-lands_wheat-and-products[ha]"/>
 </config>
 </config>
 </config>
@@ -839,7 +839,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_38">
-<entry key="column_name" type="xstring" value="dat_harvested-lands_cereal-others[ha]"/>
+<entry key="column_name" type="xstring" value="dat_harvested-lands_maize-and-products[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -852,7 +852,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_harvested-lands_cereal-others[ha]"/>
+<entry key="StringCell" type="xstring" value="dat_harvested-lands_maize-and-products[ha]"/>
 </config>
 </config>
 </config>
@@ -861,7 +861,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_39">
-<entry key="column_name" type="xstring" value="dat_harvested-lands_rape-and-mustardseed[ha]"/>
+<entry key="column_name" type="xstring" value="dat_harvested-lands_pulses[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -874,7 +874,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_harvested-lands_rape-and-mustardseed[ha]"/>
+<entry key="StringCell" type="xstring" value="dat_harvested-lands_pulses[ha]"/>
 </config>
 </config>
 </config>
@@ -883,7 +883,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_40">
-<entry key="column_name" type="xstring" value="dat_harvested-lands_sunflower-seed[ha]"/>
+<entry key="column_name" type="xstring" value="dat_harvested-lands_sugar-crops[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -896,7 +896,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_harvested-lands_sunflower-seed[ha]"/>
+<entry key="StringCell" type="xstring" value="dat_harvested-lands_sugar-crops[ha]"/>
 </config>
 </config>
 </config>
@@ -905,7 +905,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_41">
-<entry key="column_name" type="xstring" value="dat_harvested-lands_soyabeans[ha]"/>
+<entry key="column_name" type="xstring" value="dat_harvested-lands_vegetables[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -918,7 +918,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_harvested-lands_soyabeans[ha]"/>
+<entry key="StringCell" type="xstring" value="dat_harvested-lands_vegetables[ha]"/>
 </config>
 </config>
 </config>
@@ -927,7 +927,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_42">
-<entry key="column_name" type="xstring" value="dat_harvested-lands_oilcrop-others[ha]"/>
+<entry key="column_name" type="xstring" value="dat_harvested-lands_starchy-roots[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -940,7 +940,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_harvested-lands_oilcrop-others[ha]"/>
+<entry key="StringCell" type="xstring" value="dat_harvested-lands_starchy-roots[ha]"/>
 </config>
 </config>
 </config>
@@ -971,7 +971,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_44">
-<entry key="column_name" type="xstring" value="dat_harvested-lands_vegetables[ha]"/>
+<entry key="column_name" type="xstring" value="dat_harvested-lands_oilcrop-others[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -984,7 +984,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_harvested-lands_vegetables[ha]"/>
+<entry key="StringCell" type="xstring" value="dat_harvested-lands_oilcrop-others[ha]"/>
 </config>
 </config>
 </config>
@@ -993,7 +993,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_45">
-<entry key="column_name" type="xstring" value="dat_harvested-lands_starchy-roots[ha]"/>
+<entry key="column_name" type="xstring" value="dat_harvested-lands_sunflower-seed[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1006,7 +1006,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_harvested-lands_starchy-roots[ha]"/>
+<entry key="StringCell" type="xstring" value="dat_harvested-lands_sunflower-seed[ha]"/>
 </config>
 </config>
 </config>
@@ -1015,7 +1015,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_46">
-<entry key="column_name" type="xstring" value="dat_harvested-lands_pulses[ha]"/>
+<entry key="column_name" type="xstring" value="dat_harvested-lands_soyabeans[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1028,7 +1028,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_harvested-lands_pulses[ha]"/>
+<entry key="StringCell" type="xstring" value="dat_harvested-lands_soyabeans[ha]"/>
 </config>
 </config>
 </config>
@@ -1037,7 +1037,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_47">
-<entry key="column_name" type="xstring" value="dat_harvested-lands_sugar-crops[ha]"/>
+<entry key="column_name" type="xstring" value="dat_harvested-lands_rape-and-mustardseed[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1050,7 +1050,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_harvested-lands_sugar-crops[ha]"/>
+<entry key="StringCell" type="xstring" value="dat_harvested-lands_rape-and-mustardseed[ha]"/>
 </config>
 </config>
 </config>

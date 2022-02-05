@@ -18,19 +18,19 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_solid-biofuels_power-only_nominal-capacity[mw]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="4. Fast Deployement (UK bioenergy strategy)"/>
+<entry key="value" type="xstring" value="2. Past trends"/>
 </config>
 <config key="Variable_3">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="m-lvr_solid-biofuels-capacity[-]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="4. Fast Deployement (UK bioenergy strategy)"/>
+<entry key="value" type="xstring" value="2. Past trends"/>
 </config>
 <config key="Variable_4">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="m-lvr_solid-biofuels-capacity[-] (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="3"/>
+<entry key="value" type="xint" value="1"/>
 </config>
 <config key="Variable_5">
 <entry key="type" type="xstring" value="variable"/>
@@ -54,19 +54,19 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_biogas_thermal-processes_nominal-capacity[toe]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="4. High deployement"/>
+<entry key="value" type="xstring" value="2. Past trends"/>
 </config>
 <config key="Variable_9">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="m-lvr_biogas-capacity[toe]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="4. High deployement"/>
+<entry key="value" type="xstring" value="2. Past trends"/>
 </config>
 <config key="Variable_10">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="m-lvr_biogas-capacity[toe] (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="3"/>
+<entry key="value" type="xint" value="1"/>
 </config>
 <config key="Variable_11">
 <entry key="type" type="xstring" value="variable"/>
@@ -240,19 +240,19 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_solid-biofuels_power-only_nominal-capacity[mw]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="4. Fast Deployement (UK bioenergy strategy)"/>
+<entry key="value" type="xstring" value="2. Past trends"/>
 </config>
 <config key="Variable_40">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="m-lvr_solid-biofuels-capacity[-]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="4. Fast Deployement (UK bioenergy strategy)"/>
+<entry key="value" type="xstring" value="2. Past trends"/>
 </config>
 <config key="Variable_41">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="m-lvr_solid-biofuels-capacity[-] (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="3"/>
+<entry key="value" type="xint" value="1"/>
 </config>
 <config key="Variable_42">
 <entry key="type" type="xstring" value="variable"/>
@@ -276,19 +276,19 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_biogas_thermal-processes_nominal-capacity[toe]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="4. High deployement"/>
+<entry key="value" type="xstring" value="2. Past trends"/>
 </config>
 <config key="Variable_46">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="m-lvr_biogas-capacity[toe]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="4. High deployement"/>
+<entry key="value" type="xstring" value="2. Past trends"/>
 </config>
 <config key="Variable_47">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="m-lvr_biogas-capacity[toe] (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="3"/>
+<entry key="value" type="xint" value="1"/>
 </config>
 <config key="Variable_48">
 <entry key="type" type="xstring" value="variable"/>
@@ -452,13 +452,16 @@
 </config>
 <config key="model">
 <config key="solid-biofuels-capacity-7834">
-<entry key="variable_value" type="xstring" value="4. Fast Deployement (UK bioenergy strategy)"/>
+<entry key="variable_value" type="xstring" value="2. Past trends"/>
 </config>
 <config key="meta-lever-7835">
 <entry key="variable_value" type="xstring" value="Meta-Lever"/>
 </config>
 <config key="biogas-capacity-7841">
-<entry key="variable_value" type="xstring" value="4. High deployement"/>
+<entry key="variable_value" type="xstring" value="2. Past trends"/>
+</config>
+<config key="liquid-biofuels-capacity-7868">
+<entry key="variable_value" type="xstring" value="2. Past trends"/>
 </config>
 </config>
 <config key="nodeAnnotation">

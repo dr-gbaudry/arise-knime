@@ -620,7 +620,7 @@
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="6031976.853674658"/>
+<entry key="DoubleCell" type="xdouble" value="6031976.853674654"/>
 </config>
 </config>
 </config>
@@ -653,7 +653,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_26">
-<entry key="column_name" type="xstring" value="dat_biomass-above-ground_cocoa-beans-and-products[dmt]"/>
+<entry key="column_name" type="xstring" value="dat_biomass-above-ground_tea-including-mate[dmt]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -678,7 +678,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_27">
-<entry key="column_name" type="xstring" value="dat_biomass-above-ground_tea-including-mate[dmt]"/>
+<entry key="column_name" type="xstring" value="dat_biomass-above-ground_cocoa-beans-and-products[dmt]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -778,31 +778,6 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_31">
-<entry key="column_name" type="xstring" value="dat_biomass-above-ground_wheat-and-products[dmt]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.9052117113336183E7"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="2.96424023E8"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_32">
 <entry key="column_name" type="xstring" value="dat_biomass-above-ground_barley-and-products[dmt]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -814,7 +789,7 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="4762329.985145066"/>
+<entry key="DoubleCell" type="xdouble" value="5898653.493455464"/>
 </config>
 </config>
 <config key="upper_bound">
@@ -827,8 +802,8 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_33">
-<entry key="column_name" type="xstring" value="dat_biomass-above-ground_maize-and-products[dmt]"/>
+<config key="column_spec_32">
+<entry key="column_name" type="xstring" value="dat_biomass-above-ground_cereal-others[dmt]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -839,13 +814,38 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.0"/>
+<entry key="DoubleCell" type="xdouble" value="1043089.3588999994"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.349805E8"/>
+<entry key="DoubleCell" type="xdouble" value="5.215819549594998E7"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_33">
+<entry key="column_name" type="xstring" value="dat_biomass-above-ground_wheat-and-products[dmt]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="2.2467641519205257E7"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="2.96424023E8"/>
 </config>
 </config>
 </config>
@@ -878,7 +878,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_35">
-<entry key="column_name" type="xstring" value="dat_biomass-above-ground_cereal-others[dmt]"/>
+<entry key="column_name" type="xstring" value="dat_biomass-above-ground_maize-and-products[dmt]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -889,13 +889,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1043089.3588999994"/>
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="5.215819549594998E7"/>
+<entry key="DoubleCell" type="xdouble" value="1.349805E8"/>
 </config>
 </config>
 </config>
@@ -903,7 +903,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_36">
-<entry key="column_name" type="xstring" value="dat_biomass-above-ground_rape-and-mustardseed[dmt]"/>
+<entry key="column_name" type="xstring" value="dat_biomass-above-ground_pulses[dmt]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -914,13 +914,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="2074342.4000000001"/>
+<entry key="DoubleCell" type="xdouble" value="968058.0"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="4.1882963199999996E7"/>
+<entry key="DoubleCell" type="xdouble" value="1.6321079502E7"/>
 </config>
 </config>
 </config>
@@ -928,7 +928,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_37">
-<entry key="column_name" type="xstring" value="dat_biomass-above-ground_sunflower-seed[dmt]"/>
+<entry key="column_name" type="xstring" value="dat_biomass-above-ground_sugar-crops[dmt]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -939,13 +939,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.0"/>
+<entry key="DoubleCell" type="xdouble" value="438809.9633107323"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="2.67553746E7"/>
+<entry key="DoubleCell" type="xdouble" value="1.749750070978E8"/>
 </config>
 </config>
 </config>
@@ -953,7 +953,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_38">
-<entry key="column_name" type="xstring" value="dat_biomass-above-ground_soyabeans[dmt]"/>
+<entry key="column_name" type="xstring" value="dat_biomass-above-ground_vegetables[dmt]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -964,13 +964,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.0"/>
+<entry key="DoubleCell" type="xdouble" value="4459254.865499999"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="8750834.22393881"/>
+<entry key="DoubleCell" type="xdouble" value="3.347516019110435E8"/>
 </config>
 </config>
 </config>
@@ -978,7 +978,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_39">
-<entry key="column_name" type="xstring" value="dat_biomass-above-ground_palm[dmt]"/>
+<entry key="column_name" type="xstring" value="dat_biomass-above-ground_fruits-excluding-wine[dmt]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -989,13 +989,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.0"/>
+<entry key="DoubleCell" type="xdouble" value="51589.305"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.0"/>
+<entry key="DoubleCell" type="xdouble" value="2.293658478021117E7"/>
 </config>
 </config>
 </config>
@@ -1003,7 +1003,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_40">
-<entry key="column_name" type="xstring" value="dat_biomass-above-ground_oilcrop-others[dmt]"/>
+<entry key="column_name" type="xstring" value="dat_biomass-above-ground_starchy-roots[dmt]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1014,13 +1014,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="43884.0"/>
+<entry key="DoubleCell" type="xdouble" value="5991748.0"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.3316824690899849E7"/>
+<entry key="DoubleCell" type="xdouble" value="1.2016866996399999E8"/>
 </config>
 </config>
 </config>
@@ -1053,7 +1053,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_42">
-<entry key="column_name" type="xstring" value="dat_biomass-above-ground_fruits-excluding-wine[dmt]"/>
+<entry key="column_name" type="xstring" value="dat_biomass-above-ground_oilcrop-others[dmt]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1064,13 +1064,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="51589.305"/>
+<entry key="DoubleCell" type="xdouble" value="43884.0"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="2.756793075664036E7"/>
+<entry key="DoubleCell" type="xdouble" value="1.3625864531074464E7"/>
 </config>
 </config>
 </config>
@@ -1078,7 +1078,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_43">
-<entry key="column_name" type="xstring" value="dat_biomass-above-ground_vegetables[dmt]"/>
+<entry key="column_name" type="xstring" value="dat_biomass-above-ground_sunflower-seed[dmt]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1089,13 +1089,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="4459254.865499999"/>
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="4.277836907433953E8"/>
+<entry key="DoubleCell" type="xdouble" value="2.67553746E7"/>
 </config>
 </config>
 </config>
@@ -1103,7 +1103,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_44">
-<entry key="column_name" type="xstring" value="dat_biomass-above-ground_starchy-roots[dmt]"/>
+<entry key="column_name" type="xstring" value="dat_biomass-above-ground_soyabeans[dmt]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1114,13 +1114,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="5991748.0"/>
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.2016866996399999E8"/>
+<entry key="DoubleCell" type="xdouble" value="4.4968139813231826E7"/>
 </config>
 </config>
 </config>
@@ -1128,7 +1128,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_45">
-<entry key="column_name" type="xstring" value="dat_biomass-above-ground_pulses[dmt]"/>
+<entry key="column_name" type="xstring" value="dat_biomass-above-ground_rape-and-mustardseed[dmt]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1139,13 +1139,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="968058.0"/>
+<entry key="DoubleCell" type="xdouble" value="2074342.4000000001"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.6321079502E7"/>
+<entry key="DoubleCell" type="xdouble" value="4.1882963199999996E7"/>
 </config>
 </config>
 </config>
@@ -1153,7 +1153,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_46">
-<entry key="column_name" type="xstring" value="dat_biomass-above-ground_sugar-crops[dmt]"/>
+<entry key="column_name" type="xstring" value="dat_biomass-above-ground_palm[dmt]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1164,13 +1164,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="206378.9961337137"/>
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.749750070978E8"/>
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
 </config>
 </config>
 </config>

@@ -3,28 +3,6 @@
 <entry key="spec_name" type="xstring" value="Column Headers"/>
 <entry key="number_columns" type="xint" value="64"/>
 <config key="column_spec_0">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_wheat-and-products[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_wheat-and-products[%]"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_1">
 <entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_barley-and-products[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -46,8 +24,8 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_2">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_maize-and-products[%]"/>
+<config key="column_spec_1">
+<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_cereal-others[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -60,7 +38,29 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_maize-and-products[%]"/>
+<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_cereal-others[%]"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_2">
+<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_wheat-and-products[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_wheat-and-products[%]"/>
 </config>
 </config>
 </config>
@@ -91,7 +91,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_4">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_cereal-others[%]"/>
+<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_maize-and-products[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -104,7 +104,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_cereal-others[%]"/>
+<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_maize-and-products[%]"/>
 </config>
 </config>
 </config>
@@ -113,7 +113,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_5">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_rape-and-mustardseed[%]"/>
+<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_pulses[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -126,7 +126,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_rape-and-mustardseed[%]"/>
+<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_pulses[%]"/>
 </config>
 </config>
 </config>
@@ -135,7 +135,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_6">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_sunflower-seed[%]"/>
+<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_sugar-crops[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -148,7 +148,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_sunflower-seed[%]"/>
+<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_sugar-crops[%]"/>
 </config>
 </config>
 </config>
@@ -157,7 +157,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_7">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_soyabeans[%]"/>
+<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -170,7 +170,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_soyabeans[%]"/>
+<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]"/>
 </config>
 </config>
 </config>
@@ -179,7 +179,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_8">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_palm[%]"/>
+<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -192,7 +192,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_palm[%]"/>
+<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]"/>
 </config>
 </config>
 </config>
@@ -201,7 +201,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_9">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_oilcrop-others[%]"/>
+<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_starchy-roots[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -214,7 +214,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_oilcrop-others[%]"/>
+<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_starchy-roots[%]"/>
 </config>
 </config>
 </config>
@@ -245,7 +245,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_11">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]"/>
+<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_oilcrop-others[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -258,7 +258,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]"/>
+<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_oilcrop-others[%]"/>
 </config>
 </config>
 </config>
@@ -267,7 +267,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_12">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]"/>
+<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_sunflower-seed[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -280,7 +280,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]"/>
+<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_sunflower-seed[%]"/>
 </config>
 </config>
 </config>
@@ -289,7 +289,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_13">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_starchy-roots[%]"/>
+<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_soyabeans[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -302,7 +302,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_starchy-roots[%]"/>
+<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_soyabeans[%]"/>
 </config>
 </config>
 </config>
@@ -311,7 +311,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_14">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_pulses[%]"/>
+<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_rape-and-mustardseed[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -324,7 +324,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_pulses[%]"/>
+<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_rape-and-mustardseed[%]"/>
 </config>
 </config>
 </config>
@@ -333,7 +333,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_15">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_sugar-crops[%]"/>
+<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_palm[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -346,7 +346,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_sugar-crops[%]"/>
+<entry key="StringCell" type="xstring" value="dat_domestic-self-sufficiency_palm[%]"/>
 </config>
 </config>
 </config>

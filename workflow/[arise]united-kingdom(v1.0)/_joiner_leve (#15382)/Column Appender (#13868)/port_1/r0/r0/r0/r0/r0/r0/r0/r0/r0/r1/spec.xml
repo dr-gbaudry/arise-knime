@@ -3,72 +3,6 @@
 <entry key="spec_name" type="xstring" value="default"/>
 <entry key="number_columns" type="xint" value="17"/>
 <config key="column_spec_0">
-<entry key="column_name" type="xstring" value="lvr_livestock_ration-split_all-animals[-]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_1">
-<entry key="column_name" type="xstring" value="lvr_livestock_feed-sources_all-animals[-]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_2">
-<entry key="column_name" type="xstring" value="lvr_livestock_raising_dairy-cattle[-]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_3">
 <entry key="column_name" type="xstring" value="lvr_livestock_raising_non-dairy-cattle[-]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -82,7 +16,73 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
+<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_1">
+<entry key="column_name" type="xstring" value="lvr_livestock_raising_dairy-cattle[-]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_2">
+<entry key="column_name" type="xstring" value="lvr_livestock_raising_broilers-poultry[-]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_3">
+<entry key="column_name" type="xstring" value="lvr_livestock_raising_pigs[-]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
 </config>
 </config>
 </config>
@@ -104,7 +104,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
+<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
 </config>
 </config>
 </config>
@@ -113,7 +113,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_5">
-<entry key="column_name" type="xstring" value="lvr_livestock_raising_pigs[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_raising_laying-poultry[-]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -126,7 +126,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
+<entry key="StringCell" type="xstring" value="2. Past trends"/>
 </config>
 </config>
 </config>
@@ -135,7 +135,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_6">
-<entry key="column_name" type="xstring" value="lvr_livestock_raising_broilers-poultry[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_raising_dairy-mutton-&amp;-goats[-]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -148,7 +148,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
+<entry key="StringCell" type="xstring" value="2. Past trends"/>
 </config>
 </config>
 </config>
@@ -170,7 +170,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
+<entry key="StringCell" type="xstring" value="2. Past trends"/>
 </config>
 </config>
 </config>
@@ -179,7 +179,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_8">
-<entry key="column_name" type="xstring" value="lvr_livestock_raising_dairy-mutton-&amp;-goats[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_feed-sources_all-animals[-]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -192,7 +192,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
+<entry key="StringCell" type="xstring" value="3. Last reference year"/>
 </config>
 </config>
 </config>
@@ -201,7 +201,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_9">
-<entry key="column_name" type="xstring" value="lvr_livestock_raising_laying-poultry[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_density_grazing[lsu/ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -214,7 +214,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
+<entry key="StringCell" type="xstring" value="4. Last reference year value"/>
 </config>
 </config>
 </config>
@@ -223,7 +223,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_10">
-<entry key="column_name" type="xstring" value="lvr_livestock_density_grazing[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_ration-split_all-animals[-]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -236,7 +236,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
+<entry key="StringCell" type="xstring" value="3. Last reference year"/>
 </config>
 </config>
 </config>
@@ -245,7 +245,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_11">
-<entry key="column_name" type="xstring" value="lvr_livestock_pasture-land_temp-perm[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_fat-yields_non-dairy-cattle[t/lsu]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -258,7 +258,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
+<entry key="StringCell" type="xstring" value="2. Past trends"/>
 </config>
 </config>
 </config>
@@ -267,7 +267,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_12">
-<entry key="column_name" type="xstring" value="lvr_livestock_fat-yields_dairy-cattle[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_fat-yields_dairy-cattle[t/lsu]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -289,7 +289,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_13">
-<entry key="column_name" type="xstring" value="lvr_livestock_fat-yields_non-dairy-cattle[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_fat-yields_dairy-mutton-&amp;-goats[t/lsu]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -311,7 +311,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_14">
-<entry key="column_name" type="xstring" value="lvr_livestock_fat-yields_mutton-&amp;-goats[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_fat-yields_pigs[t/lsu]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -333,7 +333,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_15">
-<entry key="column_name" type="xstring" value="lvr_livestock_fat-yields_pigs[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_fat-yields_mutton-&amp;-goats[t/lsu]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -355,7 +355,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_16">
-<entry key="column_name" type="xstring" value="lvr_livestock_fat-yields_dairy-mutton-&amp;-goats[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_pasture-land_temp-perm[-]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -368,7 +368,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Past trends"/>
+<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
 </config>
 </config>
 </config>

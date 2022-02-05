@@ -6,25 +6,25 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_lifestyles_diet_split[t] (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
+<entry key="value" type="xint" value="4"/>
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_lifestyles_diet_split[t]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Towards Healthy Diet"/>
+<entry key="value" type="xstring" value="5. Towards Healthy Diet"/>
 </config>
 <config key="Variable_2">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_lifestyles_diet_split[t] (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
+<entry key="value" type="xint" value="4"/>
 </config>
 <config key="Variable_3">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_lifestyles_diet_split[t]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Towards Healthy Diet"/>
+<entry key="value" type="xstring" value="5. Towards Healthy Diet"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -43,12 +43,19 @@
 <entry key="customCSS" type="xstring" value=""/>
 <entry key="flowvariablename" type="xstring" value="lvr_lifestyles_diet_split[t]"/>
 <config key="possible_choices">
-<entry key="array-size" type="xint" value="3"/>
+<entry key="array-size" type="xint" value="10"/>
 <entry key="0" type="xstring" value="1. Past Trends"/>
-<entry key="1" type="xstring" value="2. Towards Healthy Diet"/>
-<entry key="2" type="xstring" value="3. Towards Healthy &amp; Flexiterian Diet"/>
+<entry key="1" type="xstring" value="2. Low progression towards healthy diet"/>
+<entry key="2" type="xstring" value="3. Intermediate progression towards healthy diet"/>
+<entry key="3" type="xstring" value="4. High progression towards healthy diet"/>
+<entry key="4" type="xstring" value="5. Towards Healthy Diet"/>
+<entry key="5" type="xstring" value="6. Low progression towards flexitarian and healthy diet "/>
+<entry key="6" type="xstring" value="7. Intermediate low progression towards flexitarian and healthy diet"/>
+<entry key="7" type="xstring" value="8. Intermediate high progression towards flexitarian and healthy diet"/>
+<entry key="8" type="xstring" value="9. High progression towards flexitarian and healthy diet"/>
+<entry key="9" type="xstring" value="10. Towards Healthy &amp; Flexitarian Diet"/>
 </config>
-<entry key="type" type="xstring" value="Radio buttons (horizontal)"/>
+<entry key="type" type="xstring" value="Dropdown"/>
 <entry key="limit_number_visible_options" type="xboolean" value="false"/>
 <entry key="number_visible_options" type="xint" value="10"/>
 </config>
@@ -104,6 +111,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="853ac06e-0cab-40e9-b37e-3b40bf6ed075"/>
+<entry key="file_store_id" type="xstring" value="43e6c0a1-fb61-497f-8ad2-aa1d3595e50e"/>
 </config>
 </config>

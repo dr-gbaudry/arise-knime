@@ -47,28 +47,6 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_2">
-<entry key="column_name" type="xstring" value="dat_crop-domestic-production_cocoa-beans-and-products[t]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_cocoa-beans-and-products[t]"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_3">
 <entry key="column_name" type="xstring" value="dat_crop-domestic-production_tea-including-mate[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -83,6 +61,28 @@
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="dat_crop-domestic-production_tea-including-mate[t]"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_3">
+<entry key="column_name" type="xstring" value="dat_crop-domestic-production_cocoa-beans-and-products[t]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_cocoa-beans-and-products[t]"/>
 </config>
 </config>
 </config>
@@ -157,28 +157,6 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_7">
-<entry key="column_name" type="xstring" value="dat_crop-domestic-production_wheat-and-products[t]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_wheat-and-products[t]"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_8">
 <entry key="column_name" type="xstring" value="dat_crop-domestic-production_barley-and-products[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -200,8 +178,8 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_9">
-<entry key="column_name" type="xstring" value="dat_crop-domestic-production_maize-and-products[t]"/>
+<config key="column_spec_8">
+<entry key="column_name" type="xstring" value="dat_crop-domestic-production_cereal-others[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -214,7 +192,29 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_maize-and-products[t]"/>
+<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_cereal-others[t]"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_9">
+<entry key="column_name" type="xstring" value="dat_crop-domestic-production_wheat-and-products[t]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_wheat-and-products[t]"/>
 </config>
 </config>
 </config>
@@ -245,7 +245,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_11">
-<entry key="column_name" type="xstring" value="dat_crop-domestic-production_cereal-others[t]"/>
+<entry key="column_name" type="xstring" value="dat_crop-domestic-production_maize-and-products[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -258,7 +258,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_cereal-others[t]"/>
+<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_maize-and-products[t]"/>
 </config>
 </config>
 </config>
@@ -267,7 +267,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_12">
-<entry key="column_name" type="xstring" value="dat_crop-domestic-production_rape-and-mustardseed[t]"/>
+<entry key="column_name" type="xstring" value="dat_crop-domestic-production_pulses[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -280,7 +280,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_rape-and-mustardseed[t]"/>
+<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_pulses[t]"/>
 </config>
 </config>
 </config>
@@ -289,7 +289,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_13">
-<entry key="column_name" type="xstring" value="dat_crop-domestic-production_sunflower-seed[t]"/>
+<entry key="column_name" type="xstring" value="dat_crop-domestic-production_sugar-crops[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -302,7 +302,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_sunflower-seed[t]"/>
+<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_sugar-crops[t]"/>
 </config>
 </config>
 </config>
@@ -311,7 +311,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_14">
-<entry key="column_name" type="xstring" value="dat_crop-domestic-production_soyabeans[t]"/>
+<entry key="column_name" type="xstring" value="dat_crop-domestic-production_vegetables[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -324,7 +324,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_soyabeans[t]"/>
+<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_vegetables[t]"/>
 </config>
 </config>
 </config>
@@ -333,7 +333,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_15">
-<entry key="column_name" type="xstring" value="dat_crop-domestic-production_palm[t]"/>
+<entry key="column_name" type="xstring" value="dat_crop-domestic-production_fruits-excluding-wine[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -346,7 +346,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_palm[t]"/>
+<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_fruits-excluding-wine[t]"/>
 </config>
 </config>
 </config>
@@ -355,7 +355,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_16">
-<entry key="column_name" type="xstring" value="dat_crop-domestic-production_oilcrop-others[t]"/>
+<entry key="column_name" type="xstring" value="dat_crop-domestic-production_starchy-roots[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -368,7 +368,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_oilcrop-others[t]"/>
+<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_starchy-roots[t]"/>
 </config>
 </config>
 </config>
@@ -399,7 +399,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_18">
-<entry key="column_name" type="xstring" value="dat_crop-domestic-production_fruits-excluding-wine[t]"/>
+<entry key="column_name" type="xstring" value="dat_crop-domestic-production_oilcrop-others[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -412,7 +412,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_fruits-excluding-wine[t]"/>
+<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_oilcrop-others[t]"/>
 </config>
 </config>
 </config>
@@ -421,7 +421,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_19">
-<entry key="column_name" type="xstring" value="dat_crop-domestic-production_vegetables[t]"/>
+<entry key="column_name" type="xstring" value="dat_crop-domestic-production_sunflower-seed[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -434,7 +434,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_vegetables[t]"/>
+<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_sunflower-seed[t]"/>
 </config>
 </config>
 </config>
@@ -443,7 +443,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_20">
-<entry key="column_name" type="xstring" value="dat_crop-domestic-production_starchy-roots[t]"/>
+<entry key="column_name" type="xstring" value="dat_crop-domestic-production_soyabeans[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -456,7 +456,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_starchy-roots[t]"/>
+<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_soyabeans[t]"/>
 </config>
 </config>
 </config>
@@ -465,7 +465,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_21">
-<entry key="column_name" type="xstring" value="dat_crop-domestic-production_pulses[t]"/>
+<entry key="column_name" type="xstring" value="dat_crop-domestic-production_rape-and-mustardseed[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -478,7 +478,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_pulses[t]"/>
+<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_rape-and-mustardseed[t]"/>
 </config>
 </config>
 </config>
@@ -487,7 +487,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_22">
-<entry key="column_name" type="xstring" value="dat_crop-domestic-production_sugar-crops[t]"/>
+<entry key="column_name" type="xstring" value="dat_crop-domestic-production_palm[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -500,7 +500,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_sugar-crops[t]"/>
+<entry key="StringCell" type="xstring" value="dat_crop-domestic-production_palm[t]"/>
 </config>
 </config>
 </config>

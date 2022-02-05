@@ -3,28 +3,6 @@
 <entry key="spec_name" type="xstring" value="Column Headers"/>
 <entry key="number_columns" type="xint" value="27"/>
 <config key="column_spec_0">
-<entry key="column_name" type="xstring" value="dat_livestock-yields_dairy-cattle[t/lsu]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_livestock-yields_dairy-cattle[t/lsu]"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_1">
 <entry key="column_name" type="xstring" value="dat_livestock-yields_bovine-meat[t/lsu]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -46,8 +24,8 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_2">
-<entry key="column_name" type="xstring" value="dat_livestock-yields_mutton-&amp;-goat-meat[t/lsu]"/>
+<config key="column_spec_1">
+<entry key="column_name" type="xstring" value="dat_livestock-yields_dairy-cattle[t/lsu]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -60,7 +38,29 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_livestock-yields_mutton-&amp;-goat-meat[t/lsu]"/>
+<entry key="StringCell" type="xstring" value="dat_livestock-yields_dairy-cattle[t/lsu]"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_2">
+<entry key="column_name" type="xstring" value="dat_livestock-yields_poultry-meat[t/lsu]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="dat_livestock-yields_poultry-meat[t/lsu]"/>
 </config>
 </config>
 </config>
@@ -91,7 +91,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_4">
-<entry key="column_name" type="xstring" value="dat_livestock-yields_poultry-meat[t/lsu]"/>
+<entry key="column_name" type="xstring" value="dat_livestock-yields_mutton-&amp;-goat-meat[t/lsu]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -104,7 +104,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_livestock-yields_poultry-meat[t/lsu]"/>
+<entry key="StringCell" type="xstring" value="dat_livestock-yields_mutton-&amp;-goat-meat[t/lsu]"/>
 </config>
 </config>
 </config>
@@ -113,7 +113,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_5">
-<entry key="column_name" type="xstring" value="dat_livestock-yields_meat-other[t/lsu]"/>
+<entry key="column_name" type="xstring" value="dat_livestock-yields_eggs[t/lsu]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -126,7 +126,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_livestock-yields_meat-other[t/lsu]"/>
+<entry key="StringCell" type="xstring" value="dat_livestock-yields_eggs[t/lsu]"/>
 </config>
 </config>
 </config>
@@ -157,7 +157,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_7">
-<entry key="column_name" type="xstring" value="dat_livestock-yields_eggs[t/lsu]"/>
+<entry key="column_name" type="xstring" value="dat_livestock-yields_meat-other[t/lsu]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -170,7 +170,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_livestock-yields_eggs[t/lsu]"/>
+<entry key="StringCell" type="xstring" value="dat_livestock-yields_meat-other[t/lsu]"/>
 </config>
 </config>
 </config>
@@ -179,28 +179,6 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_8">
-<entry key="column_name" type="xstring" value="dat_processed-domestic-production_beverages-fermented[t]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_processed-domestic-production_beverages-fermented[t]"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_9">
 <entry key="column_name" type="xstring" value="dat_processed-domestic-production_beverages-alcoholic[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -215,6 +193,28 @@
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="dat_processed-domestic-production_beverages-alcoholic[t]"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_9">
+<entry key="column_name" type="xstring" value="dat_processed-domestic-production_beverages-fermented[t]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="dat_processed-domestic-production_beverages-fermented[t]"/>
 </config>
 </config>
 </config>
@@ -245,28 +245,6 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_11">
-<entry key="column_name" type="xstring" value="dat_processed-domestic-production_cocoa-beans-and-products[t]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_processed-domestic-production_cocoa-beans-and-products[t]"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_12">
 <entry key="column_name" type="xstring" value="dat_processed-domestic-production_tea-including-mate[t]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -281,6 +259,28 @@
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="dat_processed-domestic-production_tea-including-mate[t]"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_12">
+<entry key="column_name" type="xstring" value="dat_processed-domestic-production_cocoa-beans-and-products[t]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="dat_processed-domestic-production_cocoa-beans-and-products[t]"/>
 </config>
 </config>
 </config>

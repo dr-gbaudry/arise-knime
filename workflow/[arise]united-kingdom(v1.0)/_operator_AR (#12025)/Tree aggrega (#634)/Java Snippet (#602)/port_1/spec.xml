@@ -927,50 +927,6 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_42">
-<entry key="column_name" type="xstring" value="dat_processed-domestic-production_sugar-&amp;-sweeteners[kcal]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_processed-domestic-production_sugar-&amp;-sweeteners[kcal]"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_43">
-<entry key="column_name" type="xstring" value="dat_processed-domestic-production_wine[kcal]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_processed-domestic-production_wine[kcal]"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_44">
 <entry key="column_name" type="xstring" value="dat_processed-domestic-production_beer[kcal]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -992,29 +948,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_45">
-<entry key="column_name" type="xstring" value="dat_processed-domestic-production_beverages-fermented[kcal]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_processed-domestic-production_beverages-fermented[kcal]"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_46">
+<config key="column_spec_43">
 <entry key="column_name" type="xstring" value="dat_processed-domestic-production_beverages-alcoholic[kcal]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -1036,7 +970,51 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_47">
+<config key="column_spec_44">
+<entry key="column_name" type="xstring" value="dat_processed-domestic-production_beverages-fermented[kcal]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="dat_processed-domestic-production_beverages-fermented[kcal]"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_45">
+<entry key="column_name" type="xstring" value="dat_processed-domestic-production_wine[kcal]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="dat_processed-domestic-production_wine[kcal]"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_46">
 <entry key="column_name" type="xstring" value="dat_processed-domestic-production_coffee-and-products[kcal]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -1051,6 +1029,28 @@
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="dat_processed-domestic-production_coffee-and-products[kcal]"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_47">
+<entry key="column_name" type="xstring" value="dat_processed-domestic-production_tea-including-mate[kcal]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="dat_processed-domestic-production_tea-including-mate[kcal]"/>
 </config>
 </config>
 </config>
@@ -1081,7 +1081,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_49">
-<entry key="column_name" type="xstring" value="dat_processed-domestic-production_tea-including-mate[kcal]"/>
+<entry key="column_name" type="xstring" value="dat_processed-domestic-production_sugar-&amp;-sweeteners[kcal]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1094,7 +1094,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_processed-domestic-production_tea-including-mate[kcal]"/>
+<entry key="StringCell" type="xstring" value="dat_processed-domestic-production_sugar-&amp;-sweeteners[kcal]"/>
 </config>
 </config>
 </config>

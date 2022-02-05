@@ -24,19 +24,19 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="column_pairs"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_agroforestry_cropland-hedge-rows[%],dat_land-use_cropland[ha];dat_agroforestry_cropland-under-agroforestry[%],dat_land-use_cropland[ha];"/>
+<entry key="value" type="xstring" value="dat_agroforestry_cropland-under-agroforestry[%],dat_land-use_cropland[ha];dat_agroforestry_cropland-hedge-rows[%],dat_land-use_cropland[ha];"/>
 </config>
 <config key="Variable_4">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="new_column_list"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_agroforestry-cropland_hedge-rows[ha],dat_agroforestry-cropland_under-agroforestry[ha],"/>
+<entry key="value" type="xstring" value="dat_agroforestry-cropland_under-agroforestry[ha],dat_agroforestry-cropland_hedge-rows[ha],"/>
 </config>
 <config key="Variable_5">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="columns_used"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_agroforestry_cropland-hedge-rows[%],dat_land-use_cropland[ha],dat_agroforestry_cropland-under-agroforestry[%],dat_land-use_cropland[ha],"/>
+<entry key="value" type="xstring" value="dat_agroforestry_cropland-under-agroforestry[%],dat_land-use_cropland[ha],dat_agroforestry_cropland-hedge-rows[%],dat_land-use_cropland[ha],"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -160,6 +160,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="8d7673d4-de05-4cd5-9c87-d5dbd7304a9e"/>
+<entry key="file_store_id" type="xstring" value="08bf9e49-e2e7-47f8-8b0d-a842ea5b69bb"/>
 </config>
 </config>

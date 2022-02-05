@@ -6,13 +6,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="aggregation-pattern"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_agricultural-practices_intercropping-cover-crop-(.*)\[(.*)\]"/>
+<entry key="value" type="xstring" value="dat_agricultural-practices_intercropping-cover-crop-(.*)\[(.*)\]|dat_nitrogen-imports-intercroping_spring-crops-area\[ha\]"/>
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="aggregation-pattern"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_agricultural-practices_intercropping-cover-crop-(.*)\[(.*)\]"/>
+<entry key="value" type="xstring" value="dat_agricultural-practices_intercropping-cover-crop-(.*)\[(.*)\]|dat_nitrogen-imports-intercroping_spring-crops-area\[ha\]"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -79,6 +79,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="ea5227f1-4e24-4fba-b2ab-f4e5a9e4a887"/>
+<entry key="file_store_id" type="xstring" value="099d4aee-f524-47b7-a408-f0451580e6a4"/>
 </config>
 </config>

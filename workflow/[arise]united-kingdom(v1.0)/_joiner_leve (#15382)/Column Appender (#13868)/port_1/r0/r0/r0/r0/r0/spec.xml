@@ -16,7 +16,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Towards Healthy Diet"/>
+<entry key="StringCell" type="xstring" value="5. Towards Healthy Diet"/>
 </config>
 </config>
 </config>
@@ -113,28 +113,6 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_5">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_cereals_wheat-and-products[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_6">
 <entry key="column_name" type="xstring" value="lvr_self-sufficiency_cereals_barley-and-products[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -148,7 +126,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -156,73 +134,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_7">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_cereals_maize-and-products[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_8">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_cereals_rye-and-products[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_9">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_cereals_cereal-others[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_10">
+<config key="column_spec_6">
 <entry key="column_name" type="xstring" value="lvr_self-sufficiency_cereals_rice-milled-equivalent[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -236,7 +148,95 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_7">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_cereals_cereal-others[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_8">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_cereals_wheat-and-products[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_9">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_cereals_rye-and-products[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_10">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_cereals_maize-and-products[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="5. Last Historical Year"/>
 </config>
 </config>
 </config>
@@ -245,292 +245,6 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_11">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_oil-crops_rape-and-mustardseed[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_12">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_oil-crops_sunflower-seed[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_13">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_oil-crops_soyabeans[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_14">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_oil-crops_palm[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_15">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_oil-crops_oilcrop-others[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_16">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_oil-crops_olives[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_17">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_other-crops_fruits-excluding-wine[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_18">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_other-crops_vegetables[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_19">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_other-crops_starchy-roots[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_20">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_other-crops_pulses[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_21">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_other-crops_sugar-crops[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_22">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_other-crops_sugar-&amp;-sweeteners[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_23">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_alcoholic-beverages_wine[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_24">
 <entry key="column_name" type="xstring" value="lvr_self-sufficiency_alcoholic-beverages_beer[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -544,7 +258,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -552,29 +266,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_25">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_alcoholic-beverages_beverages-fermented[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_26">
+<config key="column_spec_12">
 <entry key="column_name" type="xstring" value="lvr_self-sufficiency_alcoholic-beverages_beverages-alcoholic[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -588,7 +280,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -596,7 +288,51 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_27">
+<config key="column_spec_13">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_alcoholic-beverages_beverages-fermented[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_14">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_alcoholic-beverages_wine[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_15">
 <entry key="column_name" type="xstring" value="lvr_self-sufficiency_stimulants_coffee-and-products[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -610,7 +346,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -618,29 +354,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_28">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_stimulants_cocoa-beans-and-products[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_29">
+<config key="column_spec_16">
 <entry key="column_name" type="xstring" value="lvr_self-sufficiency_stimulants_tea-including-mate[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -654,7 +368,293 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_17">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_stimulants_cocoa-beans-and-products[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_18">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_other-crops_pulses[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_19">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_other-crops_sugar-crops[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_20">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_other-crops_sugar-&amp;-sweeteners[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_21">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_other-crops_vegetables[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="9. Intermediate"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_22">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_other-crops_fruits-excluding-wine[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="9. Intermediate"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_23">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_other-crops_starchy-roots[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_24">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_vegetable-oils_olive-oil[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_25">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_vegetable-oils_vegetable-oil-others[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_26">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_vegetable-oils_sunflowerseed-oil[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_27">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_vegetable-oils_soyabean-oil[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_28">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_vegetable-oils_rape-and-mustard-oil[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_29">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_vegetable-oils_palm-oil[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -676,7 +676,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -685,72 +685,6 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_31">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_cakes_rape-and-mustard-cake[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_32">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_cakes_soyabean-cake[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_33">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_cakes_sunflowerseed-cake[%]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_34">
 <entry key="column_name" type="xstring" value="lvr_self-sufficiency_cakes_cake-others[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -764,7 +698,73 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_32">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_cakes_sunflowerseed-cake[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_33">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_cakes_soyabean-cake[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_34">
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_cakes_rape-and-mustard-cake[%]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -773,7 +773,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_35">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_vegetable-oils_olive-oil[%]"/>
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_oil-crops_olives[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -786,7 +786,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -795,7 +795,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_36">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_vegetable-oils_palm-oil[%]"/>
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_oil-crops_oilcrop-others[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -808,7 +808,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -817,7 +817,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_37">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_vegetable-oils_rape-and-mustard-oil[%]"/>
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_oil-crops_sunflower-seed[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -830,7 +830,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -839,7 +839,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_38">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_vegetable-oils_soyabean-oil[%]"/>
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_oil-crops_soyabeans[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -852,7 +852,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -861,7 +861,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_39">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_vegetable-oils_sunflowerseed-oil[%]"/>
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_oil-crops_rape-and-mustardseed[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -874,7 +874,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -883,7 +883,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_40">
-<entry key="column_name" type="xstring" value="lvr_self-sufficiency_vegetable-oils_vegetable-oil-others[%]"/>
+<entry key="column_name" type="xstring" value="lvr_self-sufficiency_oil-crops_palm[%]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -896,7 +896,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -918,7 +918,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -940,7 +940,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -962,7 +962,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -984,7 +984,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -1006,7 +1006,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -1028,7 +1028,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -1050,7 +1050,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -1072,7 +1072,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -1094,7 +1094,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -1116,7 +1116,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+<entry key="StringCell" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 </config>
@@ -1455,72 +1455,6 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_66">
-<entry key="column_name" type="xstring" value="lvr_livestock_ration-split_all-animals[-]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_67">
-<entry key="column_name" type="xstring" value="lvr_livestock_feed-sources_all-animals[-]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_68">
-<entry key="column_name" type="xstring" value="lvr_livestock_raising_dairy-cattle[-]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_69">
 <entry key="column_name" type="xstring" value="lvr_livestock_raising_non-dairy-cattle[-]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -1534,7 +1468,73 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
+<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_67">
+<entry key="column_name" type="xstring" value="lvr_livestock_raising_dairy-cattle[-]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_68">
+<entry key="column_name" type="xstring" value="lvr_livestock_raising_broilers-poultry[-]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_69">
+<entry key="column_name" type="xstring" value="lvr_livestock_raising_pigs[-]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
 </config>
 </config>
 </config>
@@ -1556,7 +1556,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
+<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
 </config>
 </config>
 </config>
@@ -1565,7 +1565,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_71">
-<entry key="column_name" type="xstring" value="lvr_livestock_raising_pigs[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_raising_laying-poultry[-]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1578,7 +1578,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
+<entry key="StringCell" type="xstring" value="2. Past trends"/>
 </config>
 </config>
 </config>
@@ -1587,7 +1587,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_72">
-<entry key="column_name" type="xstring" value="lvr_livestock_raising_broilers-poultry[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_raising_dairy-mutton-&amp;-goats[-]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1600,7 +1600,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
+<entry key="StringCell" type="xstring" value="2. Past trends"/>
 </config>
 </config>
 </config>
@@ -1622,7 +1622,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
+<entry key="StringCell" type="xstring" value="2. Past trends"/>
 </config>
 </config>
 </config>
@@ -1631,7 +1631,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_74">
-<entry key="column_name" type="xstring" value="lvr_livestock_raising_dairy-mutton-&amp;-goats[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_feed-sources_all-animals[-]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1644,7 +1644,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
+<entry key="StringCell" type="xstring" value="3. Last reference year"/>
 </config>
 </config>
 </config>
@@ -1653,7 +1653,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_75">
-<entry key="column_name" type="xstring" value="lvr_livestock_raising_laying-poultry[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_density_grazing[lsu/ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1666,7 +1666,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
+<entry key="StringCell" type="xstring" value="4. Last reference year value"/>
 </config>
 </config>
 </config>
@@ -1675,7 +1675,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_76">
-<entry key="column_name" type="xstring" value="lvr_livestock_density_grazing[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_ration-split_all-animals[-]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1688,7 +1688,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
+<entry key="StringCell" type="xstring" value="3. Last reference year"/>
 </config>
 </config>
 </config>
@@ -1697,7 +1697,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_77">
-<entry key="column_name" type="xstring" value="lvr_livestock_pasture-land_temp-perm[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_fat-yields_non-dairy-cattle[t/lsu]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1710,7 +1710,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
+<entry key="StringCell" type="xstring" value="2. Past trends"/>
 </config>
 </config>
 </config>
@@ -1719,7 +1719,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_78">
-<entry key="column_name" type="xstring" value="lvr_livestock_fat-yields_dairy-cattle[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_fat-yields_dairy-cattle[t/lsu]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1741,7 +1741,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_79">
-<entry key="column_name" type="xstring" value="lvr_livestock_fat-yields_non-dairy-cattle[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_fat-yields_dairy-mutton-&amp;-goats[t/lsu]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1763,7 +1763,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_80">
-<entry key="column_name" type="xstring" value="lvr_livestock_fat-yields_mutton-&amp;-goats[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_fat-yields_pigs[t/lsu]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1785,7 +1785,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_81">
-<entry key="column_name" type="xstring" value="lvr_livestock_fat-yields_pigs[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_fat-yields_mutton-&amp;-goats[t/lsu]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1807,7 +1807,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_82">
-<entry key="column_name" type="xstring" value="lvr_livestock_fat-yields_dairy-mutton-&amp;-goats[-]"/>
+<entry key="column_name" type="xstring" value="lvr_livestock_pasture-land_temp-perm[-]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1820,7 +1820,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2. Past trends"/>
+<entry key="StringCell" type="xstring" value="2. Business As Usual"/>
 </config>
 </config>
 </config>
@@ -1842,7 +1842,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Fast Deployement (UK bioenergy strategy)"/>
+<entry key="StringCell" type="xstring" value="2. Past trends"/>
 </config>
 </config>
 </config>
@@ -1864,7 +1864,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Fast Deployement (UK bioenergy strategy)"/>
+<entry key="StringCell" type="xstring" value="2. Past trends"/>
 </config>
 </config>
 </config>
@@ -1886,7 +1886,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Fast Deployement (UK bioenergy strategy)"/>
+<entry key="StringCell" type="xstring" value="2. Past trends"/>
 </config>
 </config>
 </config>
@@ -1908,7 +1908,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. High deployement"/>
+<entry key="StringCell" type="xstring" value="2. Past trends"/>
 </config>
 </config>
 </config>
@@ -1930,7 +1930,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. High deployement"/>
+<entry key="StringCell" type="xstring" value="2. Past trends"/>
 </config>
 </config>
 </config>
@@ -1952,7 +1952,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. High deployement"/>
+<entry key="StringCell" type="xstring" value="2. Past trends"/>
 </config>
 </config>
 </config>
@@ -1974,7 +1974,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. High deployement"/>
+<entry key="StringCell" type="xstring" value="2. Past trends"/>
 </config>
 </config>
 </config>
@@ -1996,7 +1996,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. High deployement"/>
+<entry key="StringCell" type="xstring" value="2. Past trends"/>
 </config>
 </config>
 </config>
@@ -2590,7 +2590,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -2612,7 +2612,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -2634,7 +2634,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -2656,7 +2656,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -2678,7 +2678,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -2700,7 +2700,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -2722,7 +2722,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -2744,7 +2744,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -2766,7 +2766,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -2788,7 +2788,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -2810,7 +2810,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -2832,7 +2832,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -2854,7 +2854,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -2876,7 +2876,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -2898,7 +2898,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -2920,7 +2920,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -2942,7 +2942,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -2964,7 +2964,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -2986,7 +2986,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3008,7 +3008,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3030,7 +3030,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3052,7 +3052,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3074,7 +3074,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3096,7 +3096,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3118,7 +3118,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3140,7 +3140,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3162,7 +3162,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3184,7 +3184,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3206,7 +3206,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3228,7 +3228,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3250,7 +3250,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3272,7 +3272,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3294,7 +3294,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3316,7 +3316,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3338,7 +3338,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3360,7 +3360,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3382,7 +3382,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3404,7 +3404,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3426,7 +3426,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3448,7 +3448,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3470,7 +3470,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3492,7 +3492,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3514,7 +3514,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3536,7 +3536,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3558,7 +3558,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3580,7 +3580,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3602,7 +3602,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3624,7 +3624,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3646,7 +3646,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3668,7 +3668,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3690,7 +3690,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3712,7 +3712,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3734,7 +3734,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3756,7 +3756,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3778,7 +3778,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3800,7 +3800,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3822,7 +3822,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>
@@ -3844,7 +3844,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="4. Agroecology"/>
+<entry key="StringCell" type="xstring" value="3. Towards Sustainability"/>
 </config>
 </config>
 </config>

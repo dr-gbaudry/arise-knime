@@ -18,15 +18,45 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="path-name"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Towards Sustainability"/>
+<entry key="value" type="xstring" value="Balanced Agroecological Net Zero Pathway"/>
 </config>
 <config key="Variable_3">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="path-reader"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Overwrite"/>
+<entry key="value" type="xstring" value="Load"/>
 </config>
 <config key="Variable_4">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="design-by"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Dr. Gino BAUDRY, Imperial College London"/>
+</config>
+<config key="Variable_5">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="geo-scale"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="united-kingdom"/>
+</config>
+<config key="Variable_6">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="user-path"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="arise-knime"/>
+</config>
+<config key="Variable_7">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="path-name"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Balanced Agroecological Net Zero Pathway"/>
+</config>
+<config key="Variable_8">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="path-reader"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Load"/>
+</config>
+<config key="Variable_9">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="design-by"/>
 <entry key="class" type="xstring" value="STRING"/>
@@ -485,7 +515,7 @@
 <entry key="sub-node-description" type="xstring" value=""/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="isDeletable" type="xboolean" value="false"/>
 <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory"/>
 <entry key="node-name" type="xstring" value="Component Input"/>
@@ -506,16 +536,19 @@
 </config>
 </config>
 <entry key="name" type="xstring" value="Component Input"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 122, Cols: 3669"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="44133a9d-10f5-4b98-8a9a-a43835c24c6f"/>
 </config>
 </config>

@@ -6,25 +6,25 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="m-lvr_self-sufficiency-animals[-] (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
+<entry key="value" type="xint" value="10"/>
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="m-lvr_self-sufficiency-animals[-]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Business As Usual"/>
+<entry key="value" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 <config key="Variable_2">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="m-lvr_self-sufficiency-animals[-] (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
+<entry key="value" type="xint" value="10"/>
 </config>
 <config key="Variable_3">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="m-lvr_self-sufficiency-animals[-]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Business As Usual"/>
+<entry key="value" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -43,7 +43,7 @@
 <entry key="customCSS" type="xstring" value=""/>
 <entry key="flowvariablename" type="xstring" value="m-lvr_self-sufficiency-animals[-]"/>
 <config key="possible_choices">
-<entry key="array-size" type="xint" value="10"/>
+<entry key="array-size" type="xint" value="11"/>
 <entry key="0" type="xstring" value="1. Stratified-Societies"/>
 <entry key="1" type="xstring" value="2. Business As Usual"/>
 <entry key="2" type="xstring" value="3. Towards Sustainability"/>
@@ -54,8 +54,9 @@
 <entry key="7" type="xstring" value="8. Low-Intermediate"/>
 <entry key="8" type="xstring" value="9. Intermediate"/>
 <entry key="9" type="xstring" value="10. High-Intermediate"/>
+<entry key="10" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
 </config>
-<entry key="type" type="xstring" value="Radio buttons (horizontal)"/>
+<entry key="type" type="xstring" value="Dropdown"/>
 <entry key="limit_number_visible_options" type="xboolean" value="false"/>
 <entry key="number_visible_options" type="xint" value="10"/>
 </config>
@@ -102,6 +103,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="f5cf9252-4621-4f05-82e2-fcb17d1da56c"/>
+<entry key="file_store_id" type="xstring" value="bf55663c-4daa-4043-b758-fdd7590c9b74"/>
 </config>
 </config>

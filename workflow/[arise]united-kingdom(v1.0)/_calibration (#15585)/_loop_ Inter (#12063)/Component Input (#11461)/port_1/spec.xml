@@ -481,31 +481,6 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_5">
-<entry key="column_name" type="xstring" value="caf_harvested-lands_wheat-and-products[ha]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9608796479253827"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9824556835126377"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_6">
 <entry key="column_name" type="xstring" value="caf_harvested-lands_barley-and-products[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -530,8 +505,8 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_7">
-<entry key="column_name" type="xstring" value="caf_harvested-lands_maize-and-products[ha]"/>
+<config key="column_spec_6">
+<entry key="column_name" type="xstring" value="caf_harvested-lands_cereal-others[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -542,13 +517,38 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9662868608128168"/>
+<entry key="DoubleCell" type="xdouble" value="0.14489600880088466"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.0018215501063712"/>
+<entry key="DoubleCell" type="xdouble" value="0.9118305716492854"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_7">
+<entry key="column_name" type="xstring" value="caf_harvested-lands_wheat-and-products[ha]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.9608796479253827"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.9824556835126377"/>
 </config>
 </config>
 </config>
@@ -581,7 +581,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_9">
-<entry key="column_name" type="xstring" value="caf_harvested-lands_cereal-others[ha]"/>
+<entry key="column_name" type="xstring" value="caf_harvested-lands_maize-and-products[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -592,13 +592,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.14489600880088466"/>
+<entry key="DoubleCell" type="xdouble" value="0.9662868608128168"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9118305716492854"/>
+<entry key="DoubleCell" type="xdouble" value="1.0018215501063712"/>
 </config>
 </config>
 </config>
@@ -606,7 +606,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_10">
-<entry key="column_name" type="xstring" value="caf_harvested-lands_rape-and-mustardseed[ha]"/>
+<entry key="column_name" type="xstring" value="caf_harvested-lands_pulses[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -617,13 +617,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.0055963035276211034"/>
+<entry key="DoubleCell" type="xdouble" value="0.6920377867746288"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.03200667040832042"/>
+<entry key="DoubleCell" type="xdouble" value="1.1167512690355332"/>
 </config>
 </config>
 </config>
@@ -631,7 +631,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_11">
-<entry key="column_name" type="xstring" value="caf_harvested-lands_sunflower-seed[ha]"/>
+<entry key="column_name" type="xstring" value="caf_harvested-lands_sugar-crops[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -642,13 +642,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.8950020918445821"/>
+<entry key="DoubleCell" type="xdouble" value="0.7577234986889817"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9150489676818512"/>
+<entry key="DoubleCell" type="xdouble" value="0.907181024371172"/>
 </config>
 </config>
 </config>
@@ -656,7 +656,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_12">
-<entry key="column_name" type="xstring" value="caf_harvested-lands_soyabeans[ha]"/>
+<entry key="column_name" type="xstring" value="caf_harvested-lands_vegetables[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -667,13 +667,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.8940041036917247"/>
+<entry key="DoubleCell" type="xdouble" value="0.677239054172154"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9017612782819684"/>
+<entry key="DoubleCell" type="xdouble" value="0.8039849309723692"/>
 </config>
 </config>
 </config>
@@ -681,7 +681,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_13">
-<entry key="column_name" type="xstring" value="caf_harvested-lands_oilcrop-others[ha]"/>
+<entry key="column_name" type="xstring" value="caf_harvested-lands_starchy-roots[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -692,13 +692,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="2.1484260639663462E-4"/>
+<entry key="DoubleCell" type="xdouble" value="0.7610090060359205"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.003170903716216216"/>
+<entry key="DoubleCell" type="xdouble" value="0.8189727510952662"/>
 </config>
 </config>
 </config>
@@ -731,7 +731,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_15">
-<entry key="column_name" type="xstring" value="caf_harvested-lands_vegetables[ha]"/>
+<entry key="column_name" type="xstring" value="caf_harvested-lands_oilcrop-others[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -742,13 +742,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.677239054172154"/>
+<entry key="DoubleCell" type="xdouble" value="2.1484260639663462E-4"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.8039849309723692"/>
+<entry key="DoubleCell" type="xdouble" value="0.003170903716216216"/>
 </config>
 </config>
 </config>
@@ -756,7 +756,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_16">
-<entry key="column_name" type="xstring" value="caf_harvested-lands_starchy-roots[ha]"/>
+<entry key="column_name" type="xstring" value="caf_harvested-lands_sunflower-seed[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -767,13 +767,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.7610090060359205"/>
+<entry key="DoubleCell" type="xdouble" value="0.8950020918445821"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.8189727510952662"/>
+<entry key="DoubleCell" type="xdouble" value="0.9150489676818512"/>
 </config>
 </config>
 </config>
@@ -781,7 +781,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_17">
-<entry key="column_name" type="xstring" value="caf_harvested-lands_pulses[ha]"/>
+<entry key="column_name" type="xstring" value="caf_harvested-lands_soyabeans[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -792,13 +792,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.6920377867746288"/>
+<entry key="DoubleCell" type="xdouble" value="0.8940041036917247"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.1167512690355332"/>
+<entry key="DoubleCell" type="xdouble" value="0.9017612782819684"/>
 </config>
 </config>
 </config>
@@ -806,7 +806,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_18">
-<entry key="column_name" type="xstring" value="caf_harvested-lands_sugar-crops[ha]"/>
+<entry key="column_name" type="xstring" value="caf_harvested-lands_rape-and-mustardseed[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -817,13 +817,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.7577234986889817"/>
+<entry key="DoubleCell" type="xdouble" value="0.0055963035276211034"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.907181024371172"/>
+<entry key="DoubleCell" type="xdouble" value="0.03200667040832042"/>
 </config>
 </config>
 </config>

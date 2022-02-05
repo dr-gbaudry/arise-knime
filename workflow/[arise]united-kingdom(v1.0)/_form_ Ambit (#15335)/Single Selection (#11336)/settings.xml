@@ -4,27 +4,27 @@
 <config key="flow_stack">
 <config key="Variable_0">
 <entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_crops_agroforestry_meadows-and-pastures-hedges[%] (index)"/>
+<entry key="name" type="xstring" value="lvr_crops_agroforestry_meadows-hedges[%] (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
+<entry key="value" type="xint" value="0"/>
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_crops_agroforestry_meadows-and-pastures-hedges[%]"/>
+<entry key="name" type="xstring" value="lvr_crops_agroforestry_meadows-hedges[%]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. +10% of agriculture lands"/>
+<entry key="value" type="xstring" value="1. Same as reference"/>
 </config>
 <config key="Variable_2">
 <entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_crops_agroforestry_meadows-and-pastures-hedges[%] (index)"/>
+<entry key="name" type="xstring" value="lvr_crops_agroforestry_meadows-hedges[%] (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
+<entry key="value" type="xint" value="0"/>
 </config>
 <config key="Variable_3">
 <entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_crops_agroforestry_meadows-and-pastures-hedges[%]"/>
+<entry key="name" type="xstring" value="lvr_crops_agroforestry_meadows-hedges[%]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. +10% of agriculture lands"/>
+<entry key="value" type="xstring" value="1. Same as reference"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -41,7 +41,7 @@
 <entry key="required" type="xboolean" value="true"/>
 <entry key="parameterName" type="xstring" value="agroforestry-meadows-and-pastures-hedges"/>
 <entry key="customCSS" type="xstring" value=""/>
-<entry key="flowvariablename" type="xstring" value="lvr_crops_agroforestry_meadows-and-pastures-hedges[%]"/>
+<entry key="flowvariablename" type="xstring" value="lvr_crops_agroforestry_meadows-hedges[%]"/>
 <config key="possible_choices">
 <entry key="array-size" type="xint" value="8"/>
 <entry key="0" type="xstring" value="1. Same as reference"/>
@@ -109,6 +109,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="7c4305e9-37e3-4370-9847-208a91b6793c"/>
+<entry key="file_store_id" type="xstring" value="f73bb2ac-8d3d-402d-967b-d9858571fe35"/>
 </config>
 </config>
