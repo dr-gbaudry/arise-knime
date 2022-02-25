@@ -72,13 +72,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_lifestyles_diet_split[t]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="5. Towards Healthy Diet"/>
+<entry key="value" type="xstring" value="3. Intermediate progression towards healthy diet"/>
 </config>
 <config key="Variable_12">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_lifestyles_diet_split[t] (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="4"/>
+<entry key="value" type="xint" value="2"/>
 </config>
 <config key="Variable_13">
 <entry key="type" type="xstring" value="variable"/>
@@ -120,13 +120,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_lifestyles_others_tobacco[t]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. FAO-2050:Business as usual"/>
+<entry key="value" type="xstring" value="3. FAO-2050:Towards sustainability"/>
 </config>
 <config key="Variable_20">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_lifestyles_others_tobacco[t] (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
+<entry key="value" type="xint" value="2"/>
 </config>
 <config key="Variable_21">
 <entry key="type" type="xstring" value="variable"/>
@@ -576,19 +576,19 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_self-sufficiency_meat_bovine-meat[%]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+<entry key="value" type="xstring" value="4. Past trends"/>
 </config>
 <config key="Variable_96">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="m-lvr_self-sufficiency-animals[-]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+<entry key="value" type="xstring" value="4. Past trends"/>
 </config>
 <config key="Variable_97">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="m-lvr_self-sufficiency-animals[-] (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="10"/>
+<entry key="value" type="xint" value="3"/>
 </config>
 <config key="Variable_98">
 <entry key="type" type="xstring" value="variable"/>
@@ -2538,13 +2538,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_international-trends_climate_climate-shifter[-]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="1. Hybrid RCP 2.6-4.5 "/>
+<entry key="value" type="xstring" value="2. Hybrid RCP 6.0-8.5 "/>
 </config>
 <config key="Variable_423">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_international-trends_climate_climate-shifter[-] (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
+<entry key="value" type="xint" value="1"/>
 </config>
 <config key="Variable_424">
 <entry key="type" type="xstring" value="variable"/>
@@ -2562,7 +2562,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="debug-mode"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="enabled"/>
+<entry key="value" type="xstring" value="disabled"/>
 </config>
 <config key="Variable_427">
 <entry key="type" type="xstring" value="variable"/>
@@ -2574,25 +2574,25 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="path-name"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Balanced Agroecological Net Zero Pathway"/>
+<entry key="value" type="xstring" value="Your Path Your Way"/>
 </config>
 <config key="Variable_429">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="path-reader"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Load"/>
+<entry key="value" type="xstring" value="Overwrite"/>
 </config>
 <config key="Variable_430">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="path-reader (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="2"/>
+<entry key="value" type="xint" value="1"/>
 </config>
 <config key="Variable_431">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="design-by"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Dr. Gino BAUDRY, Imperial College London"/>
+<entry key="value" type="xstring" value="Anonymous"/>
 </config>
 <config key="Variable_432">
 <entry key="type" type="xstring" value="variable"/>
@@ -2664,13 +2664,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_lifestyles_diet_split[t]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="5. Towards Healthy Diet"/>
+<entry key="value" type="xstring" value="3. Intermediate progression towards healthy diet"/>
 </config>
 <config key="Variable_444">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_lifestyles_diet_split[t] (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="4"/>
+<entry key="value" type="xint" value="2"/>
 </config>
 <config key="Variable_445">
 <entry key="type" type="xstring" value="variable"/>
@@ -2712,13 +2712,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_lifestyles_others_tobacco[t]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. FAO-2050:Business as usual"/>
+<entry key="value" type="xstring" value="3. FAO-2050:Towards sustainability"/>
 </config>
 <config key="Variable_452">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_lifestyles_others_tobacco[t] (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
+<entry key="value" type="xint" value="2"/>
 </config>
 <config key="Variable_453">
 <entry key="type" type="xstring" value="variable"/>
@@ -3168,19 +3168,19 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_self-sufficiency_meat_bovine-meat[%]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+<entry key="value" type="xstring" value="4. Past trends"/>
 </config>
 <config key="Variable_528">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="m-lvr_self-sufficiency-animals[-]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="11. EEB pathway (self-sufficient or more)"/>
+<entry key="value" type="xstring" value="4. Past trends"/>
 </config>
 <config key="Variable_529">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="m-lvr_self-sufficiency-animals[-] (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="10"/>
+<entry key="value" type="xint" value="3"/>
 </config>
 <config key="Variable_530">
 <entry key="type" type="xstring" value="variable"/>
@@ -5130,13 +5130,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_international-trends_climate_climate-shifter[-]"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="1. Hybrid RCP 2.6-4.5 "/>
+<entry key="value" type="xstring" value="2. Hybrid RCP 6.0-8.5 "/>
 </config>
 <config key="Variable_855">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="lvr_international-trends_climate_climate-shifter[-] (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
+<entry key="value" type="xint" value="1"/>
 </config>
 <config key="Variable_856">
 <entry key="type" type="xstring" value="variable"/>
@@ -5154,7 +5154,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="debug-mode"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="enabled"/>
+<entry key="value" type="xstring" value="disabled"/>
 </config>
 <config key="Variable_859">
 <entry key="type" type="xstring" value="variable"/>
@@ -5166,25 +5166,25 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="path-name"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Balanced Agroecological Net Zero Pathway"/>
+<entry key="value" type="xstring" value="Your Path Your Way"/>
 </config>
 <config key="Variable_861">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="path-reader"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Load"/>
+<entry key="value" type="xstring" value="Overwrite"/>
 </config>
 <config key="Variable_862">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="path-reader (index)"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="2"/>
+<entry key="value" type="xint" value="1"/>
 </config>
 <config key="Variable_863">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="design-by"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Dr. Gino BAUDRY, Imperial College London"/>
+<entry key="value" type="xstring" value="Anonymous"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -5264,12 +5264,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 122, Cols: 2525"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 61, Cols: 2525"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="2f43e94c-9e9c-4524-a32f-cac71831649f"/>
+<entry key="file_store_id" type="xstring" value="86eccb1d-45fe-4eb0-b982-f914b6dae6da"/>
 </config>
 </config>

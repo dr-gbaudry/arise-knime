@@ -6,7 +6,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="selection"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Country|Years|dat_input-use-energy_biodiesels\[toe\]|dat_input-use-energy_biogasolines\[toe\]|dat_input-use-energy_solid-fossil-fuels\[toe\]|dat_input-use-energy_biogases\[toe\]|dat_input-use-energy_electricity\[toe\]|dat_input-use-energy_fuel-oil\[toe\]|dat_input-use-energy_gasoline-and-diesel\[toe\]|dat_input-use-energy_heat\[toe\]|dat_input-use-energy_liquefied-petroleum-gases\[toe\]|dat_input-use-energy_diesel\[toe\]|dat_input-use-energy_natural-gas\[toe\]|dat_input-use-energy_other-liquid-biofuels\[toe\]|dat_input-use-energy_primary-solid-biofuels\[toe\]|dat_input-use-energy_wastes\[toe\]"/>
+<entry key="value" type="xstring" value="Country|Years|dat_input-use-energy_biodiesels\[toe\]|dat_input-use-energy_biogasolines\[toe\]|dat_input-use-energy_solid-fossil-fuels\[toe\]|dat_input-use-energy_biogases\[toe\]|dat_input-use-energy_diesel\[toe\]|dat_input-use-energy_electricity\[toe\]|dat_input-use-energy_fuel-oil\[toe\]|dat_input-use-energy_heat\[toe\]|dat_input-use-energy_liquefied-petroleum-gases\[toe\]|dat_input-use-energy_motor-gasoline-excluding-biofuel-portion\[toe\]|dat_input-use-energy_natural-gas\[toe\]|dat_input-use-energy_other-liquid-biofuels\[toe\]|dat_input-use-energy_primary-solid-biofuels\[toe\]|dat_input-use-energy_wastes\[toe\]"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -21,7 +21,7 @@
 <entry key="return_type" type="xstring" value="java.lang.String"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.preproc.stringmanipulation.variable.StringManipulationVariableNodeFactory"/>
 <entry key="node-name" type="xstring" value="String Manipulation (Variable)"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
@@ -34,16 +34,21 @@
 <entry key="node-feature-version" type="xstring" value="4.3.0.v202011191508"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="String Manipulation (Variable)"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="b9e4b14e-afc0-49a7-a9fe-0123fffb6a3f"/>
 </config>
 </config>

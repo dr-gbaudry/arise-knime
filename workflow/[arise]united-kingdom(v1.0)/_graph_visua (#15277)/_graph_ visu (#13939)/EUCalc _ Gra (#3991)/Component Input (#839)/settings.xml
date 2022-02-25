@@ -30,7 +30,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="selection"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Country,Years,dat_crop-residues_crop-residues-ch4-emission[t]"/>
+<entry key="value" type="xstring" value="Country,Years,dat_ch4-emissions_burnt-residues[t]"/>
 </config>
 <config key="Variable_5">
 <entry key="type" type="xstring" value="variable"/>
@@ -109,7 +109,7 @@
 <entry key="sub-node-description" type="xstring" value=""/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="isDeletable" type="xboolean" value="false"/>
 <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory"/>
 <entry key="node-name" type="xstring" value="Component Input"/>
@@ -131,15 +131,20 @@
 </config>
 <entry key="name" type="xstring" value="Component Input"/>
 <entry key="hasContent" type="xboolean" value="false"/>
-<entry key="isInactive" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="true"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObject"/>
+<entry key="port_object_summary" type="xstring" value="Inactive Port Object"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="d23d1a4e-9381-48fd-80ed-18b19b8c499c"/>
 </config>
 </config>

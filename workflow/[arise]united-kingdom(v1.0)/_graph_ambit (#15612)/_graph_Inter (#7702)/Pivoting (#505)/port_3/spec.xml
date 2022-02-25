@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
 <entry key="spec_name" type="xstring" value="default"/>
-<entry key="number_columns" type="xint" value="67"/>
+<entry key="number_columns" type="xint" value="29"/>
 <config key="column_spec_0">
 <entry key="column_name" type="xstring" value="Years"/>
 <config key="element_names">
@@ -385,7 +385,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_1">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_Eu27_1+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_others[%]_Eu27_1+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -396,13 +396,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9737232461004139"/>
+<entry key="DoubleCell" type="xdouble" value="0.615329237214542"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9737232461004139"/>
+<entry key="DoubleCell" type="xdouble" value="0.615329237214542"/>
 </config>
 </config>
 </config>
@@ -410,7 +410,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_2">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_Eu27_1+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_pasturelands[%]_Eu27_1+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -421,13 +421,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.2829404306504533"/>
+<entry key="DoubleCell" type="xdouble" value="0.384670762785458"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.2829404306504533"/>
+<entry key="DoubleCell" type="xdouble" value="0.384670762785458"/>
 </config>
 </config>
 </config>
@@ -435,7 +435,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_3">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_Eu27_1+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_others[%]_United Kingdom_1+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -446,13 +446,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9629186759696037"/>
+<entry key="DoubleCell" type="xdouble" value="0.5249662472476235"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9629186759696037"/>
+<entry key="DoubleCell" type="xdouble" value="0.5249662472476235"/>
 </config>
 </config>
 </config>
@@ -460,7 +460,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_4">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_United Kingdom_1+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_pasturelands[%]_United Kingdom_1+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -471,13 +471,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.08414895792018592"/>
+<entry key="DoubleCell" type="xdouble" value="0.47503375275237597"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.08414895792018592"/>
+<entry key="DoubleCell" type="xdouble" value="0.47503375275237597"/>
 </config>
 </config>
 </config>
@@ -485,7 +485,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_5">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_United Kingdom_1+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_others[%]_Eu27_2+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -496,13 +496,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.46368172139744107"/>
+<entry key="DoubleCell" type="xdouble" value="0.5609262951707931"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.46368172139744107"/>
+<entry key="DoubleCell" type="xdouble" value="0.5609262951707931"/>
 </config>
 </config>
 </config>
@@ -510,7 +510,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_6">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_United Kingdom_1+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_pasturelands[%]_Eu27_2+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -521,13 +521,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.036909025632256"/>
+<entry key="DoubleCell" type="xdouble" value="0.4390737048292065"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.036909025632256"/>
+<entry key="DoubleCell" type="xdouble" value="0.4390737048292065"/>
 </config>
 </config>
 </config>
@@ -535,7 +535,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_7">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_Eu27_2+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_others[%]_United Kingdom_2+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -546,13 +546,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9737232461004139"/>
+<entry key="DoubleCell" type="xdouble" value="0.4583327362687307"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9737232461004139"/>
+<entry key="DoubleCell" type="xdouble" value="0.4583327362687307"/>
 </config>
 </config>
 </config>
@@ -560,7 +560,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_8">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_Eu27_2+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_pasturelands[%]_United Kingdom_2+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -571,13 +571,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.2829404306504533"/>
+<entry key="DoubleCell" type="xdouble" value="0.5416672637312684"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.2829404306504533"/>
+<entry key="DoubleCell" type="xdouble" value="0.5416672637312684"/>
 </config>
 </config>
 </config>
@@ -585,7 +585,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_9">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_Eu27_2+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_others[%]_Eu27_3+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -596,13 +596,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9629186759696037"/>
+<entry key="DoubleCell" type="xdouble" value="0.4723836050758846"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9629186759696037"/>
+<entry key="DoubleCell" type="xdouble" value="0.4723836050758846"/>
 </config>
 </config>
 </config>
@@ -610,7 +610,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_10">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_United Kingdom_2+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_pasturelands[%]_Eu27_3+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -621,13 +621,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.08414895792018592"/>
+<entry key="DoubleCell" type="xdouble" value="0.527616394924115"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.08414895792018592"/>
+<entry key="DoubleCell" type="xdouble" value="0.527616394924115"/>
 </config>
 </config>
 </config>
@@ -635,7 +635,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_11">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_United Kingdom_2+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_others[%]_United Kingdom_3+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -646,13 +646,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.46368172139744107"/>
+<entry key="DoubleCell" type="xdouble" value="0.38202061510896634"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.46368172139744107"/>
+<entry key="DoubleCell" type="xdouble" value="0.38202061510896634"/>
 </config>
 </config>
 </config>
@@ -660,7 +660,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_12">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_United Kingdom_2+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_pasturelands[%]_United Kingdom_3+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -671,13 +671,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.036909025632256"/>
+<entry key="DoubleCell" type="xdouble" value="0.6179793848910337"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.036909025632256"/>
+<entry key="DoubleCell" type="xdouble" value="0.6179793848910337"/>
 </config>
 </config>
 </config>
@@ -685,7 +685,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_13">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_Eu27_3+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_others[%]_Eu27_4+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -696,13 +696,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9737232461004139"/>
+<entry key="DoubleCell" type="xdouble" value="0.5379179648410843"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9737232461004139"/>
+<entry key="DoubleCell" type="xdouble" value="0.5379179648410843"/>
 </config>
 </config>
 </config>
@@ -710,7 +710,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_14">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_Eu27_3+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_pasturelands[%]_Eu27_4+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -721,13 +721,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.2829404306504533"/>
+<entry key="DoubleCell" type="xdouble" value="0.4620820351589154"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.2829404306504533"/>
+<entry key="DoubleCell" type="xdouble" value="0.4620820351589154"/>
 </config>
 </config>
 </config>
@@ -735,7 +735,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_15">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_Eu27_3+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_others[%]_United Kingdom_4+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -746,13 +746,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9629186759696037"/>
+<entry key="DoubleCell" type="xdouble" value="0.4204595587626881"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9629186759696037"/>
+<entry key="DoubleCell" type="xdouble" value="0.4204595587626881"/>
 </config>
 </config>
 </config>
@@ -760,7 +760,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_16">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_United Kingdom_3+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_pasturelands[%]_United Kingdom_4+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -771,13 +771,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.08414895792018592"/>
+<entry key="DoubleCell" type="xdouble" value="0.5795404412373115"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.08414895792018592"/>
+<entry key="DoubleCell" type="xdouble" value="0.5795404412373115"/>
 </config>
 </config>
 </config>
@@ -785,7 +785,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_17">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_United Kingdom_3+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_others[%]_Eu27_5+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -796,13 +796,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.46368172139744107"/>
+<entry key="DoubleCell" type="xdouble" value="0.47414720717434755"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.46368172139744107"/>
+<entry key="DoubleCell" type="xdouble" value="0.47414720717434755"/>
 </config>
 </config>
 </config>
@@ -810,7 +810,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_18">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_United Kingdom_3+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_pasturelands[%]_Eu27_5+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -821,13 +821,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.036909025632256"/>
+<entry key="DoubleCell" type="xdouble" value="0.39373637524295413"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.036909025632256"/>
+<entry key="DoubleCell" type="xdouble" value="0.39373637524295413"/>
 </config>
 </config>
 </config>
@@ -835,7 +835,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_19">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_Eu27_4+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_others[%]_United Kingdom_5+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -846,13 +846,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.8645835017455834"/>
+<entry key="DoubleCell" type="xdouble" value="0.42945742308622403"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.8645835017455834"/>
+<entry key="DoubleCell" type="xdouble" value="0.42945742308622403"/>
 </config>
 </config>
 </config>
@@ -860,7 +860,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_20">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_Eu27_4+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_pasturelands[%]_United Kingdom_5+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -871,13 +871,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.0895754316072233"/>
+<entry key="DoubleCell" type="xdouble" value="0.4384261593310775"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.0895754316072233"/>
+<entry key="DoubleCell" type="xdouble" value="0.4384261593310775"/>
 </config>
 </config>
 </config>
@@ -885,7 +885,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_21">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_Eu27_4+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_others[%]_Eu27_6+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -896,13 +896,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.8545092213481558"/>
+<entry key="DoubleCell" type="xdouble" value="0.5402054159656968"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.8545092213481558"/>
+<entry key="DoubleCell" type="xdouble" value="0.5402054159656968"/>
 </config>
 </config>
 </config>
@@ -910,7 +910,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_22">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_United Kingdom_4+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_pasturelands[%]_Eu27_6+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -921,13 +921,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.07027695300887862"/>
+<entry key="DoubleCell" type="xdouble" value="0.4597945840343034"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.07027695300887862"/>
+<entry key="DoubleCell" type="xdouble" value="0.4597945840343034"/>
 </config>
 </config>
 </config>
@@ -935,7 +935,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_23">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_United Kingdom_4+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_others[%]_United Kingdom_6+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -946,13 +946,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.37794955057321383"/>
+<entry key="DoubleCell" type="xdouble" value="0.49551563187757336"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.37794955057321383"/>
+<entry key="DoubleCell" type="xdouble" value="0.49551563187757336"/>
 </config>
 </config>
 </config>
@@ -960,7 +960,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_24">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_United Kingdom_4+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_pasturelands[%]_United Kingdom_6+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -971,13 +971,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.1283807978849067"/>
+<entry key="DoubleCell" type="xdouble" value="0.5044843681224267"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.1283807978849067"/>
+<entry key="DoubleCell" type="xdouble" value="0.5044843681224267"/>
 </config>
 </config>
 </config>
@@ -985,7 +985,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_25">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_Eu27_5+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_others[%]_Eu27_7+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -996,13 +996,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9048896593473119"/>
+<entry key="DoubleCell" type="xdouble" value="0.606263624757046"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9048896593473119"/>
+<entry key="DoubleCell" type="xdouble" value="0.606263624757046"/>
 </config>
 </config>
 </config>
@@ -1010,7 +1010,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_26">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_Eu27_5+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_pasturelands[%]_Eu27_7+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1021,13 +1021,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.1268435549667026"/>
+<entry key="DoubleCell" type="xdouble" value="0.5258527928256527"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.1268435549667026"/>
+<entry key="DoubleCell" type="xdouble" value="0.5258527928256527"/>
 </config>
 </config>
 </config>
@@ -1035,7 +1035,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_27">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_Eu27_5+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_others[%]_United Kingdom_7+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1046,13 +1046,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9040697674418604"/>
+<entry key="DoubleCell" type="xdouble" value="0.5615738406689228"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9040697674418604"/>
+<entry key="DoubleCell" type="xdouble" value="0.5615738406689228"/>
 </config>
 </config>
 </config>
@@ -1060,7 +1060,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_28">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_United Kingdom_5+ColumnValues"/>
+<entry key="column_name" type="xstring" value="dat_feed-supply-per-source_pasturelands[%]_United Kingdom_7+ColumnValues"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -1071,963 +1071,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.13527017024426347"/>
+<entry key="DoubleCell" type="xdouble" value="0.5705425769137759"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.13527017024426347"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_29">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_United Kingdom_5+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.4261543884384915"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.4261543884384915"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_30">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_United Kingdom_5+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.032142857142857"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.032142857142857"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_31">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_Eu27_6+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9499550976743323"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9499550976743323"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_32">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_Eu27_6+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.1347133012769368"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.1347133012769368"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_33">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_Eu27_6+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9451562349627584"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9451562349627584"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_34">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_United Kingdom_6+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.1984099832271181"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.1984099832271181"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_35">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_United Kingdom_6+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.6291370142028767"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.6291370142028767"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_36">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_United Kingdom_6+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.040898143796992"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.040898143796992"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_37">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_Eu27_7+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.8612924380366846"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.8612924380366846"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_38">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_Eu27_7+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.0737714917302705"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.0737714917302705"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_39">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_Eu27_7+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.841069667329141"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.841069667329141"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_40">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_United Kingdom_7+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.0852354184852418"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.0852354184852418"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_41">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_United Kingdom_7+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.404239630068502"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.404239630068502"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_42">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_United Kingdom_7+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.6928957511402746"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.6928957511402746"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_43">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_Eu27_8+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9013259663301288"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9013259663301288"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_44">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_Eu27_8+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.1758386396905487"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.1758386396905487"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_45">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_Eu27_8+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.8927342137030277"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.8927342137030277"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_46">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_United Kingdom_8+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.09874361234082839"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.09874361234082839"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_47">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_United Kingdom_8+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.36362622878824846"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.36362622878824846"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_48">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_United Kingdom_8+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.840339149479617"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.840339149479617"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_49">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_Eu27_9+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9533378757492281"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9533378757492281"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_50">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_Eu27_9+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.2779057876508269"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.2779057876508269"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_51">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_Eu27_9+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9443987600769141"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9443987600769141"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_52">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_United Kingdom_9+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.1319657359695916"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.1319657359695916"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_53">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_United Kingdom_9+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.45212982392645784"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.45212982392645784"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_54">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_United Kingdom_9+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9877825478189604"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9877825478189604"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_55">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_Eu27_10+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.005349785168327"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.005349785168327"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_56">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_Eu27_10+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.379972935611105"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.379972935611105"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_57">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_Eu27_10+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9960633064508015"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.9960633064508015"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_58">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_United Kingdom_10+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.1651878595983548"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.1651878595983548"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_59">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_United Kingdom_10+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.5406334190646673"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.5406334190646673"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_60">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_United Kingdom_10+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.1352259461583023"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.1352259461583023"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_61">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_Eu27_11+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.0573616945874262"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.0573616945874262"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_62">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_Eu27_11+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.4820400835713832"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.4820400835713832"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_63">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_Eu27_11+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.0477278528246876"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.0477278528246876"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_64">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_fruits-excluding-wine[%]_United Kingdom_11+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.1984099832271181"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.1984099832271181"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_65">
-<entry key="column_name" type="xstring" value="dat_domestic-self-sufficiency_vegetables[%]_United Kingdom_11+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.6291370142028767"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.6291370142028767"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_66">
-<entry key="column_name" type="xstring" value="dat_food-self-sufficiency_mutton-&amp;-goat-meat[%]_United Kingdom_11+ColumnValues"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.2826693444976454"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.2826693444976454"/>
+<entry key="DoubleCell" type="xdouble" value="0.5705425769137759"/>
 </config>
 </config>
 </config>

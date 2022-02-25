@@ -3405,11 +3405,7 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="Single Selection 0:15350:0:12093:0:523: Component does not have input data, execute upstream nodes first"/>
-</config>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="workflow-file" type="xstring" value="workflow.knime"/>
 <entry key="virtual-in-ID" type="xint" value="3986"/>
 <config key="inports">

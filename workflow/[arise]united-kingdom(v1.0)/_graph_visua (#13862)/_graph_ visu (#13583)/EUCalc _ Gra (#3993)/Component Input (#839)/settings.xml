@@ -30,7 +30,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="selection"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Country,Years,dat_consumers-food-wastes-and-losses_fish-seafood[t],dat_consumers-food-wastes-and-losses_fruits-excluding-wine[t],dat_consumers-food-wastes-and-losses_sugar-&amp;-sweeteners[t],dat_consumers-food-wastes-and-losses_barley-and-products[t],dat_consumers-food-wastes-and-losses_beer[t],dat_consumers-food-wastes-and-losses_beverages-alcoholic[t],dat_consumers-food-wastes-and-losses_beverages-fermented[t],dat_consumers-food-wastes-and-losses_bovine-meat[t],dat_consumers-food-wastes-and-losses_cereal-others[t],dat_consumers-food-wastes-and-losses_cocoa-beans-and-products[t],dat_consumers-food-wastes-and-losses_coffee-and-products[t],dat_consumers-food-wastes-and-losses_eggs[t],dat_consumers-food-wastes-and-losses_fats-animals-raw[t],dat_consumers-food-wastes-and-losses_maize-and-products[t],dat_consumers-food-wastes-and-losses_meat-other[t],dat_consumers-food-wastes-and-losses_milk-excluding-butter[t],dat_consumers-food-wastes-and-losses_mutton-&amp;-goat-meat[t],dat_consumers-food-wastes-and-losses_nuts-and-products[t],dat_consumers-food-wastes-and-losses_offals[t],dat_consumers-food-wastes-and-losses_oilcrop-others[t],dat_consumers-food-wastes-and-losses_olive-oil[t],dat_consumers-food-wastes-and-losses_olives-including-preserved[t],dat_consumers-food-wastes-and-losses_palm-oil[t],dat_consumers-food-wastes-and-losses_pigmeat[t],dat_consumers-food-wastes-and-losses_poultry-meat[t],dat_consumers-food-wastes-and-losses_pulses[t],dat_consumers-food-wastes-and-losses_rape-and-mustard-oil[t],dat_consumers-food-wastes-and-losses_rape-and-mustardseed[t],dat_consumers-food-wastes-and-losses_rice-milled-equivalent[t],dat_consumers-food-wastes-and-losses_rye-and-products[t],dat_consumers-food-wastes-and-losses_soyabean-oil[t],dat_consumers-food-wastes-and-losses_soyabeans[t],dat_consumers-food-wastes-and-losses_starchy-roots[t],dat_consumers-food-wastes-and-losses_sunflower-seed[t],dat_consumers-food-wastes-and-losses_sunflowerseed-oil[t],dat_consumers-food-wastes-and-losses_tea-including-mate[t],dat_consumers-food-wastes-and-losses_vegetables[t],dat_consumers-food-wastes-and-losses_wheat-and-products[t],dat_consumers-food-wastes-and-losses_wine[t],dat_consumers-food-wastes-and-losses_palm[t]"/>
+<entry key="value" type="xstring" value="Country,Years,dat_consumers-food-wastes-and-losses_animal-fats[t],dat_consumers-food-wastes-and-losses_cereal-others[t],dat_consumers-food-wastes-and-losses_fish-seafood[t],dat_consumers-food-wastes-and-losses_fruits-excluding-wine[t],dat_consumers-food-wastes-and-losses_oilcrop-others[t],dat_consumers-food-wastes-and-losses_palm[t],dat_consumers-food-wastes-and-losses_sugar-&amp;-sweeteners[t],dat_consumers-food-wastes-and-losses_barley-and-products[t],dat_consumers-food-wastes-and-losses_beer[t],dat_consumers-food-wastes-and-losses_beverages-alcoholic[t],dat_consumers-food-wastes-and-losses_beverages-fermented[t],dat_consumers-food-wastes-and-losses_bovine-meat[t],dat_consumers-food-wastes-and-losses_cocoa-beans-and-products[t],dat_consumers-food-wastes-and-losses_coffee-and-products[t],dat_consumers-food-wastes-and-losses_eggs[t],dat_consumers-food-wastes-and-losses_maize-and-products[t],dat_consumers-food-wastes-and-losses_meat-other[t],dat_consumers-food-wastes-and-losses_milk-excluding-butter[t],dat_consumers-food-wastes-and-losses_mutton-&amp;-goat-meat[t],dat_consumers-food-wastes-and-losses_nuts-and-products[t],dat_consumers-food-wastes-and-losses_offals[t],dat_consumers-food-wastes-and-losses_olive-oil[t],dat_consumers-food-wastes-and-losses_olives-including-preserved[t],dat_consumers-food-wastes-and-losses_palm-oil[t],dat_consumers-food-wastes-and-losses_pigmeat[t],dat_consumers-food-wastes-and-losses_poultry-meat[t],dat_consumers-food-wastes-and-losses_pulses[t],dat_consumers-food-wastes-and-losses_rape-and-mustard-oil[t],dat_consumers-food-wastes-and-losses_rape-and-mustardseed[t],dat_consumers-food-wastes-and-losses_rice-milled-equivalent[t],dat_consumers-food-wastes-and-losses_rye-and-products[t],dat_consumers-food-wastes-and-losses_soyabean-oil[t],dat_consumers-food-wastes-and-losses_soyabeans[t],dat_consumers-food-wastes-and-losses_starchy-roots[t],dat_consumers-food-wastes-and-losses_sunflower-seed[t],dat_consumers-food-wastes-and-losses_sunflowerseed-oil[t],dat_consumers-food-wastes-and-losses_tea-including-mate[t],dat_consumers-food-wastes-and-losses_vegetables[t],dat_consumers-food-wastes-and-losses_wheat-and-products[t],dat_consumers-food-wastes-and-losses_wine[t]"/>
 </config>
 <config key="Variable_5">
 <entry key="type" type="xstring" value="variable"/>
@@ -107,7 +107,7 @@
 <entry key="sub-node-description" type="xstring" value=""/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="isDeletable" type="xboolean" value="false"/>
 <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory"/>
 <entry key="node-name" type="xstring" value="Component Input"/>
@@ -129,15 +129,20 @@
 </config>
 <entry key="name" type="xstring" value="Component Input"/>
 <entry key="hasContent" type="xboolean" value="false"/>
-<entry key="isInactive" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="true"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObject"/>
+<entry key="port_object_summary" type="xstring" value="Inactive Port Object"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="b69213b7-ea52-44b5-bbd3-666a2367a6ab"/>
 </config>
 </config>

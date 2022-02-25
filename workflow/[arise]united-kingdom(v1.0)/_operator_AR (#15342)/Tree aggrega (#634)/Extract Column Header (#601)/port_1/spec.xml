@@ -91,28 +91,6 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_4">
-<entry key="column_name" type="xstring" value="dat_agroforestry-cropland_under-agroforestry[ha]"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="dat_agroforestry-cropland_under-agroforestry[ha]"/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-<config key="meta_data"/>
-</config>
-<config key="column_spec_5">
 <entry key="column_name" type="xstring" value="dat_agroforestry-cropland_hedge-rows[ha]"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -127,6 +105,28 @@
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="dat_agroforestry-cropland_hedge-rows[ha]"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_5">
+<entry key="column_name" type="xstring" value="dat_agroforestry-cropland_under-agroforestry[ha]"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="dat_agroforestry-cropland_under-agroforestry[ha]"/>
 </config>
 </config>
 </config>

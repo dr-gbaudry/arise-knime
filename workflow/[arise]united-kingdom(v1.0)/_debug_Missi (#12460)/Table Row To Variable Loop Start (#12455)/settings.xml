@@ -2,71 +2,11 @@
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
 <entry key="node_file" type="xstring" value="settings.xml"/>
 <config key="flow_stack">
-<config key="Loop_0">
-<entry key="type" type="xstring" value="loopcontext"/>
+<config key="Inactive_Loop_0">
+<entry key="type" type="xstring" value="loopcontext_inactive"/>
 </config>
-<config key="Variable_1">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="maxIterations"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_2">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="currentIteration"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_3">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="RowID"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value=""/>
-</config>
-<config key="Variable_4">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="filter"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="missing"/>
-</config>
-<config key="Variable_5">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="Prefix-Loop"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="missing"/>
-</config>
-<config key="Loop_Execute_6">
+<config key="Loop_Execute_1">
 <entry key="type" type="xstring" value="loopcontext_execute"/>
-</config>
-<config key="Variable_7">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="maxIterations"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_8">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="currentIteration"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_9">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="RowID"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value=""/>
-</config>
-<config key="Variable_10">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="filter"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="missing"/>
-</config>
-<config key="Variable_11">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="Prefix-Loop"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="missing"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -140,14 +80,14 @@
 <entry key="node-feature-version" type="xstring" value="4.3.3.v202105242122"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Table Row To Variable Loop Start"/>
-<entry key="hasContent" type="xboolean" value="true"/>
-<entry key="isInactive" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="true"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
-<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObject"/>
+<entry key="port_object_summary" type="xstring" value="Inactive Port Object"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -155,6 +95,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="efb4caf2-c23d-4c87-88d2-a0cdb6009820"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

@@ -16,7 +16,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="lvr_self-sufficiency_meat_mutton-&amp;-goat-meat"/>
+<entry key="StringCell" type="xstring" value="lvr_livestock_feed-sources_all-animals"/>
 </config>
 </config>
 </config>
@@ -60,7 +60,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="self-sufficiency"/>
+<entry key="StringCell" type="xstring" value="livestock"/>
 </config>
 </config>
 </config>
@@ -82,7 +82,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="meat"/>
+<entry key="StringCell" type="xstring" value="feed-sources"/>
 </config>
 </config>
 </config>
@@ -104,7 +104,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="mutton-&amp;-goat-meat"/>
+<entry key="StringCell" type="xstring" value="all-animals"/>
 </config>
 </config>
 </config>
@@ -126,7 +126,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="knime://LOCAL/arise/knime-framework/data/united-kingdom/lever-inputs/self-sufficiency/ARISE_self-sufficiency_meat.xlsx"/>
+<entry key="StringCell" type="xstring" value="knime://LOCAL/arise/knime-framework/data/united-kingdom/lever-inputs/livestock/ARISE_livestock_feed-sources.xlsx"/>
 </config>
 </config>
 </config>
@@ -148,7 +148,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="lvr_self-sufficiency_meat_mutton-&amp;-goat-meat\[.*\]"/>
+<entry key="StringCell" type="xstring" value="lvr_livestock_feed-sources_all-animals\[.*\]"/>
 </config>
 </config>
 </config>

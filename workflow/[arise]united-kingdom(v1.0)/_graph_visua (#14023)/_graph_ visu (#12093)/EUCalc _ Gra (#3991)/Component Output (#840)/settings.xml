@@ -30,11 +30,7 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="Component does not have input data, execute upstream nodes first"/>
-</config>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="isDeletable" type="xboolean" value="false"/>
 <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory"/>
 <entry key="node-name" type="xstring" value="Component Output"/>
@@ -49,10 +45,10 @@
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Component Output"/>
 <entry key="hasContent" type="xboolean" value="false"/>
-<entry key="isInactive" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="true"/>
 <config key="ports"/>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="2b0960ca-509e-4691-8e3c-0482e2b93dfe"/>
 </config>
 </config>

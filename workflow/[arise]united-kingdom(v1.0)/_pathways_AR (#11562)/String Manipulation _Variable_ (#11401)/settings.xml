@@ -13,7 +13,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="expression" type="xstring" value="replace(replace($${Soverwrite}$$,&quot;New-Path&quot; ,&quot;bottom&quot; ),&quot;Overwrite&quot; ,&quot;top&quot; )"/>
+<entry key="expression" type="xstring" value="replace(replace($${Spath-reader}$$,&quot;New-Path&quot; ,&quot;bottom&quot; ),&quot;Overwrite&quot; ,&quot;top&quot; )"/>
 <entry key="replaced_column" type="xstring" value="overwrite-boolean"/>
 <entry key="append_column" type="xboolean" value="false"/>
 <entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
@@ -63,6 +63,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="1d114d2b-dcbb-45b6-a059-e179ec201625"/>
+<entry key="file_store_id" type="xstring" value="970f9e47-06b4-450a-935f-1c1b611b1f23"/>
 </config>
 </config>

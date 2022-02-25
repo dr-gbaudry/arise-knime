@@ -38,11 +38,7 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="[graph] visualisation 0:13698:0:13576: Single Selection 0:13698:0:13576:0:523: Component does not have input data, execute upstream nodes first%%00010[graph] visualisation 0:13698:0:13577: Single Selection 0:13698:0:13577:0:523: Component does not have input data, execute upstream nodes first%%00010[graph] visualisation 0:13698:0:13582: Single Selection 0:13698:0:13582:0:523: Component does not have input data, execute upstream nodes first"/>
-</config>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="workflow-file" type="xstring" value="workflow.knime"/>
 <entry key="virtual-in-ID" type="xint" value="13578"/>
 <config key="inports">

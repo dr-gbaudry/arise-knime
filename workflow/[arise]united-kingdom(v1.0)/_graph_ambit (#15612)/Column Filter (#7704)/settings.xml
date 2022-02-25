@@ -6,13 +6,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="new variable"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="lvr_self-sufficiency_other-crops_vegetables[%],lvr_self-sufficiency_other-crops_fruits-excluding-wine[%],lvr_self-sufficiency_meat_mutton-&amp;-goat-meat[%]"/>
+<entry key="value" type="xstring" value="lvr_livestock_feed-sources_all-animals[-]"/>
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="new variable"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="lvr_self-sufficiency_other-crops_vegetables[%],lvr_self-sufficiency_other-crops_fruits-excluding-wine[%],lvr_self-sufficiency_meat_mutton-&amp;-goat-meat[%]"/>
+<entry key="value" type="xstring" value="lvr_livestock_feed-sources_all-animals[-]"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -499,7 +499,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 3"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 1"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
@@ -515,6 +515,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="f74229c3-324e-44c4-a185-87f3d6928f56"/>
+<entry key="file_store_id" type="xstring" value="83ec473a-76f8-433b-9f73-20c3cb2967ff"/>
 </config>
 </config>

@@ -132,7 +132,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Column 10"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_input-use-energy_diesel[toe]"/>
+<entry key="value" type="xstring" value="dat_input-use-energy_motor-gasoline-excluding-biofuel-portion[toe]"/>
 </config>
 <config key="Variable_22">
 <entry key="type" type="xstring" value="variable"/>
@@ -150,19 +150,19 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Column 7"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_input-use-energy_gasoline-and-diesel[toe]"/>
+<entry key="value" type="xstring" value="dat_input-use-energy_fuel-oil[toe]"/>
 </config>
 <config key="Variable_25">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Column 6"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_input-use-energy_fuel-oil[toe]"/>
+<entry key="value" type="xstring" value="dat_input-use-energy_electricity[toe]"/>
 </config>
 <config key="Variable_26">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Column 5"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_input-use-energy_electricity[toe]"/>
+<entry key="value" type="xstring" value="dat_input-use-energy_diesel[toe]"/>
 </config>
 <config key="Variable_27">
 <entry key="type" type="xstring" value="variable"/>
@@ -221,7 +221,7 @@
 <entry key="CFG_String" type="xstring" value="missing"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.flowvariable.tablerowtovariable.TableToVariableNodeFactory"/>
 <entry key="node-name" type="xstring" value="Table Row to Variable (deprecated)"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -234,16 +234,21 @@
 <entry key="node-feature-version" type="xstring" value="4.3.3.v202105242122"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Table Row to Variable (deprecated)"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="6a01c42d-dc28-4001-b07f-49e7cf4bf964"/>
 </config>
 </config>

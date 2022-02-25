@@ -80,6 +80,10 @@
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Node created an empty data table."/>
+</config>
 <entry key="factory" type="xstring" value="org.knime.js.base.node.quickform.filter.column.ColumnFilterQuickFormNodeFactory"/>
 <entry key="node-name" type="xstring" value="Column Filter"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
@@ -99,7 +103,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 61, Cols: 3"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 0, Cols: 3"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
@@ -115,6 +119,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="3c39b0d3-cc10-47a4-bad6-33116f5c994d"/>
+<entry key="file_store_id" type="xstring" value="46b351da-eb96-4fc7-aa81-f98876182f99"/>
 </config>
 </config>

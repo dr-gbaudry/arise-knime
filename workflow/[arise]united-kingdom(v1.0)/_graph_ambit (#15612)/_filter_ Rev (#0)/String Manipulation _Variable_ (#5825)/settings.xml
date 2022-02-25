@@ -6,7 +6,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="remove"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="^(?:(?!Country \(Iter #1\)|Years \(Iter #1\)|Country \(Iter #2\)|Years \(Iter #2\)).)*$"/>
+<entry key="value" type="xstring" value="^(?:(?!).)*$"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -49,6 +49,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="a1c79b11-25b8-4008-a4c6-180a7af42b62"/>
+<entry key="file_store_id" type="xstring" value="01b44dda-0bea-42fd-bb65-0ccc2b5fb866"/>
 </config>
 </config>

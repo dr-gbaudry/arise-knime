@@ -14,18 +14,6 @@
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value="data"/>
 </config>
-<config key="Variable_2">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="loop-type (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="4"/>
-</config>
-<config key="Variable_3">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="loop-type"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="data"/>
-</config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
@@ -71,14 +59,14 @@
 <entry key="node-feature-version" type="xstring" value="4.3.3.v202105242123"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Single Selection"/>
-<entry key="hasContent" type="xboolean" value="true"/>
-<entry key="isInactive" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="true"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
-<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObject"/>
+<entry key="port_object_summary" type="xstring" value="Inactive Port Object"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -86,6 +74,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="feb68eb8-eeef-43c1-b9fc-62bdf9185f19"/>
+<entry key="file_store_id" type="xstring" value="856f4f6a-8cf0-44f5-9818-6b15f89c474d"/>
 </config>
 </config>

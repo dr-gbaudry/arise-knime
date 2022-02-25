@@ -53,21 +53,11 @@
 </config>
 </config>
 <entry key="name" type="xstring" value="Component Output"/>
-<entry key="hasContent" type="xboolean" value="true"/>
-<entry key="isInactive" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="true"/>
 <config key="ports"/>
-<config key="internalObjects">
-<entry key="location" type="xstring" value="internalTables"/>
-<config key="content">
-<config key="object_0">
-<entry key="index" type="xint" value="0"/>
-<entry key="type" type="xstring" value="table"/>
-<entry key="table_dir_location" type="xstring" value="object_0"/>
-</config>
-</config>
-</config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="4ddf1e42-ecda-4e7d-9fc0-a7d182469b85"/>
+<entry key="file_store_id" type="xstring" value="6d129ed8-e493-4582-b5b9-4fdc191130fe"/>
 </config>
 </config>

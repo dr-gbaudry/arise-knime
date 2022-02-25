@@ -36,25 +36,25 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="RowID"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Column 2"/>
+<entry key="value" type="xstring" value="Column 0"/>
 </config>
 <config key="Variable_7">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Column Header"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="lvr_self-sufficiency_meat_mutton-&amp;-goat-meat"/>
+<entry key="value" type="xstring" value="lvr_livestock_feed-sources_all-animals"/>
 </config>
 <config key="Variable_8">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="maxIterations"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="3"/>
+<entry key="value" type="xint" value="1"/>
 </config>
 <config key="Variable_9">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="currentIteration"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="2"/>
+<entry key="value" type="xint" value="0"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -111,6 +111,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="e95b5802-aebb-4bfd-8f72-b91d6e037456"/>
+<entry key="file_store_id" type="xstring" value="49fd9e4d-09bc-49fd-8423-f27d06215abd"/>
 </config>
 </config>

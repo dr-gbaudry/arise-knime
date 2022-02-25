@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="table_meta_info">
-<entry key="table_ID" type="xint" value="2668255"/>
+<entry key="table_ID" type="xint" value="2884960"/>
 <entry key="table_type" type="xstring" value="rearrange_columns_table"/>
 <config key="table_references">
 <entry key="array-size" type="xint" value="0"/>
 </config>
 <config key="meta_internal">
-<entry key="table_reference_ID" type="xint" value="2668254"/>
+<entry key="table_reference_ID" type="xint" value="2884953"/>
 <config key="table_internal_map">
-<entry key="array-size" type="xint" value="3527"/>
+<entry key="array-size" type="xint" value="3528"/>
 <entry key="0" type="xint" value="0"/>
 <entry key="1" type="xint" value="1"/>
 <entry key="2" type="xint" value="2"/>
@@ -909,7 +909,7 @@
 <entry key="897" type="xint" value="897"/>
 <entry key="898" type="xint" value="898"/>
 <entry key="899" type="xint" value="899"/>
-<entry key="900" type="xint" value="901"/>
+<entry key="900" type="xint" value="900"/>
 <entry key="901" type="xint" value="902"/>
 <entry key="902" type="xint" value="903"/>
 <entry key="903" type="xint" value="904"/>
@@ -3156,7 +3156,7 @@
 <entry key="3144" type="xint" value="3145"/>
 <entry key="3145" type="xint" value="3146"/>
 <entry key="3146" type="xint" value="3147"/>
-<entry key="3147" type="xint" value="3150"/>
+<entry key="3147" type="xint" value="3148"/>
 <entry key="3148" type="xint" value="3151"/>
 <entry key="3149" type="xint" value="3152"/>
 <entry key="3150" type="xint" value="3153"/>
@@ -3536,9 +3536,10 @@
 <entry key="3524" type="xint" value="3527"/>
 <entry key="3525" type="xint" value="3528"/>
 <entry key="3526" type="xint" value="3529"/>
+<entry key="3527" type="xint" value="3530"/>
 </config>
 <config key="table_internal_flags">
-<entry key="array-size" type="xint" value="3527"/>
+<entry key="array-size" type="xint" value="3528"/>
 <entry key="0" type="xboolean" value="true"/>
 <entry key="1" type="xboolean" value="true"/>
 <entry key="2" type="xboolean" value="true"/>
@@ -7066,6 +7067,7 @@
 <entry key="3524" type="xboolean" value="true"/>
 <entry key="3525" type="xboolean" value="true"/>
 <entry key="3526" type="xboolean" value="true"/>
+<entry key="3527" type="xboolean" value="true"/>
 </config>
 </config>
 <entry key="table_file_name" type="xstring" isnull="true" value=""/>

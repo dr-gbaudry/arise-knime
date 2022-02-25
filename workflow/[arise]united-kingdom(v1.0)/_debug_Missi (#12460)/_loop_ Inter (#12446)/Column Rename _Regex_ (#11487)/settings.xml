@@ -13,10 +13,6 @@
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="Node created an empty data table."/>
-</config>
 <entry key="factory" type="xstring" value="org.knime.base.node.preproc.columnrenameregex.ColumnRenameRegexNodeFactory"/>
 <entry key="node-name" type="xstring" value="Column Rename (Regex)"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -29,19 +25,21 @@
 <entry key="node-feature-version" type="xstring" value="4.3.3.v202105242122"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Column Rename (Regex)"/>
-<entry key="hasContent" type="xboolean" value="true"/>
-<entry key="isInactive" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="true"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 0, Cols: 1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObject"/>
+<entry key="port_object_summary" type="xstring" value="Inactive Port Object"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="ae090719-c0b0-4e1e-9bf6-2843d7c88fef"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>
