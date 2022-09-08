@@ -43,7 +43,7 @@ Activate and update any packages if necessary.
 conda activate py36_knime452
 ```
 ### KNIME workspace
-Run KNIME as an administrator and choose a Workspace. This can be setup at your convenience.
+Run KNIME as an administrator and choose a Workspace. This can be setup at your convenience, but you must put the ARISE folder in this Workspace. 
 ### Python environment
 This can be set in the KNIME preferences by browsing to the Python.exe that is inside your virtual working environment.
 
