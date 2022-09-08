@@ -54,5 +54,4 @@ Explore the multiple levers at your convenience and hit the "execute all" button
 You can name your Pathway and activate the saving option to export it in the pathway explorer.
 
 ### Pathway explorer
-Run Power BI and open ARISE data to explore the pre-saved pathways as well as yours:
-![img.png](img.png)
+Run Power BI and open ARISE data to explore the pre-saved pathways as well as yours.
