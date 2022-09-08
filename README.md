@@ -52,9 +52,7 @@ Open the ARISE workflow in KNIME. Please refer to the attached documentation for
 ### Pathway computation
 Explore the multiple levers at your convenience and hit the "execute all" button to compute and explore the results.
 Optionnaly, name your pathway and activate the saving option to export it in the pathway explorer for a better experience and to share the outputs easily.
-<p align="center">
 ![image](https://user-images.githubusercontent.com/65652803/189123066-366c578d-7795-4b4d-a2f8-ed639fa712f9.png)
-</p>
 
 ### Pathway explorer
 Run Power BI and open ARISE data to explore the pre-saved pathways as well as yours.
