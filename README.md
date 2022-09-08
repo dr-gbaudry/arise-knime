@@ -48,10 +48,10 @@ Run KNIME as an administrator and choose a Workspace. This can be setup at your 
 This can be set in the KNIME preferences by browsing to the Python.exe that is inside your virtual working environment.
 
 ## ARISE
-Open the ARISE workflow and use the attached documentation for Help.
+Open the ARISE workflow in KNIME. Please refer to the attached documentation for additional Help.
 ### Pathway computation
-Explore the multiple levers at your convenience and hit the "execute all" button. 
-You can name your Pathway and activate the saving option to export it in the pathway explorer.
+Explore the multiple levers at your convenience and hit the "execute all" button to compute and explore the results.
+Optionnaly, name your pathway and activate the saving option to export it in the pathway explorer for a better experience and to share the outputs easily.
 
 ### Pathway explorer
 Run Power BI and open ARISE data to explore the pre-saved pathways as well as yours.
