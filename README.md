@@ -55,3 +55,4 @@ Optionnaly, name your pathway and activate the saving option to export it in the
 
 ### Pathway explorer
 Run Power BI and open ARISE data to explore the pre-saved pathways as well as yours.
+![image](https://user-images.githubusercontent.com/65652803/189122239-7b357760-d06d-480e-8813-af449738f20c.png)
