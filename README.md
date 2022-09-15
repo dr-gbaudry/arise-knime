@@ -11,12 +11,12 @@ Dr. Gino Baudry (EPFL, Imperial College London, gino.baudry[at]epfl.ch)
 <a href="https://www.anaconda.com/" target="_blank">Anaconda 3</a> (last available version)
 
 2. Install 
-<a href="https://www.knime.com/downloads" target="_blank">KNIME Analytics platform</a> (version 4.5.2)
+<a href="https://www.knime.com/downloads" target="_blank">KNIME Analytics platform</a> (recommended version 4.6 or higher)
 
 3. Install 
-<a href="https://powerbi.microsoft.com/en-gb/downloads/" target="_blank">Microsoft Power BI</a> (free version)
+<a href="https://www.microsoft.com/en-us/download/details.aspx?id=58494" target="_blank">Microsoft Power BI</a> (free version)
 
-### Virtual environment
+### Virtual environment (to do if and only if you are using KNIME 4.5 or bellow)
 
 Create a Python virtual environment using Anaconda 3:
 
@@ -45,10 +45,10 @@ conda activate py36_knime452
 ### KNIME workspace
 Run KNIME as an administrator and choose a Workspace. This can be setup at your convenience, but you must put the ARISE folder in this Workspace. 
 ### Python environment
-This can be set in the KNIME preferences by browsing to the Python.exe that is inside your virtual working environment.
+To do if you are using KNIME <4.5 or if KNIME cannot automatically find the Anaconda repository. Set it in the KNIME preferences by browsing to the Python.exe that is inside your virtual working environment.
 
 ## ARISE
-Open the ARISE workflow in KNIME. Please refer to the attached documentation for additional Help.
+Open the ARISE workflow in KNIME (arise-knime/workflow/[arise]united-kingdom(v1.x)). Please refer to the attached documentation for additional Help.
 ### Pathway computation
 Explore the multiple levers at your convenience and hit the "execute all" button to compute and explore the results.
 Optionnaly, name your pathway and activate the saving option to export it in the pathway explorer for a better experience and to share the outputs easily.
