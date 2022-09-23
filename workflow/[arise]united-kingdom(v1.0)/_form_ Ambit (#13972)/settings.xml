@@ -1,518 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
-<entry key="node_file" type="xstring" value="settings.xml"/>
-<config key="flow_stack">
-<config key="Variable_0">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="meta-lever"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="bottom"/>
-</config>
-<config key="Variable_1">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="meta-lever (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_2">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_solid-biofuels_power-only_nominal-capacity[mw]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_3">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="m-lvr_solid-biofuels-capacity[-]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_4">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="m-lvr_solid-biofuels-capacity[-] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_5">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_hvo_nominal-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_6">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="m-lvr_liquid-biofuels-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_7">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="m-lvr_liquid-biofuels-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_8">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_biogas_thermal-processes_nominal-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_9">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="m-lvr_biogas-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_10">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="m-lvr_biogas-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_11">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_solid-biofuels_power-chp_nominal-capacity[mwh]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_12">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_solid-biofuels_power-chp_nominal-capacity[mwh] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_13">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_solid-biofuels_heat-only_nominal-capacity[mwh]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_14">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_solid-biofuels_heat-only_nominal-capacity[mwh] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_15">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_solid-biofuels_power-only_nominal-capacity[mwh]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_16">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_solid-biofuels_power-only_nominal-capacity[mwh] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_17">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_hvo_nominal-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_18">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_others_nominal-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_19">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_others_nominal-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_20">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_btl_nominal-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_21">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_btl_nominal-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_22">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_cellulosic-ethanol_nominal-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_23">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_cellulosic-ethanol_nominal-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_24">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_bioethanol_nominal-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_25">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_bioethanol_nominal-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_26">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_fame_nominal-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_27">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_fame_nominal-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_28">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_biogas_anaerobic-fermentation_nominal-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_29">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_biogas_anaerobic-fermentation_nominal-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_30">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_biogas_market-split_biogas-to-x[%]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_31">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_biogas_market-split_biogas-to-x[%] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_32">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_biogas_sewage-sludge_nominal-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_33">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_biogas_sewage-sludge_nominal-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_34">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_biogas_landfill_nominal-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_35">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_biogas_landfill_nominal-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_36">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_biogas_thermal-processes_nominal-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_37">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="meta-lever"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="bottom"/>
-</config>
-<config key="Variable_38">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="meta-lever (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
-</config>
-<config key="Variable_39">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_solid-biofuels_power-only_nominal-capacity[mw]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_40">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="m-lvr_solid-biofuels-capacity[-]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_41">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="m-lvr_solid-biofuels-capacity[-] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_42">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_hvo_nominal-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_43">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="m-lvr_liquid-biofuels-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_44">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="m-lvr_liquid-biofuels-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_45">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_biogas_thermal-processes_nominal-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_46">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="m-lvr_biogas-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_47">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="m-lvr_biogas-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_48">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_solid-biofuels_power-chp_nominal-capacity[mwh]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_49">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_solid-biofuels_power-chp_nominal-capacity[mwh] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_50">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_solid-biofuels_heat-only_nominal-capacity[mwh]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_51">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_solid-biofuels_heat-only_nominal-capacity[mwh] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_52">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_solid-biofuels_power-only_nominal-capacity[mwh]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_53">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_solid-biofuels_power-only_nominal-capacity[mwh] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_54">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_hvo_nominal-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_55">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_others_nominal-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_56">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_others_nominal-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_57">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_btl_nominal-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_58">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_btl_nominal-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_59">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_cellulosic-ethanol_nominal-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_60">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_cellulosic-ethanol_nominal-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_61">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_bioethanol_nominal-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_62">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_bioethanol_nominal-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_63">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_fame_nominal-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_64">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_liquid-biofuels_fame_nominal-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_65">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_biogas_anaerobic-fermentation_nominal-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_66">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_biogas_anaerobic-fermentation_nominal-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_67">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_biogas_market-split_biogas-to-x[%]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_68">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_biogas_market-split_biogas-to-x[%] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_69">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_biogas_sewage-sludge_nominal-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_70">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_biogas_sewage-sludge_nominal-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_71">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_biogas_landfill_nominal-capacity[toe]"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="Variable_72">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_biogas_landfill_nominal-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-<config key="Variable_73">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="lvr_biogas_thermal-processes_nominal-capacity[toe] (index)"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
-</config>
-</config>
-<config key="internal_node_subsettings">
-<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
-</config>
-<config key="model">
-<config key="solid-biofuels-capacity-7834">
-<entry key="variable_value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="meta-lever-7835">
-<entry key="variable_value" type="xstring" value="Meta-Lever"/>
-</config>
-<config key="biogas-capacity-7841">
-<entry key="variable_value" type="xstring" value="2. Past trends"/>
-</config>
-<config key="liquid-biofuels-capacity-7868">
-<entry key="variable_value" type="xstring" value="2. Past trends"/>
-</config>
-</config>
-<config key="nodeAnnotation">
-<entry key="text" type="xstring" value="Double Click %%00013%%00010Select the %%00013%%00010Ambition Level"/>
-<entry key="bgcolor" type="xint" value="16777215"/>
-<entry key="x-coordinate" type="xint" value="247"/>
-<entry key="y-coordinate" type="xint" value="1779"/>
-<entry key="width" type="xint" value="106"/>
-<entry key="height" type="xint" value="45"/>
-<entry key="alignment" type="xstring" value="CENTER"/>
-<entry key="borderSize" type="xint" value="0"/>
-<entry key="borderColor" type="xint" value="16777215"/>
-<entry key="defFontSize" type="xint" value="9"/>
-<entry key="annotation-version" type="xint" value="20151123"/>
-<config key="styles">
-<config key="style_0">
-<entry key="start" type="xint" value="0"/>
-<entry key="length" type="xint" value="42"/>
-<entry key="fontname" type="xstring" value="Arial"/>
-<entry key="fontstyle" type="xint" value="0"/>
-<entry key="fontsize" type="xint" value="9"/>
-<entry key="fgcolor" type="xint" value="0"/>
-</config>
-</config>
-</config>
-<entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="workflow-file" type="xstring" value="workflow.knime"/>
-<entry key="virtual-in-ID" type="xint" value="6986"/>
-<config key="inports"/>
-<entry key="virtual-out-ID" type="xint" value="7489"/>
-<config key="outports">
-<config key="outport_0">
-<entry key="index" type="xint" value="0"/>
-<config key="type">
-<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-</config>
-</config>
-</config>
-<config key="metadata">
-<entry key="description" type="xstring" value=""/>
-<config key="outports">
-<config key="outport_0">
-<entry key="name" type="xstring" value="Port 1"/>
-<entry key="description" type="xstring" value=""/>
-<entry key="index" type="xint" value="0"/>
-</config>
-</config>
-</config>
-<entry key="layoutJSON" type="xstring" value="{&quot;parentLayoutLegacyMode&quot;:true,&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7484&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7748&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true},{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7730&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7731&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7733&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7740&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7742&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7747&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7752&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7753&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7755&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7759&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7760&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7764&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7768&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7769&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7770&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7771&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7773&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7774&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7775&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7776&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7777&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7779&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7780&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7781&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7782&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7800&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7801&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7804&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7806&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7809&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7810&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7811&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7813&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7814&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7815&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7816&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7818&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7820&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7821&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7823&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;nestedLayout&quot;,&quot;nodeID&quot;:&quot;0&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;nestedLayout&quot;,&quot;nodeID&quot;:&quot;7798&quot;}],&quot;widthXS&quot;:12}]}]}"/>
-<entry key="configurationLayoutJSON" type="xstring" value="{&quot;parentLayoutLegacyMode&quot;:false,&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7825&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7748&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7777&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7779&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7780&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7781&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7782&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7730&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7731&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7733&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7800&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7801&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7804&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7740&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7806&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7742&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7809&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7810&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7811&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7747&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7813&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7814&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7815&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7816&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7752&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7753&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7818&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7755&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7820&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7821&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7823&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7759&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7760&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7764&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7768&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7769&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7770&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7771&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7773&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7774&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7775&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7776&quot;}],&quot;widthXS&quot;:12}]}]}"/>
-<entry key="hideInWizard" type="xboolean" value="false"/>
-<entry key="customCSS" type="xstring" value=""/>
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="solid-biofuels-capacity-7834">
+            <entry key="variable_value" type="xstring" value="2. Past trends"/>
+        </config>
+        <config key="meta-lever-7835">
+            <entry key="variable_value" type="xstring" value="Meta-Lever"/>
+        </config>
+        <config key="biogas-capacity-7841">
+            <entry key="variable_value" type="xstring" value="2. Past trends"/>
+        </config>
+        <config key="liquid-biofuels-capacity-7868">
+            <entry key="variable_value" type="xstring" value="2. Past trends"/>
+        </config>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Double Click %%00013%%00010Select the %%00013%%00010Ambition Level"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="247"/>
+        <entry key="y-coordinate" type="xint" value="1779"/>
+        <entry key="width" type="xint" value="106"/>
+        <entry key="height" type="xint" value="45"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles">
+            <config key="style_0">
+                <entry key="start" type="xint" value="0"/>
+                <entry key="length" type="xint" value="42"/>
+                <entry key="fontname" type="xstring" value="Arial"/>
+                <entry key="fontstyle" type="xint" value="0"/>
+                <entry key="fontsize" type="xint" value="9"/>
+                <entry key="fgcolor" type="xint" value="0"/>
+            </config>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="[form] aggregated-lever-appender 0:13972:0:7766: String Input 0:13972:0:7766:0:7751: Component does not have input data, execute upstream nodes first%%00010[form] aggregated-lever-appender 0:13972:0:7840: String Input 0:13972:0:7840:0:7751: Component does not have input data, execute upstream nodes first%%00010[form] aggregated-lever-appender(element) 0:13972:0:7852: String Input 0:13972:0:7852:0:7751: Component does not have input data, execute upstream nodes first"/>
+    </config>
+    <entry key="workflow-file" type="xstring" value="workflow.knime"/>
+    <entry key="virtual-in-ID" type="xint" value="6986"/>
+    <config key="inports"/>
+    <entry key="virtual-out-ID" type="xint" value="7489"/>
+    <config key="outports">
+        <config key="outport_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
+    <config key="metadata">
+        <entry key="description" type="xstring" value=""/>
+        <config key="outports">
+            <config key="outport_0">
+                <entry key="name" type="xstring" value="Port 1"/>
+                <entry key="description" type="xstring" value=""/>
+                <entry key="index" type="xint" value="0"/>
+            </config>
+        </config>
+    </config>
+    <entry key="layoutJSON" type="xstring" value="{&quot;parentLayoutLegacyMode&quot;:true,&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7484&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7748&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true},{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7730&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7731&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7733&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7740&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7742&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7747&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7752&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7753&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7755&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7759&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7760&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7764&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7768&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7769&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7770&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7771&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7773&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7774&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7775&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7776&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7777&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7779&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7780&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7781&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7782&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7800&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7801&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7804&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7806&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7809&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7810&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7811&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7813&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7814&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7815&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7816&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7818&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7820&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7821&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;7823&quot;,&quot;resizeTolerance&quot;:5,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;nestedLayout&quot;,&quot;nodeID&quot;:&quot;0&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;nestedLayout&quot;,&quot;nodeID&quot;:&quot;7798&quot;}],&quot;widthXS&quot;:12}]}]}"/>
+    <entry key="configurationLayoutJSON" type="xstring" value="{&quot;parentLayoutLegacyMode&quot;:false,&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7825&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7748&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7777&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7779&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7780&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7781&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7782&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7730&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7731&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7733&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7800&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7801&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7804&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7740&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7806&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7742&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7809&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7810&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7811&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7747&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7813&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7814&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7815&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7816&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7752&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7753&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7818&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7755&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7820&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7821&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7823&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7759&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7760&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7764&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7768&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7769&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7770&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7771&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7773&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7774&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7775&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;7776&quot;}],&quot;widthXS&quot;:12}]}]}"/>
+    <entry key="hideInWizard" type="xboolean" value="false"/>
+    <entry key="customCSS" type="xstring" value=""/>
 </config>

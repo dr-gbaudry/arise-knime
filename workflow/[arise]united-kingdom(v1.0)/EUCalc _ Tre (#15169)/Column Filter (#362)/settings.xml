@@ -1,156 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
-<entry key="node_file" type="xstring" value="settings.xml"/>
-<config key="flow_stack">
-<config key="Variable_0">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="var-filter"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_domestic-crop-supply-per-use-processed-plant-eq_palm[t],dat_domestic-crop-supply-per-use-processed-plant-eq_sunflower-seed[t],dat_domestic-crop-supply-per-use-processed-plant-eq_soyabeans[t],dat_domestic-crop-supply-per-use-processed-plant-eq_rape-and-mustardseed[t],dat_domestic-crop-supply-per-use-processed-plant-eq_vegetable-oil-others[t],dat_domestic-crop-supply-per-use-processed-plant-eq_cake-others[t],dat_domestic-crop-supply-per-use-processed-plant-eq_olives-including-preserved[t],dat_domestic-crop-supply-per-use-processing_sugar-crops[t],dat_domestic-crop-supply-per-use-processing_grapes[t],dat_domestic-crop-supply-per-use-processing_barley-and-products[t],dat_domestic-crop-supply-per-use-processing_cereal-others[t],dat_domestic-crop-supply-per-use-processing_maize-and-products[t],dat_domestic-crop-supply-per-use-processing_rye-and-products[t],dat_domestic-crop-supply-per-use-processing_wheat-and-products[t],dat_domestic-crop-supply-per-use-feed_barley-and-products[t],dat_domestic-crop-supply-per-use-feed_cake-others[t],dat_domestic-crop-supply-per-use-feed_cereal-others[t],dat_domestic-crop-supply-per-use-feed_cocoa-beans-and-products[t],dat_domestic-crop-supply-per-use-feed_fruits-excluding-wine[t],dat_domestic-crop-supply-per-use-feed_maize-and-products[t],dat_domestic-crop-supply-per-use-feed_oilcrop-others[t],dat_domestic-crop-supply-per-use-feed_olive-oil[t],dat_domestic-crop-supply-per-use-feed_olives-including-preserved[t],dat_domestic-crop-supply-per-use-feed_palm-cake[t],dat_domestic-crop-supply-per-use-feed_palm-oil[t],dat_domestic-crop-supply-per-use-feed_palm[t],dat_domestic-crop-supply-per-use-feed_pulses[t],dat_domestic-crop-supply-per-use-feed_rape-and-mustard-cake[t],dat_domestic-crop-supply-per-use-feed_rape-and-mustard-oil[t],dat_domestic-crop-supply-per-use-feed_rape-and-mustardseed[t],dat_domestic-crop-supply-per-use-feed_rye-and-products[t],dat_domestic-crop-supply-per-use-feed_soyabean-cake[t],dat_domestic-crop-supply-per-use-feed_soyabean-oil[t],dat_domestic-crop-supply-per-use-feed_soyabeans[t],dat_domestic-crop-supply-per-use-feed_starchy-roots[t],dat_domestic-crop-supply-per-use-feed_sugar-crops[t],dat_domestic-crop-supply-per-use-feed_sunflower-seed[t],dat_domestic-crop-supply-per-use-feed_sunflowerseed-cake[t],dat_domestic-crop-supply-per-use-feed_sunflowerseed-oil[t],dat_domestic-crop-supply-per-use-feed_tea-including-mate[t],dat_domestic-crop-supply-per-use-feed_vegetable-oil-others[t],dat_domestic-crop-supply-per-use-feed_vegetables[t],dat_domestic-crop-supply-per-use-feed_wheat-and-products[t],dat_domestic-crop-supply-per-use-food_cereal-others[t],dat_domestic-crop-supply-per-use-food_fruits-excluding-wine[t],dat_domestic-crop-supply-per-use-food_oilcrop-others[t],dat_domestic-crop-supply-per-use-food_palm[t],dat_domestic-crop-supply-per-use-food_barley-and-products[t],dat_domestic-crop-supply-per-use-food_cocoa-beans-and-products[t],dat_domestic-crop-supply-per-use-food_coffee-and-products[t],dat_domestic-crop-supply-per-use-food_maize-and-products[t],dat_domestic-crop-supply-per-use-food_nuts-and-products[t],dat_domestic-crop-supply-per-use-food_olive-oil[t],dat_domestic-crop-supply-per-use-food_olives-including-preserved[t],dat_domestic-crop-supply-per-use-food_palm-oil[t],dat_domestic-crop-supply-per-use-food_pulses[t],dat_domestic-crop-supply-per-use-food_rape-and-mustard-oil[t],dat_domestic-crop-supply-per-use-food_rape-and-mustardseed[t],dat_domestic-crop-supply-per-use-food_rice-milled-equivalent[t],dat_domestic-crop-supply-per-use-food_rye-and-products[t],dat_domestic-crop-supply-per-use-food_soyabean-oil[t],dat_domestic-crop-supply-per-use-food_soyabeans[t],dat_domestic-crop-supply-per-use-food_starchy-roots[t],dat_domestic-crop-supply-per-use-food_sunflower-seed[t],dat_domestic-crop-supply-per-use-food_sunflowerseed-oil[t],dat_domestic-crop-supply-per-use-food_tea-including-mate[t],dat_domestic-crop-supply-per-use-food_vegetables[t],dat_domestic-crop-supply-per-use-food_wheat-and-products[t],dat_domestic-crop-supply-per-use-non-food_tobacco[t],dat_domestic-crop-supply-per-use-non-food_rubber[t],dat_domestic-crop-supply-per-use-non-food_fibre-crops[t],dat_domestic-crop-supply-per-use-seed_barley-and-products[t],dat_domestic-crop-supply-per-use-seed_cereal-others[t],dat_domestic-crop-supply-per-use-seed_fruits-excluding-wine[t],dat_domestic-crop-supply-per-use-seed_maize-and-products[t],dat_domestic-crop-supply-per-use-seed_nuts-and-products[t],dat_domestic-crop-supply-per-use-seed_oilcrop-others[t],dat_domestic-crop-supply-per-use-seed_paddy-rice[t],dat_domestic-crop-supply-per-use-seed_pulses[t],dat_domestic-crop-supply-per-use-seed_rape-and-mustardseed[t],dat_domestic-crop-supply-per-use-seed_rye-and-products[t],dat_domestic-crop-supply-per-use-seed_soyabeans[t],dat_domestic-crop-supply-per-use-seed_starchy-roots[t],dat_domestic-crop-supply-per-use-seed_sugar-&amp;-sweeteners[t],dat_domestic-crop-supply-per-use-seed_sugar-crops[t],dat_domestic-crop-supply-per-use-seed_sunflower-seed[t],dat_domestic-crop-supply-per-use-seed_vegetables[t],dat_domestic-crop-supply-per-use-seed_wheat-and-products[t],dat_domestic-crop-supply-per-use-other-nes_beer[t],dat_domestic-crop-supply-per-use-other-nes_beverages-alcoholic[t],dat_domestic-crop-supply-per-use-other-nes_beverages-fermented[t],dat_domestic-crop-supply-per-use-other-nes_cake-others[t],dat_domestic-crop-supply-per-use-other-nes_cocoa-beans-and-products[t],dat_domestic-crop-supply-per-use-other-nes_coffee-and-products[t],dat_domestic-crop-supply-per-use-other-nes_fibre-crops[t],dat_domestic-crop-supply-per-use-other-nes_fruits-excluding-wine[t],dat_domestic-crop-supply-per-use-other-nes_molasses[t],dat_domestic-crop-supply-per-use-other-nes_nuts-and-products[t],dat_domestic-crop-supply-per-use-other-nes_oilcrop-others[t],dat_domestic-crop-supply-per-use-other-nes_olive-oil[t],dat_domestic-crop-supply-per-use-other-nes_olives-including-preserved[t],dat_domestic-crop-supply-per-use-other-nes_paddy-rice[t],dat_domestic-crop-supply-per-use-other-nes_palm[t],dat_domestic-crop-supply-per-use-other-nes_palm-cake[t],dat_domestic-crop-supply-per-use-other-nes_palm-oil[t],dat_domestic-crop-supply-per-use-other-nes_pulses[t],dat_domestic-crop-supply-per-use-other-nes_rape-and-mustard-cake[t],dat_domestic-crop-supply-per-use-other-nes_rape-and-mustard-oil[t],dat_domestic-crop-supply-per-use-other-nes_rape-and-mustardseed[t],dat_domestic-crop-supply-per-use-other-nes_rubber[t],dat_domestic-crop-supply-per-use-other-nes_soyabean-cake[t],dat_domestic-crop-supply-per-use-other-nes_soyabean-oil[t],dat_domestic-crop-supply-per-use-other-nes_soyabeans[t],dat_domestic-crop-supply-per-use-other-nes_starchy-roots[t],dat_domestic-crop-supply-per-use-other-nes_sugar-&amp;-sweeteners[t],dat_domestic-crop-supply-per-use-other-nes_sunflower-seed[t],dat_domestic-crop-supply-per-use-other-nes_sunflowerseed-cake[t],dat_domestic-crop-supply-per-use-other-nes_sunflowerseed-oil[t],dat_domestic-crop-supply-per-use-other-nes_tea-including-mate[t],dat_domestic-crop-supply-per-use-other-nes_tobacco[t],dat_domestic-crop-supply-per-use-other-nes_vegetable-oil-others[t],dat_domestic-crop-supply-per-use-other-nes_vegetables[t],dat_domestic-crop-supply-per-use-other-nes_wine[t],dat_domestic-crop-supply-per-use-processed-plant-eq_sunflowerseed[t],dat_domestic-crop-supply-per-use-processed-plant-eq_soyabean[t],dat_domestic-crop-supply-per-use-processed-plant-eq_rape-and-mustard[t],dat_domestic-crop-supply-per-use-processed-plant-eq_vegetable-oil[t],dat_domestic-crop-supply-per-use-processed-plant-eq_cake[t]"/>
-</config>
-<config key="Variable_1">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="pattern-filter"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value=""/>
-</config>
-<config key="Variable_2">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="var-filter"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_domestic-crop-supply-per-use-processed-plant-eq_palm[t],dat_domestic-crop-supply-per-use-processed-plant-eq_sunflower-seed[t],dat_domestic-crop-supply-per-use-processed-plant-eq_soyabeans[t],dat_domestic-crop-supply-per-use-processed-plant-eq_rape-and-mustardseed[t],dat_domestic-crop-supply-per-use-processed-plant-eq_vegetable-oil-others[t],dat_domestic-crop-supply-per-use-processed-plant-eq_cake-others[t],dat_domestic-crop-supply-per-use-processed-plant-eq_olives-including-preserved[t],dat_domestic-crop-supply-per-use-processing_sugar-crops[t],dat_domestic-crop-supply-per-use-processing_grapes[t],dat_domestic-crop-supply-per-use-processing_barley-and-products[t],dat_domestic-crop-supply-per-use-processing_cereal-others[t],dat_domestic-crop-supply-per-use-processing_maize-and-products[t],dat_domestic-crop-supply-per-use-processing_rye-and-products[t],dat_domestic-crop-supply-per-use-processing_wheat-and-products[t],dat_domestic-crop-supply-per-use-feed_barley-and-products[t],dat_domestic-crop-supply-per-use-feed_cake-others[t],dat_domestic-crop-supply-per-use-feed_cereal-others[t],dat_domestic-crop-supply-per-use-feed_cocoa-beans-and-products[t],dat_domestic-crop-supply-per-use-feed_fruits-excluding-wine[t],dat_domestic-crop-supply-per-use-feed_maize-and-products[t],dat_domestic-crop-supply-per-use-feed_oilcrop-others[t],dat_domestic-crop-supply-per-use-feed_olive-oil[t],dat_domestic-crop-supply-per-use-feed_olives-including-preserved[t],dat_domestic-crop-supply-per-use-feed_palm-cake[t],dat_domestic-crop-supply-per-use-feed_palm-oil[t],dat_domestic-crop-supply-per-use-feed_palm[t],dat_domestic-crop-supply-per-use-feed_pulses[t],dat_domestic-crop-supply-per-use-feed_rape-and-mustard-cake[t],dat_domestic-crop-supply-per-use-feed_rape-and-mustard-oil[t],dat_domestic-crop-supply-per-use-feed_rape-and-mustardseed[t],dat_domestic-crop-supply-per-use-feed_rye-and-products[t],dat_domestic-crop-supply-per-use-feed_soyabean-cake[t],dat_domestic-crop-supply-per-use-feed_soyabean-oil[t],dat_domestic-crop-supply-per-use-feed_soyabeans[t],dat_domestic-crop-supply-per-use-feed_starchy-roots[t],dat_domestic-crop-supply-per-use-feed_sugar-crops[t],dat_domestic-crop-supply-per-use-feed_sunflower-seed[t],dat_domestic-crop-supply-per-use-feed_sunflowerseed-cake[t],dat_domestic-crop-supply-per-use-feed_sunflowerseed-oil[t],dat_domestic-crop-supply-per-use-feed_tea-including-mate[t],dat_domestic-crop-supply-per-use-feed_vegetable-oil-others[t],dat_domestic-crop-supply-per-use-feed_vegetables[t],dat_domestic-crop-supply-per-use-feed_wheat-and-products[t],dat_domestic-crop-supply-per-use-food_cereal-others[t],dat_domestic-crop-supply-per-use-food_fruits-excluding-wine[t],dat_domestic-crop-supply-per-use-food_oilcrop-others[t],dat_domestic-crop-supply-per-use-food_palm[t],dat_domestic-crop-supply-per-use-food_barley-and-products[t],dat_domestic-crop-supply-per-use-food_cocoa-beans-and-products[t],dat_domestic-crop-supply-per-use-food_coffee-and-products[t],dat_domestic-crop-supply-per-use-food_maize-and-products[t],dat_domestic-crop-supply-per-use-food_nuts-and-products[t],dat_domestic-crop-supply-per-use-food_olive-oil[t],dat_domestic-crop-supply-per-use-food_olives-including-preserved[t],dat_domestic-crop-supply-per-use-food_palm-oil[t],dat_domestic-crop-supply-per-use-food_pulses[t],dat_domestic-crop-supply-per-use-food_rape-and-mustard-oil[t],dat_domestic-crop-supply-per-use-food_rape-and-mustardseed[t],dat_domestic-crop-supply-per-use-food_rice-milled-equivalent[t],dat_domestic-crop-supply-per-use-food_rye-and-products[t],dat_domestic-crop-supply-per-use-food_soyabean-oil[t],dat_domestic-crop-supply-per-use-food_soyabeans[t],dat_domestic-crop-supply-per-use-food_starchy-roots[t],dat_domestic-crop-supply-per-use-food_sunflower-seed[t],dat_domestic-crop-supply-per-use-food_sunflowerseed-oil[t],dat_domestic-crop-supply-per-use-food_tea-including-mate[t],dat_domestic-crop-supply-per-use-food_vegetables[t],dat_domestic-crop-supply-per-use-food_wheat-and-products[t],dat_domestic-crop-supply-per-use-non-food_tobacco[t],dat_domestic-crop-supply-per-use-non-food_rubber[t],dat_domestic-crop-supply-per-use-non-food_fibre-crops[t],dat_domestic-crop-supply-per-use-seed_barley-and-products[t],dat_domestic-crop-supply-per-use-seed_cereal-others[t],dat_domestic-crop-supply-per-use-seed_fruits-excluding-wine[t],dat_domestic-crop-supply-per-use-seed_maize-and-products[t],dat_domestic-crop-supply-per-use-seed_nuts-and-products[t],dat_domestic-crop-supply-per-use-seed_oilcrop-others[t],dat_domestic-crop-supply-per-use-seed_paddy-rice[t],dat_domestic-crop-supply-per-use-seed_pulses[t],dat_domestic-crop-supply-per-use-seed_rape-and-mustardseed[t],dat_domestic-crop-supply-per-use-seed_rye-and-products[t],dat_domestic-crop-supply-per-use-seed_soyabeans[t],dat_domestic-crop-supply-per-use-seed_starchy-roots[t],dat_domestic-crop-supply-per-use-seed_sugar-&amp;-sweeteners[t],dat_domestic-crop-supply-per-use-seed_sugar-crops[t],dat_domestic-crop-supply-per-use-seed_sunflower-seed[t],dat_domestic-crop-supply-per-use-seed_vegetables[t],dat_domestic-crop-supply-per-use-seed_wheat-and-products[t],dat_domestic-crop-supply-per-use-other-nes_beer[t],dat_domestic-crop-supply-per-use-other-nes_beverages-alcoholic[t],dat_domestic-crop-supply-per-use-other-nes_beverages-fermented[t],dat_domestic-crop-supply-per-use-other-nes_cake-others[t],dat_domestic-crop-supply-per-use-other-nes_cocoa-beans-and-products[t],dat_domestic-crop-supply-per-use-other-nes_coffee-and-products[t],dat_domestic-crop-supply-per-use-other-nes_fibre-crops[t],dat_domestic-crop-supply-per-use-other-nes_fruits-excluding-wine[t],dat_domestic-crop-supply-per-use-other-nes_molasses[t],dat_domestic-crop-supply-per-use-other-nes_nuts-and-products[t],dat_domestic-crop-supply-per-use-other-nes_oilcrop-others[t],dat_domestic-crop-supply-per-use-other-nes_olive-oil[t],dat_domestic-crop-supply-per-use-other-nes_olives-including-preserved[t],dat_domestic-crop-supply-per-use-other-nes_paddy-rice[t],dat_domestic-crop-supply-per-use-other-nes_palm[t],dat_domestic-crop-supply-per-use-other-nes_palm-cake[t],dat_domestic-crop-supply-per-use-other-nes_palm-oil[t],dat_domestic-crop-supply-per-use-other-nes_pulses[t],dat_domestic-crop-supply-per-use-other-nes_rape-and-mustard-cake[t],dat_domestic-crop-supply-per-use-other-nes_rape-and-mustard-oil[t],dat_domestic-crop-supply-per-use-other-nes_rape-and-mustardseed[t],dat_domestic-crop-supply-per-use-other-nes_rubber[t],dat_domestic-crop-supply-per-use-other-nes_soyabean-cake[t],dat_domestic-crop-supply-per-use-other-nes_soyabean-oil[t],dat_domestic-crop-supply-per-use-other-nes_soyabeans[t],dat_domestic-crop-supply-per-use-other-nes_starchy-roots[t],dat_domestic-crop-supply-per-use-other-nes_sugar-&amp;-sweeteners[t],dat_domestic-crop-supply-per-use-other-nes_sunflower-seed[t],dat_domestic-crop-supply-per-use-other-nes_sunflowerseed-cake[t],dat_domestic-crop-supply-per-use-other-nes_sunflowerseed-oil[t],dat_domestic-crop-supply-per-use-other-nes_tea-including-mate[t],dat_domestic-crop-supply-per-use-other-nes_tobacco[t],dat_domestic-crop-supply-per-use-other-nes_vegetable-oil-others[t],dat_domestic-crop-supply-per-use-other-nes_vegetables[t],dat_domestic-crop-supply-per-use-other-nes_wine[t],dat_domestic-crop-supply-per-use-processed-plant-eq_sunflowerseed[t],dat_domestic-crop-supply-per-use-processed-plant-eq_soyabean[t],dat_domestic-crop-supply-per-use-processed-plant-eq_rape-and-mustard[t],dat_domestic-crop-supply-per-use-processed-plant-eq_vegetable-oil[t],dat_domestic-crop-supply-per-use-processed-plant-eq_cake[t]"/>
-</config>
-</config>
-<config key="internal_node_subsettings">
-<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
-</config>
-<config key="model">
-<config key="defaultValue">
-<config key="columns">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="columnFilter">
-<config key="columnFilter">
-<entry key="filter-type" type="xstring" value="name_pattern"/>
-<config key="included_names">
-<entry key="array-size" type="xint" value="14"/>
-<entry key="0" type="xstring" value="Country"/>
-<entry key="1" type="xstring" value="Years"/>
-<entry key="2" type="xstring" value="tec_eff-gas-low[kWht/kWhc]"/>
-<entry key="3" type="xstring" value="tec_eff-gas-condens[kWht/kWhc]"/>
-<entry key="4" type="xstring" value="tec_eff-oil-low[kWht/kWhc]"/>
-<entry key="5" type="xstring" value="tec_eff-oil-condens[kWht/kWhc]"/>
-<entry key="6" type="xstring" value="tec_eff-coal[kWht/kWhc]"/>
-<entry key="7" type="xstring" value="tec_eff-biomass[kWht/kWhc]"/>
-<entry key="8" type="xstring" value="tec_eff-solarthermal[kWht/kWhc]"/>
-<entry key="9" type="xstring" value="tec_eff-heatpump[kWht/kWhc]"/>
-<entry key="10" type="xstring" value="tec_em-fact_coal[gCO2/kWh]"/>
-<entry key="11" type="xstring" value="tec_em-fact_gas[gCO2/kWh]"/>
-<entry key="12" type="xstring" value="tec_em-fact_oil[gCO2/kWh]"/>
-<entry key="13" type="xstring" value="tec_em-fact_biomass-liquid[gCO2/kWh]"/>
-</config>
-<config key="excluded_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
-<config key="name_pattern">
-<entry key="pattern" type="xstring" value=""/>
-<entry key="type" type="xstring" value="Regex"/>
-<entry key="caseSensitive" type="xboolean" value="true"/>
-</config>
-<config key="datatype">
-<config key="typelist">
-<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
-</config>
-</config>
-</config>
-</config>
-</config>
-<entry key="label" type="xstring" value="WARNING !! This Section is only for testing your Regex pattern, it won't be used in the aggregation method !!"/>
-<entry key="description" type="xstring" value="This filter is ther for testing purpose. It allows the user to test the regex pattern used in the Pattern section."/>
-<entry key="hideInWizard" type="xboolean" value="false"/>
-<entry key="hideInDialog" type="xboolean" value="false"/>
-<entry key="required" type="xboolean" value="true"/>
-<entry key="parameterName" type="xstring" value="column-filter"/>
-<entry key="customCSS" type="xstring" value=""/>
-<entry key="flowvariablename" type="xstring" value="var-filter"/>
-<config key="possibleColumns">
-<entry key="array-size" type="xint" value="14"/>
-<entry key="0" type="xstring" value="Country"/>
-<entry key="1" type="xstring" value="Years"/>
-<entry key="2" type="xstring" value="tec_eff-gas-low[kWht/kWhc]"/>
-<entry key="3" type="xstring" value="tec_eff-gas-condens[kWht/kWhc]"/>
-<entry key="4" type="xstring" value="tec_eff-oil-low[kWht/kWhc]"/>
-<entry key="5" type="xstring" value="tec_eff-oil-condens[kWht/kWhc]"/>
-<entry key="6" type="xstring" value="tec_eff-coal[kWht/kWhc]"/>
-<entry key="7" type="xstring" value="tec_eff-biomass[kWht/kWhc]"/>
-<entry key="8" type="xstring" value="tec_eff-solarthermal[kWht/kWhc]"/>
-<entry key="9" type="xstring" value="tec_eff-heatpump[kWht/kWhc]"/>
-<entry key="10" type="xstring" value="tec_em-fact_coal[gCO2/kWh]"/>
-<entry key="11" type="xstring" value="tec_em-fact_gas[gCO2/kWh]"/>
-<entry key="12" type="xstring" value="tec_em-fact_oil[gCO2/kWh]"/>
-<entry key="13" type="xstring" value="tec_em-fact_biomass-liquid[gCO2/kWh]"/>
-</config>
-<entry key="type" type="xstring" value="Twinlist"/>
-<entry key="limit_number_visible_options" type="xboolean" value="false"/>
-<entry key="number_visible_options" type="xint" value="10"/>
-</config>
-<config key="variables">
-<config key="defaultValue">
-<config key="columnFilter">
-<config key="columnFilter">
-<config key="name_pattern">
-<config key="pattern">
-<entry key="used_variable" type="xstring" isnull="true" value=""/>
-<entry key="exposed_variable" type="xstring" value="pattern-filter"/>
-</config>
-</config>
-</config>
-</config>
-</config>
-</config>
-<entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="factory" type="xstring" value="org.knime.js.base.node.quickform.filter.column.ColumnFilterQuickFormNodeFactory"/>
-<entry key="node-name" type="xstring" value="Column Filter"/>
-<entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
-<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
-<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="4.3.3.v202104281301"/>
-<entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
-<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
-<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="4.3.3.v202105242123"/>
-<config key="factory_settings"/>
-<entry key="name" type="xstring" value="Column Filter"/>
-<entry key="hasContent" type="xboolean" value="true"/>
-<entry key="isInactive" type="xboolean" value="false"/>
-<config key="ports">
-<config key="port_1">
-<entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 61, Cols: 128"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
-</config>
-</config>
-<config key="internalObjects">
-<entry key="location" type="xstring" value="internalTables"/>
-<config key="content">
-<config key="object_0">
-<entry key="index" type="xint" value="0"/>
-<entry key="type" type="xstring" value="table"/>
-<entry key="table_dir_location" type="xstring" value="object_0"/>
-</config>
-</config>
-</config>
-<config key="filestores">
-<entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="84952ae9-a545-426f-bfad-ca2fcbb8b8fa"/>
-</config>
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack">
+        <config key="Variable_0">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="var-filter"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="dat_domestic-crop-supply-per-use-processed-plant-eq_palm[t],dat_domestic-crop-supply-per-use-processed-plant-eq_sunflower-seed[t],dat_domestic-crop-supply-per-use-processed-plant-eq_soyabeans[t],dat_domestic-crop-supply-per-use-processed-plant-eq_rape-and-mustardseed[t],dat_domestic-crop-supply-per-use-processed-plant-eq_vegetable-oil-others[t],dat_domestic-crop-supply-per-use-processed-plant-eq_cake-others[t],dat_domestic-crop-supply-per-use-processed-plant-eq_olives-including-preserved[t],dat_domestic-crop-supply-per-use-processing_sugar-crops[t],dat_domestic-crop-supply-per-use-processing_grapes[t],dat_domestic-crop-supply-per-use-processing_barley-and-products[t],dat_domestic-crop-supply-per-use-processing_cereal-others[t],dat_domestic-crop-supply-per-use-processing_maize-and-products[t],dat_domestic-crop-supply-per-use-processing_rye-and-products[t],dat_domestic-crop-supply-per-use-processing_wheat-and-products[t],dat_domestic-crop-supply-per-use-feed_barley-and-products[t],dat_domestic-crop-supply-per-use-feed_cake-others[t],dat_domestic-crop-supply-per-use-feed_cereal-others[t],dat_domestic-crop-supply-per-use-feed_cocoa-beans-and-products[t],dat_domestic-crop-supply-per-use-feed_fruits-excluding-wine[t],dat_domestic-crop-supply-per-use-feed_maize-and-products[t],dat_domestic-crop-supply-per-use-feed_oilcrop-others[t],dat_domestic-crop-supply-per-use-feed_olive-oil[t],dat_domestic-crop-supply-per-use-feed_olives-including-preserved[t],dat_domestic-crop-supply-per-use-feed_palm-cake[t],dat_domestic-crop-supply-per-use-feed_palm-oil[t],dat_domestic-crop-supply-per-use-feed_palm[t],dat_domestic-crop-supply-per-use-feed_pulses[t],dat_domestic-crop-supply-per-use-feed_rape-and-mustard-cake[t],dat_domestic-crop-supply-per-use-feed_rape-and-mustard-oil[t],dat_domestic-crop-supply-per-use-feed_rape-and-mustardseed[t],dat_domestic-crop-supply-per-use-feed_rye-and-products[t],dat_domestic-crop-supply-per-use-feed_soyabean-cake[t],dat_domestic-crop-supply-per-use-feed_soyabean-oil[t],dat_domestic-crop-supply-per-use-feed_soyabeans[t],dat_domestic-crop-supply-per-use-feed_starchy-roots[t],dat_domestic-crop-supply-per-use-feed_sugar-crops[t],dat_domestic-crop-supply-per-use-feed_sunflower-seed[t],dat_domestic-crop-supply-per-use-feed_sunflowerseed-cake[t],dat_domestic-crop-supply-per-use-feed_sunflowerseed-oil[t],dat_domestic-crop-supply-per-use-feed_tea-including-mate[t],dat_domestic-crop-supply-per-use-feed_vegetable-oil-others[t],dat_domestic-crop-supply-per-use-feed_vegetables[t],dat_domestic-crop-supply-per-use-feed_wheat-and-products[t],dat_domestic-crop-supply-per-use-food_cereal-others[t],dat_domestic-crop-supply-per-use-food_fruits-excluding-wine[t],dat_domestic-crop-supply-per-use-food_oilcrop-others[t],dat_domestic-crop-supply-per-use-food_palm[t],dat_domestic-crop-supply-per-use-food_barley-and-products[t],dat_domestic-crop-supply-per-use-food_cocoa-beans-and-products[t],dat_domestic-crop-supply-per-use-food_coffee-and-products[t],dat_domestic-crop-supply-per-use-food_maize-and-products[t],dat_domestic-crop-supply-per-use-food_nuts-and-products[t],dat_domestic-crop-supply-per-use-food_olive-oil[t],dat_domestic-crop-supply-per-use-food_olives-including-preserved[t],dat_domestic-crop-supply-per-use-food_palm-oil[t],dat_domestic-crop-supply-per-use-food_pulses[t],dat_domestic-crop-supply-per-use-food_rape-and-mustard-oil[t],dat_domestic-crop-supply-per-use-food_rape-and-mustardseed[t],dat_domestic-crop-supply-per-use-food_rice-milled-equivalent[t],dat_domestic-crop-supply-per-use-food_rye-and-products[t],dat_domestic-crop-supply-per-use-food_soyabean-oil[t],dat_domestic-crop-supply-per-use-food_soyabeans[t],dat_domestic-crop-supply-per-use-food_starchy-roots[t],dat_domestic-crop-supply-per-use-food_sunflower-seed[t],dat_domestic-crop-supply-per-use-food_sunflowerseed-oil[t],dat_domestic-crop-supply-per-use-food_tea-including-mate[t],dat_domestic-crop-supply-per-use-food_vegetables[t],dat_domestic-crop-supply-per-use-food_wheat-and-products[t],dat_domestic-crop-supply-per-use-non-food_tobacco[t],dat_domestic-crop-supply-per-use-non-food_rubber[t],dat_domestic-crop-supply-per-use-non-food_fibre-crops[t],dat_domestic-crop-supply-per-use-seed_barley-and-products[t],dat_domestic-crop-supply-per-use-seed_cereal-others[t],dat_domestic-crop-supply-per-use-seed_fruits-excluding-wine[t],dat_domestic-crop-supply-per-use-seed_maize-and-products[t],dat_domestic-crop-supply-per-use-seed_nuts-and-products[t],dat_domestic-crop-supply-per-use-seed_oilcrop-others[t],dat_domestic-crop-supply-per-use-seed_paddy-rice[t],dat_domestic-crop-supply-per-use-seed_pulses[t],dat_domestic-crop-supply-per-use-seed_rape-and-mustardseed[t],dat_domestic-crop-supply-per-use-seed_rye-and-products[t],dat_domestic-crop-supply-per-use-seed_soyabeans[t],dat_domestic-crop-supply-per-use-seed_starchy-roots[t],dat_domestic-crop-supply-per-use-seed_sugar-&amp;-sweeteners[t],dat_domestic-crop-supply-per-use-seed_sugar-crops[t],dat_domestic-crop-supply-per-use-seed_sunflower-seed[t],dat_domestic-crop-supply-per-use-seed_vegetables[t],dat_domestic-crop-supply-per-use-seed_wheat-and-products[t],dat_domestic-crop-supply-per-use-other-nes_beer[t],dat_domestic-crop-supply-per-use-other-nes_beverages-alcoholic[t],dat_domestic-crop-supply-per-use-other-nes_beverages-fermented[t],dat_domestic-crop-supply-per-use-other-nes_cake-others[t],dat_domestic-crop-supply-per-use-other-nes_cocoa-beans-and-products[t],dat_domestic-crop-supply-per-use-other-nes_coffee-and-products[t],dat_domestic-crop-supply-per-use-other-nes_fibre-crops[t],dat_domestic-crop-supply-per-use-other-nes_fruits-excluding-wine[t],dat_domestic-crop-supply-per-use-other-nes_molasses[t],dat_domestic-crop-supply-per-use-other-nes_nuts-and-products[t],dat_domestic-crop-supply-per-use-other-nes_oilcrop-others[t],dat_domestic-crop-supply-per-use-other-nes_olive-oil[t],dat_domestic-crop-supply-per-use-other-nes_olives-including-preserved[t],dat_domestic-crop-supply-per-use-other-nes_paddy-rice[t],dat_domestic-crop-supply-per-use-other-nes_palm[t],dat_domestic-crop-supply-per-use-other-nes_palm-cake[t],dat_domestic-crop-supply-per-use-other-nes_palm-oil[t],dat_domestic-crop-supply-per-use-other-nes_pulses[t],dat_domestic-crop-supply-per-use-other-nes_rape-and-mustard-cake[t],dat_domestic-crop-supply-per-use-other-nes_rape-and-mustard-oil[t],dat_domestic-crop-supply-per-use-other-nes_rape-and-mustardseed[t],dat_domestic-crop-supply-per-use-other-nes_rubber[t],dat_domestic-crop-supply-per-use-other-nes_soyabean-cake[t],dat_domestic-crop-supply-per-use-other-nes_soyabean-oil[t],dat_domestic-crop-supply-per-use-other-nes_soyabeans[t],dat_domestic-crop-supply-per-use-other-nes_starchy-roots[t],dat_domestic-crop-supply-per-use-other-nes_sugar-&amp;-sweeteners[t],dat_domestic-crop-supply-per-use-other-nes_sunflower-seed[t],dat_domestic-crop-supply-per-use-other-nes_sunflowerseed-cake[t],dat_domestic-crop-supply-per-use-other-nes_sunflowerseed-oil[t],dat_domestic-crop-supply-per-use-other-nes_tea-including-mate[t],dat_domestic-crop-supply-per-use-other-nes_tobacco[t],dat_domestic-crop-supply-per-use-other-nes_vegetable-oil-others[t],dat_domestic-crop-supply-per-use-other-nes_vegetables[t],dat_domestic-crop-supply-per-use-other-nes_wine[t],dat_domestic-crop-supply-per-use-processed-plant-eq_sunflowerseed[t],dat_domestic-crop-supply-per-use-processed-plant-eq_soyabean[t],dat_domestic-crop-supply-per-use-processed-plant-eq_rape-and-mustard[t],dat_domestic-crop-supply-per-use-processed-plant-eq_vegetable-oil[t],dat_domestic-crop-supply-per-use-processed-plant-eq_cake[t]"/>
+        </config>
+        <config key="Variable_1">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="pattern-filter"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value=""/>
+        </config>
+        <config key="Variable_2">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="var-filter"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="dat_domestic-crop-supply-per-use-processed-plant-eq_palm[t],dat_domestic-crop-supply-per-use-processed-plant-eq_sunflower-seed[t],dat_domestic-crop-supply-per-use-processed-plant-eq_soyabeans[t],dat_domestic-crop-supply-per-use-processed-plant-eq_rape-and-mustardseed[t],dat_domestic-crop-supply-per-use-processed-plant-eq_vegetable-oil-others[t],dat_domestic-crop-supply-per-use-processed-plant-eq_cake-others[t],dat_domestic-crop-supply-per-use-processed-plant-eq_olives-including-preserved[t],dat_domestic-crop-supply-per-use-processing_sugar-crops[t],dat_domestic-crop-supply-per-use-processing_grapes[t],dat_domestic-crop-supply-per-use-processing_barley-and-products[t],dat_domestic-crop-supply-per-use-processing_cereal-others[t],dat_domestic-crop-supply-per-use-processing_maize-and-products[t],dat_domestic-crop-supply-per-use-processing_rye-and-products[t],dat_domestic-crop-supply-per-use-processing_wheat-and-products[t],dat_domestic-crop-supply-per-use-feed_barley-and-products[t],dat_domestic-crop-supply-per-use-feed_cake-others[t],dat_domestic-crop-supply-per-use-feed_cereal-others[t],dat_domestic-crop-supply-per-use-feed_cocoa-beans-and-products[t],dat_domestic-crop-supply-per-use-feed_fruits-excluding-wine[t],dat_domestic-crop-supply-per-use-feed_maize-and-products[t],dat_domestic-crop-supply-per-use-feed_oilcrop-others[t],dat_domestic-crop-supply-per-use-feed_olive-oil[t],dat_domestic-crop-supply-per-use-feed_olives-including-preserved[t],dat_domestic-crop-supply-per-use-feed_palm-cake[t],dat_domestic-crop-supply-per-use-feed_palm-oil[t],dat_domestic-crop-supply-per-use-feed_palm[t],dat_domestic-crop-supply-per-use-feed_pulses[t],dat_domestic-crop-supply-per-use-feed_rape-and-mustard-cake[t],dat_domestic-crop-supply-per-use-feed_rape-and-mustard-oil[t],dat_domestic-crop-supply-per-use-feed_rape-and-mustardseed[t],dat_domestic-crop-supply-per-use-feed_rye-and-products[t],dat_domestic-crop-supply-per-use-feed_soyabean-cake[t],dat_domestic-crop-supply-per-use-feed_soyabean-oil[t],dat_domestic-crop-supply-per-use-feed_soyabeans[t],dat_domestic-crop-supply-per-use-feed_starchy-roots[t],dat_domestic-crop-supply-per-use-feed_sugar-crops[t],dat_domestic-crop-supply-per-use-feed_sunflower-seed[t],dat_domestic-crop-supply-per-use-feed_sunflowerseed-cake[t],dat_domestic-crop-supply-per-use-feed_sunflowerseed-oil[t],dat_domestic-crop-supply-per-use-feed_tea-including-mate[t],dat_domestic-crop-supply-per-use-feed_vegetable-oil-others[t],dat_domestic-crop-supply-per-use-feed_vegetables[t],dat_domestic-crop-supply-per-use-feed_wheat-and-products[t],dat_domestic-crop-supply-per-use-food_cereal-others[t],dat_domestic-crop-supply-per-use-food_fruits-excluding-wine[t],dat_domestic-crop-supply-per-use-food_oilcrop-others[t],dat_domestic-crop-supply-per-use-food_palm[t],dat_domestic-crop-supply-per-use-food_barley-and-products[t],dat_domestic-crop-supply-per-use-food_cocoa-beans-and-products[t],dat_domestic-crop-supply-per-use-food_coffee-and-products[t],dat_domestic-crop-supply-per-use-food_maize-and-products[t],dat_domestic-crop-supply-per-use-food_nuts-and-products[t],dat_domestic-crop-supply-per-use-food_olive-oil[t],dat_domestic-crop-supply-per-use-food_olives-including-preserved[t],dat_domestic-crop-supply-per-use-food_palm-oil[t],dat_domestic-crop-supply-per-use-food_pulses[t],dat_domestic-crop-supply-per-use-food_rape-and-mustard-oil[t],dat_domestic-crop-supply-per-use-food_rape-and-mustardseed[t],dat_domestic-crop-supply-per-use-food_rice-milled-equivalent[t],dat_domestic-crop-supply-per-use-food_rye-and-products[t],dat_domestic-crop-supply-per-use-food_soyabean-oil[t],dat_domestic-crop-supply-per-use-food_soyabeans[t],dat_domestic-crop-supply-per-use-food_starchy-roots[t],dat_domestic-crop-supply-per-use-food_sunflower-seed[t],dat_domestic-crop-supply-per-use-food_sunflowerseed-oil[t],dat_domestic-crop-supply-per-use-food_tea-including-mate[t],dat_domestic-crop-supply-per-use-food_vegetables[t],dat_domestic-crop-supply-per-use-food_wheat-and-products[t],dat_domestic-crop-supply-per-use-non-food_tobacco[t],dat_domestic-crop-supply-per-use-non-food_rubber[t],dat_domestic-crop-supply-per-use-non-food_fibre-crops[t],dat_domestic-crop-supply-per-use-seed_barley-and-products[t],dat_domestic-crop-supply-per-use-seed_cereal-others[t],dat_domestic-crop-supply-per-use-seed_fruits-excluding-wine[t],dat_domestic-crop-supply-per-use-seed_maize-and-products[t],dat_domestic-crop-supply-per-use-seed_nuts-and-products[t],dat_domestic-crop-supply-per-use-seed_oilcrop-others[t],dat_domestic-crop-supply-per-use-seed_paddy-rice[t],dat_domestic-crop-supply-per-use-seed_pulses[t],dat_domestic-crop-supply-per-use-seed_rape-and-mustardseed[t],dat_domestic-crop-supply-per-use-seed_rye-and-products[t],dat_domestic-crop-supply-per-use-seed_soyabeans[t],dat_domestic-crop-supply-per-use-seed_starchy-roots[t],dat_domestic-crop-supply-per-use-seed_sugar-&amp;-sweeteners[t],dat_domestic-crop-supply-per-use-seed_sugar-crops[t],dat_domestic-crop-supply-per-use-seed_sunflower-seed[t],dat_domestic-crop-supply-per-use-seed_vegetables[t],dat_domestic-crop-supply-per-use-seed_wheat-and-products[t],dat_domestic-crop-supply-per-use-other-nes_beer[t],dat_domestic-crop-supply-per-use-other-nes_beverages-alcoholic[t],dat_domestic-crop-supply-per-use-other-nes_beverages-fermented[t],dat_domestic-crop-supply-per-use-other-nes_cake-others[t],dat_domestic-crop-supply-per-use-other-nes_cocoa-beans-and-products[t],dat_domestic-crop-supply-per-use-other-nes_coffee-and-products[t],dat_domestic-crop-supply-per-use-other-nes_fibre-crops[t],dat_domestic-crop-supply-per-use-other-nes_fruits-excluding-wine[t],dat_domestic-crop-supply-per-use-other-nes_molasses[t],dat_domestic-crop-supply-per-use-other-nes_nuts-and-products[t],dat_domestic-crop-supply-per-use-other-nes_oilcrop-others[t],dat_domestic-crop-supply-per-use-other-nes_olive-oil[t],dat_domestic-crop-supply-per-use-other-nes_olives-including-preserved[t],dat_domestic-crop-supply-per-use-other-nes_paddy-rice[t],dat_domestic-crop-supply-per-use-other-nes_palm[t],dat_domestic-crop-supply-per-use-other-nes_palm-cake[t],dat_domestic-crop-supply-per-use-other-nes_palm-oil[t],dat_domestic-crop-supply-per-use-other-nes_pulses[t],dat_domestic-crop-supply-per-use-other-nes_rape-and-mustard-cake[t],dat_domestic-crop-supply-per-use-other-nes_rape-and-mustard-oil[t],dat_domestic-crop-supply-per-use-other-nes_rape-and-mustardseed[t],dat_domestic-crop-supply-per-use-other-nes_rubber[t],dat_domestic-crop-supply-per-use-other-nes_soyabean-cake[t],dat_domestic-crop-supply-per-use-other-nes_soyabean-oil[t],dat_domestic-crop-supply-per-use-other-nes_soyabeans[t],dat_domestic-crop-supply-per-use-other-nes_starchy-roots[t],dat_domestic-crop-supply-per-use-other-nes_sugar-&amp;-sweeteners[t],dat_domestic-crop-supply-per-use-other-nes_sunflower-seed[t],dat_domestic-crop-supply-per-use-other-nes_sunflowerseed-cake[t],dat_domestic-crop-supply-per-use-other-nes_sunflowerseed-oil[t],dat_domestic-crop-supply-per-use-other-nes_tea-including-mate[t],dat_domestic-crop-supply-per-use-other-nes_tobacco[t],dat_domestic-crop-supply-per-use-other-nes_vegetable-oil-others[t],dat_domestic-crop-supply-per-use-other-nes_vegetables[t],dat_domestic-crop-supply-per-use-other-nes_wine[t],dat_domestic-crop-supply-per-use-processed-plant-eq_sunflowerseed[t],dat_domestic-crop-supply-per-use-processed-plant-eq_soyabean[t],dat_domestic-crop-supply-per-use-processed-plant-eq_rape-and-mustard[t],dat_domestic-crop-supply-per-use-processed-plant-eq_vegetable-oil[t],dat_domestic-crop-supply-per-use-processed-plant-eq_cake[t]"/>
+        </config>
+    </config>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="defaultValue">
+            <config key="columns">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <config key="columnFilter">
+                <config key="columnFilter">
+                    <entry key="filter-type" type="xstring" value="name_pattern"/>
+                    <config key="included_names">
+                        <entry key="array-size" type="xint" value="14"/>
+                        <entry key="0" type="xstring" value="Country"/>
+                        <entry key="1" type="xstring" value="Years"/>
+                        <entry key="2" type="xstring" value="tec_eff-gas-low[kWht/kWhc]"/>
+                        <entry key="3" type="xstring" value="tec_eff-gas-condens[kWht/kWhc]"/>
+                        <entry key="4" type="xstring" value="tec_eff-oil-low[kWht/kWhc]"/>
+                        <entry key="5" type="xstring" value="tec_eff-oil-condens[kWht/kWhc]"/>
+                        <entry key="6" type="xstring" value="tec_eff-coal[kWht/kWhc]"/>
+                        <entry key="7" type="xstring" value="tec_eff-biomass[kWht/kWhc]"/>
+                        <entry key="8" type="xstring" value="tec_eff-solarthermal[kWht/kWhc]"/>
+                        <entry key="9" type="xstring" value="tec_eff-heatpump[kWht/kWhc]"/>
+                        <entry key="10" type="xstring" value="tec_em-fact_coal[gCO2/kWh]"/>
+                        <entry key="11" type="xstring" value="tec_em-fact_gas[gCO2/kWh]"/>
+                        <entry key="12" type="xstring" value="tec_em-fact_oil[gCO2/kWh]"/>
+                        <entry key="13" type="xstring" value="tec_em-fact_biomass-liquid[gCO2/kWh]"/>
+                    </config>
+                    <config key="excluded_names">
+                        <entry key="array-size" type="xint" value="0"/>
+                    </config>
+                    <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+                    <config key="name_pattern">
+                        <entry key="pattern" type="xstring" value=""/>
+                        <entry key="type" type="xstring" value="Regex"/>
+                        <entry key="caseSensitive" type="xboolean" value="true"/>
+                    </config>
+                    <config key="datatype">
+                        <config key="typelist">
+                            <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                            <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                            <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                            <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                            <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                            <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                        </config>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <entry key="label" type="xstring" value="WARNING !! This Section is only for testing your Regex pattern, it won't be used in the aggregation method !!"/>
+        <entry key="description" type="xstring" value="This filter is ther for testing purpose. It allows the user to test the regex pattern used in the Pattern section."/>
+        <entry key="hideInWizard" type="xboolean" value="false"/>
+        <entry key="hideInDialog" type="xboolean" value="false"/>
+        <entry key="required" type="xboolean" value="true"/>
+        <entry key="parameterName" type="xstring" value="column-filter"/>
+        <entry key="customCSS" type="xstring" value=""/>
+        <entry key="flowvariablename" type="xstring" value="var-filter"/>
+        <config key="possibleColumns">
+            <entry key="array-size" type="xint" value="14"/>
+            <entry key="0" type="xstring" value="Country"/>
+            <entry key="1" type="xstring" value="Years"/>
+            <entry key="2" type="xstring" value="tec_eff-gas-low[kWht/kWhc]"/>
+            <entry key="3" type="xstring" value="tec_eff-gas-condens[kWht/kWhc]"/>
+            <entry key="4" type="xstring" value="tec_eff-oil-low[kWht/kWhc]"/>
+            <entry key="5" type="xstring" value="tec_eff-oil-condens[kWht/kWhc]"/>
+            <entry key="6" type="xstring" value="tec_eff-coal[kWht/kWhc]"/>
+            <entry key="7" type="xstring" value="tec_eff-biomass[kWht/kWhc]"/>
+            <entry key="8" type="xstring" value="tec_eff-solarthermal[kWht/kWhc]"/>
+            <entry key="9" type="xstring" value="tec_eff-heatpump[kWht/kWhc]"/>
+            <entry key="10" type="xstring" value="tec_em-fact_coal[gCO2/kWh]"/>
+            <entry key="11" type="xstring" value="tec_em-fact_gas[gCO2/kWh]"/>
+            <entry key="12" type="xstring" value="tec_em-fact_oil[gCO2/kWh]"/>
+            <entry key="13" type="xstring" value="tec_em-fact_biomass-liquid[gCO2/kWh]"/>
+        </config>
+        <entry key="type" type="xstring" value="Twinlist"/>
+        <entry key="limit_number_visible_options" type="xboolean" value="false"/>
+        <entry key="number_visible_options" type="xint" value="10"/>
+    </config>
+    <config key="variables">
+        <config key="defaultValue">
+            <config key="columnFilter">
+                <config key="columnFilter">
+                    <config key="name_pattern">
+                        <config key="pattern">
+                            <entry key="used_variable" type="xstring" isnull="true" value=""/>
+                            <entry key="exposed_variable" type="xstring" value="pattern-filter"/>
+                        </config>
+                    </config>
+                </config>
+            </config>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.js.base.node.quickform.filter.column.ColumnFilterQuickFormNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Column Filter"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.5.0.v202112011347"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.2.v202203171029"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Column Filter"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
 </config>

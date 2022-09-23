@@ -1,216 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
-<entry key="node_file" type="xstring" value="settings.xml"/>
-<config key="flow_stack">
-<config key="Variable_0">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="Country"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="united-kingdom"/>
-</config>
-<config key="Variable_1">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="Country"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="united-kingdom"/>
-</config>
-</config>
-<config key="internal_node_subsettings">
-<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
-</config>
-<config key="model">
-<config key="defaultValue">
-<config key="variable_value">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-</config>
-<entry key="label" type="xstring" value="Country-Selection"/>
-<entry key="description" type="xstring" value="Enter Description"/>
-<entry key="hideInWizard" type="xboolean" value="false"/>
-<entry key="hideInDialog" type="xboolean" value="false"/>
-<entry key="required" type="xboolean" value="true"/>
-<entry key="parameterName" type="xstring" value="Country"/>
-<entry key="customCSS" type="xstring" value=""/>
-<entry key="flowvariablename" type="xstring" value="Country"/>
-<config key="possible_choices">
-<entry key="array-size" type="xint" value="145"/>
-<entry key="0" type="xstring" value="Afghanistan"/>
-<entry key="1" type="xstring" value="Albania"/>
-<entry key="2" type="xstring" value="Algeria"/>
-<entry key="3" type="xstring" value="Angola"/>
-<entry key="4" type="xstring" value="Argentina"/>
-<entry key="5" type="xstring" value="Armenia"/>
-<entry key="6" type="xstring" value="Australia"/>
-<entry key="7" type="xstring" value="Austria"/>
-<entry key="8" type="xstring" value="Azerbaijan"/>
-<entry key="9" type="xstring" value="Bangladesh"/>
-<entry key="10" type="xstring" value="Belarus"/>
-<entry key="11" type="xstring" value="Belgium"/>
-<entry key="12" type="xstring" value="Benin"/>
-<entry key="13" type="xstring" value="Bolivia (Plurinational State of)"/>
-<entry key="14" type="xstring" value="Bosnia and Herzegovina"/>
-<entry key="15" type="xstring" value="Botswana"/>
-<entry key="16" type="xstring" value="Brazil"/>
-<entry key="17" type="xstring" value="Bulgaria"/>
-<entry key="18" type="xstring" value="Burkina Faso"/>
-<entry key="19" type="xstring" value="Cambodia"/>
-<entry key="20" type="xstring" value="Cameroon"/>
-<entry key="21" type="xstring" value="Canada"/>
-<entry key="22" type="xstring" value="Central African Republic"/>
-<entry key="23" type="xstring" value="Chad"/>
-<entry key="24" type="xstring" value="Chile"/>
-<entry key="25" type="xstring" value="China, Hong Kong SAR"/>
-<entry key="26" type="xstring" value="China, Taiwan Province of"/>
-<entry key="27" type="xstring" value="China, mainland"/>
-<entry key="28" type="xstring" value="Colombia"/>
-<entry key="29" type="xstring" value="Costa Rica"/>
-<entry key="30" type="xstring" value="Croatia"/>
-<entry key="31" type="xstring" value="Cuba"/>
-<entry key="32" type="xstring" value="Czech Republic"/>
-<entry key="33" type="xstring" value="CÃ´te d'Ivoire"/>
-<entry key="34" type="xstring" value="Democratic People's Republic of Korea"/>
-<entry key="35" type="xstring" value="Denmark"/>
-<entry key="36" type="xstring" value="Dominican Republic"/>
-<entry key="37" type="xstring" value="Ecuador"/>
-<entry key="38" type="xstring" value="Egypt"/>
-<entry key="39" type="xstring" value="El Salvador"/>
-<entry key="40" type="xstring" value="Estonia"/>
-<entry key="41" type="xstring" value="Ethiopia"/>
-<entry key="42" type="xstring" value="Finland"/>
-<entry key="43" type="xstring" value="France"/>
-<entry key="44" type="xstring" value="Gabon"/>
-<entry key="45" type="xstring" value="Gambia"/>
-<entry key="46" type="xstring" value="Georgia"/>
-<entry key="47" type="xstring" value="Germany"/>
-<entry key="48" type="xstring" value="Ghana"/>
-<entry key="49" type="xstring" value="Greece"/>
-<entry key="50" type="xstring" value="Guatemala"/>
-<entry key="51" type="xstring" value="Guinea"/>
-<entry key="52" type="xstring" value="Guyana"/>
-<entry key="53" type="xstring" value="Haiti"/>
-<entry key="54" type="xstring" value="Honduras"/>
-<entry key="55" type="xstring" value="Hungary"/>
-<entry key="56" type="xstring" value="India"/>
-<entry key="57" type="xstring" value="Indonesia"/>
-<entry key="58" type="xstring" value="Iran (Islamic Republic of)"/>
-<entry key="59" type="xstring" value="Iraq"/>
-<entry key="60" type="xstring" value="Ireland"/>
-<entry key="61" type="xstring" value="Israel"/>
-<entry key="62" type="xstring" value="Italy"/>
-<entry key="63" type="xstring" value="Jamaica"/>
-<entry key="64" type="xstring" value="Japan"/>
-<entry key="65" type="xstring" value="Jordan"/>
-<entry key="66" type="xstring" value="Kazakhstan"/>
-<entry key="67" type="xstring" value="Kenya"/>
-<entry key="68" type="xstring" value="Kyrgyzstan"/>
-<entry key="69" type="xstring" value="Lao People's Democratic Republic"/>
-<entry key="70" type="xstring" value="Latvia"/>
-<entry key="71" type="xstring" value="Lebanon"/>
-<entry key="72" type="xstring" value="Lesotho"/>
-<entry key="73" type="xstring" value="Liberia"/>
-<entry key="74" type="xstring" value="Lithuania"/>
-<entry key="75" type="xstring" value="Madagascar"/>
-<entry key="76" type="xstring" value="Malawi"/>
-<entry key="77" type="xstring" value="Malaysia"/>
-<entry key="78" type="xstring" value="Mali"/>
-<entry key="79" type="xstring" value="Mauritania"/>
-<entry key="80" type="xstring" value="Mauritius"/>
-<entry key="81" type="xstring" value="Mexico"/>
-<entry key="82" type="xstring" value="Mongolia"/>
-<entry key="83" type="xstring" value="Morocco"/>
-<entry key="84" type="xstring" value="Mozambique"/>
-<entry key="85" type="xstring" value="Myanmar"/>
-<entry key="86" type="xstring" value="Namibia"/>
-<entry key="87" type="xstring" value="Nepal"/>
-<entry key="88" type="xstring" value="Netherlands"/>
-<entry key="89" type="xstring" value="New Zealand"/>
-<entry key="90" type="xstring" value="Nicaragua"/>
-<entry key="91" type="xstring" value="Niger"/>
-<entry key="92" type="xstring" value="Nigeria"/>
-<entry key="93" type="xstring" value="Norway"/>
-<entry key="94" type="xstring" value="Pakistan"/>
-<entry key="95" type="xstring" value="Panama"/>
-<entry key="96" type="xstring" value="Paraguay"/>
-<entry key="97" type="xstring" value="Peru"/>
-<entry key="98" type="xstring" value="Philippines"/>
-<entry key="99" type="xstring" value="Poland"/>
-<entry key="100" type="xstring" value="Portugal"/>
-<entry key="101" type="xstring" value="Republic of Korea"/>
-<entry key="102" type="xstring" value="Republic of Moldova"/>
-<entry key="103" type="xstring" value="Republic of the Congo"/>
-<entry key="104" type="xstring" value="Rest of EAP"/>
-<entry key="105" type="xstring" value="Rest of ECA"/>
-<entry key="106" type="xstring" value="Rest of EU"/>
-<entry key="107" type="xstring" value="Rest of HIC"/>
-<entry key="108" type="xstring" value="Rest of LAC"/>
-<entry key="109" type="xstring" value="Rest of MNA"/>
-<entry key="110" type="xstring" value="Rest of SAS"/>
-<entry key="111" type="xstring" value="Rest of SSA"/>
-<entry key="112" type="xstring" value="Romania"/>
-<entry key="113" type="xstring" value="Russian Federation"/>
-<entry key="114" type="xstring" value="Rwanda"/>
-<entry key="115" type="xstring" value="Saudi Arabia"/>
-<entry key="116" type="xstring" value="Senegal"/>
-<entry key="117" type="xstring" value="Serbia"/>
-<entry key="118" type="xstring" value="Sierra Leone"/>
-<entry key="119" type="xstring" value="Slovakia"/>
-<entry key="120" type="xstring" value="South Africa"/>
-<entry key="121" type="xstring" value="Spain"/>
-<entry key="122" type="xstring" value="Sri Lanka"/>
-<entry key="123" type="xstring" value="Suriname"/>
-<entry key="124" type="xstring" value="Swaziland"/>
-<entry key="125" type="xstring" value="Sweden"/>
-<entry key="126" type="xstring" value="Tajikistan"/>
-<entry key="127" type="xstring" value="Thailand"/>
-<entry key="128" type="xstring" value="Togo"/>
-<entry key="129" type="xstring" value="Trinidad and Tobago"/>
-<entry key="130" type="xstring" value="Tunisia"/>
-<entry key="131" type="xstring" value="Turkey"/>
-<entry key="132" type="xstring" value="Turkmenistan"/>
-<entry key="133" type="xstring" value="Uganda"/>
-<entry key="134" type="xstring" value="Ukraine"/>
-<entry key="135" type="xstring" value="United Kingdom"/>
-<entry key="136" type="xstring" value="United Republic of Tanzania"/>
-<entry key="137" type="xstring" value="United States of America"/>
-<entry key="138" type="xstring" value="Uruguay"/>
-<entry key="139" type="xstring" value="Uzbekistan"/>
-<entry key="140" type="xstring" value="Venezuela (Bolivarian Republic of)"/>
-<entry key="141" type="xstring" value="Viet Nam"/>
-<entry key="142" type="xstring" value="Yemen"/>
-<entry key="143" type="xstring" value="Zambia"/>
-<entry key="144" type="xstring" value="Zimbabwe"/>
-</config>
-<entry key="type" type="xstring" value="Twinlist"/>
-<entry key="limit_number_visible_options" type="xboolean" value="false"/>
-<entry key="number_visible_options" type="xint" value="10"/>
-</config>
-<entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="factory" type="xstring" value="org.knime.js.base.node.quickform.selection.multiple.MultipleSelectionQuickFormNodeFactory"/>
-<entry key="node-name" type="xstring" value="Multiple Selections"/>
-<entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
-<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
-<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="4.3.3.v202104281301"/>
-<entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
-<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
-<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="4.3.3.v202105242123"/>
-<config key="factory_settings"/>
-<entry key="name" type="xstring" value="Multiple Selections"/>
-<entry key="hasContent" type="xboolean" value="true"/>
-<entry key="isInactive" type="xboolean" value="false"/>
-<config key="ports">
-<config key="port_1">
-<entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 1"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
-</config>
-</config>
-<config key="filestores">
-<entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="71179e54-2bbc-4088-8e77-ae128f91bed8"/>
-</config>
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack">
+        <config key="Variable_0">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Country"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="united-kingdom"/>
+        </config>
+        <config key="Variable_1">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Country"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="united-kingdom"/>
+        </config>
+    </config>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="defaultValue">
+            <config key="variable_value">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+        </config>
+        <entry key="label" type="xstring" value="Country-Selection"/>
+        <entry key="description" type="xstring" value="Enter Description"/>
+        <entry key="hideInWizard" type="xboolean" value="false"/>
+        <entry key="hideInDialog" type="xboolean" value="false"/>
+        <entry key="required" type="xboolean" value="true"/>
+        <entry key="parameterName" type="xstring" value="Country"/>
+        <entry key="customCSS" type="xstring" value=""/>
+        <entry key="flowvariablename" type="xstring" value="Country"/>
+        <config key="possible_choices">
+            <entry key="array-size" type="xint" value="145"/>
+            <entry key="0" type="xstring" value="Afghanistan"/>
+            <entry key="1" type="xstring" value="Albania"/>
+            <entry key="2" type="xstring" value="Algeria"/>
+            <entry key="3" type="xstring" value="Angola"/>
+            <entry key="4" type="xstring" value="Argentina"/>
+            <entry key="5" type="xstring" value="Armenia"/>
+            <entry key="6" type="xstring" value="Australia"/>
+            <entry key="7" type="xstring" value="Austria"/>
+            <entry key="8" type="xstring" value="Azerbaijan"/>
+            <entry key="9" type="xstring" value="Bangladesh"/>
+            <entry key="10" type="xstring" value="Belarus"/>
+            <entry key="11" type="xstring" value="Belgium"/>
+            <entry key="12" type="xstring" value="Benin"/>
+            <entry key="13" type="xstring" value="Bolivia (Plurinational State of)"/>
+            <entry key="14" type="xstring" value="Bosnia and Herzegovina"/>
+            <entry key="15" type="xstring" value="Botswana"/>
+            <entry key="16" type="xstring" value="Brazil"/>
+            <entry key="17" type="xstring" value="Bulgaria"/>
+            <entry key="18" type="xstring" value="Burkina Faso"/>
+            <entry key="19" type="xstring" value="Cambodia"/>
+            <entry key="20" type="xstring" value="Cameroon"/>
+            <entry key="21" type="xstring" value="Canada"/>
+            <entry key="22" type="xstring" value="Central African Republic"/>
+            <entry key="23" type="xstring" value="Chad"/>
+            <entry key="24" type="xstring" value="Chile"/>
+            <entry key="25" type="xstring" value="China, Hong Kong SAR"/>
+            <entry key="26" type="xstring" value="China, Taiwan Province of"/>
+            <entry key="27" type="xstring" value="China, mainland"/>
+            <entry key="28" type="xstring" value="Colombia"/>
+            <entry key="29" type="xstring" value="Costa Rica"/>
+            <entry key="30" type="xstring" value="Croatia"/>
+            <entry key="31" type="xstring" value="Cuba"/>
+            <entry key="32" type="xstring" value="Czech Republic"/>
+            <entry key="33" type="xstring" value="CÃ´te d'Ivoire"/>
+            <entry key="34" type="xstring" value="Democratic People's Republic of Korea"/>
+            <entry key="35" type="xstring" value="Denmark"/>
+            <entry key="36" type="xstring" value="Dominican Republic"/>
+            <entry key="37" type="xstring" value="Ecuador"/>
+            <entry key="38" type="xstring" value="Egypt"/>
+            <entry key="39" type="xstring" value="El Salvador"/>
+            <entry key="40" type="xstring" value="Estonia"/>
+            <entry key="41" type="xstring" value="Ethiopia"/>
+            <entry key="42" type="xstring" value="Finland"/>
+            <entry key="43" type="xstring" value="France"/>
+            <entry key="44" type="xstring" value="Gabon"/>
+            <entry key="45" type="xstring" value="Gambia"/>
+            <entry key="46" type="xstring" value="Georgia"/>
+            <entry key="47" type="xstring" value="Germany"/>
+            <entry key="48" type="xstring" value="Ghana"/>
+            <entry key="49" type="xstring" value="Greece"/>
+            <entry key="50" type="xstring" value="Guatemala"/>
+            <entry key="51" type="xstring" value="Guinea"/>
+            <entry key="52" type="xstring" value="Guyana"/>
+            <entry key="53" type="xstring" value="Haiti"/>
+            <entry key="54" type="xstring" value="Honduras"/>
+            <entry key="55" type="xstring" value="Hungary"/>
+            <entry key="56" type="xstring" value="India"/>
+            <entry key="57" type="xstring" value="Indonesia"/>
+            <entry key="58" type="xstring" value="Iran (Islamic Republic of)"/>
+            <entry key="59" type="xstring" value="Iraq"/>
+            <entry key="60" type="xstring" value="Ireland"/>
+            <entry key="61" type="xstring" value="Israel"/>
+            <entry key="62" type="xstring" value="Italy"/>
+            <entry key="63" type="xstring" value="Jamaica"/>
+            <entry key="64" type="xstring" value="Japan"/>
+            <entry key="65" type="xstring" value="Jordan"/>
+            <entry key="66" type="xstring" value="Kazakhstan"/>
+            <entry key="67" type="xstring" value="Kenya"/>
+            <entry key="68" type="xstring" value="Kyrgyzstan"/>
+            <entry key="69" type="xstring" value="Lao People's Democratic Republic"/>
+            <entry key="70" type="xstring" value="Latvia"/>
+            <entry key="71" type="xstring" value="Lebanon"/>
+            <entry key="72" type="xstring" value="Lesotho"/>
+            <entry key="73" type="xstring" value="Liberia"/>
+            <entry key="74" type="xstring" value="Lithuania"/>
+            <entry key="75" type="xstring" value="Madagascar"/>
+            <entry key="76" type="xstring" value="Malawi"/>
+            <entry key="77" type="xstring" value="Malaysia"/>
+            <entry key="78" type="xstring" value="Mali"/>
+            <entry key="79" type="xstring" value="Mauritania"/>
+            <entry key="80" type="xstring" value="Mauritius"/>
+            <entry key="81" type="xstring" value="Mexico"/>
+            <entry key="82" type="xstring" value="Mongolia"/>
+            <entry key="83" type="xstring" value="Morocco"/>
+            <entry key="84" type="xstring" value="Mozambique"/>
+            <entry key="85" type="xstring" value="Myanmar"/>
+            <entry key="86" type="xstring" value="Namibia"/>
+            <entry key="87" type="xstring" value="Nepal"/>
+            <entry key="88" type="xstring" value="Netherlands"/>
+            <entry key="89" type="xstring" value="New Zealand"/>
+            <entry key="90" type="xstring" value="Nicaragua"/>
+            <entry key="91" type="xstring" value="Niger"/>
+            <entry key="92" type="xstring" value="Nigeria"/>
+            <entry key="93" type="xstring" value="Norway"/>
+            <entry key="94" type="xstring" value="Pakistan"/>
+            <entry key="95" type="xstring" value="Panama"/>
+            <entry key="96" type="xstring" value="Paraguay"/>
+            <entry key="97" type="xstring" value="Peru"/>
+            <entry key="98" type="xstring" value="Philippines"/>
+            <entry key="99" type="xstring" value="Poland"/>
+            <entry key="100" type="xstring" value="Portugal"/>
+            <entry key="101" type="xstring" value="Republic of Korea"/>
+            <entry key="102" type="xstring" value="Republic of Moldova"/>
+            <entry key="103" type="xstring" value="Republic of the Congo"/>
+            <entry key="104" type="xstring" value="Rest of EAP"/>
+            <entry key="105" type="xstring" value="Rest of ECA"/>
+            <entry key="106" type="xstring" value="Rest of EU"/>
+            <entry key="107" type="xstring" value="Rest of HIC"/>
+            <entry key="108" type="xstring" value="Rest of LAC"/>
+            <entry key="109" type="xstring" value="Rest of MNA"/>
+            <entry key="110" type="xstring" value="Rest of SAS"/>
+            <entry key="111" type="xstring" value="Rest of SSA"/>
+            <entry key="112" type="xstring" value="Romania"/>
+            <entry key="113" type="xstring" value="Russian Federation"/>
+            <entry key="114" type="xstring" value="Rwanda"/>
+            <entry key="115" type="xstring" value="Saudi Arabia"/>
+            <entry key="116" type="xstring" value="Senegal"/>
+            <entry key="117" type="xstring" value="Serbia"/>
+            <entry key="118" type="xstring" value="Sierra Leone"/>
+            <entry key="119" type="xstring" value="Slovakia"/>
+            <entry key="120" type="xstring" value="South Africa"/>
+            <entry key="121" type="xstring" value="Spain"/>
+            <entry key="122" type="xstring" value="Sri Lanka"/>
+            <entry key="123" type="xstring" value="Suriname"/>
+            <entry key="124" type="xstring" value="Swaziland"/>
+            <entry key="125" type="xstring" value="Sweden"/>
+            <entry key="126" type="xstring" value="Tajikistan"/>
+            <entry key="127" type="xstring" value="Thailand"/>
+            <entry key="128" type="xstring" value="Togo"/>
+            <entry key="129" type="xstring" value="Trinidad and Tobago"/>
+            <entry key="130" type="xstring" value="Tunisia"/>
+            <entry key="131" type="xstring" value="Turkey"/>
+            <entry key="132" type="xstring" value="Turkmenistan"/>
+            <entry key="133" type="xstring" value="Uganda"/>
+            <entry key="134" type="xstring" value="Ukraine"/>
+            <entry key="135" type="xstring" value="United Kingdom"/>
+            <entry key="136" type="xstring" value="United Republic of Tanzania"/>
+            <entry key="137" type="xstring" value="United States of America"/>
+            <entry key="138" type="xstring" value="Uruguay"/>
+            <entry key="139" type="xstring" value="Uzbekistan"/>
+            <entry key="140" type="xstring" value="Venezuela (Bolivarian Republic of)"/>
+            <entry key="141" type="xstring" value="Viet Nam"/>
+            <entry key="142" type="xstring" value="Yemen"/>
+            <entry key="143" type="xstring" value="Zambia"/>
+            <entry key="144" type="xstring" value="Zimbabwe"/>
+        </config>
+        <entry key="type" type="xstring" value="Twinlist"/>
+        <entry key="limit_number_visible_options" type="xboolean" value="false"/>
+        <entry key="number_visible_options" type="xint" value="10"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.js.base.node.quickform.selection.multiple.MultipleSelectionQuickFormNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Multiple Selections"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.5.0.v202112011347"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.2.v202203171029"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Multiple Selections"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
 </config>

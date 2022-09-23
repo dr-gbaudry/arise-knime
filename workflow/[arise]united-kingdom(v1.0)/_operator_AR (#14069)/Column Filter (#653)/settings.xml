@@ -1,108 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
-<entry key="node_file" type="xstring" value="settings.xml"/>
-<config key="flow_stack">
-<config key="Variable_0">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new variable"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_livestock-ration-split_animal-fats[%],dat_livestock-ration-split_barley-and-products[%],dat_livestock-ration-split_bovine-meat[%],dat_livestock-ration-split_cake-others[%],dat_livestock-ration-split_cereal-others[%],dat_livestock-ration-split_cocoa-beans-and-products[%],dat_livestock-ration-split_eggs[%],dat_livestock-ration-split_fish-seafood[%],dat_livestock-ration-split_fruits-excluding-wine[%],dat_livestock-ration-split_maize-and-products[%],dat_livestock-ration-split_meat-other[%],dat_livestock-ration-split_molasses[%],dat_livestock-ration-split_mutton-&amp;-goat-meat[%],dat_livestock-ration-split_offals[%],dat_livestock-ration-split_oilcrop-others[%],dat_livestock-ration-split_olive-oil[%],dat_livestock-ration-split_olives-including-preserved[%],dat_livestock-ration-split_palm-cake[%],dat_livestock-ration-split_palm-oil[%],dat_livestock-ration-split_palm[%],dat_livestock-ration-split_poultry-meat[%],dat_livestock-ration-split_pulses[%],dat_livestock-ration-split_rape-and-mustard-cake[%],dat_livestock-ration-split_rape-and-mustard-oil[%],dat_livestock-ration-split_rape-and-mustardseed[%],dat_livestock-ration-split_rye-and-products[%],dat_livestock-ration-split_soyabean-cake[%],dat_livestock-ration-split_soyabean-oil[%],dat_livestock-ration-split_soyabeans[%],dat_livestock-ration-split_starchy-roots[%],dat_livestock-ration-split_sugar-&amp;-sweeteners[%],dat_livestock-ration-split_sugar-crops[%],dat_livestock-ration-split_sunflower-seed[%],dat_livestock-ration-split_sunflowerseed-cake[%],dat_livestock-ration-split_sunflowerseed-oil[%],dat_livestock-ration-split_tea-including-mate[%],dat_livestock-ration-split_vegetable-oil-others[%],dat_livestock-ration-split_vegetables[%],dat_livestock-ration-split_wheat-and-products[%],dat_feed-supply-per-source_others[kcal]"/>
-</config>
-<config key="Variable_1">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="new variable"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="dat_livestock-ration-split_animal-fats[%],dat_livestock-ration-split_barley-and-products[%],dat_livestock-ration-split_bovine-meat[%],dat_livestock-ration-split_cake-others[%],dat_livestock-ration-split_cereal-others[%],dat_livestock-ration-split_cocoa-beans-and-products[%],dat_livestock-ration-split_eggs[%],dat_livestock-ration-split_fish-seafood[%],dat_livestock-ration-split_fruits-excluding-wine[%],dat_livestock-ration-split_maize-and-products[%],dat_livestock-ration-split_meat-other[%],dat_livestock-ration-split_molasses[%],dat_livestock-ration-split_mutton-&amp;-goat-meat[%],dat_livestock-ration-split_offals[%],dat_livestock-ration-split_oilcrop-others[%],dat_livestock-ration-split_olive-oil[%],dat_livestock-ration-split_olives-including-preserved[%],dat_livestock-ration-split_palm-cake[%],dat_livestock-ration-split_palm-oil[%],dat_livestock-ration-split_palm[%],dat_livestock-ration-split_poultry-meat[%],dat_livestock-ration-split_pulses[%],dat_livestock-ration-split_rape-and-mustard-cake[%],dat_livestock-ration-split_rape-and-mustard-oil[%],dat_livestock-ration-split_rape-and-mustardseed[%],dat_livestock-ration-split_rye-and-products[%],dat_livestock-ration-split_soyabean-cake[%],dat_livestock-ration-split_soyabean-oil[%],dat_livestock-ration-split_soyabeans[%],dat_livestock-ration-split_starchy-roots[%],dat_livestock-ration-split_sugar-&amp;-sweeteners[%],dat_livestock-ration-split_sugar-crops[%],dat_livestock-ration-split_sunflower-seed[%],dat_livestock-ration-split_sunflowerseed-cake[%],dat_livestock-ration-split_sunflowerseed-oil[%],dat_livestock-ration-split_tea-including-mate[%],dat_livestock-ration-split_vegetable-oil-others[%],dat_livestock-ration-split_vegetables[%],dat_livestock-ration-split_wheat-and-products[%],dat_feed-supply-per-source_others[kcal]"/>
-</config>
-</config>
-<config key="internal_node_subsettings">
-<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
-</config>
-<config key="model">
-<config key="defaultValue">
-<config key="columns">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="columnFilter">
-<config key="columnFilter">
-<entry key="filter-type" type="xstring" value="name_pattern"/>
-<config key="included_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="excluded_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
-<config key="name_pattern">
-<entry key="pattern" type="xstring" value=""/>
-<entry key="type" type="xstring" value="Regex"/>
-<entry key="caseSensitive" type="xboolean" value="true"/>
-</config>
-<config key="datatype">
-<config key="typelist">
-<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
-</config>
-</config>
-</config>
-</config>
-</config>
-<entry key="label" type="xstring" value="WARNING !! This Section is only for testing your Regex pattern, it won't be used in the aggregation method !!"/>
-<entry key="description" type="xstring" value="This filter is ther for testing purpose. It allows the user to test the regex pattern used in the Pattern section."/>
-<entry key="hideInWizard" type="xboolean" value="false"/>
-<entry key="hideInDialog" type="xboolean" value="false"/>
-<entry key="required" type="xboolean" value="true"/>
-<entry key="parameterName" type="xstring" value="column-filter"/>
-<entry key="customCSS" type="xstring" value=""/>
-<entry key="flowvariablename" type="xstring" value="new variable"/>
-<config key="possibleColumns">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<entry key="type" type="xstring" value="Twinlist"/>
-<entry key="limit_number_visible_options" type="xboolean" value="false"/>
-<entry key="number_visible_options" type="xint" value="10"/>
-</config>
-<entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="factory" type="xstring" value="org.knime.js.base.node.quickform.filter.column.ColumnFilterQuickFormNodeFactory"/>
-<entry key="node-name" type="xstring" value="Column Filter"/>
-<entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
-<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
-<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="4.3.3.v202104281301"/>
-<entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
-<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
-<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="4.3.3.v202105242123"/>
-<config key="factory_settings"/>
-<entry key="name" type="xstring" value="Column Filter"/>
-<entry key="hasContent" type="xboolean" value="true"/>
-<entry key="isInactive" type="xboolean" value="false"/>
-<config key="ports">
-<config key="port_1">
-<entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 61, Cols: 40"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
-</config>
-</config>
-<config key="internalObjects">
-<entry key="location" type="xstring" value="internalTables"/>
-<config key="content">
-<config key="object_0">
-<entry key="index" type="xint" value="0"/>
-<entry key="type" type="xstring" value="table"/>
-<entry key="table_dir_location" type="xstring" value="object_0"/>
-</config>
-</config>
-</config>
-<config key="filestores">
-<entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="dba97755-2f15-426e-908c-8744882cd061"/>
-</config>
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack">
+        <config key="Variable_0">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="new variable"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="dat_livestock-ration-split_animal-fats[%],dat_livestock-ration-split_barley-and-products[%],dat_livestock-ration-split_bovine-meat[%],dat_livestock-ration-split_cake-others[%],dat_livestock-ration-split_cereal-others[%],dat_livestock-ration-split_cocoa-beans-and-products[%],dat_livestock-ration-split_eggs[%],dat_livestock-ration-split_fish-seafood[%],dat_livestock-ration-split_fruits-excluding-wine[%],dat_livestock-ration-split_maize-and-products[%],dat_livestock-ration-split_meat-other[%],dat_livestock-ration-split_molasses[%],dat_livestock-ration-split_mutton-&amp;-goat-meat[%],dat_livestock-ration-split_offals[%],dat_livestock-ration-split_oilcrop-others[%],dat_livestock-ration-split_olive-oil[%],dat_livestock-ration-split_olives-including-preserved[%],dat_livestock-ration-split_palm-cake[%],dat_livestock-ration-split_palm-oil[%],dat_livestock-ration-split_palm[%],dat_livestock-ration-split_poultry-meat[%],dat_livestock-ration-split_pulses[%],dat_livestock-ration-split_rape-and-mustard-cake[%],dat_livestock-ration-split_rape-and-mustard-oil[%],dat_livestock-ration-split_rape-and-mustardseed[%],dat_livestock-ration-split_rye-and-products[%],dat_livestock-ration-split_soyabean-cake[%],dat_livestock-ration-split_soyabean-oil[%],dat_livestock-ration-split_soyabeans[%],dat_livestock-ration-split_starchy-roots[%],dat_livestock-ration-split_sugar-&amp;-sweeteners[%],dat_livestock-ration-split_sugar-crops[%],dat_livestock-ration-split_sunflower-seed[%],dat_livestock-ration-split_sunflowerseed-cake[%],dat_livestock-ration-split_sunflowerseed-oil[%],dat_livestock-ration-split_tea-including-mate[%],dat_livestock-ration-split_vegetable-oil-others[%],dat_livestock-ration-split_vegetables[%],dat_livestock-ration-split_wheat-and-products[%],dat_feed-supply-per-source_others[kcal]"/>
+        </config>
+        <config key="Variable_1">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="new variable"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="dat_livestock-ration-split_animal-fats[%],dat_livestock-ration-split_barley-and-products[%],dat_livestock-ration-split_bovine-meat[%],dat_livestock-ration-split_cake-others[%],dat_livestock-ration-split_cereal-others[%],dat_livestock-ration-split_cocoa-beans-and-products[%],dat_livestock-ration-split_eggs[%],dat_livestock-ration-split_fish-seafood[%],dat_livestock-ration-split_fruits-excluding-wine[%],dat_livestock-ration-split_maize-and-products[%],dat_livestock-ration-split_meat-other[%],dat_livestock-ration-split_molasses[%],dat_livestock-ration-split_mutton-&amp;-goat-meat[%],dat_livestock-ration-split_offals[%],dat_livestock-ration-split_oilcrop-others[%],dat_livestock-ration-split_olive-oil[%],dat_livestock-ration-split_olives-including-preserved[%],dat_livestock-ration-split_palm-cake[%],dat_livestock-ration-split_palm-oil[%],dat_livestock-ration-split_palm[%],dat_livestock-ration-split_poultry-meat[%],dat_livestock-ration-split_pulses[%],dat_livestock-ration-split_rape-and-mustard-cake[%],dat_livestock-ration-split_rape-and-mustard-oil[%],dat_livestock-ration-split_rape-and-mustardseed[%],dat_livestock-ration-split_rye-and-products[%],dat_livestock-ration-split_soyabean-cake[%],dat_livestock-ration-split_soyabean-oil[%],dat_livestock-ration-split_soyabeans[%],dat_livestock-ration-split_starchy-roots[%],dat_livestock-ration-split_sugar-&amp;-sweeteners[%],dat_livestock-ration-split_sugar-crops[%],dat_livestock-ration-split_sunflower-seed[%],dat_livestock-ration-split_sunflowerseed-cake[%],dat_livestock-ration-split_sunflowerseed-oil[%],dat_livestock-ration-split_tea-including-mate[%],dat_livestock-ration-split_vegetable-oil-others[%],dat_livestock-ration-split_vegetables[%],dat_livestock-ration-split_wheat-and-products[%],dat_feed-supply-per-source_others[kcal]"/>
+        </config>
+    </config>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="defaultValue">
+            <config key="columns">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <config key="columnFilter">
+                <config key="columnFilter">
+                    <entry key="filter-type" type="xstring" value="name_pattern"/>
+                    <config key="included_names">
+                        <entry key="array-size" type="xint" value="0"/>
+                    </config>
+                    <config key="excluded_names">
+                        <entry key="array-size" type="xint" value="0"/>
+                    </config>
+                    <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+                    <config key="name_pattern">
+                        <entry key="pattern" type="xstring" value=""/>
+                        <entry key="type" type="xstring" value="Regex"/>
+                        <entry key="caseSensitive" type="xboolean" value="true"/>
+                    </config>
+                    <config key="datatype">
+                        <config key="typelist">
+                            <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                            <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                            <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                            <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                            <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                            <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                        </config>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <entry key="label" type="xstring" value="WARNING !! This Section is only for testing your Regex pattern, it won't be used in the aggregation method !!"/>
+        <entry key="description" type="xstring" value="This filter is ther for testing purpose. It allows the user to test the regex pattern used in the Pattern section."/>
+        <entry key="hideInWizard" type="xboolean" value="false"/>
+        <entry key="hideInDialog" type="xboolean" value="false"/>
+        <entry key="required" type="xboolean" value="true"/>
+        <entry key="parameterName" type="xstring" value="column-filter"/>
+        <entry key="customCSS" type="xstring" value=""/>
+        <entry key="flowvariablename" type="xstring" value="new variable"/>
+        <config key="possibleColumns">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <entry key="type" type="xstring" value="Twinlist"/>
+        <entry key="limit_number_visible_options" type="xboolean" value="false"/>
+        <entry key="number_visible_options" type="xint" value="10"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.js.base.node.quickform.filter.column.ColumnFilterQuickFormNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Column Filter"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.5.0.v202112011347"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.2.v202203171029"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Column Filter"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
 </config>

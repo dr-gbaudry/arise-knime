@@ -1,78 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
-<entry key="node_file" type="xstring" value="settings.xml"/>
-<config key="flow_stack"/>
-<config key="internal_node_subsettings">
-<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
-</config>
-<config key="model">
-<entry key="hideInWizard" type="xboolean" value="false"/>
-<entry key="generateView" type="xboolean" value="false"/>
-<entry key="maxRows" type="xint" value="2500"/>
-<entry key="jsCode" type="xstring" value="var body = document.getElementsByTagName(&quot;body&quot;)[0];%%00010var html = '&lt;script src=&quot;https://code.highcharts.com/highcharts.js&quot;&gt;&lt;/script&gt;';%%00010html += '&lt;script src=&quot;https://code.highcharts.com/modules/exporting.js&quot;&gt;&lt;/script&gt;';%%00010html += '&lt;script src=&quot;https://code.highcharts.com/modules/export-data.js&quot;&gt;&lt;/script&gt;';%%00010html += '&lt;div id=&quot;container&quot;&gt;&lt;/div&gt;';%%00010body.innerHTML = html;%%00010%%00010require.config({%%00010    packages: [{%%00010        name: 'highcharts',%%00010        main: 'highcharts'%%00010    }],%%00010    paths: {%%00010        // Change this to your server if you do not wish to use our CDN.%%00010        'highcharts': 'https://code.highcharts.com'%%00010    }%%00010});%%00010%%00010%%00010var data = knimeDataTable.getRows();%%00010// Extract Years column and x values%%00010var x_column_name = &quot;Years&quot;;%%00010var x_column = knimeDataTable.getColumnNames().indexOf(x_column_name);%%00010var x_values = knimeDataTable.getColumn(x_column);%%00010// Create dataset for values%%00010var dataset = [];%%00010%%00010for (var colID = 0; colID &lt; knimeDataTable.getNumColumns(); colID++) {%%00010  var colType = knimeDataTable.getColumnTypes()[colID];%%00010  var colName = knimeDataTable.getColumnNames()[colID];%%00010  //console.log('colomn name',colName)%%00010  if (colType === &quot;number&quot;) {%%00010    dataset.push({%%00010      name: colName,%%00010      //values: data.map(function(d) { // Data%%00010      //       return {x: d.data[x_column], y: d.data[colID]};%%00010      //       })%%00010      data: data.map(function(d) {%%00010        return [parseInt(d.data[x_column]),d.data[colID]];%%00010      })%%00010    });%%00010    console.log(dataset)%%00010  }%%00010}%%00010%%00010var chartData = {%%00010  series: dataset,%%00010  title: &quot;$${Stitle_name}$$&quot;,%%00010  timeAxis: x_values,%%00010  unit: &quot;$${Sunit_variable}$$&quot;%%00010};%%00010%%00010//console.log('chartData', chartData)%%00010%%00010require(['highcharts/modules/exporting', 'highcharts/modules/export-data'], function({Highcharts}) {%%00010    %%00010    Highcharts.chart('container', {%%00010    chart: {%%00010      renderTo: ServiceWorkerContainer,%%00010      type: &quot;area&quot;,%%00010      spacingBottom: 30%%00010    },%%00010    title: {%%00010      text: chartData.title%%00010    },%%00010    //subtitle: {%%00010    //    text: 'Source: Wikipedia.org'%%00010    //},%%00010    xAxis: {%%00010        allowDecimals: false,%%00010        labels: {%%00010            formatter: function () {%%00010                return this.value; // clean, unformatted number for year%%00010            }%%00010        }%%00010    },%%00010    yAxis: {%%00010      title: {%%00010        text: chartData.unit%%00010      },%%00010      //labels: {%%00010       // formatter: function() {%%00010       //   return this.value / 1000 + 'k';%%00010       // }%%00010      //}%%00010    },%%00010    tooltip: {%%00010      split: true,%%00010      //pointFormat: '&lt;b&gt;{point.y:,.0f}&lt;/b&gt;&lt;br/&gt; in {point.x}',%%00010      pointFormat: '&lt;span style=&quot;color:{series.color}&quot;&gt;{series.name}&lt;/span&gt;: &lt;b&gt;{point.y:,.0f}&lt;/b&gt; ({point.percentage:.1f}%)&lt;br/&gt;',%%00010      valueDecimals: 2%%00010      //valueSuffix: &quot; millions&quot;%%00010    },%%00010    plotOptions: {%%00010      area: {%%00010        stacking: &quot;normal&quot;,%%00010        lineColor: &quot;#666666&quot;,%%00010        lineWidth: 1,%%00010        marker: {%%00010          lineWidth: 1,%%00010          lineColor: &quot;#666666&quot;,%%00010          enabled:false,%%00010          symbol:'circle',%%00010          radius:2%%00010        }%%00010      }%%00010    },%%00010    responsive: {%%00010      rules: [%%00010        {%%00010          condition: {%%00010            maxWidth: 500%%00010          }%%00010        }%%00010      ]%%00010    },%%00010    series: chartData.series%%00010  });%%00010});%%00010"/>
-<entry key="jsSVGCode" type="xstring" value=""/>
-<entry key="cssCode" type="xstring" value="body {%%00010    font-family: sans-serif;%%00010}%%00010h1 {%%00010    font-size: 1.5em;%%00010    font-weight: bold;%%00010}%%00010.success {%%00010    color: #006633;%%00010    font-weight: bold;%%00010}%%00010%%00010.failure {%%00010    color: #990000;%%00010    font-weight: bold;%%00010}%%00010%%00010#container {%%00010    min-width: 300px;%%00010    max-width: 1600px;%%00010    height: 500px;%%00010    margin: 1em auto;%%00010}%%00010"/>
-<config key="dependencies">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<entry key="waitTime" type="xint" value="0"/>
-<config key="outputVariables">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<entry key="customCSS" type="xstring" value=""/>
-</config>
-<config key="nodeAnnotation">
-<entry key="text" type="xstring" value="stacked area%%00013%%00010wit export option"/>
-<entry key="bgcolor" type="xint" value="16777215"/>
-<entry key="x-coordinate" type="xint" value="1147"/>
-<entry key="y-coordinate" type="xint" value="199"/>
-<entry key="width" type="xint" value="106"/>
-<entry key="height" type="xint" value="30"/>
-<entry key="alignment" type="xstring" value="CENTER"/>
-<entry key="borderSize" type="xint" value="0"/>
-<entry key="borderColor" type="xint" value="16777215"/>
-<entry key="defFontSize" type="xint" value="9"/>
-<entry key="annotation-version" type="xint" value="20151123"/>
-<config key="styles"/>
-</config>
-<entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="factory" type="xstring" value="org.knime.js.base.node.viz.generic3.GenericJSViewNodeFactory"/>
-<entry key="node-name" type="xstring" value="Generic JavaScript View"/>
-<entry key="node-bundle-name" type="xstring" value="KNIME JavaScript Base Views"/>
-<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.views"/>
-<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="4.3.0.v202011211957"/>
-<entry key="node-feature-name" type="xstring" value="KNIME JavaScript Views"/>
-<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.views.feature.group"/>
-<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="4.3.3.v202105242123"/>
-<config key="factory_settings"/>
-<entry key="name" type="xstring" value="Generic JavaScript View"/>
-<entry key="hasContent" type="xboolean" value="true"/>
-<entry key="isInactive" type="xboolean" value="false"/>
-<config key="ports">
-<config key="port_1">
-<entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObject"/>
-<entry key="port_object_summary" type="xstring" value="Inactive Port Object"/>
-<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
-</config>
-<config key="port_2">
-<entry key="index" type="xint" value="2"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
-<entry key="port_object_summary" type="xstring" value="Variables connection"/>
-<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-<entry key="port_dir_location" type="xstring" value="port_2"/>
-</config>
-</config>
-<config key="filestores">
-<entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="4ae6ecb1-3be4-4e67-b043-ef858b0737f9"/>
-</config>
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="hideInWizard" type="xboolean" value="false"/>
+        <entry key="generateView" type="xboolean" value="false"/>
+        <entry key="maxRows" type="xint" value="2500"/>
+        <entry key="jsCode" type="xstring" value="var body = document.getElementsByTagName(&quot;body&quot;)[0];%%00010var html = '&lt;script src=&quot;https://code.highcharts.com/highcharts.js&quot;&gt;&lt;/script&gt;';%%00010html += '&lt;script src=&quot;https://code.highcharts.com/modules/exporting.js&quot;&gt;&lt;/script&gt;';%%00010html += '&lt;script src=&quot;https://code.highcharts.com/modules/export-data.js&quot;&gt;&lt;/script&gt;';%%00010html += '&lt;div id=&quot;container&quot;&gt;&lt;/div&gt;';%%00010body.innerHTML = html;%%00010%%00010require.config({%%00010    packages: [{%%00010        name: 'highcharts',%%00010        main: 'highcharts'%%00010    }],%%00010    paths: {%%00010        // Change this to your server if you do not wish to use our CDN.%%00010        'highcharts': 'https://code.highcharts.com'%%00010    }%%00010});%%00010%%00010%%00010var data = knimeDataTable.getRows();%%00010// Extract Years column and x values%%00010var x_column_name = &quot;Years&quot;;%%00010var x_column = knimeDataTable.getColumnNames().indexOf(x_column_name);%%00010var x_values = knimeDataTable.getColumn(x_column);%%00010// Create dataset for values%%00010var dataset = [];%%00010%%00010for (var colID = 0; colID &lt; knimeDataTable.getNumColumns(); colID++) {%%00010  var colType = knimeDataTable.getColumnTypes()[colID];%%00010  var colName = knimeDataTable.getColumnNames()[colID];%%00010  //console.log('colomn name',colName)%%00010  if (colType === &quot;number&quot;) {%%00010    dataset.push({%%00010      name: colName,%%00010      //values: data.map(function(d) { // Data%%00010      //       return {x: d.data[x_column], y: d.data[colID]};%%00010      //       })%%00010      data: data.map(function(d) {%%00010        return [parseInt(d.data[x_column]),d.data[colID]];%%00010      })%%00010    });%%00010    console.log(dataset)%%00010  }%%00010}%%00010%%00010var chartData = {%%00010  series: dataset,%%00010  title: &quot;$${Stitle_name}$$&quot;,%%00010  timeAxis: x_values,%%00010  unit: &quot;$${Sunit_variable}$$&quot;%%00010};%%00010%%00010//console.log('chartData', chartData)%%00010%%00010require(['highcharts/modules/exporting', 'highcharts/modules/export-data'], function({Highcharts}) {%%00010    %%00010    Highcharts.chart('container', {%%00010    chart: {%%00010      renderTo: ServiceWorkerContainer,%%00010      type: &quot;area&quot;,%%00010      spacingBottom: 30%%00010    },%%00010    title: {%%00010      text: chartData.title%%00010    },%%00010    //subtitle: {%%00010    //    text: 'Source: Wikipedia.org'%%00010    //},%%00010    xAxis: {%%00010        allowDecimals: false,%%00010        labels: {%%00010            formatter: function () {%%00010                return this.value; // clean, unformatted number for year%%00010            }%%00010        }%%00010    },%%00010    yAxis: {%%00010      title: {%%00010        text: chartData.unit%%00010      },%%00010      //labels: {%%00010       // formatter: function() {%%00010       //   return this.value / 1000 + 'k';%%00010       // }%%00010      //}%%00010    },%%00010    tooltip: {%%00010      split: true,%%00010      //pointFormat: '&lt;b&gt;{point.y:,.0f}&lt;/b&gt;&lt;br/&gt; in {point.x}',%%00010      pointFormat: '&lt;span style=&quot;color:{series.color}&quot;&gt;{series.name}&lt;/span&gt;: &lt;b&gt;{point.y:,.0f}&lt;/b&gt; ({point.percentage:.1f}%)&lt;br/&gt;',%%00010      valueDecimals: 2%%00010      //valueSuffix: &quot; millions&quot;%%00010    },%%00010    plotOptions: {%%00010      area: {%%00010        stacking: &quot;normal&quot;,%%00010        lineColor: &quot;#666666&quot;,%%00010        lineWidth: 1,%%00010        marker: {%%00010          lineWidth: 1,%%00010          lineColor: &quot;#666666&quot;,%%00010          enabled:false,%%00010          symbol:'circle',%%00010          radius:2%%00010        }%%00010      }%%00010    },%%00010    responsive: {%%00010      rules: [%%00010        {%%00010          condition: {%%00010            maxWidth: 500%%00010          }%%00010        }%%00010      ]%%00010    },%%00010    series: chartData.series%%00010  });%%00010});%%00010"/>
+        <entry key="jsSVGCode" type="xstring" value=""/>
+        <entry key="cssCode" type="xstring" value="body {%%00010    font-family: sans-serif;%%00010}%%00010h1 {%%00010    font-size: 1.5em;%%00010    font-weight: bold;%%00010}%%00010.success {%%00010    color: #006633;%%00010    font-weight: bold;%%00010}%%00010%%00010.failure {%%00010    color: #990000;%%00010    font-weight: bold;%%00010}%%00010%%00010#container {%%00010    min-width: 300px;%%00010    max-width: 1600px;%%00010    height: 500px;%%00010    margin: 1em auto;%%00010}%%00010"/>
+        <config key="dependencies">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <entry key="waitTime" type="xint" value="0"/>
+        <config key="outputVariables">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <entry key="customCSS" type="xstring" value=""/>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="stacked area%%00013%%00010wit export option"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="1147"/>
+        <entry key="y-coordinate" type="xint" value="199"/>
+        <entry key="width" type="xint" value="106"/>
+        <entry key="height" type="xint" value="30"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.js.base.node.viz.generic3.GenericJSViewNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Generic JavaScript View"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME JavaScript Base Views"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.views"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.5.0.v202111241450"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME JavaScript Views"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.views.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.2.v202203041212"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Generic JavaScript View"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
 </config>

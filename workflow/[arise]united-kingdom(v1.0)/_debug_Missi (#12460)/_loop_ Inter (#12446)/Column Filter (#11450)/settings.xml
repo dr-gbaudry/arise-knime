@@ -1,292 +1,288 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
-<entry key="node_file" type="xstring" value="settings.xml"/>
-<config key="flow_stack"/>
-<config key="internal_node_subsettings">
-<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
-</config>
-<config key="model">
-<config key="column-filter">
-<entry key="filter-type" type="xstring" value="name_pattern"/>
-<config key="included_names">
-<entry key="array-size" type="xint" value="212"/>
-<entry key="0" type="xstring" value="Country"/>
-<entry key="1" type="xstring" value="Years"/>
-<entry key="2" type="xstring" value="dat_trade-imports-from-africa_barley-and-products[t]"/>
-<entry key="3" type="xstring" value="dat_trade-imports-from-africa_cake-others[t]"/>
-<entry key="4" type="xstring" value="dat_trade-imports-from-africa_cereal-others[t]"/>
-<entry key="5" type="xstring" value="dat_trade-imports-from-africa_cocoa-beans-and-products[t]"/>
-<entry key="6" type="xstring" value="dat_trade-imports-from-africa_coffee-and-products[t]"/>
-<entry key="7" type="xstring" value="dat_trade-imports-from-africa_fermented-beverages[t]"/>
-<entry key="8" type="xstring" value="dat_trade-imports-from-africa_fibre-crops[t]"/>
-<entry key="9" type="xstring" value="dat_trade-imports-from-africa_fruits-excluding-wine[t]"/>
-<entry key="10" type="xstring" value="dat_trade-imports-from-africa_grapes[t]"/>
-<entry key="11" type="xstring" value="dat_trade-imports-from-africa_maize-and-products[t]"/>
-<entry key="12" type="xstring" value="dat_trade-imports-from-africa_molasses[t]"/>
-<entry key="13" type="xstring" value="dat_trade-imports-from-africa_oilcrop-others[t]"/>
-<entry key="14" type="xstring" value="dat_trade-imports-from-africa_olives-including-preserved[t]"/>
-<entry key="15" type="xstring" value="dat_trade-imports-from-africa_other[t]"/>
-<entry key="16" type="xstring" value="dat_trade-imports-from-africa_paddy-rice[t]"/>
-<entry key="17" type="xstring" value="dat_trade-imports-from-africa_palm-cake[t]"/>
-<entry key="18" type="xstring" value="dat_trade-imports-from-africa_palm[t]"/>
-<entry key="19" type="xstring" value="dat_trade-imports-from-africa_pulses[t]"/>
-<entry key="20" type="xstring" value="dat_trade-imports-from-africa_rape-and-mustard-cake[t]"/>
-<entry key="21" type="xstring" value="dat_trade-imports-from-africa_rape-and-mustardseed[t]"/>
-<entry key="22" type="xstring" value="dat_trade-imports-from-africa_rubber[t]"/>
-<entry key="23" type="xstring" value="dat_trade-imports-from-africa_rye-and-products[t]"/>
-<entry key="24" type="xstring" value="dat_trade-imports-from-africa_secondary-level[t]"/>
-<entry key="25" type="xstring" value="dat_trade-imports-from-africa_sesameseed-cake[t]"/>
-<entry key="26" type="xstring" value="dat_trade-imports-from-africa_soyabean-cake[t]"/>
-<entry key="27" type="xstring" value="dat_trade-imports-from-africa_soyabeans[t]"/>
-<entry key="28" type="xstring" value="dat_trade-imports-from-africa_starchy-roots[t]"/>
-<entry key="29" type="xstring" value="dat_trade-imports-from-africa_sugar-crops[t]"/>
-<entry key="30" type="xstring" value="dat_trade-imports-from-africa_sunflower-seed[t]"/>
-<entry key="31" type="xstring" value="dat_trade-imports-from-africa_sunflowerseed-cake[t]"/>
-<entry key="32" type="xstring" value="dat_trade-imports-from-africa_tea-including-mate[t]"/>
-<entry key="33" type="xstring" value="dat_trade-imports-from-africa_tobacco[t]"/>
-<entry key="34" type="xstring" value="dat_trade-imports-from-africa_tree-nuts[t]"/>
-<entry key="35" type="xstring" value="dat_trade-imports-from-africa_vegetables[t]"/>
-<entry key="36" type="xstring" value="dat_trade-imports-from-africa_wheat-and-products[t]"/>
-<entry key="37" type="xstring" value="dat_trade-imports-from-americas_barley-and-products[t]"/>
-<entry key="38" type="xstring" value="dat_trade-imports-from-americas_cake-others[t]"/>
-<entry key="39" type="xstring" value="dat_trade-imports-from-americas_cereal-others[t]"/>
-<entry key="40" type="xstring" value="dat_trade-imports-from-americas_cocoa-beans-and-products[t]"/>
-<entry key="41" type="xstring" value="dat_trade-imports-from-americas_coffee-and-products[t]"/>
-<entry key="42" type="xstring" value="dat_trade-imports-from-americas_fermented-beverages[t]"/>
-<entry key="43" type="xstring" value="dat_trade-imports-from-americas_fibre-crops[t]"/>
-<entry key="44" type="xstring" value="dat_trade-imports-from-americas_fruits-excluding-wine[t]"/>
-<entry key="45" type="xstring" value="dat_trade-imports-from-americas_grapes[t]"/>
-<entry key="46" type="xstring" value="dat_trade-imports-from-americas_maize-and-products[t]"/>
-<entry key="47" type="xstring" value="dat_trade-imports-from-americas_molasses[t]"/>
-<entry key="48" type="xstring" value="dat_trade-imports-from-americas_oilcrop-others[t]"/>
-<entry key="49" type="xstring" value="dat_trade-imports-from-americas_olives-including-preserved[t]"/>
-<entry key="50" type="xstring" value="dat_trade-imports-from-americas_other[t]"/>
-<entry key="51" type="xstring" value="dat_trade-imports-from-americas_paddy-rice[t]"/>
-<entry key="52" type="xstring" value="dat_trade-imports-from-americas_palm-cake[t]"/>
-<entry key="53" type="xstring" value="dat_trade-imports-from-americas_palm[t]"/>
-<entry key="54" type="xstring" value="dat_trade-imports-from-americas_pulses[t]"/>
-<entry key="55" type="xstring" value="dat_trade-imports-from-americas_rape-and-mustard-cake[t]"/>
-<entry key="56" type="xstring" value="dat_trade-imports-from-americas_rape-and-mustardseed[t]"/>
-<entry key="57" type="xstring" value="dat_trade-imports-from-americas_rubber[t]"/>
-<entry key="58" type="xstring" value="dat_trade-imports-from-americas_rye-and-products[t]"/>
-<entry key="59" type="xstring" value="dat_trade-imports-from-americas_secondary-level[t]"/>
-<entry key="60" type="xstring" value="dat_trade-imports-from-americas_sesameseed-cake[t]"/>
-<entry key="61" type="xstring" value="dat_trade-imports-from-americas_soyabean-cake[t]"/>
-<entry key="62" type="xstring" value="dat_trade-imports-from-americas_soyabeans[t]"/>
-<entry key="63" type="xstring" value="dat_trade-imports-from-americas_starchy-roots[t]"/>
-<entry key="64" type="xstring" value="dat_trade-imports-from-americas_sugar-crops[t]"/>
-<entry key="65" type="xstring" value="dat_trade-imports-from-americas_sunflower-seed[t]"/>
-<entry key="66" type="xstring" value="dat_trade-imports-from-americas_sunflowerseed-cake[t]"/>
-<entry key="67" type="xstring" value="dat_trade-imports-from-americas_tea-including-mate[t]"/>
-<entry key="68" type="xstring" value="dat_trade-imports-from-americas_tobacco[t]"/>
-<entry key="69" type="xstring" value="dat_trade-imports-from-americas_tree-nuts[t]"/>
-<entry key="70" type="xstring" value="dat_trade-imports-from-americas_vegetables[t]"/>
-<entry key="71" type="xstring" value="dat_trade-imports-from-americas_wheat-and-products[t]"/>
-<entry key="72" type="xstring" value="dat_trade-imports-from-asia_barley-and-products[t]"/>
-<entry key="73" type="xstring" value="dat_trade-imports-from-asia_cake-others[t]"/>
-<entry key="74" type="xstring" value="dat_trade-imports-from-asia_cereal-others[t]"/>
-<entry key="75" type="xstring" value="dat_trade-imports-from-asia_cocoa-beans-and-products[t]"/>
-<entry key="76" type="xstring" value="dat_trade-imports-from-asia_coffee-and-products[t]"/>
-<entry key="77" type="xstring" value="dat_trade-imports-from-asia_fermented-beverages[t]"/>
-<entry key="78" type="xstring" value="dat_trade-imports-from-asia_fibre-crops[t]"/>
-<entry key="79" type="xstring" value="dat_trade-imports-from-asia_fruits-excluding-wine[t]"/>
-<entry key="80" type="xstring" value="dat_trade-imports-from-asia_grapes[t]"/>
-<entry key="81" type="xstring" value="dat_trade-imports-from-asia_maize-and-products[t]"/>
-<entry key="82" type="xstring" value="dat_trade-imports-from-asia_molasses[t]"/>
-<entry key="83" type="xstring" value="dat_trade-imports-from-asia_oilcrop-others[t]"/>
-<entry key="84" type="xstring" value="dat_trade-imports-from-asia_olives-including-preserved[t]"/>
-<entry key="85" type="xstring" value="dat_trade-imports-from-asia_other[t]"/>
-<entry key="86" type="xstring" value="dat_trade-imports-from-asia_paddy-rice[t]"/>
-<entry key="87" type="xstring" value="dat_trade-imports-from-asia_palm-cake[t]"/>
-<entry key="88" type="xstring" value="dat_trade-imports-from-asia_palm[t]"/>
-<entry key="89" type="xstring" value="dat_trade-imports-from-asia_pulses[t]"/>
-<entry key="90" type="xstring" value="dat_trade-imports-from-asia_rape-and-mustard-cake[t]"/>
-<entry key="91" type="xstring" value="dat_trade-imports-from-asia_rape-and-mustardseed[t]"/>
-<entry key="92" type="xstring" value="dat_trade-imports-from-asia_rubber[t]"/>
-<entry key="93" type="xstring" value="dat_trade-imports-from-asia_rye-and-products[t]"/>
-<entry key="94" type="xstring" value="dat_trade-imports-from-asia_secondary-level[t]"/>
-<entry key="95" type="xstring" value="dat_trade-imports-from-asia_sesameseed-cake[t]"/>
-<entry key="96" type="xstring" value="dat_trade-imports-from-asia_soyabean-cake[t]"/>
-<entry key="97" type="xstring" value="dat_trade-imports-from-asia_soyabeans[t]"/>
-<entry key="98" type="xstring" value="dat_trade-imports-from-asia_starchy-roots[t]"/>
-<entry key="99" type="xstring" value="dat_trade-imports-from-asia_sugar-crops[t]"/>
-<entry key="100" type="xstring" value="dat_trade-imports-from-asia_sunflower-seed[t]"/>
-<entry key="101" type="xstring" value="dat_trade-imports-from-asia_sunflowerseed-cake[t]"/>
-<entry key="102" type="xstring" value="dat_trade-imports-from-asia_tea-including-mate[t]"/>
-<entry key="103" type="xstring" value="dat_trade-imports-from-asia_tobacco[t]"/>
-<entry key="104" type="xstring" value="dat_trade-imports-from-asia_tree-nuts[t]"/>
-<entry key="105" type="xstring" value="dat_trade-imports-from-asia_vegetables[t]"/>
-<entry key="106" type="xstring" value="dat_trade-imports-from-asia_wheat-and-products[t]"/>
-<entry key="107" type="xstring" value="dat_trade-imports-from-europe_barley-and-products[t]"/>
-<entry key="108" type="xstring" value="dat_trade-imports-from-europe_cake-others[t]"/>
-<entry key="109" type="xstring" value="dat_trade-imports-from-europe_cereal-others[t]"/>
-<entry key="110" type="xstring" value="dat_trade-imports-from-europe_cocoa-beans-and-products[t]"/>
-<entry key="111" type="xstring" value="dat_trade-imports-from-europe_coffee-and-products[t]"/>
-<entry key="112" type="xstring" value="dat_trade-imports-from-europe_fermented-beverages[t]"/>
-<entry key="113" type="xstring" value="dat_trade-imports-from-europe_fibre-crops[t]"/>
-<entry key="114" type="xstring" value="dat_trade-imports-from-europe_fruits-excluding-wine[t]"/>
-<entry key="115" type="xstring" value="dat_trade-imports-from-europe_grapes[t]"/>
-<entry key="116" type="xstring" value="dat_trade-imports-from-europe_maize-and-products[t]"/>
-<entry key="117" type="xstring" value="dat_trade-imports-from-europe_molasses[t]"/>
-<entry key="118" type="xstring" value="dat_trade-imports-from-europe_oilcrop-others[t]"/>
-<entry key="119" type="xstring" value="dat_trade-imports-from-europe_olives-including-preserved[t]"/>
-<entry key="120" type="xstring" value="dat_trade-imports-from-europe_other[t]"/>
-<entry key="121" type="xstring" value="dat_trade-imports-from-europe_paddy-rice[t]"/>
-<entry key="122" type="xstring" value="dat_trade-imports-from-europe_palm-cake[t]"/>
-<entry key="123" type="xstring" value="dat_trade-imports-from-europe_palm[t]"/>
-<entry key="124" type="xstring" value="dat_trade-imports-from-europe_pulses[t]"/>
-<entry key="125" type="xstring" value="dat_trade-imports-from-europe_rape-and-mustard-cake[t]"/>
-<entry key="126" type="xstring" value="dat_trade-imports-from-europe_rape-and-mustardseed[t]"/>
-<entry key="127" type="xstring" value="dat_trade-imports-from-europe_rubber[t]"/>
-<entry key="128" type="xstring" value="dat_trade-imports-from-europe_rye-and-products[t]"/>
-<entry key="129" type="xstring" value="dat_trade-imports-from-europe_secondary-level[t]"/>
-<entry key="130" type="xstring" value="dat_trade-imports-from-europe_sesameseed-cake[t]"/>
-<entry key="131" type="xstring" value="dat_trade-imports-from-europe_soyabean-cake[t]"/>
-<entry key="132" type="xstring" value="dat_trade-imports-from-europe_soyabeans[t]"/>
-<entry key="133" type="xstring" value="dat_trade-imports-from-europe_starchy-roots[t]"/>
-<entry key="134" type="xstring" value="dat_trade-imports-from-europe_sugar-crops[t]"/>
-<entry key="135" type="xstring" value="dat_trade-imports-from-europe_sunflower-seed[t]"/>
-<entry key="136" type="xstring" value="dat_trade-imports-from-europe_sunflowerseed-cake[t]"/>
-<entry key="137" type="xstring" value="dat_trade-imports-from-europe_tea-including-mate[t]"/>
-<entry key="138" type="xstring" value="dat_trade-imports-from-europe_tobacco[t]"/>
-<entry key="139" type="xstring" value="dat_trade-imports-from-europe_tree-nuts[t]"/>
-<entry key="140" type="xstring" value="dat_trade-imports-from-europe_vegetables[t]"/>
-<entry key="141" type="xstring" value="dat_trade-imports-from-europe_wheat-and-products[t]"/>
-<entry key="142" type="xstring" value="dat_trade-imports-from-oceania_barley-and-products[t]"/>
-<entry key="143" type="xstring" value="dat_trade-imports-from-oceania_cake-others[t]"/>
-<entry key="144" type="xstring" value="dat_trade-imports-from-oceania_cereal-others[t]"/>
-<entry key="145" type="xstring" value="dat_trade-imports-from-oceania_cocoa-beans-and-products[t]"/>
-<entry key="146" type="xstring" value="dat_trade-imports-from-oceania_coffee-and-products[t]"/>
-<entry key="147" type="xstring" value="dat_trade-imports-from-oceania_fermented-beverages[t]"/>
-<entry key="148" type="xstring" value="dat_trade-imports-from-oceania_fibre-crops[t]"/>
-<entry key="149" type="xstring" value="dat_trade-imports-from-oceania_fruits-excluding-wine[t]"/>
-<entry key="150" type="xstring" value="dat_trade-imports-from-oceania_grapes[t]"/>
-<entry key="151" type="xstring" value="dat_trade-imports-from-oceania_maize-and-products[t]"/>
-<entry key="152" type="xstring" value="dat_trade-imports-from-oceania_molasses[t]"/>
-<entry key="153" type="xstring" value="dat_trade-imports-from-oceania_oilcrop-others[t]"/>
-<entry key="154" type="xstring" value="dat_trade-imports-from-oceania_olives-including-preserved[t]"/>
-<entry key="155" type="xstring" value="dat_trade-imports-from-oceania_other[t]"/>
-<entry key="156" type="xstring" value="dat_trade-imports-from-oceania_paddy-rice[t]"/>
-<entry key="157" type="xstring" value="dat_trade-imports-from-oceania_palm-cake[t]"/>
-<entry key="158" type="xstring" value="dat_trade-imports-from-oceania_palm[t]"/>
-<entry key="159" type="xstring" value="dat_trade-imports-from-oceania_pulses[t]"/>
-<entry key="160" type="xstring" value="dat_trade-imports-from-oceania_rape-and-mustard-cake[t]"/>
-<entry key="161" type="xstring" value="dat_trade-imports-from-oceania_rape-and-mustardseed[t]"/>
-<entry key="162" type="xstring" value="dat_trade-imports-from-oceania_rubber[t]"/>
-<entry key="163" type="xstring" value="dat_trade-imports-from-oceania_rye-and-products[t]"/>
-<entry key="164" type="xstring" value="dat_trade-imports-from-oceania_secondary-level[t]"/>
-<entry key="165" type="xstring" value="dat_trade-imports-from-oceania_sesameseed-cake[t]"/>
-<entry key="166" type="xstring" value="dat_trade-imports-from-oceania_soyabean-cake[t]"/>
-<entry key="167" type="xstring" value="dat_trade-imports-from-oceania_soyabeans[t]"/>
-<entry key="168" type="xstring" value="dat_trade-imports-from-oceania_starchy-roots[t]"/>
-<entry key="169" type="xstring" value="dat_trade-imports-from-oceania_sugar-crops[t]"/>
-<entry key="170" type="xstring" value="dat_trade-imports-from-oceania_sunflower-seed[t]"/>
-<entry key="171" type="xstring" value="dat_trade-imports-from-oceania_sunflowerseed-cake[t]"/>
-<entry key="172" type="xstring" value="dat_trade-imports-from-oceania_tea-including-mate[t]"/>
-<entry key="173" type="xstring" value="dat_trade-imports-from-oceania_tobacco[t]"/>
-<entry key="174" type="xstring" value="dat_trade-imports-from-oceania_tree-nuts[t]"/>
-<entry key="175" type="xstring" value="dat_trade-imports-from-oceania_vegetables[t]"/>
-<entry key="176" type="xstring" value="dat_trade-imports-from-oceania_wheat-and-products[t]"/>
-<entry key="177" type="xstring" value="dat_trade-imports-from-world_barley-and-products[t]"/>
-<entry key="178" type="xstring" value="dat_trade-imports-from-world_cake-others[t]"/>
-<entry key="179" type="xstring" value="dat_trade-imports-from-world_cereal-others[t]"/>
-<entry key="180" type="xstring" value="dat_trade-imports-from-world_cocoa-beans-and-products[t]"/>
-<entry key="181" type="xstring" value="dat_trade-imports-from-world_coffee-and-products[t]"/>
-<entry key="182" type="xstring" value="dat_trade-imports-from-world_fermented-beverages[t]"/>
-<entry key="183" type="xstring" value="dat_trade-imports-from-world_fibre-crops[t]"/>
-<entry key="184" type="xstring" value="dat_trade-imports-from-world_fruits-excluding-wine[t]"/>
-<entry key="185" type="xstring" value="dat_trade-imports-from-world_grapes[t]"/>
-<entry key="186" type="xstring" value="dat_trade-imports-from-world_maize-and-products[t]"/>
-<entry key="187" type="xstring" value="dat_trade-imports-from-world_molasses[t]"/>
-<entry key="188" type="xstring" value="dat_trade-imports-from-world_oilcrop-others[t]"/>
-<entry key="189" type="xstring" value="dat_trade-imports-from-world_olives-including-preserved[t]"/>
-<entry key="190" type="xstring" value="dat_trade-imports-from-world_other[t]"/>
-<entry key="191" type="xstring" value="dat_trade-imports-from-world_paddy-rice[t]"/>
-<entry key="192" type="xstring" value="dat_trade-imports-from-world_palm-cake[t]"/>
-<entry key="193" type="xstring" value="dat_trade-imports-from-world_palm[t]"/>
-<entry key="194" type="xstring" value="dat_trade-imports-from-world_pulses[t]"/>
-<entry key="195" type="xstring" value="dat_trade-imports-from-world_rape-and-mustard-cake[t]"/>
-<entry key="196" type="xstring" value="dat_trade-imports-from-world_rape-and-mustardseed[t]"/>
-<entry key="197" type="xstring" value="dat_trade-imports-from-world_rubber[t]"/>
-<entry key="198" type="xstring" value="dat_trade-imports-from-world_rye-and-products[t]"/>
-<entry key="199" type="xstring" value="dat_trade-imports-from-world_secondary-level[t]"/>
-<entry key="200" type="xstring" value="dat_trade-imports-from-world_sesameseed-cake[t]"/>
-<entry key="201" type="xstring" value="dat_trade-imports-from-world_soyabean-cake[t]"/>
-<entry key="202" type="xstring" value="dat_trade-imports-from-world_soyabeans[t]"/>
-<entry key="203" type="xstring" value="dat_trade-imports-from-world_starchy-roots[t]"/>
-<entry key="204" type="xstring" value="dat_trade-imports-from-world_sugar-crops[t]"/>
-<entry key="205" type="xstring" value="dat_trade-imports-from-world_sunflower-seed[t]"/>
-<entry key="206" type="xstring" value="dat_trade-imports-from-world_sunflowerseed-cake[t]"/>
-<entry key="207" type="xstring" value="dat_trade-imports-from-world_tea-including-mate[t]"/>
-<entry key="208" type="xstring" value="dat_trade-imports-from-world_tobacco[t]"/>
-<entry key="209" type="xstring" value="dat_trade-imports-from-world_tree-nuts[t]"/>
-<entry key="210" type="xstring" value="dat_trade-imports-from-world_vegetables[t]"/>
-<entry key="211" type="xstring" value="dat_trade-imports-from-world_wheat-and-products[t]"/>
-</config>
-<config key="excluded_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
-<config key="name_pattern">
-<entry key="pattern" type="xstring" value="Country"/>
-<entry key="type" type="xstring" value="Regex"/>
-<entry key="caseSensitive" type="xboolean" value="true"/>
-</config>
-<config key="datatype">
-<config key="typelist">
-<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
-</config>
-</config>
-</config>
-</config>
-<config key="nodeAnnotation">
-<entry key="text" type="xstring" value="Country"/>
-<entry key="bgcolor" type="xint" value="16777215"/>
-<entry key="x-coordinate" type="xint" value="713"/>
-<entry key="y-coordinate" type="xint" value="521"/>
-<entry key="width" type="xint" value="106"/>
-<entry key="height" type="xint" value="15"/>
-<entry key="alignment" type="xstring" value="CENTER"/>
-<entry key="borderSize" type="xint" value="0"/>
-<entry key="borderColor" type="xint" value="16777215"/>
-<entry key="defFontSize" type="xint" value="9"/>
-<entry key="annotation-version" type="xint" value="20151123"/>
-<config key="styles"/>
-</config>
-<entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
-<entry key="node-name" type="xstring" value="Column Filter"/>
-<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
-<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
-<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="4.3.3.v202105242122"/>
-<entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
-<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
-<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="4.3.3.v202105242122"/>
-<config key="factory_settings"/>
-<entry key="name" type="xstring" value="Column Filter"/>
-<entry key="hasContent" type="xboolean" value="false"/>
-<entry key="isInactive" type="xboolean" value="true"/>
-<config key="ports">
-<config key="port_1">
-<entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObject"/>
-<entry key="port_object_summary" type="xstring" value="Inactive Port Object"/>
-<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
-</config>
-</config>
-<config key="filestores">
-<entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
-</config>
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="column-filter">
+            <entry key="filter-type" type="xstring" value="name_pattern"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="212"/>
+                <entry key="0" type="xstring" value="Country"/>
+                <entry key="1" type="xstring" value="Years"/>
+                <entry key="2" type="xstring" value="dat_trade-imports-from-africa_barley-and-products[t]"/>
+                <entry key="3" type="xstring" value="dat_trade-imports-from-africa_cake-others[t]"/>
+                <entry key="4" type="xstring" value="dat_trade-imports-from-africa_cereal-others[t]"/>
+                <entry key="5" type="xstring" value="dat_trade-imports-from-africa_cocoa-beans-and-products[t]"/>
+                <entry key="6" type="xstring" value="dat_trade-imports-from-africa_coffee-and-products[t]"/>
+                <entry key="7" type="xstring" value="dat_trade-imports-from-africa_fermented-beverages[t]"/>
+                <entry key="8" type="xstring" value="dat_trade-imports-from-africa_fibre-crops[t]"/>
+                <entry key="9" type="xstring" value="dat_trade-imports-from-africa_fruits-excluding-wine[t]"/>
+                <entry key="10" type="xstring" value="dat_trade-imports-from-africa_grapes[t]"/>
+                <entry key="11" type="xstring" value="dat_trade-imports-from-africa_maize-and-products[t]"/>
+                <entry key="12" type="xstring" value="dat_trade-imports-from-africa_molasses[t]"/>
+                <entry key="13" type="xstring" value="dat_trade-imports-from-africa_oilcrop-others[t]"/>
+                <entry key="14" type="xstring" value="dat_trade-imports-from-africa_olives-including-preserved[t]"/>
+                <entry key="15" type="xstring" value="dat_trade-imports-from-africa_other[t]"/>
+                <entry key="16" type="xstring" value="dat_trade-imports-from-africa_paddy-rice[t]"/>
+                <entry key="17" type="xstring" value="dat_trade-imports-from-africa_palm-cake[t]"/>
+                <entry key="18" type="xstring" value="dat_trade-imports-from-africa_palm[t]"/>
+                <entry key="19" type="xstring" value="dat_trade-imports-from-africa_pulses[t]"/>
+                <entry key="20" type="xstring" value="dat_trade-imports-from-africa_rape-and-mustard-cake[t]"/>
+                <entry key="21" type="xstring" value="dat_trade-imports-from-africa_rape-and-mustardseed[t]"/>
+                <entry key="22" type="xstring" value="dat_trade-imports-from-africa_rubber[t]"/>
+                <entry key="23" type="xstring" value="dat_trade-imports-from-africa_rye-and-products[t]"/>
+                <entry key="24" type="xstring" value="dat_trade-imports-from-africa_secondary-level[t]"/>
+                <entry key="25" type="xstring" value="dat_trade-imports-from-africa_sesameseed-cake[t]"/>
+                <entry key="26" type="xstring" value="dat_trade-imports-from-africa_soyabean-cake[t]"/>
+                <entry key="27" type="xstring" value="dat_trade-imports-from-africa_soyabeans[t]"/>
+                <entry key="28" type="xstring" value="dat_trade-imports-from-africa_starchy-roots[t]"/>
+                <entry key="29" type="xstring" value="dat_trade-imports-from-africa_sugar-crops[t]"/>
+                <entry key="30" type="xstring" value="dat_trade-imports-from-africa_sunflower-seed[t]"/>
+                <entry key="31" type="xstring" value="dat_trade-imports-from-africa_sunflowerseed-cake[t]"/>
+                <entry key="32" type="xstring" value="dat_trade-imports-from-africa_tea-including-mate[t]"/>
+                <entry key="33" type="xstring" value="dat_trade-imports-from-africa_tobacco[t]"/>
+                <entry key="34" type="xstring" value="dat_trade-imports-from-africa_tree-nuts[t]"/>
+                <entry key="35" type="xstring" value="dat_trade-imports-from-africa_vegetables[t]"/>
+                <entry key="36" type="xstring" value="dat_trade-imports-from-africa_wheat-and-products[t]"/>
+                <entry key="37" type="xstring" value="dat_trade-imports-from-americas_barley-and-products[t]"/>
+                <entry key="38" type="xstring" value="dat_trade-imports-from-americas_cake-others[t]"/>
+                <entry key="39" type="xstring" value="dat_trade-imports-from-americas_cereal-others[t]"/>
+                <entry key="40" type="xstring" value="dat_trade-imports-from-americas_cocoa-beans-and-products[t]"/>
+                <entry key="41" type="xstring" value="dat_trade-imports-from-americas_coffee-and-products[t]"/>
+                <entry key="42" type="xstring" value="dat_trade-imports-from-americas_fermented-beverages[t]"/>
+                <entry key="43" type="xstring" value="dat_trade-imports-from-americas_fibre-crops[t]"/>
+                <entry key="44" type="xstring" value="dat_trade-imports-from-americas_fruits-excluding-wine[t]"/>
+                <entry key="45" type="xstring" value="dat_trade-imports-from-americas_grapes[t]"/>
+                <entry key="46" type="xstring" value="dat_trade-imports-from-americas_maize-and-products[t]"/>
+                <entry key="47" type="xstring" value="dat_trade-imports-from-americas_molasses[t]"/>
+                <entry key="48" type="xstring" value="dat_trade-imports-from-americas_oilcrop-others[t]"/>
+                <entry key="49" type="xstring" value="dat_trade-imports-from-americas_olives-including-preserved[t]"/>
+                <entry key="50" type="xstring" value="dat_trade-imports-from-americas_other[t]"/>
+                <entry key="51" type="xstring" value="dat_trade-imports-from-americas_paddy-rice[t]"/>
+                <entry key="52" type="xstring" value="dat_trade-imports-from-americas_palm-cake[t]"/>
+                <entry key="53" type="xstring" value="dat_trade-imports-from-americas_palm[t]"/>
+                <entry key="54" type="xstring" value="dat_trade-imports-from-americas_pulses[t]"/>
+                <entry key="55" type="xstring" value="dat_trade-imports-from-americas_rape-and-mustard-cake[t]"/>
+                <entry key="56" type="xstring" value="dat_trade-imports-from-americas_rape-and-mustardseed[t]"/>
+                <entry key="57" type="xstring" value="dat_trade-imports-from-americas_rubber[t]"/>
+                <entry key="58" type="xstring" value="dat_trade-imports-from-americas_rye-and-products[t]"/>
+                <entry key="59" type="xstring" value="dat_trade-imports-from-americas_secondary-level[t]"/>
+                <entry key="60" type="xstring" value="dat_trade-imports-from-americas_sesameseed-cake[t]"/>
+                <entry key="61" type="xstring" value="dat_trade-imports-from-americas_soyabean-cake[t]"/>
+                <entry key="62" type="xstring" value="dat_trade-imports-from-americas_soyabeans[t]"/>
+                <entry key="63" type="xstring" value="dat_trade-imports-from-americas_starchy-roots[t]"/>
+                <entry key="64" type="xstring" value="dat_trade-imports-from-americas_sugar-crops[t]"/>
+                <entry key="65" type="xstring" value="dat_trade-imports-from-americas_sunflower-seed[t]"/>
+                <entry key="66" type="xstring" value="dat_trade-imports-from-americas_sunflowerseed-cake[t]"/>
+                <entry key="67" type="xstring" value="dat_trade-imports-from-americas_tea-including-mate[t]"/>
+                <entry key="68" type="xstring" value="dat_trade-imports-from-americas_tobacco[t]"/>
+                <entry key="69" type="xstring" value="dat_trade-imports-from-americas_tree-nuts[t]"/>
+                <entry key="70" type="xstring" value="dat_trade-imports-from-americas_vegetables[t]"/>
+                <entry key="71" type="xstring" value="dat_trade-imports-from-americas_wheat-and-products[t]"/>
+                <entry key="72" type="xstring" value="dat_trade-imports-from-asia_barley-and-products[t]"/>
+                <entry key="73" type="xstring" value="dat_trade-imports-from-asia_cake-others[t]"/>
+                <entry key="74" type="xstring" value="dat_trade-imports-from-asia_cereal-others[t]"/>
+                <entry key="75" type="xstring" value="dat_trade-imports-from-asia_cocoa-beans-and-products[t]"/>
+                <entry key="76" type="xstring" value="dat_trade-imports-from-asia_coffee-and-products[t]"/>
+                <entry key="77" type="xstring" value="dat_trade-imports-from-asia_fermented-beverages[t]"/>
+                <entry key="78" type="xstring" value="dat_trade-imports-from-asia_fibre-crops[t]"/>
+                <entry key="79" type="xstring" value="dat_trade-imports-from-asia_fruits-excluding-wine[t]"/>
+                <entry key="80" type="xstring" value="dat_trade-imports-from-asia_grapes[t]"/>
+                <entry key="81" type="xstring" value="dat_trade-imports-from-asia_maize-and-products[t]"/>
+                <entry key="82" type="xstring" value="dat_trade-imports-from-asia_molasses[t]"/>
+                <entry key="83" type="xstring" value="dat_trade-imports-from-asia_oilcrop-others[t]"/>
+                <entry key="84" type="xstring" value="dat_trade-imports-from-asia_olives-including-preserved[t]"/>
+                <entry key="85" type="xstring" value="dat_trade-imports-from-asia_other[t]"/>
+                <entry key="86" type="xstring" value="dat_trade-imports-from-asia_paddy-rice[t]"/>
+                <entry key="87" type="xstring" value="dat_trade-imports-from-asia_palm-cake[t]"/>
+                <entry key="88" type="xstring" value="dat_trade-imports-from-asia_palm[t]"/>
+                <entry key="89" type="xstring" value="dat_trade-imports-from-asia_pulses[t]"/>
+                <entry key="90" type="xstring" value="dat_trade-imports-from-asia_rape-and-mustard-cake[t]"/>
+                <entry key="91" type="xstring" value="dat_trade-imports-from-asia_rape-and-mustardseed[t]"/>
+                <entry key="92" type="xstring" value="dat_trade-imports-from-asia_rubber[t]"/>
+                <entry key="93" type="xstring" value="dat_trade-imports-from-asia_rye-and-products[t]"/>
+                <entry key="94" type="xstring" value="dat_trade-imports-from-asia_secondary-level[t]"/>
+                <entry key="95" type="xstring" value="dat_trade-imports-from-asia_sesameseed-cake[t]"/>
+                <entry key="96" type="xstring" value="dat_trade-imports-from-asia_soyabean-cake[t]"/>
+                <entry key="97" type="xstring" value="dat_trade-imports-from-asia_soyabeans[t]"/>
+                <entry key="98" type="xstring" value="dat_trade-imports-from-asia_starchy-roots[t]"/>
+                <entry key="99" type="xstring" value="dat_trade-imports-from-asia_sugar-crops[t]"/>
+                <entry key="100" type="xstring" value="dat_trade-imports-from-asia_sunflower-seed[t]"/>
+                <entry key="101" type="xstring" value="dat_trade-imports-from-asia_sunflowerseed-cake[t]"/>
+                <entry key="102" type="xstring" value="dat_trade-imports-from-asia_tea-including-mate[t]"/>
+                <entry key="103" type="xstring" value="dat_trade-imports-from-asia_tobacco[t]"/>
+                <entry key="104" type="xstring" value="dat_trade-imports-from-asia_tree-nuts[t]"/>
+                <entry key="105" type="xstring" value="dat_trade-imports-from-asia_vegetables[t]"/>
+                <entry key="106" type="xstring" value="dat_trade-imports-from-asia_wheat-and-products[t]"/>
+                <entry key="107" type="xstring" value="dat_trade-imports-from-europe_barley-and-products[t]"/>
+                <entry key="108" type="xstring" value="dat_trade-imports-from-europe_cake-others[t]"/>
+                <entry key="109" type="xstring" value="dat_trade-imports-from-europe_cereal-others[t]"/>
+                <entry key="110" type="xstring" value="dat_trade-imports-from-europe_cocoa-beans-and-products[t]"/>
+                <entry key="111" type="xstring" value="dat_trade-imports-from-europe_coffee-and-products[t]"/>
+                <entry key="112" type="xstring" value="dat_trade-imports-from-europe_fermented-beverages[t]"/>
+                <entry key="113" type="xstring" value="dat_trade-imports-from-europe_fibre-crops[t]"/>
+                <entry key="114" type="xstring" value="dat_trade-imports-from-europe_fruits-excluding-wine[t]"/>
+                <entry key="115" type="xstring" value="dat_trade-imports-from-europe_grapes[t]"/>
+                <entry key="116" type="xstring" value="dat_trade-imports-from-europe_maize-and-products[t]"/>
+                <entry key="117" type="xstring" value="dat_trade-imports-from-europe_molasses[t]"/>
+                <entry key="118" type="xstring" value="dat_trade-imports-from-europe_oilcrop-others[t]"/>
+                <entry key="119" type="xstring" value="dat_trade-imports-from-europe_olives-including-preserved[t]"/>
+                <entry key="120" type="xstring" value="dat_trade-imports-from-europe_other[t]"/>
+                <entry key="121" type="xstring" value="dat_trade-imports-from-europe_paddy-rice[t]"/>
+                <entry key="122" type="xstring" value="dat_trade-imports-from-europe_palm-cake[t]"/>
+                <entry key="123" type="xstring" value="dat_trade-imports-from-europe_palm[t]"/>
+                <entry key="124" type="xstring" value="dat_trade-imports-from-europe_pulses[t]"/>
+                <entry key="125" type="xstring" value="dat_trade-imports-from-europe_rape-and-mustard-cake[t]"/>
+                <entry key="126" type="xstring" value="dat_trade-imports-from-europe_rape-and-mustardseed[t]"/>
+                <entry key="127" type="xstring" value="dat_trade-imports-from-europe_rubber[t]"/>
+                <entry key="128" type="xstring" value="dat_trade-imports-from-europe_rye-and-products[t]"/>
+                <entry key="129" type="xstring" value="dat_trade-imports-from-europe_secondary-level[t]"/>
+                <entry key="130" type="xstring" value="dat_trade-imports-from-europe_sesameseed-cake[t]"/>
+                <entry key="131" type="xstring" value="dat_trade-imports-from-europe_soyabean-cake[t]"/>
+                <entry key="132" type="xstring" value="dat_trade-imports-from-europe_soyabeans[t]"/>
+                <entry key="133" type="xstring" value="dat_trade-imports-from-europe_starchy-roots[t]"/>
+                <entry key="134" type="xstring" value="dat_trade-imports-from-europe_sugar-crops[t]"/>
+                <entry key="135" type="xstring" value="dat_trade-imports-from-europe_sunflower-seed[t]"/>
+                <entry key="136" type="xstring" value="dat_trade-imports-from-europe_sunflowerseed-cake[t]"/>
+                <entry key="137" type="xstring" value="dat_trade-imports-from-europe_tea-including-mate[t]"/>
+                <entry key="138" type="xstring" value="dat_trade-imports-from-europe_tobacco[t]"/>
+                <entry key="139" type="xstring" value="dat_trade-imports-from-europe_tree-nuts[t]"/>
+                <entry key="140" type="xstring" value="dat_trade-imports-from-europe_vegetables[t]"/>
+                <entry key="141" type="xstring" value="dat_trade-imports-from-europe_wheat-and-products[t]"/>
+                <entry key="142" type="xstring" value="dat_trade-imports-from-oceania_barley-and-products[t]"/>
+                <entry key="143" type="xstring" value="dat_trade-imports-from-oceania_cake-others[t]"/>
+                <entry key="144" type="xstring" value="dat_trade-imports-from-oceania_cereal-others[t]"/>
+                <entry key="145" type="xstring" value="dat_trade-imports-from-oceania_cocoa-beans-and-products[t]"/>
+                <entry key="146" type="xstring" value="dat_trade-imports-from-oceania_coffee-and-products[t]"/>
+                <entry key="147" type="xstring" value="dat_trade-imports-from-oceania_fermented-beverages[t]"/>
+                <entry key="148" type="xstring" value="dat_trade-imports-from-oceania_fibre-crops[t]"/>
+                <entry key="149" type="xstring" value="dat_trade-imports-from-oceania_fruits-excluding-wine[t]"/>
+                <entry key="150" type="xstring" value="dat_trade-imports-from-oceania_grapes[t]"/>
+                <entry key="151" type="xstring" value="dat_trade-imports-from-oceania_maize-and-products[t]"/>
+                <entry key="152" type="xstring" value="dat_trade-imports-from-oceania_molasses[t]"/>
+                <entry key="153" type="xstring" value="dat_trade-imports-from-oceania_oilcrop-others[t]"/>
+                <entry key="154" type="xstring" value="dat_trade-imports-from-oceania_olives-including-preserved[t]"/>
+                <entry key="155" type="xstring" value="dat_trade-imports-from-oceania_other[t]"/>
+                <entry key="156" type="xstring" value="dat_trade-imports-from-oceania_paddy-rice[t]"/>
+                <entry key="157" type="xstring" value="dat_trade-imports-from-oceania_palm-cake[t]"/>
+                <entry key="158" type="xstring" value="dat_trade-imports-from-oceania_palm[t]"/>
+                <entry key="159" type="xstring" value="dat_trade-imports-from-oceania_pulses[t]"/>
+                <entry key="160" type="xstring" value="dat_trade-imports-from-oceania_rape-and-mustard-cake[t]"/>
+                <entry key="161" type="xstring" value="dat_trade-imports-from-oceania_rape-and-mustardseed[t]"/>
+                <entry key="162" type="xstring" value="dat_trade-imports-from-oceania_rubber[t]"/>
+                <entry key="163" type="xstring" value="dat_trade-imports-from-oceania_rye-and-products[t]"/>
+                <entry key="164" type="xstring" value="dat_trade-imports-from-oceania_secondary-level[t]"/>
+                <entry key="165" type="xstring" value="dat_trade-imports-from-oceania_sesameseed-cake[t]"/>
+                <entry key="166" type="xstring" value="dat_trade-imports-from-oceania_soyabean-cake[t]"/>
+                <entry key="167" type="xstring" value="dat_trade-imports-from-oceania_soyabeans[t]"/>
+                <entry key="168" type="xstring" value="dat_trade-imports-from-oceania_starchy-roots[t]"/>
+                <entry key="169" type="xstring" value="dat_trade-imports-from-oceania_sugar-crops[t]"/>
+                <entry key="170" type="xstring" value="dat_trade-imports-from-oceania_sunflower-seed[t]"/>
+                <entry key="171" type="xstring" value="dat_trade-imports-from-oceania_sunflowerseed-cake[t]"/>
+                <entry key="172" type="xstring" value="dat_trade-imports-from-oceania_tea-including-mate[t]"/>
+                <entry key="173" type="xstring" value="dat_trade-imports-from-oceania_tobacco[t]"/>
+                <entry key="174" type="xstring" value="dat_trade-imports-from-oceania_tree-nuts[t]"/>
+                <entry key="175" type="xstring" value="dat_trade-imports-from-oceania_vegetables[t]"/>
+                <entry key="176" type="xstring" value="dat_trade-imports-from-oceania_wheat-and-products[t]"/>
+                <entry key="177" type="xstring" value="dat_trade-imports-from-world_barley-and-products[t]"/>
+                <entry key="178" type="xstring" value="dat_trade-imports-from-world_cake-others[t]"/>
+                <entry key="179" type="xstring" value="dat_trade-imports-from-world_cereal-others[t]"/>
+                <entry key="180" type="xstring" value="dat_trade-imports-from-world_cocoa-beans-and-products[t]"/>
+                <entry key="181" type="xstring" value="dat_trade-imports-from-world_coffee-and-products[t]"/>
+                <entry key="182" type="xstring" value="dat_trade-imports-from-world_fermented-beverages[t]"/>
+                <entry key="183" type="xstring" value="dat_trade-imports-from-world_fibre-crops[t]"/>
+                <entry key="184" type="xstring" value="dat_trade-imports-from-world_fruits-excluding-wine[t]"/>
+                <entry key="185" type="xstring" value="dat_trade-imports-from-world_grapes[t]"/>
+                <entry key="186" type="xstring" value="dat_trade-imports-from-world_maize-and-products[t]"/>
+                <entry key="187" type="xstring" value="dat_trade-imports-from-world_molasses[t]"/>
+                <entry key="188" type="xstring" value="dat_trade-imports-from-world_oilcrop-others[t]"/>
+                <entry key="189" type="xstring" value="dat_trade-imports-from-world_olives-including-preserved[t]"/>
+                <entry key="190" type="xstring" value="dat_trade-imports-from-world_other[t]"/>
+                <entry key="191" type="xstring" value="dat_trade-imports-from-world_paddy-rice[t]"/>
+                <entry key="192" type="xstring" value="dat_trade-imports-from-world_palm-cake[t]"/>
+                <entry key="193" type="xstring" value="dat_trade-imports-from-world_palm[t]"/>
+                <entry key="194" type="xstring" value="dat_trade-imports-from-world_pulses[t]"/>
+                <entry key="195" type="xstring" value="dat_trade-imports-from-world_rape-and-mustard-cake[t]"/>
+                <entry key="196" type="xstring" value="dat_trade-imports-from-world_rape-and-mustardseed[t]"/>
+                <entry key="197" type="xstring" value="dat_trade-imports-from-world_rubber[t]"/>
+                <entry key="198" type="xstring" value="dat_trade-imports-from-world_rye-and-products[t]"/>
+                <entry key="199" type="xstring" value="dat_trade-imports-from-world_secondary-level[t]"/>
+                <entry key="200" type="xstring" value="dat_trade-imports-from-world_sesameseed-cake[t]"/>
+                <entry key="201" type="xstring" value="dat_trade-imports-from-world_soyabean-cake[t]"/>
+                <entry key="202" type="xstring" value="dat_trade-imports-from-world_soyabeans[t]"/>
+                <entry key="203" type="xstring" value="dat_trade-imports-from-world_starchy-roots[t]"/>
+                <entry key="204" type="xstring" value="dat_trade-imports-from-world_sugar-crops[t]"/>
+                <entry key="205" type="xstring" value="dat_trade-imports-from-world_sunflower-seed[t]"/>
+                <entry key="206" type="xstring" value="dat_trade-imports-from-world_sunflowerseed-cake[t]"/>
+                <entry key="207" type="xstring" value="dat_trade-imports-from-world_tea-including-mate[t]"/>
+                <entry key="208" type="xstring" value="dat_trade-imports-from-world_tobacco[t]"/>
+                <entry key="209" type="xstring" value="dat_trade-imports-from-world_tree-nuts[t]"/>
+                <entry key="210" type="xstring" value="dat_trade-imports-from-world_vegetables[t]"/>
+                <entry key="211" type="xstring" value="dat_trade-imports-from-world_wheat-and-products[t]"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value="Country"/>
+                <entry key="type" type="xstring" value="Regex"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Country"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="713"/>
+        <entry key="y-coordinate" type="xint" value="521"/>
+        <entry key="width" type="xint" value="106"/>
+        <entry key="height" type="xint" value="15"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Column Filter"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.5.1.v202201171147"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.2.v202203141441"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Column Filter"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
 </config>

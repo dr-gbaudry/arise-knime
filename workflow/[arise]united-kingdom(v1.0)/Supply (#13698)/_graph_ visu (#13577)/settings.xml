@@ -1,275 +1,279 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
-<entry key="node_file" type="xstring" value="settings.xml"/>
-<config key="flow_stack"/>
-<config key="internal_node_subsettings">
-<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
-</config>
-<config key="model">
-<config key="single-selection-523">
-<entry key="variable_value" type="xstring" value="No"/>
-</config>
-<config key="single-selection-528">
-<entry key="variable_value" type="xstring" value="area graph"/>
-</config>
-<config key="column-filter-535">
-<config key="columns">
-<entry key="array-size" type="xint" value="6"/>
-<entry key="0" type="xstring" value="Country"/>
-<entry key="1" type="xstring" value="Years"/>
-<entry key="2" type="xstring" value="dat_food-domestic-supply_beer[kcal]"/>
-<entry key="3" type="xstring" value="dat_food-domestic-supply_beverages-alcoholic[kcal]"/>
-<entry key="4" type="xstring" value="dat_food-domestic-supply_beverages-fermented[kcal]"/>
-<entry key="5" type="xstring" value="dat_food-domestic-supply_wine[kcal]"/>
-</config>
-<config key="columnFilter">
-<config key="columnFilter">
-<entry key="filter-type" type="xstring" value="name_pattern"/>
-<config key="included_names">
-<entry key="array-size" type="xint" value="165"/>
-<entry key="0" type="xstring" value="Country"/>
-<entry key="1" type="xstring" value="Years"/>
-<entry key="2" type="xstring" value="dat_food-energy-content_cereal-others[kcal/t]"/>
-<entry key="3" type="xstring" value="dat_food-energy-content_oilcrop-others[kcal/t]"/>
-<entry key="4" type="xstring" value="dat_food-energy-content_palm-oil[kcal/t]"/>
-<entry key="5" type="xstring" value="dat_food-energy-content_vegetable-oil-others[kcal/t]"/>
-<entry key="6" type="xstring" value="dat_food-energy-content_barley-and-products[kcal/t]"/>
-<entry key="7" type="xstring" value="dat_food-energy-content_beer[kcal/t]"/>
-<entry key="8" type="xstring" value="dat_food-energy-content_beverages-alcoholic[kcal/t]"/>
-<entry key="9" type="xstring" value="dat_food-energy-content_cocoa-beans-and-products[kcal/t]"/>
-<entry key="10" type="xstring" value="dat_food-energy-content_coffee-and-products[kcal/t]"/>
-<entry key="11" type="xstring" value="dat_food-energy-content_fruits-excluding-wine[kcal/t]"/>
-<entry key="12" type="xstring" value="dat_food-energy-content_maize-and-products[kcal/t]"/>
-<entry key="13" type="xstring" value="dat_food-energy-content_nuts-and-products[kcal/t]"/>
-<entry key="14" type="xstring" value="dat_food-energy-content_olive-oil[kcal/t]"/>
-<entry key="15" type="xstring" value="dat_food-energy-content_pulses[kcal/t]"/>
-<entry key="16" type="xstring" value="dat_food-energy-content_rape-and-mustard-oil[kcal/t]"/>
-<entry key="17" type="xstring" value="dat_food-energy-content_rice-milled-equivalent[kcal/t]"/>
-<entry key="18" type="xstring" value="dat_food-energy-content_rye-and-products[kcal/t]"/>
-<entry key="19" type="xstring" value="dat_food-energy-content_soyabean-oil[kcal/t]"/>
-<entry key="20" type="xstring" value="dat_food-energy-content_starchy-roots[kcal/t]"/>
-<entry key="21" type="xstring" value="dat_food-energy-content_sugar-&amp;-sweeteners[kcal/t]"/>
-<entry key="22" type="xstring" value="dat_food-energy-content_sugar-crops[kcal/t]"/>
-<entry key="23" type="xstring" value="dat_food-energy-content_sunflower-seed[kcal/t]"/>
-<entry key="24" type="xstring" value="dat_food-energy-content_sunflowerseed-oil[kcal/t]"/>
-<entry key="25" type="xstring" value="dat_food-energy-content_tea-including-mate[kcal/t]"/>
-<entry key="26" type="xstring" value="dat_food-energy-content_vegetables[kcal/t]"/>
-<entry key="27" type="xstring" value="dat_food-energy-content_wheat-and-products[kcal/t]"/>
-<entry key="28" type="xstring" value="dat_food-energy-content_wine[kcal/t]"/>
-<entry key="29" type="xstring" value="dat_food-energy-content_milk-excluding-butter[kcal/t]"/>
-<entry key="30" type="xstring" value="dat_food-energy-content_bovine-meat[kcal/t]"/>
-<entry key="31" type="xstring" value="dat_food-energy-content_eggs[kcal/t]"/>
-<entry key="32" type="xstring" value="dat_food-energy-content_fats-animals-raw[kcal/t]"/>
-<entry key="33" type="xstring" value="dat_food-energy-content_fish-seafood[kcal/t]"/>
-<entry key="34" type="xstring" value="dat_food-energy-content_meat-other[kcal/t]"/>
-<entry key="35" type="xstring" value="dat_food-energy-content_mutton-&amp;-goat-meat[kcal/t]"/>
-<entry key="36" type="xstring" value="dat_food-energy-content_offals[kcal/t]"/>
-<entry key="37" type="xstring" value="dat_food-energy-content_pigmeat[kcal/t]"/>
-<entry key="38" type="xstring" value="dat_food-energy-content_poultry-meat[kcal/t]"/>
-<entry key="39" type="xstring" value="dat_food-energy-content_palm[kcal/t]"/>
-<entry key="40" type="xstring" value="dat_food-energy-content_rape-and-mustardseed[kcal/t]"/>
-<entry key="41" type="xstring" value="dat_food-energy-content_beverages-fermented[kcal/t]"/>
-<entry key="42" type="xstring" value="dat_food-energy-content_olives-including-preserved[kcal/t]"/>
-<entry key="43" type="xstring" value="dat_food-energy-content_soyabeans[kcal/t]"/>
-<entry key="44" type="xstring" value="dat_consumers-food-wastes-and-losses_fish-seafood[kcal]"/>
-<entry key="45" type="xstring" value="dat_consumers-food-wastes-and-losses_fruits-excluding-wine[kcal]"/>
-<entry key="46" type="xstring" value="dat_consumers-food-wastes-and-losses_sugar-&amp;-sweeteners[kcal]"/>
-<entry key="47" type="xstring" value="dat_diet_fish-seafood[kcal]"/>
-<entry key="48" type="xstring" value="dat_diet_fruits-excluding-wine[kcal]"/>
-<entry key="49" type="xstring" value="dat_diet_sugar-&amp;-sweeteners[kcal]"/>
-<entry key="50" type="xstring" value="dat_consumers-food-wastes-and-losses_barley-and-products[kcal]"/>
-<entry key="51" type="xstring" value="dat_consumers-food-wastes-and-losses_beer[kcal]"/>
-<entry key="52" type="xstring" value="dat_consumers-food-wastes-and-losses_beverages-alcoholic[kcal]"/>
-<entry key="53" type="xstring" value="dat_consumers-food-wastes-and-losses_beverages-fermented[kcal]"/>
-<entry key="54" type="xstring" value="dat_consumers-food-wastes-and-losses_bovine-meat[kcal]"/>
-<entry key="55" type="xstring" value="dat_consumers-food-wastes-and-losses_cereal-others[kcal]"/>
-<entry key="56" type="xstring" value="dat_consumers-food-wastes-and-losses_cocoa-beans-and-products[kcal]"/>
-<entry key="57" type="xstring" value="dat_consumers-food-wastes-and-losses_coffee-and-products[kcal]"/>
-<entry key="58" type="xstring" value="dat_consumers-food-wastes-and-losses_eggs[kcal]"/>
-<entry key="59" type="xstring" value="dat_consumers-food-wastes-and-losses_fats-animals-raw[kcal]"/>
-<entry key="60" type="xstring" value="dat_consumers-food-wastes-and-losses_maize-and-products[kcal]"/>
-<entry key="61" type="xstring" value="dat_consumers-food-wastes-and-losses_meat-other[kcal]"/>
-<entry key="62" type="xstring" value="dat_consumers-food-wastes-and-losses_milk-excluding-butter[kcal]"/>
-<entry key="63" type="xstring" value="dat_consumers-food-wastes-and-losses_mutton-&amp;-goat-meat[kcal]"/>
-<entry key="64" type="xstring" value="dat_consumers-food-wastes-and-losses_nuts-and-products[kcal]"/>
-<entry key="65" type="xstring" value="dat_consumers-food-wastes-and-losses_offals[kcal]"/>
-<entry key="66" type="xstring" value="dat_consumers-food-wastes-and-losses_oilcrop-others[kcal]"/>
-<entry key="67" type="xstring" value="dat_consumers-food-wastes-and-losses_olive-oil[kcal]"/>
-<entry key="68" type="xstring" value="dat_consumers-food-wastes-and-losses_olives-including-preserved[kcal]"/>
-<entry key="69" type="xstring" value="dat_consumers-food-wastes-and-losses_palm-oil[kcal]"/>
-<entry key="70" type="xstring" value="dat_consumers-food-wastes-and-losses_pigmeat[kcal]"/>
-<entry key="71" type="xstring" value="dat_consumers-food-wastes-and-losses_poultry-meat[kcal]"/>
-<entry key="72" type="xstring" value="dat_consumers-food-wastes-and-losses_pulses[kcal]"/>
-<entry key="73" type="xstring" value="dat_consumers-food-wastes-and-losses_rape-and-mustard-oil[kcal]"/>
-<entry key="74" type="xstring" value="dat_consumers-food-wastes-and-losses_rape-and-mustardseed[kcal]"/>
-<entry key="75" type="xstring" value="dat_consumers-food-wastes-and-losses_rice-milled-equivalent[kcal]"/>
-<entry key="76" type="xstring" value="dat_consumers-food-wastes-and-losses_rye-and-products[kcal]"/>
-<entry key="77" type="xstring" value="dat_consumers-food-wastes-and-losses_soyabean-oil[kcal]"/>
-<entry key="78" type="xstring" value="dat_consumers-food-wastes-and-losses_soyabeans[kcal]"/>
-<entry key="79" type="xstring" value="dat_consumers-food-wastes-and-losses_starchy-roots[kcal]"/>
-<entry key="80" type="xstring" value="dat_consumers-food-wastes-and-losses_sunflower-seed[kcal]"/>
-<entry key="81" type="xstring" value="dat_consumers-food-wastes-and-losses_sunflowerseed-oil[kcal]"/>
-<entry key="82" type="xstring" value="dat_consumers-food-wastes-and-losses_tea-including-mate[kcal]"/>
-<entry key="83" type="xstring" value="dat_consumers-food-wastes-and-losses_vegetables[kcal]"/>
-<entry key="84" type="xstring" value="dat_consumers-food-wastes-and-losses_wheat-and-products[kcal]"/>
-<entry key="85" type="xstring" value="dat_consumers-food-wastes-and-losses_wine[kcal]"/>
-<entry key="86" type="xstring" value="dat_consumers-food-wastes-and-losses_palm[kcal]"/>
-<entry key="87" type="xstring" value="dat_diet_barley-and-products[kcal]"/>
-<entry key="88" type="xstring" value="dat_diet_beer[kcal]"/>
-<entry key="89" type="xstring" value="dat_diet_beverages-alcoholic[kcal]"/>
-<entry key="90" type="xstring" value="dat_diet_beverages-fermented[kcal]"/>
-<entry key="91" type="xstring" value="dat_diet_bovine-meat[kcal]"/>
-<entry key="92" type="xstring" value="dat_diet_cereal-others[kcal]"/>
-<entry key="93" type="xstring" value="dat_diet_cocoa-beans-and-products[kcal]"/>
-<entry key="94" type="xstring" value="dat_diet_coffee-and-products[kcal]"/>
-<entry key="95" type="xstring" value="dat_diet_eggs[kcal]"/>
-<entry key="96" type="xstring" value="dat_diet_fats-animals-raw[kcal]"/>
-<entry key="97" type="xstring" value="dat_diet_maize-and-products[kcal]"/>
-<entry key="98" type="xstring" value="dat_diet_meat-other[kcal]"/>
-<entry key="99" type="xstring" value="dat_diet_milk-excluding-butter[kcal]"/>
-<entry key="100" type="xstring" value="dat_diet_mutton-&amp;-goat-meat[kcal]"/>
-<entry key="101" type="xstring" value="dat_diet_nuts-and-products[kcal]"/>
-<entry key="102" type="xstring" value="dat_diet_offals[kcal]"/>
-<entry key="103" type="xstring" value="dat_diet_oilcrop-others[kcal]"/>
-<entry key="104" type="xstring" value="dat_diet_olive-oil[kcal]"/>
-<entry key="105" type="xstring" value="dat_diet_olives-including-preserved[kcal]"/>
-<entry key="106" type="xstring" value="dat_diet_palm-oil[kcal]"/>
-<entry key="107" type="xstring" value="dat_diet_pigmeat[kcal]"/>
-<entry key="108" type="xstring" value="dat_diet_poultry-meat[kcal]"/>
-<entry key="109" type="xstring" value="dat_diet_pulses[kcal]"/>
-<entry key="110" type="xstring" value="dat_diet_rape-and-mustard-oil[kcal]"/>
-<entry key="111" type="xstring" value="dat_diet_rape-and-mustardseed[kcal]"/>
-<entry key="112" type="xstring" value="dat_diet_rice-milled-equivalent[kcal]"/>
-<entry key="113" type="xstring" value="dat_diet_rye-and-products[kcal]"/>
-<entry key="114" type="xstring" value="dat_diet_soyabean-oil[kcal]"/>
-<entry key="115" type="xstring" value="dat_diet_soyabeans[kcal]"/>
-<entry key="116" type="xstring" value="dat_diet_starchy-roots[kcal]"/>
-<entry key="117" type="xstring" value="dat_diet_sunflower-seed[kcal]"/>
-<entry key="118" type="xstring" value="dat_diet_sunflowerseed-oil[kcal]"/>
-<entry key="119" type="xstring" value="dat_diet_tea-including-mate[kcal]"/>
-<entry key="120" type="xstring" value="dat_diet_vegetables[kcal]"/>
-<entry key="121" type="xstring" value="dat_diet_wheat-and-products[kcal]"/>
-<entry key="122" type="xstring" value="dat_diet_wine[kcal]"/>
-<entry key="123" type="xstring" value="dat_diet_palm[kcal]"/>
-<entry key="124" type="xstring" value="dat_domestic-supply-quantity_tobacco[t]"/>
-<entry key="125" type="xstring" value="dat_food-domestic-supply_fish-seafood[kcal]"/>
-<entry key="126" type="xstring" value="dat_food-domestic-supply_fruits-excluding-wine[kcal]"/>
-<entry key="127" type="xstring" value="dat_food-domestic-supply_sugar-&amp;-sweeteners[kcal]"/>
-<entry key="128" type="xstring" value="dat_food-domestic-supply_barley-and-products[kcal]"/>
-<entry key="129" type="xstring" value="dat_food-domestic-supply_beer[kcal]"/>
-<entry key="130" type="xstring" value="dat_food-domestic-supply_beverages-alcoholic[kcal]"/>
-<entry key="131" type="xstring" value="dat_food-domestic-supply_beverages-fermented[kcal]"/>
-<entry key="132" type="xstring" value="dat_food-domestic-supply_bovine-meat[kcal]"/>
-<entry key="133" type="xstring" value="dat_food-domestic-supply_cereal-others[kcal]"/>
-<entry key="134" type="xstring" value="dat_food-domestic-supply_cocoa-beans-and-products[kcal]"/>
-<entry key="135" type="xstring" value="dat_food-domestic-supply_coffee-and-products[kcal]"/>
-<entry key="136" type="xstring" value="dat_food-domestic-supply_eggs[kcal]"/>
-<entry key="137" type="xstring" value="dat_food-domestic-supply_fats-animals-raw[kcal]"/>
-<entry key="138" type="xstring" value="dat_food-domestic-supply_maize-and-products[kcal]"/>
-<entry key="139" type="xstring" value="dat_food-domestic-supply_meat-other[kcal]"/>
-<entry key="140" type="xstring" value="dat_food-domestic-supply_milk-excluding-butter[kcal]"/>
-<entry key="141" type="xstring" value="dat_food-domestic-supply_mutton-&amp;-goat-meat[kcal]"/>
-<entry key="142" type="xstring" value="dat_food-domestic-supply_nuts-and-products[kcal]"/>
-<entry key="143" type="xstring" value="dat_food-domestic-supply_offals[kcal]"/>
-<entry key="144" type="xstring" value="dat_food-domestic-supply_oilcrop-others[kcal]"/>
-<entry key="145" type="xstring" value="dat_food-domestic-supply_olive-oil[kcal]"/>
-<entry key="146" type="xstring" value="dat_food-domestic-supply_olives-including-preserved[kcal]"/>
-<entry key="147" type="xstring" value="dat_food-domestic-supply_palm-oil[kcal]"/>
-<entry key="148" type="xstring" value="dat_food-domestic-supply_pigmeat[kcal]"/>
-<entry key="149" type="xstring" value="dat_food-domestic-supply_poultry-meat[kcal]"/>
-<entry key="150" type="xstring" value="dat_food-domestic-supply_pulses[kcal]"/>
-<entry key="151" type="xstring" value="dat_food-domestic-supply_rape-and-mustard-oil[kcal]"/>
-<entry key="152" type="xstring" value="dat_food-domestic-supply_rape-and-mustardseed[kcal]"/>
-<entry key="153" type="xstring" value="dat_food-domestic-supply_rice-milled-equivalent[kcal]"/>
-<entry key="154" type="xstring" value="dat_food-domestic-supply_rye-and-products[kcal]"/>
-<entry key="155" type="xstring" value="dat_food-domestic-supply_soyabean-oil[kcal]"/>
-<entry key="156" type="xstring" value="dat_food-domestic-supply_soyabeans[kcal]"/>
-<entry key="157" type="xstring" value="dat_food-domestic-supply_starchy-roots[kcal]"/>
-<entry key="158" type="xstring" value="dat_food-domestic-supply_sunflower-seed[kcal]"/>
-<entry key="159" type="xstring" value="dat_food-domestic-supply_sunflowerseed-oil[kcal]"/>
-<entry key="160" type="xstring" value="dat_food-domestic-supply_tea-including-mate[kcal]"/>
-<entry key="161" type="xstring" value="dat_food-domestic-supply_vegetables[kcal]"/>
-<entry key="162" type="xstring" value="dat_food-domestic-supply_wheat-and-products[kcal]"/>
-<entry key="163" type="xstring" value="dat_food-domestic-supply_wine[kcal]"/>
-<entry key="164" type="xstring" value="dat_food-domestic-supply_palm[kcal]"/>
-</config>
-<config key="excluded_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
-<config key="name_pattern">
-<entry key="pattern" type="xstring" value="Country|Years|dat_food-domestic-supply_.*beer.*\[.*|dat_food-domestic-supply.*_wine.*|dat_food-domestic-supply.*beverages.*\[.*|dat_food-domestic-supply_wine.*"/>
-<entry key="type" type="xstring" value="Regex"/>
-<entry key="caseSensitive" type="xboolean" value="true"/>
-</config>
-<config key="datatype">
-<config key="typelist">
-<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
-</config>
-</config>
-</config>
-</config>
-</config>
-<config key="string-input-843">
-<entry key="string" type="xstring" value="Food domestic Supply, Beverages"/>
-</config>
-<config key="country-list-4551">
-<config key="variable_value">
-<entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="United Kingdom"/>
-</config>
-</config>
-</config>
-<config key="nodeAnnotation">
-<entry key="text" type="xstring" value=""/>
-<entry key="bgcolor" type="xint" value="16777215"/>
-<entry key="x-coordinate" type="xint" value="153"/>
-<entry key="y-coordinate" type="xint" value="1462"/>
-<entry key="width" type="xint" value="106"/>
-<entry key="height" type="xint" value="15"/>
-<entry key="alignment" type="xstring" value="CENTER"/>
-<entry key="borderSize" type="xint" value="0"/>
-<entry key="borderColor" type="xint" value="16777215"/>
-<entry key="defFontSize" type="xint" value="9"/>
-<entry key="annotation-version" type="xint" value="20151123"/>
-<config key="styles"/>
-</config>
-<entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="workflow-file" type="xstring" value="workflow.knime"/>
-<entry key="virtual-in-ID" type="xint" value="3986"/>
-<config key="inports">
-<config key="inport_0">
-<entry key="index" type="xint" value="0"/>
-<config key="type">
-<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-</config>
-</config>
-</config>
-<entry key="virtual-out-ID" type="xint" value="3987"/>
-<config key="outports"/>
-<config key="metadata">
-<entry key="description" type="xstring" value=""/>
-<config key="inports">
-<config key="inport_0">
-<entry key="name" type="xstring" value="Port 1"/>
-<entry key="description" type="xstring" value=""/>
-<entry key="index" type="xint" value="0"/>
-</config>
-</config>
-</config>
-<config key="workflow_template_information">
-<entry key="role" type="xstring" value="Link"/>
-<entry key="timestamp" type="xstring" value="2021-05-27 13:09:33"/>
-<entry key="sourceURI" type="xstring" value="knime://LOCAL/agri-food-system-back-end/metanodes/graph/%5Bgraph%5D%20visualisation"/>
-</config>
-<entry key="layoutJSON" type="xstring" value="{&quot;parentLayoutLegacyMode&quot;:true,&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;sizeHeight&quot;:true,&quot;autoResize&quot;:true,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;sizeWidth&quot;:false,&quot;scrolling&quot;:false,&quot;useLegacyMode&quot;:true,&quot;nodeID&quot;:&quot;523&quot;,&quot;resizeTolerance&quot;:5}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;sizeHeight&quot;:true,&quot;autoResize&quot;:true,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;sizeWidth&quot;:false,&quot;scrolling&quot;:false,&quot;useLegacyMode&quot;:true,&quot;nodeID&quot;:&quot;528&quot;,&quot;resizeTolerance&quot;:5}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;sizeHeight&quot;:true,&quot;autoResize&quot;:true,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;sizeWidth&quot;:false,&quot;scrolling&quot;:false,&quot;useLegacyMode&quot;:true,&quot;nodeID&quot;:&quot;535&quot;,&quot;resizeTolerance&quot;:5}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;sizeHeight&quot;:true,&quot;autoResize&quot;:true,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;sizeWidth&quot;:false,&quot;scrolling&quot;:false,&quot;useLegacyMode&quot;:true,&quot;nodeID&quot;:&quot;4543&quot;,&quot;resizeTolerance&quot;:5}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;sizeHeight&quot;:true,&quot;autoResize&quot;:true,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;sizeWidth&quot;:false,&quot;scrolling&quot;:false,&quot;useLegacyMode&quot;:true,&quot;nodeID&quot;:&quot;4544&quot;,&quot;resizeTolerance&quot;:5}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;nestedLayout&quot;,&quot;nodeID&quot;:&quot;3809&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;nestedLayout&quot;,&quot;nodeID&quot;:&quot;3991&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;nestedLayout&quot;,&quot;nodeID&quot;:&quot;3993&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;nestedLayout&quot;,&quot;nodeID&quot;:&quot;3994&quot;}],&quot;widthXS&quot;:12}]}]}"/>
-<entry key="configurationLayoutJSON" type="xstring" value="{&quot;parentLayoutLegacyMode&quot;:false,&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;4551&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;535&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;4553&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;843&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;523&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;4544&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;528&quot;}],&quot;widthXS&quot;:12}]}]}"/>
-<entry key="hideInWizard" type="xboolean" value="false"/>
-<entry key="customCSS" type="xstring" value=""/>
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="single-selection-523">
+            <entry key="variable_value" type="xstring" value="No"/>
+        </config>
+        <config key="single-selection-528">
+            <entry key="variable_value" type="xstring" value="area graph"/>
+        </config>
+        <config key="column-filter-535">
+            <config key="columns">
+                <entry key="array-size" type="xint" value="6"/>
+                <entry key="0" type="xstring" value="Country"/>
+                <entry key="1" type="xstring" value="Years"/>
+                <entry key="2" type="xstring" value="dat_food-domestic-supply_beer[kcal]"/>
+                <entry key="3" type="xstring" value="dat_food-domestic-supply_beverages-alcoholic[kcal]"/>
+                <entry key="4" type="xstring" value="dat_food-domestic-supply_beverages-fermented[kcal]"/>
+                <entry key="5" type="xstring" value="dat_food-domestic-supply_wine[kcal]"/>
+            </config>
+            <config key="columnFilter">
+                <config key="columnFilter">
+                    <entry key="filter-type" type="xstring" value="name_pattern"/>
+                    <config key="included_names">
+                        <entry key="array-size" type="xint" value="165"/>
+                        <entry key="0" type="xstring" value="Country"/>
+                        <entry key="1" type="xstring" value="Years"/>
+                        <entry key="2" type="xstring" value="dat_food-energy-content_cereal-others[kcal/t]"/>
+                        <entry key="3" type="xstring" value="dat_food-energy-content_oilcrop-others[kcal/t]"/>
+                        <entry key="4" type="xstring" value="dat_food-energy-content_palm-oil[kcal/t]"/>
+                        <entry key="5" type="xstring" value="dat_food-energy-content_vegetable-oil-others[kcal/t]"/>
+                        <entry key="6" type="xstring" value="dat_food-energy-content_barley-and-products[kcal/t]"/>
+                        <entry key="7" type="xstring" value="dat_food-energy-content_beer[kcal/t]"/>
+                        <entry key="8" type="xstring" value="dat_food-energy-content_beverages-alcoholic[kcal/t]"/>
+                        <entry key="9" type="xstring" value="dat_food-energy-content_cocoa-beans-and-products[kcal/t]"/>
+                        <entry key="10" type="xstring" value="dat_food-energy-content_coffee-and-products[kcal/t]"/>
+                        <entry key="11" type="xstring" value="dat_food-energy-content_fruits-excluding-wine[kcal/t]"/>
+                        <entry key="12" type="xstring" value="dat_food-energy-content_maize-and-products[kcal/t]"/>
+                        <entry key="13" type="xstring" value="dat_food-energy-content_nuts-and-products[kcal/t]"/>
+                        <entry key="14" type="xstring" value="dat_food-energy-content_olive-oil[kcal/t]"/>
+                        <entry key="15" type="xstring" value="dat_food-energy-content_pulses[kcal/t]"/>
+                        <entry key="16" type="xstring" value="dat_food-energy-content_rape-and-mustard-oil[kcal/t]"/>
+                        <entry key="17" type="xstring" value="dat_food-energy-content_rice-milled-equivalent[kcal/t]"/>
+                        <entry key="18" type="xstring" value="dat_food-energy-content_rye-and-products[kcal/t]"/>
+                        <entry key="19" type="xstring" value="dat_food-energy-content_soyabean-oil[kcal/t]"/>
+                        <entry key="20" type="xstring" value="dat_food-energy-content_starchy-roots[kcal/t]"/>
+                        <entry key="21" type="xstring" value="dat_food-energy-content_sugar-&amp;-sweeteners[kcal/t]"/>
+                        <entry key="22" type="xstring" value="dat_food-energy-content_sugar-crops[kcal/t]"/>
+                        <entry key="23" type="xstring" value="dat_food-energy-content_sunflower-seed[kcal/t]"/>
+                        <entry key="24" type="xstring" value="dat_food-energy-content_sunflowerseed-oil[kcal/t]"/>
+                        <entry key="25" type="xstring" value="dat_food-energy-content_tea-including-mate[kcal/t]"/>
+                        <entry key="26" type="xstring" value="dat_food-energy-content_vegetables[kcal/t]"/>
+                        <entry key="27" type="xstring" value="dat_food-energy-content_wheat-and-products[kcal/t]"/>
+                        <entry key="28" type="xstring" value="dat_food-energy-content_wine[kcal/t]"/>
+                        <entry key="29" type="xstring" value="dat_food-energy-content_milk-excluding-butter[kcal/t]"/>
+                        <entry key="30" type="xstring" value="dat_food-energy-content_bovine-meat[kcal/t]"/>
+                        <entry key="31" type="xstring" value="dat_food-energy-content_eggs[kcal/t]"/>
+                        <entry key="32" type="xstring" value="dat_food-energy-content_fats-animals-raw[kcal/t]"/>
+                        <entry key="33" type="xstring" value="dat_food-energy-content_fish-seafood[kcal/t]"/>
+                        <entry key="34" type="xstring" value="dat_food-energy-content_meat-other[kcal/t]"/>
+                        <entry key="35" type="xstring" value="dat_food-energy-content_mutton-&amp;-goat-meat[kcal/t]"/>
+                        <entry key="36" type="xstring" value="dat_food-energy-content_offals[kcal/t]"/>
+                        <entry key="37" type="xstring" value="dat_food-energy-content_pigmeat[kcal/t]"/>
+                        <entry key="38" type="xstring" value="dat_food-energy-content_poultry-meat[kcal/t]"/>
+                        <entry key="39" type="xstring" value="dat_food-energy-content_palm[kcal/t]"/>
+                        <entry key="40" type="xstring" value="dat_food-energy-content_rape-and-mustardseed[kcal/t]"/>
+                        <entry key="41" type="xstring" value="dat_food-energy-content_beverages-fermented[kcal/t]"/>
+                        <entry key="42" type="xstring" value="dat_food-energy-content_olives-including-preserved[kcal/t]"/>
+                        <entry key="43" type="xstring" value="dat_food-energy-content_soyabeans[kcal/t]"/>
+                        <entry key="44" type="xstring" value="dat_consumers-food-wastes-and-losses_fish-seafood[kcal]"/>
+                        <entry key="45" type="xstring" value="dat_consumers-food-wastes-and-losses_fruits-excluding-wine[kcal]"/>
+                        <entry key="46" type="xstring" value="dat_consumers-food-wastes-and-losses_sugar-&amp;-sweeteners[kcal]"/>
+                        <entry key="47" type="xstring" value="dat_diet_fish-seafood[kcal]"/>
+                        <entry key="48" type="xstring" value="dat_diet_fruits-excluding-wine[kcal]"/>
+                        <entry key="49" type="xstring" value="dat_diet_sugar-&amp;-sweeteners[kcal]"/>
+                        <entry key="50" type="xstring" value="dat_consumers-food-wastes-and-losses_barley-and-products[kcal]"/>
+                        <entry key="51" type="xstring" value="dat_consumers-food-wastes-and-losses_beer[kcal]"/>
+                        <entry key="52" type="xstring" value="dat_consumers-food-wastes-and-losses_beverages-alcoholic[kcal]"/>
+                        <entry key="53" type="xstring" value="dat_consumers-food-wastes-and-losses_beverages-fermented[kcal]"/>
+                        <entry key="54" type="xstring" value="dat_consumers-food-wastes-and-losses_bovine-meat[kcal]"/>
+                        <entry key="55" type="xstring" value="dat_consumers-food-wastes-and-losses_cereal-others[kcal]"/>
+                        <entry key="56" type="xstring" value="dat_consumers-food-wastes-and-losses_cocoa-beans-and-products[kcal]"/>
+                        <entry key="57" type="xstring" value="dat_consumers-food-wastes-and-losses_coffee-and-products[kcal]"/>
+                        <entry key="58" type="xstring" value="dat_consumers-food-wastes-and-losses_eggs[kcal]"/>
+                        <entry key="59" type="xstring" value="dat_consumers-food-wastes-and-losses_fats-animals-raw[kcal]"/>
+                        <entry key="60" type="xstring" value="dat_consumers-food-wastes-and-losses_maize-and-products[kcal]"/>
+                        <entry key="61" type="xstring" value="dat_consumers-food-wastes-and-losses_meat-other[kcal]"/>
+                        <entry key="62" type="xstring" value="dat_consumers-food-wastes-and-losses_milk-excluding-butter[kcal]"/>
+                        <entry key="63" type="xstring" value="dat_consumers-food-wastes-and-losses_mutton-&amp;-goat-meat[kcal]"/>
+                        <entry key="64" type="xstring" value="dat_consumers-food-wastes-and-losses_nuts-and-products[kcal]"/>
+                        <entry key="65" type="xstring" value="dat_consumers-food-wastes-and-losses_offals[kcal]"/>
+                        <entry key="66" type="xstring" value="dat_consumers-food-wastes-and-losses_oilcrop-others[kcal]"/>
+                        <entry key="67" type="xstring" value="dat_consumers-food-wastes-and-losses_olive-oil[kcal]"/>
+                        <entry key="68" type="xstring" value="dat_consumers-food-wastes-and-losses_olives-including-preserved[kcal]"/>
+                        <entry key="69" type="xstring" value="dat_consumers-food-wastes-and-losses_palm-oil[kcal]"/>
+                        <entry key="70" type="xstring" value="dat_consumers-food-wastes-and-losses_pigmeat[kcal]"/>
+                        <entry key="71" type="xstring" value="dat_consumers-food-wastes-and-losses_poultry-meat[kcal]"/>
+                        <entry key="72" type="xstring" value="dat_consumers-food-wastes-and-losses_pulses[kcal]"/>
+                        <entry key="73" type="xstring" value="dat_consumers-food-wastes-and-losses_rape-and-mustard-oil[kcal]"/>
+                        <entry key="74" type="xstring" value="dat_consumers-food-wastes-and-losses_rape-and-mustardseed[kcal]"/>
+                        <entry key="75" type="xstring" value="dat_consumers-food-wastes-and-losses_rice-milled-equivalent[kcal]"/>
+                        <entry key="76" type="xstring" value="dat_consumers-food-wastes-and-losses_rye-and-products[kcal]"/>
+                        <entry key="77" type="xstring" value="dat_consumers-food-wastes-and-losses_soyabean-oil[kcal]"/>
+                        <entry key="78" type="xstring" value="dat_consumers-food-wastes-and-losses_soyabeans[kcal]"/>
+                        <entry key="79" type="xstring" value="dat_consumers-food-wastes-and-losses_starchy-roots[kcal]"/>
+                        <entry key="80" type="xstring" value="dat_consumers-food-wastes-and-losses_sunflower-seed[kcal]"/>
+                        <entry key="81" type="xstring" value="dat_consumers-food-wastes-and-losses_sunflowerseed-oil[kcal]"/>
+                        <entry key="82" type="xstring" value="dat_consumers-food-wastes-and-losses_tea-including-mate[kcal]"/>
+                        <entry key="83" type="xstring" value="dat_consumers-food-wastes-and-losses_vegetables[kcal]"/>
+                        <entry key="84" type="xstring" value="dat_consumers-food-wastes-and-losses_wheat-and-products[kcal]"/>
+                        <entry key="85" type="xstring" value="dat_consumers-food-wastes-and-losses_wine[kcal]"/>
+                        <entry key="86" type="xstring" value="dat_consumers-food-wastes-and-losses_palm[kcal]"/>
+                        <entry key="87" type="xstring" value="dat_diet_barley-and-products[kcal]"/>
+                        <entry key="88" type="xstring" value="dat_diet_beer[kcal]"/>
+                        <entry key="89" type="xstring" value="dat_diet_beverages-alcoholic[kcal]"/>
+                        <entry key="90" type="xstring" value="dat_diet_beverages-fermented[kcal]"/>
+                        <entry key="91" type="xstring" value="dat_diet_bovine-meat[kcal]"/>
+                        <entry key="92" type="xstring" value="dat_diet_cereal-others[kcal]"/>
+                        <entry key="93" type="xstring" value="dat_diet_cocoa-beans-and-products[kcal]"/>
+                        <entry key="94" type="xstring" value="dat_diet_coffee-and-products[kcal]"/>
+                        <entry key="95" type="xstring" value="dat_diet_eggs[kcal]"/>
+                        <entry key="96" type="xstring" value="dat_diet_fats-animals-raw[kcal]"/>
+                        <entry key="97" type="xstring" value="dat_diet_maize-and-products[kcal]"/>
+                        <entry key="98" type="xstring" value="dat_diet_meat-other[kcal]"/>
+                        <entry key="99" type="xstring" value="dat_diet_milk-excluding-butter[kcal]"/>
+                        <entry key="100" type="xstring" value="dat_diet_mutton-&amp;-goat-meat[kcal]"/>
+                        <entry key="101" type="xstring" value="dat_diet_nuts-and-products[kcal]"/>
+                        <entry key="102" type="xstring" value="dat_diet_offals[kcal]"/>
+                        <entry key="103" type="xstring" value="dat_diet_oilcrop-others[kcal]"/>
+                        <entry key="104" type="xstring" value="dat_diet_olive-oil[kcal]"/>
+                        <entry key="105" type="xstring" value="dat_diet_olives-including-preserved[kcal]"/>
+                        <entry key="106" type="xstring" value="dat_diet_palm-oil[kcal]"/>
+                        <entry key="107" type="xstring" value="dat_diet_pigmeat[kcal]"/>
+                        <entry key="108" type="xstring" value="dat_diet_poultry-meat[kcal]"/>
+                        <entry key="109" type="xstring" value="dat_diet_pulses[kcal]"/>
+                        <entry key="110" type="xstring" value="dat_diet_rape-and-mustard-oil[kcal]"/>
+                        <entry key="111" type="xstring" value="dat_diet_rape-and-mustardseed[kcal]"/>
+                        <entry key="112" type="xstring" value="dat_diet_rice-milled-equivalent[kcal]"/>
+                        <entry key="113" type="xstring" value="dat_diet_rye-and-products[kcal]"/>
+                        <entry key="114" type="xstring" value="dat_diet_soyabean-oil[kcal]"/>
+                        <entry key="115" type="xstring" value="dat_diet_soyabeans[kcal]"/>
+                        <entry key="116" type="xstring" value="dat_diet_starchy-roots[kcal]"/>
+                        <entry key="117" type="xstring" value="dat_diet_sunflower-seed[kcal]"/>
+                        <entry key="118" type="xstring" value="dat_diet_sunflowerseed-oil[kcal]"/>
+                        <entry key="119" type="xstring" value="dat_diet_tea-including-mate[kcal]"/>
+                        <entry key="120" type="xstring" value="dat_diet_vegetables[kcal]"/>
+                        <entry key="121" type="xstring" value="dat_diet_wheat-and-products[kcal]"/>
+                        <entry key="122" type="xstring" value="dat_diet_wine[kcal]"/>
+                        <entry key="123" type="xstring" value="dat_diet_palm[kcal]"/>
+                        <entry key="124" type="xstring" value="dat_domestic-supply-quantity_tobacco[t]"/>
+                        <entry key="125" type="xstring" value="dat_food-domestic-supply_fish-seafood[kcal]"/>
+                        <entry key="126" type="xstring" value="dat_food-domestic-supply_fruits-excluding-wine[kcal]"/>
+                        <entry key="127" type="xstring" value="dat_food-domestic-supply_sugar-&amp;-sweeteners[kcal]"/>
+                        <entry key="128" type="xstring" value="dat_food-domestic-supply_barley-and-products[kcal]"/>
+                        <entry key="129" type="xstring" value="dat_food-domestic-supply_beer[kcal]"/>
+                        <entry key="130" type="xstring" value="dat_food-domestic-supply_beverages-alcoholic[kcal]"/>
+                        <entry key="131" type="xstring" value="dat_food-domestic-supply_beverages-fermented[kcal]"/>
+                        <entry key="132" type="xstring" value="dat_food-domestic-supply_bovine-meat[kcal]"/>
+                        <entry key="133" type="xstring" value="dat_food-domestic-supply_cereal-others[kcal]"/>
+                        <entry key="134" type="xstring" value="dat_food-domestic-supply_cocoa-beans-and-products[kcal]"/>
+                        <entry key="135" type="xstring" value="dat_food-domestic-supply_coffee-and-products[kcal]"/>
+                        <entry key="136" type="xstring" value="dat_food-domestic-supply_eggs[kcal]"/>
+                        <entry key="137" type="xstring" value="dat_food-domestic-supply_fats-animals-raw[kcal]"/>
+                        <entry key="138" type="xstring" value="dat_food-domestic-supply_maize-and-products[kcal]"/>
+                        <entry key="139" type="xstring" value="dat_food-domestic-supply_meat-other[kcal]"/>
+                        <entry key="140" type="xstring" value="dat_food-domestic-supply_milk-excluding-butter[kcal]"/>
+                        <entry key="141" type="xstring" value="dat_food-domestic-supply_mutton-&amp;-goat-meat[kcal]"/>
+                        <entry key="142" type="xstring" value="dat_food-domestic-supply_nuts-and-products[kcal]"/>
+                        <entry key="143" type="xstring" value="dat_food-domestic-supply_offals[kcal]"/>
+                        <entry key="144" type="xstring" value="dat_food-domestic-supply_oilcrop-others[kcal]"/>
+                        <entry key="145" type="xstring" value="dat_food-domestic-supply_olive-oil[kcal]"/>
+                        <entry key="146" type="xstring" value="dat_food-domestic-supply_olives-including-preserved[kcal]"/>
+                        <entry key="147" type="xstring" value="dat_food-domestic-supply_palm-oil[kcal]"/>
+                        <entry key="148" type="xstring" value="dat_food-domestic-supply_pigmeat[kcal]"/>
+                        <entry key="149" type="xstring" value="dat_food-domestic-supply_poultry-meat[kcal]"/>
+                        <entry key="150" type="xstring" value="dat_food-domestic-supply_pulses[kcal]"/>
+                        <entry key="151" type="xstring" value="dat_food-domestic-supply_rape-and-mustard-oil[kcal]"/>
+                        <entry key="152" type="xstring" value="dat_food-domestic-supply_rape-and-mustardseed[kcal]"/>
+                        <entry key="153" type="xstring" value="dat_food-domestic-supply_rice-milled-equivalent[kcal]"/>
+                        <entry key="154" type="xstring" value="dat_food-domestic-supply_rye-and-products[kcal]"/>
+                        <entry key="155" type="xstring" value="dat_food-domestic-supply_soyabean-oil[kcal]"/>
+                        <entry key="156" type="xstring" value="dat_food-domestic-supply_soyabeans[kcal]"/>
+                        <entry key="157" type="xstring" value="dat_food-domestic-supply_starchy-roots[kcal]"/>
+                        <entry key="158" type="xstring" value="dat_food-domestic-supply_sunflower-seed[kcal]"/>
+                        <entry key="159" type="xstring" value="dat_food-domestic-supply_sunflowerseed-oil[kcal]"/>
+                        <entry key="160" type="xstring" value="dat_food-domestic-supply_tea-including-mate[kcal]"/>
+                        <entry key="161" type="xstring" value="dat_food-domestic-supply_vegetables[kcal]"/>
+                        <entry key="162" type="xstring" value="dat_food-domestic-supply_wheat-and-products[kcal]"/>
+                        <entry key="163" type="xstring" value="dat_food-domestic-supply_wine[kcal]"/>
+                        <entry key="164" type="xstring" value="dat_food-domestic-supply_palm[kcal]"/>
+                    </config>
+                    <config key="excluded_names">
+                        <entry key="array-size" type="xint" value="0"/>
+                    </config>
+                    <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+                    <config key="name_pattern">
+                        <entry key="pattern" type="xstring" value="Country|Years|dat_food-domestic-supply_.*beer.*\[.*|dat_food-domestic-supply.*_wine.*|dat_food-domestic-supply.*beverages.*\[.*|dat_food-domestic-supply_wine.*"/>
+                        <entry key="type" type="xstring" value="Regex"/>
+                        <entry key="caseSensitive" type="xboolean" value="true"/>
+                    </config>
+                    <config key="datatype">
+                        <config key="typelist">
+                            <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                            <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                            <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                            <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                            <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                            <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                        </config>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="string-input-843">
+            <entry key="string" type="xstring" value="Food domestic Supply, Beverages"/>
+        </config>
+        <config key="country-list-4551">
+            <config key="variable_value">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="United Kingdom"/>
+            </config>
+        </config>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value=""/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="153"/>
+        <entry key="y-coordinate" type="xint" value="1462"/>
+        <entry key="width" type="xint" value="106"/>
+        <entry key="height" type="xint" value="15"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Single Selection 0:13698:0:13577:0:523: Component does not have input data, execute upstream nodes first"/>
+    </config>
+    <entry key="workflow-file" type="xstring" value="workflow.knime"/>
+    <entry key="virtual-in-ID" type="xint" value="3986"/>
+    <config key="inports">
+        <config key="inport_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
+    <entry key="virtual-out-ID" type="xint" value="3987"/>
+    <config key="outports"/>
+    <config key="metadata">
+        <entry key="description" type="xstring" value=""/>
+        <config key="inports">
+            <config key="inport_0">
+                <entry key="name" type="xstring" value="Port 1"/>
+                <entry key="description" type="xstring" value=""/>
+                <entry key="index" type="xint" value="0"/>
+            </config>
+        </config>
+    </config>
+    <config key="workflow_template_information">
+        <entry key="role" type="xstring" value="Link"/>
+        <entry key="timestamp" type="xstring" value="2021-05-27 13:09:33 +0000"/>
+        <entry key="sourceURI" type="xstring" value="knime://LOCAL/agri-food-system-back-end/metanodes/graph/%5Bgraph%5D%20visualisation"/>
+    </config>
+    <entry key="layoutJSON" type="xstring" value="{&quot;parentLayoutLegacyMode&quot;:true,&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;sizeHeight&quot;:true,&quot;autoResize&quot;:true,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;sizeWidth&quot;:false,&quot;scrolling&quot;:false,&quot;useLegacyMode&quot;:true,&quot;nodeID&quot;:&quot;523&quot;,&quot;resizeTolerance&quot;:5}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;sizeHeight&quot;:true,&quot;autoResize&quot;:true,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;sizeWidth&quot;:false,&quot;scrolling&quot;:false,&quot;useLegacyMode&quot;:true,&quot;nodeID&quot;:&quot;528&quot;,&quot;resizeTolerance&quot;:5}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;sizeHeight&quot;:true,&quot;autoResize&quot;:true,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;sizeWidth&quot;:false,&quot;scrolling&quot;:false,&quot;useLegacyMode&quot;:true,&quot;nodeID&quot;:&quot;535&quot;,&quot;resizeTolerance&quot;:5}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;sizeHeight&quot;:true,&quot;autoResize&quot;:true,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;sizeWidth&quot;:false,&quot;scrolling&quot;:false,&quot;useLegacyMode&quot;:true,&quot;nodeID&quot;:&quot;4543&quot;,&quot;resizeTolerance&quot;:5}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;sizeHeight&quot;:true,&quot;autoResize&quot;:true,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;sizeWidth&quot;:false,&quot;scrolling&quot;:false,&quot;useLegacyMode&quot;:true,&quot;nodeID&quot;:&quot;4544&quot;,&quot;resizeTolerance&quot;:5}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;nestedLayout&quot;,&quot;nodeID&quot;:&quot;3809&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;nestedLayout&quot;,&quot;nodeID&quot;:&quot;3991&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;nestedLayout&quot;,&quot;nodeID&quot;:&quot;3993&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;nestedLayout&quot;,&quot;nodeID&quot;:&quot;3994&quot;}],&quot;widthXS&quot;:12}]}]}"/>
+    <entry key="configurationLayoutJSON" type="xstring" value="{&quot;parentLayoutLegacyMode&quot;:false,&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;4551&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;535&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;4553&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;843&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;523&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;4544&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;528&quot;}],&quot;widthXS&quot;:12}]}]}"/>
+    <entry key="hideInWizard" type="xboolean" value="false"/>
+    <entry key="customCSS" type="xstring" value=""/>
 </config>
